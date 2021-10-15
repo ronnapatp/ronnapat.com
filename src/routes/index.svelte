@@ -1,2 +1,14 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script lang="ts">
+    const socialName = "ronnapatp";
+    const fullName = "Ronnapat Srivoravilai";
+    const nickName = "Pie";
+    import Navbar from '../components/navbar.svelte' 
+</script>
+
+
+<head>
+    <title>HOME | {fullName}</title>
+</head>
+
+<Navbar />
+<h1 class="">Welcome My name is {fullName}</h1>
