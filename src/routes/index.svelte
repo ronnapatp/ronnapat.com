@@ -9,6 +9,8 @@
 
 <head>
     <title>HOME | {fullName}</title>
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="Personal website of {fullName}" />
 </head>
 
 <Nav />
