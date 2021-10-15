@@ -1,8 +1,8 @@
 <script lang="ts">
-    const socialName = "ronnapatp";
     const fullName = "Ronnapat Srivoravilai";
-    const nickName = "Pie";
-    import Navbar from '../components/navbar.svelte' 
+    
+    import Nav from '../components/navbar.svelte'
+    import Hero from '../components/heroes.svelte'
 </script>
 
 
@@ -10,5 +10,7 @@
     <title>HOME | {fullName}</title>
 </head>
 
-<Navbar />
-<h1 class="">Welcome My name is {fullName}</h1>
+<Nav />
+<br><br><br><br>
+<Hero />
+
