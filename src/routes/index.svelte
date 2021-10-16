@@ -13,7 +13,6 @@
     <meta property="og:url" content="https://ronnapat.com/" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{title}" />
-    <meta property="og:type" content="website" />
     <meta property="og:description" content="Personal website of {fullName}" />
 </head>
 
