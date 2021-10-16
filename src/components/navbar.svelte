@@ -1,5 +1,5 @@
 <script lang="ts">
-    const fullName = "Ronnapat Srivoravilai";
+    const fullName = "Ronnapat";
     //const Name = "Ronnapat";
     const Contact = "Contact";
     const Blog = "blog";
