@@ -32,16 +32,16 @@
     <p class="">You can contact me on link down below! </p>
     <div class="flex gap-6">
         <a href="mailto:ronnapat.sri@gmail.com" target="_blank" >        
-            <img src="../../static/mail.png" alt="mail" class="w-10 h-10">
+            <img src="mail.png" alt="mail" class="w-10 h-10">
         </a>
         <a href="https://twitter.com/ronnapatp" target="_blank">        
-            <img src="../../static/twitter.png" alt="twitter" class="w-10 h-10">
+            <img src="/twitter.png" alt="twitter" class="w-10 h-10">
         </a>
         <a href="https://facebook.com/pieronnapatp" target="_blank">        
-            <img src="../../static/facebook.png" alt="facebook" class="w-10 h-10">
+            <img src="/facebook.png" alt="facebook" class="w-10 h-10">
         </a>
         <button on:click={copyDiscord}>
-            <img src="../../static/discord.png" alt="" class="w-10 h-10">
+            <img src="/discord.png" alt="" class="w-10 h-10">
         </button>
     </div>
 </main>
