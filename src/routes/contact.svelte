@@ -26,6 +26,7 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+
 </head>
 
 <Navbar />
@@ -33,16 +34,16 @@
     <h1 class="text-6xl">Contact me</h1>
     <p class="">You can contact me on link down below! </p>
     <div class="flex gap-6">
-        <a href="mailto:ronnapat.sri@gmail.com" target="_blank" >        
+        <a href="mailto:ronnapat.sri@gmail.com" target="_blank" title="Click to mail me!">        
             <img src="mail.png" alt="mail" class="w-10 h-10">
         </a>
-        <a href="https://twitter.com/ronnapatp" target="_blank">        
+        <a href="https://twitter.com/ronnapatp" target="_blank" title="Click to see my twitter!">        
             <img src="/twitter.png" alt="twitter" class="w-10 h-10">
         </a>
-        <a href="https://facebook.com/pieronnapatp" target="_blank">        
+        <a href="https://facebook.com/pieronnapatp" target="_blank" title="Click to see my facebook!">        
             <img src="/facebook.png" alt="facebook" class="w-10 h-10">
         </a>
-        <button on:click={copyDiscord}>
+        <button on:click={copyDiscord} title="Click to copy my discord username!">
             <img src="/discord.png" alt="" class="w-10 h-10">
         </button>
     </div>
