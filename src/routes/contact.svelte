@@ -29,7 +29,7 @@
 <Navbar />
 <main class="w-full h-screen flex flex-col gap-2 justify-center items-center">
     <h1 class="text-6xl">Contact me</h1>
-    <p class="w-1/5	">You can contact me bla bla bla blab alb la bla blab alb la bla blab alb la bla blab alb la bla blab alb </p>
+    <p class="w-1/5	">You can contact me on link down below! </p>
     <div class="flex gap-6">
         <a href="mailto:ronnapat.sri@gmail.com" target="_blank" >        
             <img src="../../static/mail.png" alt="mail" class="w-20 h-20">
