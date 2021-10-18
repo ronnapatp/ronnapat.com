@@ -14,6 +14,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{title}" />
     <meta property="og:description" content="Personal website of {fullName}" />
+    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
 </head>
 
 <Nav />
