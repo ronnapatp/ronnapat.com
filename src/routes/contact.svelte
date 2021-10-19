@@ -8,6 +8,7 @@
 
     import Navbar from "../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
+    import Footer from '../components/footer.svelte'
 
     function copyDiscord() {
         Copy('ronnapatp#3538')
@@ -138,3 +139,6 @@
 			</div>
 		</div>
 </main>
+
+
+<Footer />

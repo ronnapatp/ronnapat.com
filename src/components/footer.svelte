@@ -1,3 +1,3 @@
-<footer class="text-center footer">
-    2021 copyright | Ronnapat Srivoravialai
+<footer class="fixed bottom-0">
+    2021 | Ronnapat Srivoravilai
 </footer>
