@@ -31,8 +31,8 @@
 </head>
 
 <Navbar />
-<main class="w-full h-screen flex flex-col gap-2 justify-center items-center ">
-		<!-- Container -->
+<main class="items-center ">
+		<br><br><br><br><br>
 		<div class="container mx-auto ">
 			<div class="flex justify-center px-6 my-12">
 				<!-- Row -->
