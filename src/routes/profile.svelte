@@ -1,3 +1,8 @@
+<script>
+
+import Github from "./github.svelte";
+
+</script>
 <style>
     .line-1{
     width: 24em;
@@ -58,6 +63,9 @@
         </div>
         <div class="pb-1"><span class="bg-gray-200 w-5 text-black"><span class="text-gray-200"> |</span>-<span class="text-gray-200"> |</span></span><span class="bg-blue-800 w-5 text-white space-x-2"><span class="text-blue-800"> |</span>~ code/profile<span class="text-blue-800"> |</span></span><span class="bg-green-500 w-5 text-black"><span class="text-green-500"> |</span>main/origin<span class="text-green-500"> |</span></span><br><br>
             <p class="line-1 anim-typewriter">> I am interested in coding</p>
+        </div>
+        <div class="pb-1"><span class="bg-gray-200 w-5 text-black"><span class="text-gray-200"> |</span>-<span class="text-gray-200"> |</span></span><span class="bg-blue-800 w-5 text-white space-x-2"><span class="text-blue-800"> |</span>~ code/profile<span class="text-blue-800"> |</span></span><span class="bg-green-500 w-5 text-black"><span class="text-green-500"> |</span>main/origin<span class="text-green-500"> |</span></span><br><br>
+          <p class="line-1 anim-typewriter">> Github.com/ronnapatp</p>
         </div>
 
       </div>
