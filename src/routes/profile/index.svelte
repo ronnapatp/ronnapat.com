@@ -8,6 +8,7 @@ const twitter = "@ronnapatp";
 const github = "ronnapatp";
 const gmail = "ronnapat.sri@gmail.com";
 const facebook = "pieronnapatp"
+const title = `Profile | ${fullName}`
 
 import Nav from '../../components/navbar.svelte'
 import Footer from '../../components/footer.svelte'
@@ -36,6 +37,16 @@ import Footer from '../../components/footer.svelte'
   50% { border-color: orange; }
 }
 </style>
+
+<head>
+    <title>{title}</title>
+    <meta property="og:url" content="https://ronnapat.com/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="{title}" />
+    <meta property="og:description" content="Personal website of {fullName}" />
+    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+    <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+</head>
 
 <Nav />
 
