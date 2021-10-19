@@ -21,7 +21,14 @@
 }
 </style>
 
-
+<head>
+  <title>Profile | Ronnapat Srivoravilai</title>
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Profile | Ronnapat Srivoravilai" />
+  <meta property="og:description" content="Personal website of Ronnapat Srivoravilai" />
+  <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+  <meta property="og:keywords" content="Ronnapat Srivoravilai , Ronnapat , ronnapatp , srivoravilai ">
+</head>
 
 <div class="mx-auto">
     <div class="w-full h-screen shadow-2xl subpixel-antialiased rounded h-64 bg-black border-black mx-auto">
