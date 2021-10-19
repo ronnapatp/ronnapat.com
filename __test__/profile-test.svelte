@@ -1,8 +1,3 @@
-<script>
-
-import Github from "./github.svelte";
-
-</script>
 <style>
     .line-1{
     width: 24em;
