@@ -7,3 +7,19 @@
 .urllink:hover{
     text-decoration: underline;
 }
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #f0ad4e;
+}
+
+svg{
+    color: black;
+}
+
+svg:hover{
+    color: #b36e0e;
+}
