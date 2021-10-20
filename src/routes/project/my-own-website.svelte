@@ -56,9 +56,17 @@
         View on github
     </a>
     <br><br>
-    <h1>
-        This page coming soon! 
-    </h1>
+    <p>
+        About last month I create my personal website by using astro framwork but I want to create my own so I create this sveltekit with bootstrap .
+    </p>
+    <p>
+        In this project I use  :
+        <li><a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a></li>
+        <li><a href="https://getbootstrap.com/  " target="_blank" class="black">Bootstrap</a></li>
+        <li><a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a></li>
+        <li><a href="https://vercel.app/" target="_blank" class="black">Vercel</a></li>
+        <li><a href="https://www.npmjs.com/package/copy-to-clipboard" target="_blank" class="black">copy-to-clipboard</a></li>
+    </p>
     
    
 
