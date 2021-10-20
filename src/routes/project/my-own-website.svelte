@@ -36,6 +36,9 @@
 </head>
 
 <Navbar />
+<body>
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0" nonce="uYMh4Izw"></script>
 <br><br>
 <div class="container">
 <a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
@@ -71,6 +74,7 @@
         <br>
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
-</div>
 
+    <div class="fb-comments" data-href="https://ronnapat.com/" data-width="300" data-numposts="5"></div></div>
+</body>
 <Footer />
