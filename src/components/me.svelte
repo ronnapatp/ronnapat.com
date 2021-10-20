@@ -2,9 +2,9 @@
     a:hover{
         color: black;
     }
-    .black{
+   /* .black{
         color: black;
-    }
+    } */
 </style>
 <div class="container">
     <div class="row justify-content-center">
