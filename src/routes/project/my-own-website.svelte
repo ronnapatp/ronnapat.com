@@ -33,7 +33,6 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
-    <meta property="fb:app_id" content="940860116773848" />
     <meta property="fb:admins" content="100056860303001"/>
 </head>
 
