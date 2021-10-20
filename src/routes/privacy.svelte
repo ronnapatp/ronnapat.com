@@ -22,7 +22,7 @@
 <div class="container">
     <div>
         <h1>Privacy & Policy</h1>
-        Last edit : 12/12/12
+        Last edit (DD/MM/YYYY) : 20/10/2021
         <hr>
     </div>
     <div>
