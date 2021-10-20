@@ -11,3 +11,5 @@ export const facebookUser = "pieronnapatp"
 export const githubUser = "ronnapatp"
 
 export const twitterUser = "@ronnapatp"
+
+export const discordUser = "ronnapatp#3538"

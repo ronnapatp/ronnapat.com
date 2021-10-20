@@ -1,5 +1,6 @@
 <script>
   import Copy from 'copy-to-clipboard'
+  import { Name } from '$lib/name';
 
   function discordCopy(){
     Copy('ronnapatp#3538')
@@ -18,7 +19,7 @@
     <div class="container-fluid">
       <a class="navbar-brand bg-image hover-zoom" href="/">
         <img src="/logo-no-bg.png" alt="" width="auto" height="45">
-        Ronnapat
+        {Name}
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
