@@ -10,8 +10,8 @@ const gmail = "ronnapat.sri@gmail.com";
 const facebook = "pieronnapatp"
 const title = `Profile | ${fullName}`
 
-import Nav from '../../components/navbar.svelte'
-import Footer from '../../components/footer.svelte'
+import Nav from '../../lib/components/navbar.svelte'
+import Footer from '../../lib/components/footer.svelte'
 </script>
 <style>
     .typewriter h1 {

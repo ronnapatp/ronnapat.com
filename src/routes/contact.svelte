@@ -6,9 +6,9 @@
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
 
-    import Navbar from "../components/navbar.svelte";
+    import Navbar from "../lib/components/navbar.svelte";
     import Copy from "copy-to-clipboard"
-    import Footer from '../components/footer.svelte'
+    import Footer from '../lib/components/footer.svelte'
 
     function copyDiscord() {
         Copy('ronnapatp#3538')
