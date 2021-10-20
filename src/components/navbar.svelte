@@ -39,6 +39,9 @@ a:hover{
             <a class="nav-link urllink"href="https://ronnapatpblog.netlify.app/" target="_blank">Blog</a>
           </li>
           <li class="nav-item">
+            <a class="nav-link urllink" href="/project">Project</a>
+          </li>
+          <li class="nav-item">
             <a class="nav-link urllink" href="/about">About</a>
           </li>
           <li class="nav-item">
