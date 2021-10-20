@@ -4,6 +4,7 @@
     
     import Nav from '../components/navbar.svelte'
     import Hero from '../components/heroes.svelte'
+    import Me from '../components/me.svelte'
     import Footer from '../components/footer.svelte' 
 </script>
 
@@ -21,5 +22,8 @@
 <Nav />
 <br><br><br><br>
 <Hero />
+<br><div class="container"><hr></div><br>
+<Me />
 <Footer />
+
 

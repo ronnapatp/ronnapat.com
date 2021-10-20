@@ -7,7 +7,8 @@
     console.log('Copied!')
     }
 </script>
-<footer class="text-center">
+<footer class="text-center container">
+    <hr>
     <p>Made in Thailand | © 2021 Ronnapat Srivoravilai.</p>
     <p>Build by <a href="https://kit.svelte.dev/" target="_blank">Svelte kit</a>. Icons by <a href="https://iconoir.com/" target="_blank">Iconoir</a>. Deploy by <a href="https://vercel.app/" target="_blank">Vercel</a>.</p>
     <p>Read <a href="/privacy">Privacy Policy</a>.</p>
