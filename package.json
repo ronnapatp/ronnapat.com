@@ -28,6 +28,12 @@
   },
   "type": "module",
   "dependencies": {
-    "copy-to-clipboard": "^3.3.1"
+    "copy-to-clipboard": "^3.3.1",
+    "@mapbox/rehype-prism": "^0.6.0",
+    "front-matter": "^4.0.2",
+    "glob": "^7.1.7",
+    "rehype": "^11.0.0",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1"
   }
 }

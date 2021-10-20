@@ -2,9 +2,9 @@
     const fullName = "Ronnapat Srivoravilai";
     const title = "HOME | Ronnapat Srivoravilai"
     
-    import Nav from '../lib/components/navbar.svelte'
-    import Hero from '../lib/components/heroes.svelte'
-    import Footer from '../lib/components/footer.svelte' 
+    import Nav from '../components/navbar.svelte'
+    import Hero from '../components/heroes.svelte'
+    import Footer from '../components/footer.svelte' 
 </script>
 
 
