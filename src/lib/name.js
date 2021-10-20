@@ -1,5 +1,7 @@
 export const fullName = "Ronnapat Srivoravilai"
 
+export const Name = "Ronnapat"
+
 export const nickName = "Pie"
 
 export const socialName = "ronnapatp"

@@ -1,61 +1,66 @@
-<script lang="ts">
-    const fullName = "Ronnapat";
-    //const Name = "Ronnapat";
-    const Contact = "Contact";
-    const Blog = "blog";
-    const About = "About me";
+<script>
+  import Copy from 'copy-to-clipboard'
+
+  function discordCopy(){
+    Copy('ronnapatp#3538')
+    alert('Copy ronnapat discord username to your clipboard!')
+    console.log('Copied!')
+  }
 </script>
-
 <style>
-  	.link-underline {
-		border-bottom-width: 0;
-		background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-		background-size: 0 3px;
-		background-position: 0 100%;
-		background-repeat: no-repeat;
-		transition: background-size .5s ease-in-out;
-	}
-
-	.link-underline-black {
-		background-image: linear-gradient(transparent, transparent), linear-gradient(black, black)
-	}
-
-	.link-underline:hover {
-		background-size: 100% 3px;
-		background-position: 0 100%
-	}
+  .btn:focus {
+  outline: none;
+  box-shadow: none;
+}
 </style>
-
-<nav class="bg-yellow-300 absolute w-full left-0 top-0">
-    <div class="container mx-auto px-2">
-      <div class="relative flex items-center justify-between h-16">
-        <div class="flex-1 flex items-center sm:items-stretch sm:justify-start">
-          <span class="mx-2 leading-3 text-2xl">
-            <a href="/" class="link link-underline link-underline-black text-black">
-                {fullName}  
-            </a>
-            <!--<a href="/" class="">
-                {Name}
-            </a>-->
-          </span>
-        </div>
-        <div class="absolute inset-y-0 right-0 flex items-center pr-2 sm:static sm:inset-auto sm:ml-6 sm:pr-0">
-            <span class="mx-2 text-sm sm:text-md">
-                <a href="/about" class="link link-underline link-underline-black text-black">
-                  {About}
-                </a>
-              </span>
-              <span class="mx-2 text-sm sm:text-md">
-                <a href="https://ronnapatpblog.netlify.app/" target="_blank" class="link link-underline link-underline-black text-black">
-                  {Blog}
-                </a>
-              </span>
-              <span class="mx-2 text-sm sm:text-md">
-                <a href="/contact/" class="link link-underline link-underline-black text-black">
-                  {Contact}
-                </a>
-              </span>
-        </div>
+<div class="bg-warning  ">
+  <nav class="navbar navbar-expand-lg navbar-light container">
+    <div class="container-fluid">
+      <a class="navbar-brand bg-image hover-zoom" href="/">
+        <img src="/logo-no-bg.png" alt="" width="auto" height="45">
+        Ronnapat
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link urllink"href="https://ronnapatpblog.netlify.app/" target="_blank">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link urllink" href="/resume">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link urllink" href="/contact">Contact</a>
+          </li>
+        </ul>
+        <span class="navbar-text">
+          <a href="https://facebook.com/pieronnapatp" target="_blank">
+            <img src="/svg/facebook.svg" alt="facebook">
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://instagram.com/ronnapatsri" target="_blank">
+            <img src="/svg/instagram.svg" alt="instagram">
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://twitter.com/ronnapatp" target="_blank">
+            <img src="/svg/twitter.svg" alt="twitter">
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://github.com/ronnapatp" target="_blank">
+            <img src="/svg/github.svg" alt="github">
+          </a>
+          
+          <button class="btn btn-link" on:click={discordCopy} title="Tooltip on bottom">
+            <img src="/svg/discord.svg" alt="">
+          </button>
+          
+          <a href="mailto:ronnapat.sri@gmail.com" target="_blank">
+            <img src="/svg/mail.svg" alt="mail">
+          </a>
+        </span>
       </div>
     </div>
   </nav>
+</div>

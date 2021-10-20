@@ -3,3 +3,11 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+.urllink:hover{
+    text-decoration: underline;
+}
+
+svg:hover{
+    color: yellow;
+}
