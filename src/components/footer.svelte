@@ -19,7 +19,7 @@
     <hr>
     <p>Made in Thailand | © 2021 Ronnapat Srivoravilai.</p>
     <p>Build by <a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a>. Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a>. Deploy by <a href="https://vercel.app/" target="_blank" class="black">Vercel</a>.</p>
-    <p>Read <a href="/privacy" class="black">Privacy Policy</a>.</p>
+    <!--<p>Read <a href="/privacy" class="black">Privacy Policy</a>.</p>-->
     <span>
         <a href="https://facebook.com/pieronnapatp" target="_blank">
             <svg width="24" height="24" class="black" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
