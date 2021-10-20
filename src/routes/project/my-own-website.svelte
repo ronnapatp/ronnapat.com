@@ -84,6 +84,6 @@
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
 
-    <div class="fb-comments" data-href="https://www.ronnapat.com/project/my-own-website" data-width="600" data-numposts="5"></div></div>
+    <div class="fb-comments" data-href="https://www.ronnapat.com/" data-width="600" data-numposts="5"></div></div>
 </body>
 <Footer />
