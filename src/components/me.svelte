@@ -5,6 +5,7 @@
    /* .black{
         color: black;
     } */
+  
 </style>
 <div class="container">
     <div class="row justify-content-center">
@@ -61,4 +62,48 @@
             View all project
           </a>
     </div>
+</div>
+<br><br><br>
+<div class="container">
+  <h1>Skill</h1>
+  <hr>
+  
+  <div>
+    <a href="https://html.com/" target="_blank">
+      <img src="/skill/html.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.w3schools.com/Css/" target="_blank">
+      <img src="/skill/css.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.javascript.com/" target="_blank">
+      <img src="/skill/javascript.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://www.typescriptlang.org/" target="_blank">
+      <img src="/skill/typescript.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://reactjs.org/" target="_blank">
+      <img src="/skill/react.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://svelte.dev/" target="_blank">
+      <img src="/skill/svelte.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://nextjs.org/" target="_blank">
+      <img src="/skill/nextjs.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://getbootstrap.com/" target="_blank">
+      <img src="/skill/bootstrap.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://tailwindcss.com/" target="_blank">
+      <img src="/skill/tailwind.png" alt="" width="100" height="100">
+    </a>
+    
+  </div>
 </div>
