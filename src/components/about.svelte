@@ -30,7 +30,7 @@
     <li><b>Pets</b> : I'm looking for have korgi dog</li>
     <li><b>Social media</b> : Facebook, Instagram, Twitter</li>
     <li><b>Typing</b> : TH 42wpm ENG 55 wpm</li>
-    <li><b>Keyboard layout</b> : 🇹🇭Manoonchai 🇺🇸QWERTY</li>
+    <li><b>Keyboard layout</b> : 🇹🇭 <a href="https://manoonchai.com/" target="_blank">Manoonchai</a> 🇺🇸QWERTY</li>
   </p>
   <h3>CONTACT ME</h3>
   <li><b>Email</b> : <a href="mailto:ronnapat.sri@gmail.com" target="_blank">ronnapat.sri@gmail.com</a></li>
