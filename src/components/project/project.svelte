@@ -3,7 +3,7 @@
     <br>
     <div class="p-5 mb-4 bg-light rounded-3">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">My own website</h1>
+          <h1 class="display-5 fw-bold">My own website<p class="badge bg-secondary">New project</p></h1>
           <p class="col-md-8 fs-4">Personal website for me using sveltekit with bootstrap</p>
           <a href="/project/my-own-website" class="btn btn-warning btn-lg" type="button">Read more</a>
           <br><br><small class="text-muted">Tag : discordbot bot js javascript</small>

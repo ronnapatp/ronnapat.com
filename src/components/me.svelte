@@ -30,7 +30,7 @@
     <div class="card-group">
         <div class="card">
           <div class="card-body">
-            <a href="/" class="text-decoration-none text-dark">
+            <a href="/project/kaolad-bot" class="text-decoration-none text-dark">
             <h5 class="card-title">Kaolad discord bot</h5>
             <p class="card-text">Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
             </a>
@@ -41,7 +41,7 @@
         </div>
         <div class="card">
             <div class="card-body">
-              <a href="/" class="text-decoration-none text-dark">
+              <a href="/project/my-own-website" class="text-decoration-none text-dark">
               <h5 class="card-title">My own website</h5>
               <p class="card-text">Personal website for me using sveltekit with bootstrap</p>
               </a>
