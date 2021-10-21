@@ -182,3 +182,26 @@
  
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.3.5/dist/alpine.min.js" defer></script>
 </body>
+
+//
+    &nbsp;&nbsp;
+    <a href="https://reactjs.org/" target="_blank">
+      <img src="/skill/react.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://svelte.dev/" target="_blank">
+      <img src="/skill/svelte.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://nextjs.org/" target="_blank">
+      <img src="/skill/nextjs.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://getbootstrap.com/" target="_blank">
+      <img src="/skill/bootstrap.png" alt="" width="100" height="100">
+    </a>
+    &nbsp;&nbsp;
+    <a href="https://tailwindcss.com/" target="_blank">
+      <img src="/skill/tailwind.png" alt="" width="100" height="100">
+    </a>
+    

@@ -17,9 +17,28 @@
 </style>
 <footer class="text-center container">
     <hr>
+    
     <p>Made in Thailand | © 2021 Ronnapat Srivoravilai.</p>
-    <p>Build by <a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a>. Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a>. Deploy by <a href="https://vercel.app/" target="_blank" class="black">Vercel</a>.</p>
+   <!-- <p>Build by <a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a>. Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a>. Deploy by <a href="https://vercel.app/" target="_blank" class="black">Vercel</a>.</p>-->
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalToggleLabel">Website credit</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            Build by <a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a> <br>
+            Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a> <br>
+            Deploy by <a href="https://vercel.app/" target="_blank" class="black">Vercel</a> <br>
+          </div>
+      
+        </div>
+      </div>
+    </div>
+    <a class="black" data-bs-toggle="modal" href="#exampleModalToggle" role="button">View credit</a>
     <!--<p>Read <a href="/privacy" class="black">Privacy Policy</a>.</p>-->
+    <br>
     <span>
         <a href="https://facebook.com/pieronnapatp" target="_blank">
             <svg width="24" height="24" class="black" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

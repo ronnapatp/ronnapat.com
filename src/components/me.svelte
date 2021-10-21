@@ -68,42 +68,72 @@
   <h1>Skill</h1>
   <hr>
   
-  <div>
-    <a href="https://html.com/" target="_blank">
-      <img src="/skill/html.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.w3schools.com/Css/" target="_blank">
+  <div class="row clearfix">
+    <h4>Programming</h4>
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/html.png" alt="" width="100" height="100">  
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/css.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.javascript.com/" target="_blank">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/javascript.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://www.typescriptlang.org/" target="_blank">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/typescript.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://reactjs.org/" target="_blank">
-      <img src="/skill/react.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://svelte.dev/" target="_blank">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/svelte.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://nextjs.org/" target="_blank">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/react.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/nextjs.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://getbootstrap.com/" target="_blank">
-      <img src="/skill/bootstrap.png" alt="" width="100" height="100">
-    </a>
-    &nbsp;&nbsp;
-    <a href="https://tailwindcss.com/" target="_blank">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
       <img src="/skill/tailwind.png" alt="" width="100" height="100">
-    </a>
-    
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/bootstrap.png" alt="" width="100" height="100">
+    </div>
+  </div>
+  <div class="row">
+    <h4>Other</h4>
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/wondershare.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/imovie.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/powerpoint.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/word.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/docs.png" alt="" width="auto" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/slide.png" alt="" width="100" height="100">
+    </div>
+    &nbsp;
+    <div class="col bd-callout bd-callout-warning">
+      <img src="/skill/canva.png" alt="" width="100" height="100">
+    </div>
   </div>
 </div>
