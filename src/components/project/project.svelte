@@ -15,7 +15,7 @@
           <div class="h-100 p-5 text-white bg-dark rounded-3">
             <h2>Kaolad discord bot</h2>
             <p>Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
-            <button class="btn btn-outline-warning" type="button">Read more</button>
+            <a href="/project/kaolad-bot" class="btn btn-outline-warning" type="button">Read more</a>
             <br><br><small class="text-muted">Tag : discordbot bot js javascript</small>
           </div>
         </div>
