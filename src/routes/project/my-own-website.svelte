@@ -11,6 +11,7 @@
     const viewongithubbutton = "btn btn-warning btn-lg px-4 gap-3 btn-rounded"
     const viewongithubauthor = "ronnapatp"
     const viewongithublink = "mywebsite"
+    const metaimage = "mywebsite.jpeg"
 
 
     const date = "20/10/2021"
@@ -31,7 +32,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
-    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+    <meta property="og:image" content="/{metaimage}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="940860116773848"/>
 </head>
