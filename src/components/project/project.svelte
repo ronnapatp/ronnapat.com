@@ -23,7 +23,7 @@
           <div class="h-100 p-5 text-white bg-dark rounded-3">
             <h2>How to?</h2>
             <p>How to website for developer using nextjs but in typescript</p>
-            <button class="btn btn-outline-warning" type="button">Read more</button>
+            <a href="/project/howto" class="btn btn-outline-warning" type="button">Read more</a>
             <br><br><small class="text-muted">Tag : nextjs typescript howto blog</small>
           </div>
         </div>
