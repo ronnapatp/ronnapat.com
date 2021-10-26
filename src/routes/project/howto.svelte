@@ -53,11 +53,11 @@
     </a>
     <br><br>
     <p>
-        This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! 
+        Because in coding they have a lot of bug so I create website that you can find the way to solve coding problem for example <code>How to fix npm error?</code>
     </p>
     <br><br>
     <p>
-    This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! 
+        You can contribute on github by click button up
     </p>
 
 
