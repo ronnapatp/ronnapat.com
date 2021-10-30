@@ -47,9 +47,9 @@ a:hover{
           <li class="nav-item">
             <a class="nav-link urllink" href="/contact">Contact</a>
           </li>
-          <li class="nav-item">
+          <!-- <li class="nav-item">
             <a class="nav-link urllink" href="/donate">Donate</a>
-          </li>
+          </li> -->
         </ul>
         <span class="navbar-text">
           <a href="https://facebook.com/pieronnapatp" target="_blank" class="black">
