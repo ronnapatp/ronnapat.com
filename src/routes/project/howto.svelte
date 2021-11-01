@@ -32,6 +32,8 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
 </head>
 
 <Navbar />
@@ -72,6 +74,9 @@
         <br>
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
+
+    <div class="fb-comments" data-href="https://www.ronnapat.com/project/howto" data-width="" data-numposts="5"></div>
+
 </div>
 
 <Footer />
