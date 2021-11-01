@@ -34,7 +34,7 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="/{metaimage}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
-    <meta property="fb:app_id" content="940860116773848"/>
+    <meta property="fb:app_id" content="924964718457366" />
 </head>
 
 <Navbar />
