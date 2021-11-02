@@ -34,8 +34,8 @@
   position: absolute;
   top: 0;
   left: 0;
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
   border: 0;
 }
 </style>
