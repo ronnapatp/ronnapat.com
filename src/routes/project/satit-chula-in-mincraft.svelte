@@ -97,7 +97,7 @@
 
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="img-thumbnail"  allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" class="embed-responsive-item"   allowfullscreen></iframe>
 
 
 
