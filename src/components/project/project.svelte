@@ -15,30 +15,6 @@
       </a>
     </article>
   &nbsp;&nbsp;&nbsp;&nbsp;
-      <article class="col card" style="width: 18rem;">
-        <a href="/project/my-own-website" class="text-black text-decoration-none">
-          <img src="/project/mywebsite.jpeg" class="card-img-top " alt="image" />
-          <div class="card-body">
-            <small class="text-muted">Code</small>
-            <h5 class="card-title">My own website</h5>
-            <p class="card-text">Personal website for me using sveltekit with bootstrap</p>
-            <p class="card-text"><small class="text-muted">20 Oct 2021</small></p>
-          </div>
-        </a>
-      </article>
-    &nbsp;&nbsp;&nbsp;&nbsp;
-    <article class="col card" style="width: 18rem;">
-      <a href="/project/kaolad-bot" class="text-black text-decoration-none">
-        <img src="/project/kaoladbot.png" class="card-img-top " alt="image" />
-        <div class="card-body">
-          <small class="text-muted">Code Bot Discord</small>
-          <h5 class="card-title">Kaolad discord bot</h5>
-          <p class="card-text">Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
-          <p class="card-text"><small class="text-muted">21 Oct 2021</small></p>
-        </div>
-      </a>
-    </article>
-  &nbsp;&nbsp;&nbsp;&nbsp;
   <article class="col card" style="width: 18rem;">
     <a href="/project/howto" class="text-black text-decoration-none">
       <img src="/project/howto.jpeg" class="card-img-top " alt="image" />
@@ -51,6 +27,30 @@
     </a>
   </article>
 &nbsp;&nbsp;&nbsp;&nbsp;
+<article class="col card" style="width: 18rem;">
+  <a href="/project/kaolad-bot" class="text-black text-decoration-none">
+    <img src="/project/kaoladbot.png" class="card-img-top " alt="image" />
+    <div class="card-body">
+      <small class="text-muted">Code Bot Discord</small>
+      <h5 class="card-title">Kaolad discord bot</h5>
+      <p class="card-text">Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
+      <p class="card-text"><small class="text-muted">21 Oct 2021</small></p>
+    </div>
+  </a>
+</article>
+&nbsp;&nbsp;&nbsp;&nbsp;
+      <article class="col card" style="width: 18rem;">
+        <a href="/project/my-own-website" class="text-black text-decoration-none">
+          <img src="/project/mywebsite.jpeg" class="card-img-top " alt="image" />
+          <div class="card-body">
+            <small class="text-muted">Code</small>
+            <h5 class="card-title">My own website</h5>
+            <p class="card-text">Personal website for me using sveltekit with bootstrap</p>
+            <p class="card-text"><small class="text-muted">20 Oct 2021</small></p>
+          </div>
+        </a>
+      </article>
+    &nbsp;&nbsp;&nbsp;&nbsp;
   </div>
 </div>
 
