@@ -91,9 +91,9 @@
     <br><br>
    <h4>Take a look around!</h4>
 
-    <img src="/project/satitchulamc2.jpeg" alt="" class="img-thumbnail" >
-    <img src="/project/satitchulamc3.jpeg" alt="" class="img-thumbnail" >
-    <img src="/project/satitchulamc4.jpeg" alt="" class="img-thumbnail" >
+    <img src="/project/satitchulamc2.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/project/satitchulamc3.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/project/satitchulamc4.jpeg" alt="" class="img-thumbnail" width="700">
 
 
 <br>
