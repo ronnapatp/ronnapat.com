@@ -18,6 +18,13 @@
     //function copyMail() {
     //    Copy('ronnapat.sri@gmail.com')
     //}
+
+//     import { createClient } from '@supabase/supabase-js'
+
+// // Create a single supabase client for interacting with your database 
+// const supabase = createClient("https://dkeselszatqftsqwojlu.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzNTc2NDU3NiwiZXhwIjoxOTUxMzQwNTc2fQ.Xyf3yRc79G-DFO01RSPhyHXm9jTO3gK_EZqRcyfD-bA")
+
+// const form = 
 </script>
 
 <head>
