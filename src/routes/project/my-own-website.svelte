@@ -25,7 +25,7 @@
   color: #b36e0e;
 }
 
-.w-lol{
+.fb-comment{
     min-width: 100% !important;
   width: 100% !important;
 }
@@ -92,8 +92,7 @@
         <br>
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
-<div class="w-lol">
+
 <div class="fb-comments" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
-</div>
 </body>
 <Footer />
