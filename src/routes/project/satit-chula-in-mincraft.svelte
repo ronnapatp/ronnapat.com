@@ -63,7 +63,7 @@
     </a> -->
     <br><br>
     <p>
-        Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very borned so my friend name deedee start project in mincraft with friend in group (but I didn't do this project because I dont have mincraft) 
+        Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very bored so my friend name deedee start project in mincraft with friend in group (but I didn't do this project because I dont have mincraft) 
     </p>
     <p>
         Here is school that we build in mincraft
