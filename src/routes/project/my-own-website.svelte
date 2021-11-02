@@ -25,19 +25,9 @@
   color: #b36e0e;
 }
 
-.wrap-element {
-  position: relative;
-  overflow: hidden;
-  padding-top: 56.25%;
-}
-
-.wrapped-iframe {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
+.w-lol{
+    min-width: 100% !important;
+  width: 100% !important;
 }
 </style>
 
@@ -103,6 +93,6 @@
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
 
-<div class="fb-comments wrapped-iframe wrap-element" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
+<div class="fb-comments w-lol" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
 </body>
 <Footer />
