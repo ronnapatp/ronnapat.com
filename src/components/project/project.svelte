@@ -4,7 +4,7 @@
 <div class="container px-4">
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <article class="col card" style="width: 18rem;">
-      <a href="/project/my-own-website" class="text-black text-decoration-none">
+      <a href="/project/satit-chula-in-mincraft" class="text-black text-decoration-none">
         <img src="/project/satitchulamc1.jpeg" class="card-img-top " alt="image" />
         <div class="card-body">
           <small class="text-muted">Game Mincraft</small>
