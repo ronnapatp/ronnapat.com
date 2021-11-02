@@ -25,6 +25,10 @@
   color: #b36e0e;
 }
 
+.w-lol{
+    width: auto;
+    height: 1000px;
+}
 </style>
 
 
@@ -89,6 +93,6 @@
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
 
-<div class="fb-comments" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
+<div class="fb-comments w-lol" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
 </body>
 <Footer />
