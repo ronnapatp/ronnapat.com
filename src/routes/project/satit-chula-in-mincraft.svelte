@@ -81,7 +81,7 @@
     <p>
         Here is school that we build in mincraft
     </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8372983674515!2d100.52615615818162!3d13.738140297589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2991d5ca0f12d%3A0x1847bdc271df742e!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4Liy4LiY4Li04LiV4LiI4Li44Lis4Liy4LivIOC4neC5iOC4suC4ouC4m-C4o-C4sOC4luC4oSAoQ2h1bGFsb25na29ybiBVbml2ZXJzaXR5IERlbW9uc3RyYXRpb24gRWxlbWVudGFyeSBTY2hvb2wp!5e0!3m2!1sen!2sth!4v1635833272606!5m2!1sen!2sth" width="600" height="450" style="border:0;"></iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8372983674515!2d100.52615615818162!3d13.738140297589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2991d5ca0f12d%3A0x1847bdc271df742e!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4Liy4LiY4Li04LiV4LiI4Li44Lis4Liy4LivIOC4neC5iOC4suC4ouC4m-C4o-C4sOC4luC4oSAoQ2h1bGFsb25na29ybiBVbml2ZXJzaXR5IERlbW9uc3RyYXRpb24gRWxlbWVudGFyeSBTY2hvb2wp!5e0!3m2!1sen!2sth!4v1635833272606!5m2!1sen!2sth" class="wrapped-iframe" style="border:0;"></iframe>
     <p>
         Chulalongkorn University Demonstration Elementary School 
     </p>
