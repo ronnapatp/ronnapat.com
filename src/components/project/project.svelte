@@ -1,31 +1,33 @@
-<div class="container">
-    <h1>My project</h1>
-    <br>
-    <div class="p-5 mb-4 bg-light rounded-3">
-        <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">My own website<p class="badge bg-secondary">New project</p></h1>
-          <p class="col-md-8 fs-4">Personal website for me using sveltekit with bootstrap</p>
-          <a href="/project/my-own-website" class="btn btn-warning btn-lg" type="button">Read more</a>
-          <br><br><small class="text-muted">Tag : discordbot bot js javascript</small>
-        </div>
-      </div>
-    
-      <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="h-100 p-5 text-white bg-dark rounded-3">
-            <h2>Kaolad discord bot</h2>
-            <p>Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
-            <a href="/project/kaolad-bot" class="btn btn-outline-warning" type="button">Read more</a>
-            <br><br><small class="text-muted">Tag : discordbot bot js javascript</small>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="h-100 p-5 text-white bg-dark rounded-3">
-            <h2>How to?</h2>
-            <p>How to website for developer using nextjs but in typescript</p>
-            <a href="/project/howto" class="btn btn-outline-warning" type="button">Read more</a>
-            <br><br><small class="text-muted">Tag : nextjs typescript howto blog</small>
-          </div>
-        </div>
-      </div>
+<div class="text-center">
+ <h1>Project</h1>
 </div>
+<div class="container px-4">
+  <div class="row g-4">
+    <article class="col-4 card" style="width: 18rem;" data-mdb-ripple-color="border border-warning">
+      <a href="/project/my-own-website" class="text-black text-decoration-none">
+        <img src="/project/mywebsite.jpeg" class="card-img-top " alt="image">
+        <div class="card-body">
+          <small class="text-muted">Code</small>
+          <h5 class="card-title">My own website</h5>
+          <p class="card-text">Personal website for me using sveltekit with bootstrap</p>
+          <p class="card-text"><small class="text-muted">20 Oct 2021</small></p>
+        </div>
+      </a>
+    </article>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+  </div>
+</div>
+
+
+<style>
+    .card {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+  }
+  .card:hover {
+    transform: scale(1.1);
+  }
+</style>

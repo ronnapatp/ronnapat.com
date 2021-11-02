@@ -24,7 +24,9 @@
 .black:hover{
   color: #b36e0e;
 }
+
 </style>
+
 
 <head>
     <title>{Name} | {fullName}</title>
@@ -40,7 +42,7 @@
 </head>
 
 <Navbar />
-<body>
+<body >
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
 <br><br>
