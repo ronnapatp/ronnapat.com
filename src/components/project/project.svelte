@@ -29,7 +29,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;
   <article class="col card" style="width: 18rem;">
     <a href="/project/howto" class="text-black text-decoration-none">
-      <img src="/project/mywebsite.jpeg" class="card-img-top " alt="image" />
+      <img src="/project/howto.jpeg" class="card-img-top " alt="image" />
       <div class="card-body">
         <small class="text-muted">Code</small>
         <h5 class="card-title">How to?</h5>
