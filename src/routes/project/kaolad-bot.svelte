@@ -23,6 +23,10 @@
 .black:hover{
   color: #b36e0e;
 }
+.fb-comment{
+    min-width: 100% !important;
+  width: 100% !important;
+}
 </style>
 
 <head>

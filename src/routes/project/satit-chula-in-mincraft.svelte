@@ -38,6 +38,10 @@
   height: 100%;
   border: 0;
 }
+.fb-comment{
+    min-width: 100% !important;
+  width: 100% !important;
+}
 </style>
 
 
