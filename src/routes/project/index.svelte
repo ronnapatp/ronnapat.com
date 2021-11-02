@@ -4,6 +4,10 @@
     import Footer from "../../components/footer.svelte";
 </script>
 
+<head>
+    <title>Project | Ronnapat Srivoravilai</title>
+</head>
+
 <Navbar />
 <br><br><br><br>
 <Project />
