@@ -24,7 +24,20 @@
 .black:hover{
   color: #b36e0e;
 }
+.wrap-element {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
 
+.wrapped-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 90%;
+  height: 90%;
+  border: 0;
+}
 </style>
 
 
@@ -97,8 +110,9 @@
 
 
 <br>
-<iframe width="560" height="315" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
-
+<div class="wrap-element">
+<iframe class="wrapped-iframe" width="" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
+</div>
 
 
     <div>
