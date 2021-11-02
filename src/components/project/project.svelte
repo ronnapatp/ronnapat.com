@@ -1,4 +1,4 @@
-<div class="text-center">
+<div class="container">
  <h1>Project</h1>
 </div>
 <div class="container px-4">
