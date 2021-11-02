@@ -37,15 +37,14 @@
     <meta property="og:image" content="/project/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366" />
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
+   
 </head>
 
 <Navbar />
 <body >
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
-<br><br>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="hNIdWS9b"></script>
+    <br><br>
 <div class="container">
 <a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
 </div>
@@ -108,6 +107,6 @@
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
 
-<div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-mincraft" data-width="" data-numposts="5"></div>
+    <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-mincraft" data-width="" data-numposts="5"></div>
 </body>
 <Footer />
