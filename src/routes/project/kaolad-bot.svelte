@@ -31,7 +31,7 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
-    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+    <meta property="og:image" content="/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366"/>
 </head>

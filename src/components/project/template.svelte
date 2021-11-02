@@ -2,14 +2,16 @@
     import Navbar from "../../components/navbar.svelte";
     import Footer from '../../components/footer.svelte'
 
+
     const Name = "My own website"
-    const image = "logo.png"
-    const imagewidth = "500"
+    const image = "mywebsite.jpeg"
+    const imagewidth = "auto"
     const imageheight = "500"
     const imagealt = ""
     const viewongithubbutton = "btn btn-warning btn-lg px-4 gap-3 btn-rounded"
     const viewongithubauthor = "ronnapatp"
     const viewongithublink = "mywebsite"
+    const metaimage = "mywebsite.jpeg"
 
 
     const date = "20/10/2021"
@@ -22,7 +24,9 @@
 .black:hover{
   color: #b36e0e;
 }
+
 </style>
+
 
 <head>
     <title>{Name} | {fullName}</title>
@@ -30,11 +34,17 @@
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
-    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+    <meta property="og:image" content="/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+    <meta property="fb:app_id" content="924964718457366" />
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
 </head>
 
 <Navbar />
+<body >
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
 <br><br>
 <div class="container">
 <a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
@@ -53,12 +63,18 @@
     </a>
     <br><br>
     <p>
-        This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! 
+        About last month I create my personal website by using astro framwork but I want to create my own so I create this sveltekit with bootstrap .
     </p>
-    <br><br>
     <p>
-    This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! This page coming soon! 
+        In this project I use  :
+        <li><a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a></li>
+        <li><a href="https://getbootstrap.com/  " target="_blank" class="black">Bootstrap</a></li>
+        <li><a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a></li>
+        <li><a href="https://vercel.app/" target="_blank" class="black">Vercel</a></li>
+        <li><a href="https://www.npmjs.com/package/copy-to-clipboard" target="_blank" class="black">copy-to-clipboard</a></li>
     </p>
+    
+   
 
 
 
@@ -72,6 +88,7 @@
         <br>
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
-</div>
 
+<div class="fb-comments" data-href="https://www.ronnapat.com/project/my-own-website" data-width="" data-numposts="5"></div>
+</body>
 <Footer />
