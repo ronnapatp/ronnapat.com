@@ -98,7 +98,7 @@ a:hover{
     <p> </p>
     <h3>EDUCATION</h3>
     <p>
-    <li> Chulalongkorn University Demonstration Elementary School </li>
+    <li> Chulalongkorn University Demonstration Elementary School</li>
     <li> Chulalongkorn University Demonstration Secondary School</li>
     </p>
     <h3>TECHNOLOGIES AND LANGUAGES</h3>
