@@ -126,6 +126,6 @@
         Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
     </div>
 
-    <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-mincraft" data-width="" data-numposts="5"></div>
+    <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-minecraft" data-width="" data-numposts="5"></div>
 </body>
 <Footer />
