@@ -34,6 +34,7 @@
   async function sendData() {
     if (Robot == 8) {
       alert('Thank you for your message! I will answer you as soon as possible.')
+      window.location.replace('/contact');
       const { data, error } = await supabase
       .from('games')
       .insert([
@@ -52,7 +53,7 @@
 
   }
 
-
+  
   // function myForm {
   //   reset()
   // }
