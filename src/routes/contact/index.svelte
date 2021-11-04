@@ -6,9 +6,9 @@
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
 
-    import Navbar from "../components/navbar.svelte";
+    import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
-    import Footer from '../components/footer.svelte'
+    import Footer from '../../components/footer.svelte'
 
     function discordCopy() {
         Copy('ronnapatp#3538')
@@ -33,8 +33,8 @@
 	}
   async function sendData() {
     if (Robot == 8) {
-     alert('Thank you for your message! I will answer you as soon as possible.')
-     window.location.replace('/contact');
+    // alert('Thank you for your message! I will answer you as soon as possible.')
+     window.location.replace('/contact/send');
       const { data, error } = await supabase
       .from('games')
       .insert([
