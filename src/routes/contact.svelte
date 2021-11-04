@@ -19,12 +19,31 @@
     //    Copy('ronnapat.sri@gmail.com')
     //}
 
-//     import { createClient } from '@supabase/supabase-js'
 
-// // Create a single supabase client for interacting with your database 
-// const supabase = createClient("https://dkeselszatqftsqwojlu.supabase.co", "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJyb2xlIjoiYW5vbiIsImlhdCI6MTYzNTc2NDU3NiwiZXhwIjoxOTUxMzQwNTc2fQ.Xyf3yRc79G-DFO01RSPhyHXm9jTO3gK_EZqRcyfD-bA")
-
-// const form = 
+    import supabase from '$lib/db'
+  let Name
+  let Email
+  let Message
+  let submit = false
+  async function getData() {
+	  const { data, error } = await supabase.from('games').select()
+		if (error) throw new Error(error.message)
+    console.log(data)
+		return data
+	}
+  async function sendData() {
+    const { data, error } = await supabase
+      .from('games')
+      .insert([
+        { 'Name': Name
+        , 'Email': Email 
+        , 'Message': Message
+        }
+        
+      ])
+    if (error) throw new Error(error.message)
+    return data
+  }
 </script>
 
 <head>
@@ -106,6 +125,52 @@
                   </svg>
             </a>
           </span>
+      </div>
+      <div class="col-md-10 mx-auto col-lg-5">
+        <form class="p-4 p-md-5 border rounded-3 bg-light">
+
+          {#await getData()}
+          <p></p>
+        {:then data}
+          {#each data as game}
+            <!-- <li>{game.title}</li> -->
+          {/each}
+        {:catch error}
+          <p>Something went wrong try again or contact me in other ways.</p>
+          <!-- <pre>{error}</pre> -->
+        {/await}
+        
+        <form on:submit|preventDefault={() => submit = true}>
+          <div class="form-floating mb-3">
+            <input type="text" bind:value={Name} class="form-control" id="floatingName" placeholder="Name">
+            <label for="floatingName">Name</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="email" bind:value={Email} class="form-control" id="floatingEmail" placeholder="Email">
+            <label for="floatingEmail">Email</label>
+          </div>
+          <div class="form-floating mb-3">
+            <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message">
+            <label for="floatingMessage">Message</label>
+          </div>
+          <!-- <input type="text" bind:value={newGame}> -->
+          <input type="submit" value="Submit" class="w-100 btn btn-lg btn-warning" on:click={() => submit = false}>
+        </form>
+        {#if submit}
+          {#await sendData()}
+            <!-- <p>Sending...</p> -->
+          {:then data}
+            <br>
+            <small>Thank you for your message!</small>
+            <!-- <p>Succesfully sent your message. I will contact you back as fast as possible</p> -->
+          {:catch error}
+            <p>Something went wrong try again or contact me in other ways.</p>
+            <!-- <pre>{error}</pre> -->
+          {/await}
+        {/if}
+        <!-- <hr class="my-4">
+        <small class="text-muted">By clicking Submit, you agree to the privacy policy.</small> -->
+        </form>
       </div>
     </div>
   </div>

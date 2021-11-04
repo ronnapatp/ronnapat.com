@@ -29,6 +29,7 @@
   "type": "module",
   "dependencies": {
     "@mapbox/rehype-prism": "^0.6.0",
+    "@supabase/supabase-js": "^1.25.2",
     "copy-to-clipboard": "^3.3.1"
   }
 }

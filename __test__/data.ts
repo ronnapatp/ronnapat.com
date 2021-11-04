@@ -16,5 +16,12 @@ export const gmail = "ronnapat.sri@gmail.com";
 
 export const facebook = "pieronnapatp"
 
+export const linkedin = "ronnapatp"
+
+export const instagram = "ronnapatp"
+
+export const website = "https://ronnapat.com"
+
+export const githubRepo = "https://github.com/ronnapatp/mywebsite"
 
 console.log("Twiiter and Github username if",fullName , "is Twitter : ",twitter,"Github : ",github )
