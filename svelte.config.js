@@ -15,7 +15,7 @@ const config = {
     // hydrate the <div id="svelte"> element in src/app.html
     vite: {
       define: {
-          'process.env': process.env,
+          'meta.env': meta.env,
       },
     },
     target: '#svelte',
