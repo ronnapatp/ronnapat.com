@@ -142,15 +142,15 @@
         
         <form on:submit|preventDefault={() => submit = true}>
           <div class="form-floating mb-3">
-            <input type="text" bind:value={Name} class="form-control" id="floatingName" placeholder="Name">
+            <input type="text" bind:value={Name} class="form-control" id="floatingName" placeholder="Name" required>
             <label for="floatingName">Name</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="email" bind:value={Email} class="form-control" id="floatingEmail" placeholder="Email">
+            <input type="email" bind:value={Email} class="form-control" id="floatingEmail" placeholder="Email" required>
             <label for="floatingEmail">Email</label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message">
+            <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message" required>
             <label for="floatingMessage">Message</label>
           </div>
           <!-- <input type="text" bind:value={newGame}> -->
