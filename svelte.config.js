@@ -13,12 +13,11 @@ const config = {
 
   kit: {
     // hydrate the <div id="svelte"> element in src/app.html
-    // vite: {
-    //   define: {
-    //       'env.VITE_SUPABASE_URL': env.VITE_SUPABASE_URL,
-    //       'env.VITE_SUPABASE_ANON_KEY': env.VITE_SUPABASE_ANON_KEY,
-    //   },
-    // },
+    vite: {
+      define: {
+        'process.env': process.env,
+      },
+    },
     target: '#svelte',
     adapter: vercel(),
   },

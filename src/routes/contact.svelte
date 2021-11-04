@@ -20,7 +20,7 @@
     //}
 
 
-    import supabase from '$lib/db'
+    import {supabase} from '$lib/db'
   let Name
   let Email
   let Message
