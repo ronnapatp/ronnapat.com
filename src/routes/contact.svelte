@@ -18,7 +18,7 @@
     //function copyMail() {
     //    Copy('ronnapat.sri@gmail.com')
     //}
-
+      let Robot;
 
     import {supabase} from '$lib/db'
   let Name
@@ -32,18 +32,29 @@
 		return data
 	}
   async function sendData() {
-    const { data, error } = await supabase
+    if (Robot == 8) {
+      const { data, error } = await supabase
       .from('games')
       .insert([
         { 'Name': Name
         , 'Email': Email 
-        , 'Message': Message
+        , 'Message': Message 
         }
         
       ])
     if (error) throw new Error(error.message)
     return data
+    } else {
+      alert('Please check the answer to confirm you are not a robot!')
+      
+    }
+
   }
+
+
+  // function myForm {
+  //   reset()
+  // }
 </script>
 
 <head>
@@ -128,7 +139,7 @@
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-3 bg-light">
-
+          <h3>Contact me</h3>
           {#await getData()}
           <p></p>
         {:then data}
@@ -140,9 +151,9 @@
           <!-- <pre>{error}</pre> -->
         {/await}
         
-        <form on:submit|preventDefault={() => submit = true}>
+        <form on:submit|preventDefault={() => submit = true} >
           <div class="form-floating mb-3">
-            <input type="text" bind:value={Name} class="form-control" id="floatingName" placeholder="Name" required>
+            <input type="text" bind:value={Name}  class="form-control" id="floatingName" placeholder="Name" required>
             <label for="floatingName">Name</label>
           </div>
           <div class="form-floating mb-3">
@@ -153,8 +164,17 @@
             <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message" required>
             <label for="floatingMessage">Message</label>
           </div>
+          <hr class="my-4">
+          Confirm you are not robot
+          <div class="form-floating mb-3"> 
+            <input type="number" bind:value={Robot} class="form-control" id="floatingMessage" placeholder="Message" required>
+            <label class="form-check-label" for="defaultCheck1">
+              What is the answer if 3+5 ?
+            </label>
+          </div>
           <!-- <input type="text" bind:value={newGame}> -->
-          <input type="submit" value="Submit" class="w-100 btn btn-lg btn-warning" on:click={() => submit = false}>
+          <input type="submit" value="Submit" class="w-50 btn btn-lg btn-warning" on:click={() => submit = false}>
+          <input type="reset" class="btn btn-lg btn-outline-warning border-2 text-dark" value="Reset">
         </form>
         {#if submit}
           {#await sendData()}
