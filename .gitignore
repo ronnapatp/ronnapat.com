@@ -6,4 +6,3 @@ node_modules
 .vercel
 /.vercel_build_output
 package-lock.json
-.env
