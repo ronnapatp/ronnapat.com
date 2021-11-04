@@ -15,8 +15,8 @@ const config = {
     // hydrate the <div id="svelte"> element in src/app.html
     vite: {
       define: {
-          'meta.env.VITE_SUPABASE_URL': meta.env.VITE_SUPABASE_URL,
-          'meta.env.VITE_SUPABASE_ANON_KEY': meta.env.VITE_SUPABASE_ANON_KEY,
+          'env.VITE_SUPABASE_URL': env.VITE_SUPABASE_URL,
+          'env.VITE_SUPABASE_ANON_KEY': env.VITE_SUPABASE_ANON_KEY,
       },
     },
     target: '#svelte',
