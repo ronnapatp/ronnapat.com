@@ -33,6 +33,7 @@
 	}
   async function sendData() {
     if (Robot == 8) {
+      alert('Thank you for your message! I will answer you as soon as possible.')
       const { data, error } = await supabase
       .from('games')
       .insert([
@@ -180,11 +181,11 @@
           {#await sendData()}
             <!-- <p>Sending...</p> -->
           {:then data}
-            <br>
-            <small>Thank you for your message!</small>
+            <!-- <br>
+            <small>Thank you for your message!</small> -->
             <!-- <p>Succesfully sent your message. I will contact you back as fast as possible</p> -->
           {:catch error}
-            <p>Something went wrong try again or contact me in other ways.</p>
+            <!-- <p>Something went wrong try again or contact me in other ways.</p> -->
             <!-- <pre>{error}</pre> -->
           {/await}
         {/if}
