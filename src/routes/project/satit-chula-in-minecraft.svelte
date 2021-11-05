@@ -47,13 +47,20 @@
 
 <svelte:head>
     <title>{Name} | {fullName}</title>
-    <meta property="og:url" content="https://ronnapat.com/" />
+    <meta property="og:url" content="https://ronnapat.com/project/satit-chula-in-minecraft" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://ronnapat.com/project/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366" />
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ronnapatp">
+	<meta name="twitter:title" content="{Name} | {fullName}">
+	<meta name="twitter:description" content="Personal website of {fullName}">
+	<meta name="twitter:creator" content="@ronnapatp">
+    <meta name="twitter:image:src" content="https://ronnapat.com/project/{image}">
+	<meta name="twitter:domain" content="ronnapat.com">
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="mFmCdZXK"></script>
 </svelte:head>
@@ -64,7 +71,7 @@
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="hNIdWS9b"></script>
     <br><br>
 <div class="container">
-<a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
+    <a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
 </div>
 <br>
 
