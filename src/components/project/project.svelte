@@ -10,7 +10,7 @@
           <small class="text-muted">Game Minecraft</small>
           <h5 class="card-title">Satit chula in minecraft</h5>
           <p class="card-text">My friend in discord name Hi i bored community make satit chula in minecraft </p>
-          <p class="card-text"><small class="text-muted">2 Nav 2021</small></p>
+          <p class="card-text"><small class="text-muted">2 Nov 2021</small></p>
         </div>
       </a>
     </article>
