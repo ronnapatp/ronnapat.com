@@ -12,7 +12,7 @@ export const twitter = "@ronnapatp";
 
 export const github = "ronnapatp";
 
-export const gmail = "ronnapat.com@gmail.com";
+export const gmail = "ronnapat.sri@gmail.com";
 
 export const facebook = "pieronnapatp"
 
