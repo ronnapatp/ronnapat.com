@@ -81,7 +81,7 @@
         <li>Speacial reply when you type special message Ex. <code>msg</code></li>
     </p>
 
-    <h3>Who is kaolad?</h3>
+    <h3>What is kaolad?</h3>
     <p>
         Kaolad is my friend bog
     </p>
