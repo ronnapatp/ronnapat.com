@@ -49,6 +49,9 @@
 
 <div class="container">
     <h1>{Name}</h1>
+    <div>
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fhowto&layout=button&size=small&appId=178075394515057&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    </div>
     <img src="/project/{image}" alt="{imagealt}"  class="img-thumbnail" > <br>  
     <a href="https://github.com/{viewongithubauthor}/{viewongithublink}" class="{viewongithubbutton}" type="button" target="_blank">
         <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
