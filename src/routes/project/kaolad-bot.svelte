@@ -38,7 +38,7 @@
     <meta property="og:image" content="/project/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366"/>
-</head>
+</svelte:head>
 
 <Navbar />
 <body>

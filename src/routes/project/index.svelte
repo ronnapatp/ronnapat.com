@@ -12,7 +12,7 @@
     <meta property="og:description" content="Personal website of Ronnapat Srivoravilai" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="Ronnapat Srivoravilai , Ronnapat , ronnapatp , srivoravilai ">
-</head>
+</svelte:head>
 
 <Navbar />
 <br><br><br><br>

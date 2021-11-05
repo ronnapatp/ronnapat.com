@@ -5,7 +5,7 @@
 
 <svelte:head>
     <title>404 - Page not found</title>
-</head>
+</svelte:head>
 
 <Navbar />
 <br><br><br>

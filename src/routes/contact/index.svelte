@@ -60,7 +60,7 @@
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
 
-</head>
+</svelte:head>
 <style>
     .black{
   color: black;
