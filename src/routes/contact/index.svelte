@@ -9,54 +9,46 @@
     import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
     import Footer from '../../components/footer.svelte'
+    import {supabase} from '$lib/db'
 
     function discordCopy() {
         Copy('ronnapatp#3538')
         alert('Copy ronnapat discord username to your clipboard!')
         console.log('Copied!')
     }
-    //function copyMail() {
-    //    Copy('ronnapat.sri@gmail.com')
-    //}
-      let Robot;
 
-    import {supabase} from '$lib/db'
-  let Name
-  let Email
-  let Message
-  let submit = false
-  async function getData() {
-	  const { data, error } = await supabase.from('games').select()
-		if (error) throw new Error(error.message)
-    console.log(data)
-		return data
-	}
-  async function sendData() {
-    if (Robot == 8) {
-    // alert('Thank you for your message! I will answer you as soon as possible.')
-     window.location.replace('/contact/send');
-      const { data, error } = await supabase
-      .from('games')
-      .insert([
-        { 'Name': Name
-        , 'Email': Email 
-        , 'Message': Message 
-        }
-        
-      ])
-    if (error) throw new Error(error.message)
-    return data
-    } else {
-      alert('Please check the answer to confirm you are not a robot!')
-      
+    let Robot;
+    let Name
+    let Email
+    let Message
+    let submit = false
+    let question = "3 - 2";
+
+    async function getData() {
+      const { data, error } = await supabase.from('games').select()
+      if (error) throw new Error(error.message)
+      console.log(data)
+      return data
     }
-
-  }
-
-  
-  // function myForm {
-  //   reset()
-  // }
+    async function sendData() {
+      if (Robot == 1) {
+      // alert('Thank you for your message! I will answer you as soon as possible.')
+      window.location.replace('/contact/send');
+        const { data, error } = await supabase
+        .from('games')
+        .insert([
+          { 'Name': Name
+          , 'Email': Email 
+          , 'Message': Message 
+          }
+          
+        ])
+      if (error) throw new Error(error.message)
+      return data
+      } else {
+        alert('Please check the answer to confirm you are not a robot!') 
+      }
+    }
 </script>
 
 <head>
@@ -171,7 +163,7 @@
           <div class="form-floating mb-3"> 
             <input type="number" bind:value={Robot} class="form-control" id="floatingMessage" placeholder="Message" required>
             <label class="form-check-label" for="defaultCheck1">
-              What is the answer if 3+5 ?
+              What is the answer if {question} ?
             </label>
           </div>
           <!-- <input type="text" bind:value={newGame}> -->
