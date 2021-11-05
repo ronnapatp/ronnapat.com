@@ -21,7 +21,7 @@
 }
 </style>
 
-<head>
+<svelte:head>
   <title>Profile | Ronnapat Srivoravilai</title>
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Profile | Ronnapat Srivoravilai" />

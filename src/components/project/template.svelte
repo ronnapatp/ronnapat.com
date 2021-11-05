@@ -28,7 +28,7 @@
 }
 </style>
 
-<head>
+<svelte:head>
     <title>{Name} | {fullName}</title>
     <meta property="og:url" content="https://ronnapat.com/" />
     <meta property="og:type" content="website" />
@@ -36,9 +36,11 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="/project/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+    <meta property="article:author" content="https://ronnapat.com/" />
+	<meta property="article:publisher" content="https://ronnapat.com/" />
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
-</head>
+</svelte:head>
 
 <Navbar />
 <br><br>

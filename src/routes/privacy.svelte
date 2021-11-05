@@ -6,7 +6,7 @@
     import Footer from '../components/footer.svelte';
 </script>
 
-<head>
+<svelte:head>
     <title>{Title}</title>
     <meta property="og:url" content="https://ronnapat.com/" />
     <meta property="og:type" content="website" />

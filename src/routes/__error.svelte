@@ -3,7 +3,7 @@
     import Footer from '../components/footer.svelte'
 </script>
 
-<head>
+<svelte:head>
     <title>404 - Page not found</title>
 </head>
 

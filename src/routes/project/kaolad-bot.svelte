@@ -29,7 +29,7 @@
 }
 </style>
 
-<head>
+<svelte:head>
     <title>{Name} | {fullName}</title>
     <meta property="og:url" content="https://ronnapat.com/" />
     <meta property="og:type" content="website" />

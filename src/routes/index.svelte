@@ -9,7 +9,7 @@
 </script>
 
 
-<head>
+<svelte:head>
     <title>{title}</title>
     <meta property="og:url" content="https://ronnapat.com/" />
     <meta property="og:type" content="website" />
