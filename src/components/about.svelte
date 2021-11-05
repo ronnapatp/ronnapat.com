@@ -85,7 +85,7 @@ a:hover{
               Github              
           </a>
           <br>
-          <a href="mailto:ronnapat.sri@gmail.com" target="_blank" class="black text-decoration-none">
+          <a href="mailto:ronnapat.com@gmail.com" target="_blank" class="black text-decoration-none">
             <svg width="24" height="24" class="black" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M7 9L12 12.5L17 9" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"/>
@@ -129,7 +129,7 @@ a:hover{
     <h1>Ronnapat Srivoravilai</h1>
     <p>
       Hi everyone ,Thank you for check out my personal website for my information please continue reading but if you have any question
-      that don't in this page you can email me at <a href="mailto:ronnapat.sri@gmail.com" target="_blank">ronnapat.sri@gmail.com</a>
+      that don't in this page you can email me at <a href="mailto:ronnapat.com@gmail.com" target="_blank">ronnapat.com@gmail.com</a>
     </p>
     <h3>EDUCATION</h3>
     <p>
@@ -153,7 +153,7 @@ a:hover{
       <li><b>Keyboard layout</b> : 🇹🇭 <a href="https://manoonchai.com/" target="_blank">Manoonchai</a> 🇺🇸QWERTY</li>
     </p>
     <h3>CONTACT ME</h3>
-    <li><b>Email</b> : <a href="mailto:ronnapat.sri@gmail.com" target="_blank">ronnapat.sri@gmail.com</a></li>
+    <li><b>Email</b> : <a href="mailto:ronnapat.com@gmail.com" target="_blank">ronnapat.com@gmail.com</a></li>
     <li><b>Twitter</b> : <a href="https://twitter.com/ronnapatp" target="_blank">@ronnapat</a></li>
     <li><b>Github</b> : <a href="https://github.com/ronnpatp" target="_blank">ronnapat</a></li>
     <p> </p>
