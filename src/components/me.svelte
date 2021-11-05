@@ -2,10 +2,13 @@
     a:hover{
         color: black;
     }
-   /* .black{
-        color: black;
-    } */
-  
+    .skill {
+    transition: transform 0.2s ease;
+  margin-bottom: 1.5em;
+  }
+  .skill:hover {
+    transform: scale(1.2);
+  }
 </style>
 <div class="container">
     <div class="row justify-content-center">
@@ -65,75 +68,93 @@
 </div>
 <br><br><br>
 <div class="container">
-  <h1>Skill</h1>
-  <hr>
-  
-  <div class="row clearfix">
-    <h4>Programming</h4>
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/html.png" alt="" width="100" height="100">  
+  <div>
+    <h1 class="text-center">My skill</h1>
+    <hr>
+    <div class="row">
+      <div class="col">
+        <h2>Programming Languages</h2>
+        <a href="https://www.w3schools.com/html/" target="_blank">
+          <img src="/skill/html.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://www.w3schools.com/css/" target="_blank">
+          <img src="/skill/css.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://www.javascript.com/" target="_blank">
+          <img src="/skill/javascript.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://www.typescriptlang.org/" target="_blank">
+          <img src="/skill/typescript.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <!-- <a href="https://www.python.org/" target="_blank">
+          <img src="/skill/python.png" alt="" width="80" height="auto" class="skill">
+        </a> -->
+      </div>
+      <div class="col">
+        <h2>Framework</h2>
+        <a href="https://reactjs.org/" target="_blank">
+          <img src="/skill/react.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://reactnative.dev/" target="_blank">
+          <img src="/skill/react.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://svelte.dev/" target="_blank">
+          <img src="/skill/svelte.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://nextjs.org/" target="_blank">
+          <img src="/skill/nextjs.png" alt="" width="80" height="auto" class="skill">
+        </a>
+      </div>
+      <div class="col">
+        <h2>CSS plugin</h2>
+        <a href="https://tailwindcss.com/" target="_blank">
+          <img src="/skill/tailwind.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://getbootstrap.com/" target="_blank">
+          <img src="/skill/bootstrap.png" alt="" width="80" height="auto" class="skill">
+        </a>
+      </div>
     </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/css.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/javascript.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/typescript.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/svelte.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/react.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/nextjs.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/tailwind.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/bootstrap.png" alt="" width="100" height="100">
-    </div>
-  </div>
-  <div class="row">
-    <h4>Other</h4>
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/wondershare.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/imovie.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/powerpoint.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/word.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/docs.png" alt="" width="auto" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/slide.png" alt="" width="100" height="100">
-    </div>
-    &nbsp;
-    <div class="col bd-callout bd-callout-warning">
-      <img src="/skill/canva.png" alt="" width="100" height="100">
+    <div class="row">
+      <div class="col">
+        <h2>Tools</h2>
+        <a href="https://nodejs.org/en/" target="_blank">
+          <img src="/skill/nodejs.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://www.npmjs.com/" target="_blank">
+          <img src="/skill/npm.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://classic.yarnpkg.com/en/" target="_blank">
+          <img src="/skill/yarn.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://git-scm.com/" target="_blank">
+          <img src="/skill/git.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://sw.kovidgoyal.net/kitty/" target="_blank">
+          <img src="/skill/terminal.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://discordjs.guide/" target="_blank">
+          <img src="/skill/discordjs.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://api.github.com/" target="_blank">
+          <img src="/skill/github.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <!-- <a href="https://supabase.io/" target="_blank">
+          <img src="/skill/supabase.png" alt="" width="80" height="auto" class="skill">
+        </a> -->
+      </div>
+      <div class="col">
+        <h2>Application + website</h2>
+        <a href="https://github.com/" target="_blank">
+          <img src="/skill/github.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://code.visualstudio.com/" target="_blank">
+          <img src="/skill/vscode.png" alt="" width="80" height="auto" class="skill">
+        </a>
+        <a href="https://discord.com/" target="_blank">
+          <img src="/skill/discord.png" alt="" width="80" height="auto" class="skill">
+        </a>
+      </div>
     </div>
   </div>
 </div>
