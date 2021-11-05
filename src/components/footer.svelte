@@ -29,7 +29,7 @@
           </div>
           <div class="modal-body">
             Build by <a href="https://kit.svelte.dev/" target="_blank" class="black">Svelte kit</a> <br>
-            Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a> <br>
+            Icons by <a href="https://iconoir.com/" target="_blank" class="black">Iconoir</a> and <a href="https://icons.getbootstrap.com/" target="_blank" class="black">Bootstrap</a> <br>
             Deploy by <a href="https://vercel.app/" target="_blank" class="black">Vercel</a> <br>
           </div>
       
