@@ -182,8 +182,8 @@
             <!-- <pre>{error}</pre> -->
           {/await}
         {/if}
-        <!-- <hr class="my-4">
-        <small class="text-muted">By clicking Submit, you agree to the privacy policy.</small> -->
+        <hr class="my-4">
+        <small class="text-muted">Don't support in safari.</small>
         </form>
       </div>
     </div>
