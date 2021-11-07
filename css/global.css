@@ -23,3 +23,5 @@ svg{
 svg:hover{
     color: #b36e0e;
 }
+
+@import url('./index.scss');
