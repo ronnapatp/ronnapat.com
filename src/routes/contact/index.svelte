@@ -167,7 +167,7 @@
             </label>
           </div>
           <!-- <input type="text" bind:value={newGame}> -->
-          <input type="submit" value="Submit form" class="w-50 btn btn-lg btn-warning" on:click={() => submit = false}>
+          <input type="submit" value="Submit" class="w-50 btn btn-lg btn-warning" on:click={() => submit = false}>
           <input type="reset" class="btn btn-lg btn-outline-warning border-2 text-dark" value="Reset">
         </form>
         {#if submit}
