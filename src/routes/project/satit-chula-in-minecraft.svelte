@@ -52,6 +52,7 @@ h1{
 
 <svelte:head>
     <title>{Name} | {fullName}</title>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <meta property="og:url" content="https://ronnapat.com/project/satit-chula-in-minecraft" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
@@ -66,6 +67,7 @@ h1{
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/project/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
+    <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="mFmCdZXK"></script>
 </svelte:head>
@@ -83,7 +85,9 @@ h1{
 <div class="container">
     <h1 class="float-start">{Name}</h1>
     <div class="float-end">
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> </div>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+        <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
+    </div>
     <img src="/project/{image}" alt="{imagealt}" class="img-thumbnail" > <br>  <br><br>
     <p>
         Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very bored so my friend name deedee start project in minecraft with friend in group (but I didn't do this project because I dont have mincraft) 
@@ -123,9 +127,12 @@ h1{
 <div class="wrap-element">
 <iframe class="wrapped-iframe" width="" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
 </div>
-
-
-
+    <div> <br>
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&layout=button&size=small&appId=924964718457366&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
+    </div>
+    <hr>
     <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
 </body>
 <Footer />
