@@ -27,6 +27,7 @@
     min-width: 100% !important;
   width: 100% !important;
 }
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
 </style>
 
 <svelte:head>
@@ -94,13 +95,7 @@
 
 
 
-    <div>
-        <br><br><br>
-        Date (DD/MM/YYYY) : {date} 
-        <br>
-        Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
-    </div>
-
-    <div class="fb-comments" data-href="https://www.ronnapat.com/project/kaolad-bot" data-width="" data-numposts="5"></div></div>
+    
+    <div class="fb-comments" data-href="https://www.ronnapat.com/project/kaolad-bot" data-width="100%" data-numposts="5"></div></div>
 </body>
 <Footer />
