@@ -125,12 +125,6 @@ h1{
 </div>
 
 
-    <div>
-        <br><br><br>
-        Date (DD/MM/YYYY) : {date} 
-        <br>
-        Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
-    </div>
 
     <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
 </body>

@@ -6,7 +6,6 @@
     <article class="col card" style="width: 18rem;">
       <a href="/project/satit-chula-in-minecraft" class="text-black text-decoration-none">
         <img src="/project/satitchulamc1.jpeg" class="card-img-top" alt="image" />
-        <hr>
         <div class="card-body">
           <small class="text-muted">Game Minecraft</small>
           <h5 class="card-title">Satit chula in minecraft</h5>
