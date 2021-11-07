@@ -57,7 +57,7 @@ h1{
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
-    <meta property="og:image" content="https://ronnapat.com/blog/{image}" />
+    <meta property="og:image" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366" />
     <meta name="twitter:card" content="summary_large_image">
@@ -65,7 +65,7 @@ h1{
 	<meta name="twitter:title" content="{Name} | {fullName}">
 	<meta name="twitter:description" content="Personal website of {fullName}">
 	<meta name="twitter:creator" content="@ronnapatp">
-    <meta name="twitter:image:src" content="https://ronnapat.com/blog/{image}">
+    <meta name="twitter:image:src" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
     <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js"></script>
     <div id="fb-root"></div>
@@ -88,7 +88,7 @@ h1{
         <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
         <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
     </div>
-    <img src="/blog/{image}" alt="{imagealt}" class="img-thumbnail" > <br>  <br><br>
+    <img src="/blog/satit-chula-in-minecraft/{image}" alt="{imagealt}" class="img-thumbnail" > <br>  <br><br>
     <p>
         Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very bored so my friend name deedee start project in minecraft with friend in group (but I didn't do this project because I dont have mincraft) 
     </p>
@@ -118,9 +118,9 @@ h1{
     <br><br>
    <h4>Take a look around!</h4>
 
-    <img src="/blog/satitchulamc2.jpeg" alt="" class="img-thumbnail" width="700">
-    <img src="/blog/satitchulamc3.jpeg" alt="" class="img-thumbnail" width="700">
-    <img src="/blog/satitchulamc4.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc2.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc3.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc4.jpeg" alt="" class="img-thumbnail" width="700">
 
 
 <br>
