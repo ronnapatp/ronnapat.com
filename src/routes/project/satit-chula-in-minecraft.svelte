@@ -133,6 +133,10 @@ h1{
         <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
     </div>
     <hr>
+    <!-- <div>
+        <fb:comments-count class="fb-comments-count" data-href="https://ronnapat.com/project/kaolad-bot"></fb:comments-count>
+        Comment
+        </div> -->
     <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
 </body>
 <Footer />
