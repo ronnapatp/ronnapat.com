@@ -2,17 +2,19 @@
     import Navbar from "../../components/navbar.svelte";
     import Footer from '../../components/footer.svelte'
 
-    const Name = "How to?"
-    const image = "howto.jpeg"
+
+    const Name = "Satit chula in minecraft"
+    const image = "satitchulamc1.jpeg"
     const imagewidth = "auto"
     const imageheight = "500"
-    const imagealt = "howto"
+    const imagealt = ""
     const viewongithubbutton = "btn btn-warning btn-lg px-4 gap-3 btn-rounded"
     const viewongithubauthor = "ronnapatp"
-    const viewongithublink = "howto"
+    const viewongithublink = "mywebsite"
+    const metaimage = "mywebsite.jpeg"
 
 
-    const date = "25/10/2021"
+    const date = "2/11/2021"
     import { fullName } from '$lib/name'
 </script>
 <style>
@@ -22,70 +24,108 @@
 .black:hover{
   color: #b36e0e;
 }
+.wrap-element {
+  position: relative;
+  overflow: hidden;
+  padding-top: 56.25%;
+}
+
+.wrapped-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
 .fb-comment{
     min-width: 100% !important;
-  width: 100% !important;
+    width: 100% !important;
 }
+h1{
+    font-size: 2.8rem;
+    color: #0694B9;
+}
+.container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
 </style>
+
 
 <svelte:head>
     <title>{Name} | {fullName}</title>
-    <meta property="og:url" content="https://ronnapat.com/" />
+    <meta property="og:url" content="https://ronnapat.com/project/satit-chula-in-minecraft" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name} | {fullName}" />
     <meta property="og:description" content="Personal website of {fullName}" />
-    <meta property="og:image" content="/project/{image}" />
+    <meta property="og:image" content="https://ronnapat.com/project/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
-    <meta property="article:author" content="https://ronnapat.com/" />
-	<meta property="article:publisher" content="https://ronnapat.com/" />
+    <meta property="fb:app_id" content="924964718457366" />
+    <meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@ronnapatp">
+	<meta name="twitter:title" content="{Name} | {fullName}">
+	<meta name="twitter:description" content="Personal website of {fullName}">
+	<meta name="twitter:creator" content="@ronnapatp">
+    <meta name="twitter:image:src" content="https://ronnapat.com/project/{image}">
+	<meta name="twitter:domain" content="ronnapat.com">
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="SUtkN3EF"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="mFmCdZXK"></script>
 </svelte:head>
 
 <Navbar />
-<br><br>
+<body >
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="hNIdWS9b"></script>
+    <br><br>
 <div class="container">
-<a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
+    <a href="/project/" class="black">Project</a> / <a href="#" class="black">{Name}</a>
 </div>
 <br>
 
 <div class="container">
-    <h1>{Name}</h1>
-    <div>
-        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&layout=button&size=small&appId=178075394515057&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
-    </div> 
-    <img src="/project/{image}" alt="{imagealt}"  class="img-thumbnail" > <br>  
-    <a href="https://github.com/{viewongithubauthor}/{viewongithublink}" class="{viewongithubbutton}" type="button" target="_blank">
-        <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M16 22.0268V19.1568C16.0375 18.68 15.9731 18.2006 15.811 17.7506C15.6489 17.3006 15.3929 16.8902 15.06 16.5468C18.2 16.1968 21.5 15.0068 21.5 9.54679C21.4997 8.15062 20.9627 6.80799 20 5.79679C20.4558 4.5753 20.4236 3.22514 19.91 2.02679C19.91 2.02679 18.73 1.67679 16 3.50679C13.708 2.88561 11.292 2.88561 8.99999 3.50679C6.26999 1.67679 5.08999 2.02679 5.08999 2.02679C4.57636 3.22514 4.54413 4.5753 4.99999 5.79679C4.03011 6.81549 3.49251 8.17026 3.49999 9.57679C3.49999 14.9968 6.79998 16.1868 9.93998 16.5768C9.61098 16.9168 9.35725 17.3222 9.19529 17.7667C9.03334 18.2112 8.96679 18.6849 8.99999 19.1568V22.0268" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-            <path d="M9 20.0267C6 20.9999 3.5 20.0267 2 17.0267" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>            
-        View on github
-    </a>
-    <br><br>
+    <h1 class="float-start">{Name}</h1>
+    <div class="float-end">
+        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fproject%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> </div>
+    <img src="/project/{image}" alt="{imagealt}" class="img-thumbnail" > <br>  <br><br>
     <p>
-        Because in coding they have a lot of bug so I create website that you can find the way to solve coding problem for example <code>How to fix npm error?</code>
+        Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very bored so my friend name deedee start project in minecraft with friend in group (but I didn't do this project because I dont have mincraft) 
     </p>
-    <br><br>
     <p>
-        You can contribute on github by click button up
+        Here is school that we build in minecraft
+    </p>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8372983674515!2d100.52615615818162!3d13.738140297589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2991d5ca0f12d%3A0x1847bdc271df742e!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4Liy4LiY4Li04LiV4LiI4Li44Lis4Liy4LivIOC4neC5iOC4suC4ouC4m-C4o-C4sOC4luC4oSAoQ2h1bGFsb25na29ybiBVbml2ZXJzaXR5IERlbW9uc3RyYXRpb24gRWxlbWVudGFyeSBTY2hvb2wp!5e0!3m2!1sen!2sth!4v1635833272606!5m2!1sen!2sth" width="350" height="300" style="border:0;"></iframe>
+    <p>
+        Chulalongkorn University Demonstration Elementary School 
     </p>
 
-
-
-
-
-
-
     <div>
-        <br><br><br>
-        Date (DD/MM/YYYY) : {date} 
+        <h4>Credit :</h4>
+        Project manager   
+        <li>Bhira Phiromsopa</li>
         <br>
-        Suggest project idea at <a href="https://github.com/ronnapatp" class="black">github</a>  
+        Builder
+        <li>Kulthawach Bunyot</li>
+        <li>Papangkorn Opaprakasit</li>
+        <li>Sirapob umponpong</li>
+        <li>Sukrid Anantaworatum</li>
+        <li>Bhumipat Khattirat </li>
+        <li>Kongtham Thienyen</li>
+        <li>Thapanapong Sengdecha</li>
+        <li>Boonyakorn Lewsuwan</li>
     </div>
+    <br><br>
+   <h4>Take a look around!</h4>
 
-    <div class="fb-comments" data-href="https://www.ronnapat.com/project/howto" data-width="" data-numposts="5"></div>
+    <img src="/project/satitchulamc2.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/project/satitchulamc3.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/project/satitchulamc4.jpeg" alt="" class="img-thumbnail" width="700">
 
+
+<br>
+<div class="wrap-element">
+<iframe class="wrapped-iframe" width="" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
 </div>
 
+
+
+    <div class="fb-comments" data-href="https://www.ronnapat.com/project/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
+</body>
 <Footer />
