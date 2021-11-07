@@ -5,7 +5,8 @@
   <div class="row row-cols-1 row-cols-md-2 g-4">
     <article class="col card" style="width: 18rem;">
       <a href="/project/satit-chula-in-minecraft" class="text-black text-decoration-none">
-        <img src="/project/satitchulamc1.jpeg" class="card-img-top " alt="image" />
+        <img src="/project/satitchulamc1.jpeg" class="card-img-top" alt="image" />
+        <hr>
         <div class="card-body">
           <small class="text-muted">Game Minecraft</small>
           <h5 class="card-title">Satit chula in minecraft</h5>
@@ -53,17 +54,56 @@
     &nbsp;&nbsp;&nbsp;&nbsp;
   </div>
 </div>
-
-
+<!-- <div class="container">
+<div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <a href="/project/satit-chula-in-minecraft" class="card text-decoration-none text-dark">
+      <img src="/project/satitchulamc1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">My school in minecraft</h5>
+        <p class="card-text">My friend in discord name Hi i bored community make satit chula in minecraft</p>
+        <small>2 Nov 2021</small>
+      </div>
+    </a>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/project/howto.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/project/satitchulamc1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/project/satitchulamc1.jpeg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div> -->
 <style>
-    .card {
-    transition: transform 0.2s ease;
-    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
-    border-radius: 0;
-    border: 0;
-    margin-bottom: 1.5em;
-  }
-  .card:hover {
-    transform: scale(1.1);
-  }
+      .card {
+      transition: transform 0.2s ease;
+      /* box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18); */
+      /* border-radius: 0;
+      border: 0;
+      margin-bottom: 1.5em; */
+    }
+    .card:hover {
+      transform: scale(1.05);
+    }
 </style>
