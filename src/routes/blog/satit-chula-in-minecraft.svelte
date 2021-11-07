@@ -69,13 +69,13 @@ h1{
 	<meta name="twitter:domain" content="ronnapat.com">
     <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js"></script>
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="mFmCdZXK"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
 </svelte:head>
 
 <Navbar />
 <body >
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="hNIdWS9b"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
     <br><br>
 <div class="container">
     <a href="/blog/" class="black">blog</a> / <a href="#" class="black">{Name}</a>
@@ -137,6 +137,6 @@ h1{
         <fb:comments-count class="fb-comments-count" data-href="https://ronnapat.com/blog/kaolad-bot"></fb:comments-count>
         Comment
         </div> -->
-    <div class="fb-comments" data-href="https://www.ronnapat.com/blog/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="https://ronnapat.com/blog/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
 </body>
 <Footer />
