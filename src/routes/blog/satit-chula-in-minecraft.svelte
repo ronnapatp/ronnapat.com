@@ -55,7 +55,7 @@ h1{
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <meta property="og:url" content="https://ronnapat.com/blog/satit-chula-in-minecraft" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="{Name} | {fullName}" />
+    <meta property="og:title" content="{Name}" />
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
@@ -63,7 +63,7 @@ h1{
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ronnapatp">
 	<meta name="twitter:title" content="{Name} | {fullName}">
-	<meta name="twitter:description" content="Personal website of {fullName}">
+	<meta name="twitter:description" content="Since school break for 1 month and people in discord server name...">
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
