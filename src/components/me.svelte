@@ -28,41 +28,37 @@
 <br><br><br>
 <div class="container" id="project">
     <div class="text-center">
-        <h1>Latest project</h1>
+        <h1>My blog</h1>
     </div>
-    <div class="card-group">
-        <div class="card">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <a href="/blog/satit-chula-in-minecraft" class="card text-decoration-none text-dark">
+          <img src="/blog/satit-chula-in-minecraft/satitchulamc1.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
-            <a href="/project/kaolad-bot" class="text-decoration-none text-dark">
-            <h5 class="card-title">Kaolad discord bot</h5>
-            <p class="card-text">Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</p>
-            </a>
+            <h5 class="card-title">My friend in discord name Hi i bored community make satit chula in minecraft</h5>
+            <small class="text-muted">2 Nov 2021</small>
           </div>
-          <div class="card-footer">
-            <small class="text-muted">Tag : discordbot bot js javascript</small>
-          </div>
-        </div>
-        <div class="card">
-            <div class="card-body">
-              <a href="/project/my-own-website" class="text-decoration-none text-dark">
-              <h5 class="card-title">My own website</h5>
-              <p class="card-text">Personal website for me using sveltekit with bootstrap</p>
-              </a>
-            </div>
-            <div class="card-footer">
-              <small class="text-muted">Tag : website svelte sveltekit bootstrap html css javascript</small>
-            </div>
-          </div>
+        </a>
       </div>
+      <div class="col">
+        <a href="/blog/howto" class="card text-decoration-none text-dark">
+          <img src="/blog/howto.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">How to website for developer using nextjs but in typescript</h5>
+            <small class="text-muted">25 Oct 2021</small>
+          </div>
+        </a>
+      </div>
+    </div>
       <br>
     <div class="text-center">
-        <a href="/project" type="button" class="btn btn-warning btn-lg px-4 gap-3 btn-rounded">
+        <a href="/blog" type="button" class="btn btn-warning btn-lg px-4 gap-3 btn-rounded">
             <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M2 21L17 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M21 21L22 21" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/>
               <path d="M2 16.4V3.6C2 3.26863 2.26863 3 2.6 3H21.4C21.7314 3 22 3.26863 22 3.6V16.4C22 16.7314 21.7314 17 21.4 17H2.6C2.26863 17 2 16.7314 2 16.4Z" stroke="currentColor" stroke-width="1.5"/>
               </svg>            
-            View all project
+            View all blog
           </a>
     </div>
 </div>
