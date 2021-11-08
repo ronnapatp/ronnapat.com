@@ -33,16 +33,16 @@
     async function sendData() {
       if (Robot == 1) {
       // alert('Thank you for your message! I will answer you as soon as possible.')
-      window.location.replace('/contact/send');
-        const { data, error } = await supabase
-        .from('games')
-        .insert([
-          { 'Name': Name
-          , 'Email': Email 
-          , 'Message': Message 
-          }
-          
-        ])
+      const { data, error } = await supabase
+      .from('games')
+      .insert([
+        { 'Name': Name
+        , 'Email': Email 
+        , 'Message': Message 
+      }
+      
+    ])
+    window.location.replace('/contact/send');
       if (error) throw new Error(error.message)
       return data
       } else {
