@@ -108,7 +108,7 @@ h1{
         Builder
         <li>Kulthawach Bunyot</li>
         <li>Papangkorn Opaprakasit</li>
-        <li>Sirapob umponpong</li>
+        <li>Sirapob Umponpong</li>
         <li>Sukrid Anantaworatum</li>
         <li>Bhumipat Khattirat </li>
         <li>Kongtham Thienyen</li>
