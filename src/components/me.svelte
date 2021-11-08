@@ -33,7 +33,7 @@
     <div class="row row-cols-1 row-cols-md-2 g-4">
       <div class="col">
         <a href="/blog/satit-chula-in-minecraft" class="card text-decoration-none text-dark">
-          <img src="/blog/satit-chula-in-minecraft/satitchulamc1.jpeg" class="card-img-top" alt="...">
+          <img src="/blog/satit-chula-in-minecraft/title.jpeg" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">My friend in discord name Hi i bored community make satit chula in minecraft</h5>
             <small class="text-muted">2 Nov 2021</small>
