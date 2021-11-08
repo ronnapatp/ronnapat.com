@@ -3,8 +3,8 @@
     import Footer from '../../components/footer.svelte'
 
 
-    const Name = "Satit chula in minecraft"
-    const image = "satitchulamc1.jpeg"
+    const Name = "โรงเรียนสาธิตจุฬาในเกม minecraft"
+    const image = "title.jpeg"
     const imagewidth = "auto"
     const imageheight = "500"
     const imagealt = ""
@@ -46,6 +46,13 @@ h1{
     font-size: 2.8rem;
     color: #0694B9;
 }
+h3{
+    font-size: 1.8rem;
+    color: #0694B9;
+}
+body{
+    font-size: 1.2rem;
+}
 .container{width:100%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto}@media (min-width:576px){.container{max-width:540px}}@media (min-width:768px){.container{max-width:720px}}@media (min-width:992px){.container{max-width:960px}}@media (min-width:1200px){.container{max-width:1140px}}
 </style>
 
@@ -77,7 +84,7 @@ h1{
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
     <br><br>
 <div class="container">
-    <a href="/blog/" class="black">blog</a> / <a href="#" class="black">{Name}</a>
+    <a href="/blog/" class="black">Blog</a> / <a href="#" class="black">{Name}</a>
 </div>
 <br>
 
@@ -89,17 +96,41 @@ h1{
     </div>
     <img src="/blog/satit-chula-in-minecraft/{image}" alt="{imagealt}" class="img-thumbnail" > <br>  <br><br>
     <p>
-        Since school break for 1 month and people in discord server name <b>Hi I bored community</b> very bored so my friend name deedee start project in minecraft with friend in group (but I didn't do this project because I dont have mincraft) 
+        เนื่องจากโรงเรียนปิดไปนานทำให้เพื่อนๆของผมใน Discord ชื่อ Hi morning news เลยสร้างโรงเรียนสาธิตจุฬาฯในเกม Minecraft สะเลย
     </p>
+    <h3>
+        เรามาดูต้นแบบกัน
+    </h3>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8372983674515!2d100.52615615818162!3d13.738140297589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2991d5ca0f12d%3A0x1847bdc271df742e!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4Liy4LiY4Li04LiV4LiI4Li44Lis4Liy4LivIOC4neC5iOC4suC4ouC4m-C4o-C4sOC4luC4oSAoQ2h1bGFsb25na29ybiBVbml2ZXJzaXR5IERlbW9uc3RyYXRpb24gRWxlbWVudGFyeSBTY2hvb2wp!5e0!3m2!1sen!2sth!4v1635833272606!5m2!1sen!2sth" width="100%" height="350" style="border:0;"></iframe>
+    <br> โรงเรียนสาธิตจุฬาฯ ฝ่ายประถม <br>
+    <img src="/blog/satit-chula-in-minecraft/school1.jpeg" alt="" class="img-thumbnail" >
+    <br> มาดูภาพจากด้านบนกัน <br>
+    <img src="/blog/satit-chula-in-minecraft/school2.jpeg" height="100px" alt="" class="img-thumbnail" >
+    <br><br><br>
+    <h3>
+        ทำไมต้อง Minecraft
+    </h3>
     <p>
-        Here is school that we build in minecraft
+        Minecraft เป็นเกมที่สามารถสร้างหรือกำหนดเนื้อเรื่องเองได้
     </p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1937.8372983674515!2d100.52615615818162!3d13.738140297589103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e2991d5ca0f12d%3A0x1847bdc271df742e!2z4LmC4Lij4LiH4LmA4Lij4Li14Lii4LiZ4Liq4Liy4LiY4Li04LiV4LiI4Li44Lis4Liy4LivIOC4neC5iOC4suC4ouC4m-C4o-C4sOC4luC4oSAoQ2h1bGFsb25na29ybiBVbml2ZXJzaXR5IERlbW9uc3RyYXRpb24gRWxlbWVudGFyeSBTY2hvb2wp!5e0!3m2!1sen!2sth!4v1635833272606!5m2!1sen!2sth" width="350" height="300" style="border:0;"></iframe>
-    <p>
-        Chulalongkorn University Demonstration Elementary School 
-    </p>
-
+    <br>
     <div>
+        <h3>
+            เครดิต
+        </h3>
+        ผู้จัดการโปรเจคนี้
+        <li>Bhira Phiromsopa</li>
+        ผู้สร้าง
+        <li>Kulthawach Bunyot</li>
+        <li>Papangkorn Opaprakasit</li>
+        <li>Sirapob Umponpong</li>
+        <li>Sukrid Anantaworatum</li>
+        <li>Bhumipat Khattirat </li>
+        <li>Kongtham Thienyen</li>
+        <li>Thapanapong Sengdecha</li>
+        <li>Boonyakorn Lewsuwan</li>
+    </div>
+    <!-- <div>
         <h4>Credit :</h4>
         Project manager   
         <li>Bhira Phiromsopa</li>
@@ -113,22 +144,37 @@ h1{
         <li>Kongtham Thienyen</li>
         <li>Thapanapong Sengdecha</li>
         <li>Boonyakorn Lewsuwan</li>
-    </div>
+    </div> -->
     <br><br>
-   <h4>Take a look around!</h4>
+   <h3>เรามาดูรอบๆกัน</h3>
 
-    <img src="/blog/satit-chula-in-minecraft/satitchulamc2.jpeg" alt="" class="img-thumbnail" width="700">
-    <img src="/blog/satit-chula-in-minecraft/satitchulamc3.jpeg" alt="" class="img-thumbnail" width="700">
-    <img src="/blog/satit-chula-in-minecraft/satitchulamc4.jpeg" alt="" class="img-thumbnail" width="700">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc2.jpeg" alt="" class="img-thumbnail">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc3.jpeg" alt="" class="img-thumbnail">
+    <img src="/blog/satit-chula-in-minecraft/satitchulamc4.jpeg" alt="" class="img-thumbnail">
+    <br><br>
+    ดูแบบเต็มๆได้ที่ <a href="https://www.youtube.com/watch?v=t5_Hsh5s6mg" target="_blank" class="black">youtube</a>
+    <div class="wrap-element">
+        <iframe class="wrapped-iframe" width="" src="https://www.youtube.com/embed/t5_Hsh5s6mg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"   allowfullscreen></iframe>
+    </div>
 
-
+    <div class="col bd-callout bd-callout-warning">
+        <h2>สนับสนุนโปรเจคนี้ได้ที่</h2>
+        <a href="https://ko-fi.com/bhira" target="_blank" class="black text-decoration-none">Ko-fi</a>
+        หรือที่ ทรูมันนี่วอลเล็ท: 0814682224
+      </div>
+      <div class="col bd-callout bd-callout-warning">
+        <h2>ดาวน์โหลดได้ที่</h2>
+        <a href="https://bit.ly/schoolmccud" target="_blank" class="black">www.bit.ly/schoolmccud</a>
+      </div>
+    <br>
+    จบแล้ว~~~ ถ้ามีอะไรผิดพลาดสามารถ comment ได้ข้างล่างเลย
 <br>
 
-    <div> <br>
-        <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
-        <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&layout=button&size=small&appId=924964718457366&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+    <div class="list-inline"> <br>
+        <iframe class="list-inline-item" src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
+        <iframe class="list-inline-item" src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&layout=button&size=small&appId=924964718457366&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
         <div class="line-it-button" data-lang="en" data-type="share-a" data-env="REAL" data-url="https://ronnapat.com/blog/satit-chula-in-minecraft" data-color="default" data-size="small" data-count="false" data-ver="3" style="display: none;"></div>
-        <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
+        <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button list-inline-item">Tweet</a>
     </div>
     <hr>
     <!-- <div>
