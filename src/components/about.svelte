@@ -120,6 +120,7 @@ a:hover{
     <h3>CONTACT ME</h3>
     <p><a href="/contact">Contact page</a></p>
     <p> </p>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fabout&width=120&layout=button&action=like&size=small&share=true&height=65&appId=924964718457366" width="120" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     <br>
   </div>
   <br><br><br>
