@@ -67,7 +67,6 @@ h1{
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
-    <script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js"></script>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
 </svelte:head>
@@ -128,6 +127,7 @@ h1{
     <div> <br>
         <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&width=62&layout=box_count&action=like&size=small&share=false&height=65&appId=924964718457366" width="62" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0"  allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> 
         <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fronnapat.com%2Fblog%2Fsatit-chula-in-minecraft&layout=button&size=small&appId=924964718457366&width=67&height=20" width="67" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <div class="line-it-button" data-lang="en" data-type="share-a" data-env="REAL" data-url="https://ronnapat.com/blog/satit-chula-in-minecraft" data-color="default" data-size="small" data-count="false" data-ver="3" style="display: none;"></div>
         <a href="https://twitter.com/intent/tweet?text=โรงเรียนสาธิตจุฬาในเกม%20minecraft%20via%20@ronnapatp" class="twitter-share-button">Tweet</a>
     </div>
     <hr>
