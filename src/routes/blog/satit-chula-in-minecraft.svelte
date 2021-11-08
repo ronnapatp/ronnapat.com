@@ -160,7 +160,8 @@ body{
     <div class="col bd-callout bd-callout-warning">
         <h2>สนับสนุนโปรเจคนี้ได้ที่</h2>
         <a href="https://ko-fi.com/bhira" target="_blank" class="black text-decoration-none">Ko-fi</a>
-        หรือที่ ทรูมันนี่วอลเล็ท: 0814682224
+        หรือที่ ทรูมันนี่วอลเล็ท: 0814682224 <br>
+        *10% ของการสนับสนุนจะไปอยู่ที่ <a href="https://teamseas.org/" target="_blank" class="black">#Teamseas</a>
       </div>
       <div class="col bd-callout bd-callout-warning">
         <h2>ดาวน์โหลดได้ที่</h2>
