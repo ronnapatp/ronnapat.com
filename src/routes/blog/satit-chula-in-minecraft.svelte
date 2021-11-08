@@ -63,14 +63,14 @@ body{
     <meta property="og:url" content="https://ronnapat.com/blog/satit-chula-in-minecraft" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name}" />
-    <meta property="og:description" content="Personal website of {fullName}" />
+    <meta property="og:description" content="เนื่องจากโรงเรียนปิดไปนานทำให้เพื่อนๆของผมใน Discord ชื่อ Hi morning news เลยสร้างโรงเรียนสาธิตจุฬาฯในเกม Minecraft สะเลย" />
     <meta property="og:image" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366" />
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ronnapatp">
 	<meta name="twitter:title" content="{Name} | {fullName}">
-	<meta name="twitter:description" content="Since school break for 1 month and people in discord server name...">
+	<meta name="twitter:description" content="เนื่องจากโรงเรียนปิดไปนานทำให้เพื่อนๆของผมใน Discord ชื่อ Hi morning news เลยสร้างโรงเรียนสาธิตจุฬาฯในเกม Minecraft สะเลย">
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
