@@ -82,6 +82,7 @@
         </h1>
         <p class="col-lg-10 fs-4">You can contact me on form.</p>
           <small>Follow me on social media</small>
+          <br />
         <span >
             <a href="https://facebook.com/pieronnapatp" target="_blank">
               <svg width="24" height="24" stroke-width="1.5" viewBox="0 0 24 24" class="black" fill="none" xmlns="http://www.w3.org/2000/svg">
