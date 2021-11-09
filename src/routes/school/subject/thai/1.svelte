@@ -18,6 +18,7 @@
     <img src="/school/thai/3.png" alt="" class="img-thumbnail">
     *ไม่จำคำพระเจ้า = ไม่ทำตามหลักการของศาสนา
     <img src="/school/thai/4.png" alt="" class="img-thumbnail">
+    <img src="/school/thai/5.png" alt="" class="img-thumbnail">
 </div>
 
 
