@@ -74,14 +74,12 @@ body{
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/blog/satit-chula-in-minecraft/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
 </svelte:head>
 
 <Navbar />
 <body >
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="qmHVmtOA"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=924964718457366&autoLogAppEvents=1" nonce="w6xYP0wk"></script>
     <br><br>
 <div class="container">
     <a href="/blog/" class="black">Blog</a> / <a href="#" class="black">{Name}</a>
@@ -182,6 +180,6 @@ body{
         <fb:comments-count class="fb-comments-count" data-href="https://ronnapat.com/blog/kaolad-bot"></fb:comments-count>
         Comment
         </div> -->
-        <div class="fb-comments" data-href="https://ronnapat.com/posts/4" data-width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/4" data-width="100%" data-numposts="5"></div>
 </body>
 <Footer />
