@@ -50,10 +50,6 @@
       }
     }
     
-    
-    function onSubmit(token) {
-     document.getElementById("demo-form").submit();
-   }
 </script>
 
 <svelte:head>
@@ -64,7 +60,6 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
-     <script src="https://www.google.com/recaptcha/api.js"></script>
 </svelte:head>
 <style>
     .black{
@@ -172,10 +167,6 @@
             <label class="form-check-label" for="defaultCheck1">
               What is the answer if {question} ?
             </label>
-              <button class="g-recaptcha" 
-                        data-sitekey="6LcxpCEdAAAAAC3y_W1bl64ZP8NVYcnhRI0X3zcX" 
-                        data-callback='onSubmit' 
-                        data-action='submit'>Submit</button>
           </div>
           <!-- <input type="text" bind:value={newGame}> -->
           <input type="submit" value="Submit" class="w-50 btn btn-lg btn-warning" on:click={() => submit = false}>
