@@ -19,6 +19,7 @@
     *ไม่จำคำพระเจ้า = ไม่ทำตามหลักการของศาสนา
     <img src="/school/thai/4.png" alt="" class="img-thumbnail">
     <img src="/school/thai/5.png" alt="" class="img-thumbnail">
+    <img src="/school/thai/6.png" alt="" class="img-thumbnail">
 </div>
 
 
