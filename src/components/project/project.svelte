@@ -4,16 +4,16 @@
 <div class="container">
 <div class="row row-cols-1 row-cols-md-2 g-4">
   <div class="col">
-    <a href="/blog/satit-chula-in-minecraft" class="card text-decoration-none text-dark">
+    <a href="/blog/posts/4" class="card text-decoration-none text-dark">
       <img src="/blog/satit-chula-in-minecraft/title.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
-        <h5 class="card-title">My friend in discord name Hi i bored community make satit chula in minecraft</h5>
+        <h5 class="card-title">เพื่อนๆของผมในดิสคอร์ดสร้างโรงเรียนสาธิตจุฬาในเกม minecraft</h5>
         <small class="text-muted">2 Nov 2021</small>
       </div>
     </a>
   </div>
   <div class="col">
-    <a href="/blog/howto" class="card text-decoration-none text-dark">
+    <a href="/blog/posts/3" class="card text-decoration-none text-dark">
       <img src="/blog/howto.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">How to website for developer using nextjs but in typescript</h5>
@@ -22,7 +22,7 @@
     </a>
   </div>
   <div class="col">
-    <a href="/blog/kaolad-bot" class="card text-decoration-none text-dark">
+    <a href="/blog/posts/2" class="card text-decoration-none text-dark">
       <img src="/blog/kaoladbot.png" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Kaolad Disocrd bot for manage my friend discord server name Hi I bored using discord.js with dotenv file</h5>
@@ -31,7 +31,7 @@
     </a>
   </div>
   <div class="col">
-    <a href="/blog/my-own-website" class="card text-decoration-none text-dark">
+    <a href="/blog/posts/1" class="card text-decoration-none text-dark">
       <img src="/blog/mywebsite.jpeg" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">Personal website for me using sveltekit with bootstrap</h5>

@@ -1,6 +1,6 @@
 <script>
-    import Navbar from "../../components/navbar.svelte";
-    import Footer from '../../components/footer.svelte'
+    import Navbar from "../../../components/navbar.svelte";
+    import Footer from '../../../components/footer.svelte';
 
 
     const Name = "โรงเรียนสาธิตจุฬาในเกม minecraft"
@@ -182,6 +182,6 @@ body{
         <fb:comments-count class="fb-comments-count" data-href="https://ronnapat.com/blog/kaolad-bot"></fb:comments-count>
         Comment
         </div> -->
-        <div class="fb-comments" data-href="https://ronnapat.com/blog/satit-chula-in-minecraft" data-width="100%" data-numposts="5"></div>
+        <div class="fb-comments" data-href="https://ronnapat.com/posts/4" data-width="100%" data-numposts="5"></div>
 </body>
 <Footer />
