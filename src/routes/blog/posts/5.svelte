@@ -105,7 +105,7 @@ body{
         </h2>
     </div>
     <p>
-        <b>3CX COMMUNICATIONS SYSTEM</b> เป็นระบบการติดต่อกันในบ้านหรือในองกรณ์ก็ได้
+        <b>3CX COMMUNICATIONS SYSTEM</b> เป็นระบบการติดต่อกันในบ้านหรือในองค์กรก็ได้
     </p>
     <br><br>
     <h3>3CX COMMUNICATIONS SYSTEM ทำอะไรได้บ้าง?</h3>
