@@ -63,14 +63,14 @@ body{
     <meta property="og:url" content="https://ronnapat.com/blog/posts/5" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="{Name}" />
-    <meta property="og:description" content="เนื่องจากโรงเรียนปิดไปนานทำให้เพื่อนๆของผมใน Discord ชื่อ Hi morning news เลยสร้างโรงเรียนสาธิตจุฬาฯในเกม Minecraft สะเลย" />
+    <meta property="og:description" content="ในปัจจุบันเราก็คงไม่ค่อยได้ยินคำว่า โทรศัพท์บ้าน เพราะเราใช้มือถือแทน และเวลาติดต่อกันเราก็ใช้การโทรหรือการส่งข้อความโดยใช้ Line แทนทำให้ โทรศัพท์บ้านค่อยๆหายไปตามกาลเวลา" />
     <meta property="og:image" content="https://ronnapat.com/blog/5/{image}" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
     <meta property="fb:app_id" content="924964718457366" />
     <meta name="twitter:card" content="summary_large_image">
 	<meta name="twitter:site" content="@ronnapatp">
 	<meta name="twitter:title" content="{Name} | {fullName}">
-	<meta name="twitter:description" content="เนื่องจากโรงเรียนปิดไปนานทำให้เพื่อนๆของผมใน Discord ชื่อ Hi morning news เลยสร้างโรงเรียนสาธิตจุฬาฯในเกม Minecraft สะเลย">
+    <meta property="og:description" content="ในปัจจุบันเราก็คงไม่ค่อยได้ยินคำว่า โทรศัพท์บ้าน เพราะเราใช้มือถือแทน และเวลาติดต่อกันเราก็ใช้การโทรหรือการส่งข้อความโดยใช้ Line แทนทำให้ โทรศัพท์บ้านค่อยๆหายไปตามกาลเวลา" />
 	<meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/blog/5/{image}">
 	<meta name="twitter:domain" content="ronnapat.com">
