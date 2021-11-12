@@ -4,22 +4,32 @@
 </script>
 
 <svelte:head>
-    <title>สไลด์กาพย์เรื่องพระไชยสุริยา ครั้งที่ ๒</title>
+    <title>สไลด์กาพย์เรื่องพระไชยสุริยา</title>
     <meta property="og:url" content="https://ronnapat.com/school/subject/thai/1" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="สไลด์กาพย์เรื่องพระไชยสุริยา ครั้งที่ ๒" />
+    <meta property="og:title" content="สไลด์กาพย์เรื่องพระไชยสุริยา" />
 </svelte:head>
 
 <Nav />
 <br><br>
 <div class="container">
-    <img src="/school/thai/1.png" alt="" class="img-thumbnail">
-    <img src="/school/thai/2.png" alt="" class="img-thumbnail">
-    <img src="/school/thai/3.png" alt="" class="img-thumbnail">
+    <img src="/school/thai/1.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/2.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/3.png" alt="" class="img-thumbnail" width="100%">
     *ไม่จำคำพระเจ้า = ไม่ทำตามหลักการของศาสนา
-    <img src="/school/thai/4.png" alt="" class="img-thumbnail">
-    <img src="/school/thai/5.png" alt="" class="img-thumbnail">
-    <img src="/school/thai/6.png" alt="" class="img-thumbnail">
+    <img src="/school/thai/4.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/5.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/6.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/7.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/8.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/9.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/10.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/11.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/13.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/14.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/15.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/16.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/17.png" alt="" class="img-thumbnail" width="100%">
 </div>
 
 
