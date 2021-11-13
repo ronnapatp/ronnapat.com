@@ -24,4 +24,8 @@ svg:hover{
     color: #b36e0e;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 @import url('./index.scss');
