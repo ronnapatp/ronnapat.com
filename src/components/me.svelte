@@ -26,7 +26,7 @@
     </div>
 </div>
 <br><br><br>
-<div class="container" id="project">
+<div class="container" id="blog">
     <div class="text-center">
         <h1>My blog</h1>
     </div>
@@ -63,7 +63,7 @@
     </div>
 </div>
 <br><br><br>
-<div class="container">
+<div class="container" id="skill">
   <div>
     <h1 class="text-center">My skill</h1>
     <hr>
