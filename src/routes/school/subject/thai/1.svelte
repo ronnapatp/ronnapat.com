@@ -36,7 +36,18 @@
     <img src="/school/thai/21.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/22.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/23.png" alt="" class="img-thumbnail" width="100%">
-
+    <img src="/school/thai/24.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/25.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/26.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/27.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/28.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/29.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/30.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/31.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/32.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/33.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/34.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/35.png" alt="" class="img-thumbnail" width="100%">
 </div>
 
 
