@@ -30,6 +30,13 @@
     <img src="/school/thai/15.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/16.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/17.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/18.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/19.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/20.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/21.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/22.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/23.png" alt="" class="img-thumbnail" width="100%">
+
 </div>
 
 
