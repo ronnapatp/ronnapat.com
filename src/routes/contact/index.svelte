@@ -136,6 +136,7 @@
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-3 bg-light">
           <h3>Contact me</h3>
+          <!-- <b class="text-danger">*</b> = require -->
           {#await getData()}
           <p></p>
         {:then data}
@@ -150,22 +151,22 @@
         <form on:submit|preventDefault={() => submit = true} >
           <div class="form-floating mb-3">
             <input type="text" bind:value={Name}  class="form-control" id="floatingName" placeholder="Name" required>
-            <label for="floatingName">Name</label>
+            <label for="floatingName">Name <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
             <input type="email" bind:value={Email} class="form-control" id="floatingEmail" placeholder="Email" required>
-            <label for="floatingEmail">Email</label>
+            <label for="floatingEmail">Email <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
             <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message" required>
-            <label for="floatingMessage">Message</label>
+            <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
           <hr class="my-4">
           Confirm you are not robot
           <div class="form-floating mb-3"> 
             <input type="number" bind:value={Robot} class="form-control" id="floatingMessage" placeholder="Message" required>
             <label class="form-check-label" for="defaultCheck1">
-              What is the answer if {question} ?
+              What is the answer if {question} ? <b class="text-danger">*</b>
             </label>
           </div>
           <!-- <input type="text" bind:value={newGame}> -->
