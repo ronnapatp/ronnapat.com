@@ -134,7 +134,7 @@
       <div class="col-md-10 mx-auto col-lg-5">
         <form class="p-4 p-md-5 border rounded-3 bg-light">
           <h3>Contact me</h3>
-          <!-- <b class="text-danger">*</b> = require -->
+          <b class="text-danger">*</b> indicates required
           {#await getData()}
           <p></p>
         {:then data}
