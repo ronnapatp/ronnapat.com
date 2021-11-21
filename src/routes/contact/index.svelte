@@ -17,7 +17,6 @@
         console.log('Copied!')
     }
 
-    let Robot;
     let Name
     let Email
     let Message
@@ -31,8 +30,6 @@
       return data
     }
     async function sendData() {
-      if (Robot == 1) {
-      // alert('Thank you for your message! I will answer you as soon as possible.')
       const { data, error } = await supabase
       .from('games')
       .insert([
@@ -45,9 +42,7 @@
     window.location.replace('/contact/send');
       if (error) throw new Error(error.message)
       return data
-      } else {
-        alert('Please check the answer to confirm you are not a robot!') 
-      }
+      
     }
     
 </script>
@@ -158,18 +153,13 @@
             <label for="floatingEmail">Email <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
-            <input type="text" bind:value={Message} class="form-control" id="floatingMessage" placeholder="Message" required>
+            <textarea class="form-control" bind:value={Message} placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
-          <hr class="my-4">
-          Confirm you are not robot
           <div class="form-floating mb-3"> 
-            <input type="number" bind:value={Robot} class="form-control" id="floatingMessage" placeholder="Message" required>
-            <label class="form-check-label" for="defaultCheck1">
-              What is the answer if {question} ? <b class="text-danger">*</b>
-            </label>
+            <input type="checkbox" required>
+              You are not robot?
           </div>
-          <!-- <input type="text" bind:value={newGame}> -->
           <input type="submit" value="Submit" class="w-50 btn btn-lg btn-warning" on:click={() => submit = false}>
           <input type="reset" class="btn btn-lg btn-outline-warning border-2 text-dark" value="Reset">
         </form>
