@@ -5,6 +5,7 @@
     const Gmail = "ronnapat.sri@gmail.com";
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
+    const GOOGLE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
 
     import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
@@ -45,6 +46,7 @@
       
     }
     
+    
 </script>
 
 <svelte:head>
@@ -55,6 +57,7 @@
     <meta property="og:description" content="Personal website of {fullName}" />
     <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </svelte:head>
 <style>
     .black{
@@ -155,6 +158,16 @@
           <div class="form-floating mb-3">
             <textarea class="form-control" bind:value={Message} placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
+          </div>
+          <div class="form-floating mb-3">
+            <div
+    class="g-recaptcha"
+    data-sitekey={GOOGLE_KEY}
+    data-callback="handleCaptchaCallback"
+    data-expired-callback="resetCaptcha"
+    data-error-callback="handleCaptchaError"
+    data-size="invisible"
+/>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
