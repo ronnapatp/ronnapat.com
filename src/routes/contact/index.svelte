@@ -132,7 +132,7 @@
           </span>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light">
+        <form class="p-4 p-md-5 border rounded-3 bg-light" action="?" method="POST">
           <h3>Contact me</h3>
           <b class="text-danger">*</b> indicates required
           {#await getData()}
@@ -168,6 +168,7 @@
     data-error-callback="handleCaptchaError"
     data-size="invisible"
 />
+<div class="g-recaptcha" data-sitekey={GOOGLE_KEY}></div>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
