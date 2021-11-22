@@ -32,7 +32,7 @@
       return data
     }
     async function sendData() {
-      if ( recaptchachecked == true) {
+      // if ( recaptchachecked == true) {
       const { data, error } = await supabase
       .from('games')
       .insert([
@@ -45,9 +45,9 @@
     window.location.replace('/contact/send');
       if (error) throw new Error(error.message)
       return data
-    } else {
-    console.log("hello")
-  }
+  //   } else {
+  //   console.log("hello")
+  // }
     
     }
   
@@ -56,9 +56,10 @@
         recaptchachecked = true;
     }
 
-    function callback(){
-    console.log("The user has already solved the captcha, now you can submit your form.");
-}
+//     function callback(){
+//     console.log("The user has already solved the captcha, now you can submit your form.");
+// }
+// window.callback = callback;
 
     
 </script>
@@ -173,9 +174,9 @@
             <textarea class="form-control" bind:value={Message} placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
-          <div class="form-floating mb-3">
+          <!-- <div class="form-floating mb-3">
           <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback="callback"></div>
-          </div>
+          </div> -->
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
               You are not robot?
