@@ -174,7 +174,7 @@
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
-          <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback={callback} on:click={recaptchaCallback}></div>
+          <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback="callback"></div>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
