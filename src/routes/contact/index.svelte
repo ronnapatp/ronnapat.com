@@ -161,15 +161,7 @@
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
-            <div
-    class="g-recaptcha"
-    data-sitekey={GOOGLE_KEY}
-    data-callback="handleCaptchaCallback"
-    data-expired-callback="resetCaptcha"
-    data-error-callback="handleCaptchaError"
-    data-size="invisible"
-/>
-<div class="g-recaptcha" data-sitekey={CHECK_KEY}></div>
+          <div class="g-recaptcha" data-sitekey={CHECK_KEY} aria-required="true"></div>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
