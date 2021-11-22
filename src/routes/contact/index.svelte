@@ -6,6 +6,7 @@
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
     const GOOGLE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
+    const CHECK_KEY = import.meta.env.VITE_SECONE_RECAPTCHA_SITE_KEY;
 
     import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
@@ -168,7 +169,7 @@
     data-error-callback="handleCaptchaError"
     data-size="invisible"
 />
-<div class="g-recaptcha" data-sitekey={GOOGLE_KEY}></div>
+<div class="g-recaptcha" data-sitekey={CHECK_KEY}></div>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
