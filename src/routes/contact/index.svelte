@@ -46,15 +46,15 @@
       return data
       
     }
-    window.onload = function() {
-  var recaptcha = document.forms["myForm"]["g-recaptcha-response"];
-  recaptcha.required = true;
-  recaptcha.oninvalid = function(e) {
-    // do something
-    alert("Please complete the captcha");
-  }
+    
+    var recaptchachecked=false; 
+function recaptchaCallback() {
+    recaptchachecked = true;
 }
-
+function isreCaptchaChecked()
+{
+    return recaptchachecked;
+}
     
 </script>
 
@@ -141,7 +141,7 @@
           </span>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
-        <form class="p-4 p-md-5 border rounded-3 bg-light" action="?" method="POST">
+        <form class="p-4 p-md-5 border rounded-3 bg-light" method="post" on:submit={isreCaptchaChecked}>
           <h3>Contact me</h3>
           <b class="text-danger">*</b> indicates required
           {#await getData()}
@@ -169,7 +169,7 @@
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
           <div class="form-floating mb-3">
-          <div class="g-recaptcha" data-sitekey={CHECK_KEY} aria-required="true"></div>
+          <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback="recaptchaCallback"></div>
           </div>
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
