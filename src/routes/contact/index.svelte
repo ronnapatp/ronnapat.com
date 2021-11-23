@@ -28,7 +28,7 @@
     async function getData() {
       const { data, error } = await supabase.from('games').select()
       if (error) throw new Error(error.message)
-      console.log(data)
+      // console.log(data)
       return data
     }
     async function sendData() {
