@@ -48,6 +48,13 @@
     <img src="/school/thai/33.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/34.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/35.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/36.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/37.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/38.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/39.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/40.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/41.png" alt="" class="img-thumbnail" width="100%">
+    <img src="/school/thai/32.png" alt="" class="img-thumbnail" width="100%">
 </div>
 
 
