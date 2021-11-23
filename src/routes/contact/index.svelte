@@ -174,7 +174,7 @@
             <textarea class="form-control" bind:value={Message} placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
-          <div class="g-recaptcha brochure__form__captcha" data-sitekey={CHECK_KEY} data-callback={callback}></div>
+          <div class="g-recaptcha brochure__form__captcha" data-sitekey={CHECK_KEY} data-callback={callback} on:load={callback}></div>
           <!-- <div class="form-floating mb-3">
           <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback="callback"></div>
           </div> -->
