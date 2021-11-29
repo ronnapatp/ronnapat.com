@@ -20,7 +20,6 @@
       };
     };
   </script>
-  
   <script>
 
     export let posts;
@@ -30,6 +29,9 @@
     });
   
   </script>
+  <body>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1210970696063565&autoLogAppEvents=1" nonce="z9hTrpwJ"></script>
 <div class="container">
     <br>
     <slot />
@@ -38,10 +40,11 @@
         <title>{title} | Ronnapat Srivoravilai</title>
     </head>
     s
-    <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/{name}" data-width="" data-numposts="5"></div>
+    <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/" data-width="" data-numposts="5"></div>
     {/each}
     
 </div>
+</body>
 <style>
     .container {
 	max-width: 80ch;
