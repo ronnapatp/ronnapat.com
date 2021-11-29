@@ -15,3 +15,6 @@ name: 1
 <a href="http://ronnapat.com/" target="_blank">Hello, world!</a>
 
 This is first post
+
+
+<div class="fb-comments" data-href="https://ronnapat.com/blog/posts" data-width="" data-numposts="5"></div>

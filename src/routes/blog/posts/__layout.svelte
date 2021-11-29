@@ -39,8 +39,6 @@
     <head>
         <title>{title} | Ronnapat Srivoravilai</title>
     </head>
-    s
-    <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/" data-width="" data-numposts="5"></div>
     {/each}
     
 </div>
