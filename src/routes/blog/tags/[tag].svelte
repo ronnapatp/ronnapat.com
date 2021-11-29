@@ -35,7 +35,7 @@
 <h1>{tag}</h1>
 
 {#each filteredPosts as { path, metadata: { title } }}
-  <li>
+  <li class="container">
     <a href={`/blog/posts/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
   </li>
 {/each}
