@@ -22,8 +22,6 @@
   </script>
   
   <script>
-import { title } from "$lib/meta";
-
 
     export let posts;
   
@@ -32,19 +30,19 @@ import { title } from "$lib/meta";
     });
   
   </script>
-<svelte:head>
-  <div id="fb-root"></div>
-  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1210970696063565&autoLogAppEvents=1" nonce="z9hTrpwJ"></script>
-</svelte:head>
 <div class="container">
     <br>
     <slot />
-{#each dateSortedPosts as { path, metadata: { title, name } }}
+    {#each dateSortedPosts as { path, metadata: { title, name } }}
     <head>
         <title>{title} | Ronnapat Srivoravilai</title>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1210970696063565&autoLogAppEvents=1" nonce="z9hTrpwJ"></script>
     </head>
-    <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/{name}" data-width="100%" data-numposts="5"></div>
+    s
+    <div class="fb-comments" data-href="https://ronnapat.com/blog/posts/{name}" data-width="" data-numposts="5"></div>
     {/each}
+    
 </div>
 <style>
     .container {
