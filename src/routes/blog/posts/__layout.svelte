@@ -39,6 +39,7 @@
     <head>
         <title>{title} | Ronnapat Srivoravilai</title>
         <meta property="fb:app_id" content="1210970696063565" />
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     </head>
     {/each}
     
@@ -48,5 +49,9 @@
     .container {
 	max-width: 80ch;
     line-height: 1.75;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 </style>
