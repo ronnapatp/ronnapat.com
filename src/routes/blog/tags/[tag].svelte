@@ -36,6 +36,6 @@
 
 {#each filteredPosts as { path, metadata: { title } }}
   <li>
-    <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
+    <a href={`/blog/posts/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
   </li>
 {/each}

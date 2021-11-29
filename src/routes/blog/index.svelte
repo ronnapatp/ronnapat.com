@@ -29,43 +29,26 @@
   });
 
 </script>
-
-<h1>Blog</h1>
-<ul>
-  {#each dateSortedPosts as { path, metadata: { title, tags, date } }}
-    <li>
-      <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}
-        >{title}</a
-      >
-      <p class="date">{new Date(date).toDateString()}</p>
-      <p>
+<div class="container">
+<h1 class="fs-1">Ronnapat Blog</h1>
+<div class="row row-cols-1 row-cols-md-2 g-4">
+{#each dateSortedPosts as { path, metadata: { title, tags, date, description, image } }}
+  <div class="col">
+    <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`} class="card text-decoration-none text-dark">
+      <div class="card-body">
+        <!-- <img src="{image}" class="card-img-top" alt=""> -->
+        <h5 class="card-title">{title}</h5>
+        <p class="card-text">{description}</p>
+        <small>{new Date(date).toDateString()}</small>
+        <br>
         {#each tags as tag}
-          <a class="tag" href={`/tags/${tag}`}>#{tag}</a>
+        <a class="text-decoration-none text-secondary" href={`/blog/tags/${tag}`}>#{tag} </a>
         {/each}
-      </p>
-    </li>
+      </div>
+    </a>
+  </div>
   {/each}
-</ul>
-
+</div>
+</div>
 <style>
-  p {
-    margin: 0;
-    font-size: 0.8rem;
-  }
-  li {
-    margin-bottom: 20px;
-  }
-  .tag {
-    text-decoration: none;
-    margin-right: 10px;
-    color: #555;
-  }
-  .tag:hover {
-    color: blue;
-  }
-
-  .date {
-    font-size: 0.7rem;
-    color: gray;
-  }
 </style>
