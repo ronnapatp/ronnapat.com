@@ -1,27 +1,71 @@
-<script>
-    import Navbar from "../../components/navbar.svelte";
-    import Project from "../../components/project/project.svelte";
-    import Footer from "../../components/footer.svelte";
+<script context="module">
+  const allPosts = import.meta.glob("./posts/*.{md,svx}");
+
+  let body = [];
+  for (let path in allPosts) {
+    body.push(
+      allPosts[path]().then(({ metadata }) => {
+        return { path, metadata };
+      })
+    );
+  }
+
+  export const load = async () => {
+    const posts = await Promise.all(body);
+
+    return {
+      props: {
+        posts,
+      },
+    };
+  };
 </script>
 
-<svelte:head>
-    <title>Project | Ronnapat Srivoravilai</title>
-    <meta property="og:url" content="https://ronnapat.com/project" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Project | Ronnapat Srivoravilai" />
-    <meta property="og:description" content="Personal website of Ronnapat Srivoravilai" />
-    <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
-    <meta property="og:keywords" content="Ronnapat Srivoravilai , Ronnapat , ronnapatp , srivoravilai ">
-    <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@ronnapatp">
-	<meta name="twitter:title" content="Project | Ronnapat Srivoravilai">
-	<meta name="twitter:description" content="Personal website of Ronnapat Srivoravilai">
-	<meta name="twitter:creator" content="@ronnapatp">
-    <meta name="twitter:image:src" content="https://ronnapat.com/project/logo.png">
-	<meta name="twitter:domain" content="ronnapat.com">
-</svelte:head>
+<script>
+  export let posts;
 
-<Navbar />
-<br><br><br><br>
-<Project />
-<Footer />
+  const dateSortedPosts = posts.slice().sort((post1, post2) => {
+    return new Date(post2.metadata.date) - new Date(post1.metadata.date);
+  });
+
+</script>
+
+<h1>Blog</h1>
+<ul>
+  {#each dateSortedPosts as { path, metadata: { title, tags, date } }}
+    <li>
+      <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`}
+        >{title}</a
+      >
+      <p class="date">{new Date(date).toDateString()}</p>
+      <p>
+        {#each tags as tag}
+          <a class="tag" href={`/tags/${tag}`}>#{tag}</a>
+        {/each}
+      </p>
+    </li>
+  {/each}
+</ul>
+
+<style>
+  p {
+    margin: 0;
+    font-size: 0.8rem;
+  }
+  li {
+    margin-bottom: 20px;
+  }
+  .tag {
+    text-decoration: none;
+    margin-right: 10px;
+    color: #555;
+  }
+  .tag:hover {
+    color: blue;
+  }
+
+  .date {
+    font-size: 0.7rem;
+    color: gray;
+  }
+</style>

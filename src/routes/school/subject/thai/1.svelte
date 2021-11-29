@@ -1,7 +1,3 @@
-<script>
-    import Nav from '../../../../components/navbar.svelte';
-    import Footer from '../../../../components/footer.svelte';
-</script>
 
 <svelte:head>
     <title>สไลด์กาพย์เรื่องพระไชยสุริยา</title>
@@ -10,7 +6,6 @@
     <meta property="og:title" content="สไลด์กาพย์เรื่องพระไชยสุริยา" />
 </svelte:head>
 
-<Nav />
 <br><br>
 <div class="container">
     <img src="/school/thai/1.png" alt="" class="img-thumbnail" width="100%">
@@ -56,7 +51,3 @@
     <img src="/school/thai/41.png" alt="" class="img-thumbnail" width="100%">
     <img src="/school/thai/32.png" alt="" class="img-thumbnail" width="100%">
 </div>
-
-
-
-<Footer />

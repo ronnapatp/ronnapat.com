@@ -8,9 +8,7 @@
     const GOOGLE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
     const CHECK_KEY = import.meta.env.VITE_SECONE_RECAPTCHA_SITE_KEY;
 
-    import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
-    import Footer from '../../components/footer.svelte'
     import {supabase} from '$lib/db'
 
     function discordCopy() {
@@ -96,7 +94,6 @@
   color: #b36e0e;
 }
 </style>
-<Navbar />
 
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
@@ -217,6 +214,3 @@
       </div>
     </div>
   </div>
-
-
-<Footer />

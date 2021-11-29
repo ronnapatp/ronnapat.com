@@ -1,13 +1,7 @@
-<script>
-    import Navbar from '../components/navbar.svelte'
-    import Footer from '../components/footer.svelte'
-</script>
-
 <svelte:head>
     <title>404 - Page not found</title>
 </svelte:head>
 
-<Navbar />
 <br><br><br>
 
 <div class="px-4 py-5 my-5 text-center">
@@ -21,5 +15,3 @@
     </div>
   </div>
 
-
-<Footer />

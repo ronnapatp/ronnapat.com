@@ -6,9 +6,7 @@
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
 
-    import Navbar from "../../components/navbar.svelte";
     import Copy from "copy-to-clipboard"
-    import Footer from '../../components/footer.svelte'
 
     function discordCopy() {
         Copy('ronnapatp#3538')
@@ -44,7 +42,6 @@
   color: #b36e0e;
 }
 </style>
-<Navbar />
 
 <div class="container col-xl-10 col-xxl-8 px-4 py-5">
     <div class="row align-items-center g-lg-5 py-5">
@@ -115,6 +112,3 @@
       </div>
     </div>
   </div>
-
-
-<Footer />

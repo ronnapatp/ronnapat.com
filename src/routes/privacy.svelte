@@ -2,8 +2,6 @@
     const Title = "Privacy | Ronnapat Srivoravilai"
     import { fullName } from '$lib/name'
 
-    import Navbar from '../components/navbar.svelte'
-    import Footer from '../components/footer.svelte';
 </script>
 
 <svelte:head>
@@ -16,7 +14,6 @@
     <meta property="og:keywords" content="{fullName} , Ronnapat , ronnapatp , srivoravilai ">
 </svelte:head>
 
-<Navbar />
 
 <br><br><br>
 <div class="container">
@@ -55,5 +52,3 @@
         Reference : <a href="https://monkeytype.com/privacy-policy" target="_blank">monkeytype.com</a>
     </div>
 </div>
-
-<Footer />
