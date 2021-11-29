@@ -18,6 +18,5 @@ This is first post
 
 <a href="https://twitter.com/intent/tweet?text=ระบบโทรศัพท์บ้านในยุคของอินเทอร์เน็ต%20via%20@ronnapatp" class="twitter-share-button list-inline-item">Tweet</a>
 <div class="line-it-button" data-lang="en" data-type="share-a" data-env="REAL" data-url="https://developers.line.biz/en/docs/line-social-plugins/install-guide/using-line-share-buttons/#using-official-line-icons" data-color="default" data-size="small" data-count="false" data-ver="3" style="display: none;"></div>
-<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
 <div class="fb-like" data-href="https://ronnapat.com/blog/posts/1" data-width="" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 <div class="fb-comments" data-href="https://ronnapat.com/blog/posts" data-width="100%" data-numposts="5"></div>

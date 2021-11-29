@@ -40,6 +40,7 @@
         <title>{title} | Ronnapat Srivoravilai</title>
         <meta property="fb:app_id" content="1210970696063565" />
         <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+		<script src="https://www.line-website.com/social-plugins/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
     </head>
     {/each}
     
