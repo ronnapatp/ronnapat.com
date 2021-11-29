@@ -24,7 +24,7 @@
     let Message
     let submit = false
     let question = "3 - 2";
-    let x = Math.floor((Math.random() * 1000000000000000000000) + 1);
+    let x = Math.random().toString(16).substr(2, 100000000000000);
 
     async function getData() {
       const { data, error } = await supabase.from('games').select()
