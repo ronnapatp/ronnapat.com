@@ -24,6 +24,7 @@
     let Message
     let submit = false
     let question = "3 - 2";
+    let x = Math.floor((Math.random() * 1000000000000000000000) + 1);
 
     async function getData() {
       const { data, error } = await supabase.from('games').select()
@@ -42,7 +43,7 @@
       }
       
     ])
-    window.location.replace('/contact/send');
+    window.location.replace(`/contact/send?id=${x}${x}`);
       if (error) throw new Error(error.message)
       return data
   //   } else {
