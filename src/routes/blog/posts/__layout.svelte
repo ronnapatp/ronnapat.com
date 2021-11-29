@@ -38,6 +38,7 @@
     {#each dateSortedPosts as { path, metadata: { title, name } }}
     <head>
         <title>{title} | Ronnapat Srivoravilai</title>
+        <meta property="fb:app_id" content="1210970696063565" />
     </head>
     {/each}
     

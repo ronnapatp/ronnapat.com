@@ -17,4 +17,4 @@ name: 1
 This is first post
 
 
-<div class="fb-comments" data-href="https://ronnapat.com/blog/posts" data-width="" data-numposts="5"></div>
+<div class="fb-comments" data-href="https://ronnapat.com/blog/posts" data-width="100%" data-numposts="5"></div>
