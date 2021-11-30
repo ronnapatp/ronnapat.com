@@ -36,11 +36,8 @@
 </div>
 <div class="row row-cols-1 row-cols-md-2 g-4">
   {#each filteredPosts as { path, metadata: { title, description, date, image  } }}
-    <li class="container">
-      <a href={`/blog/posts/${path.replace(".md", "").replace(".svx", "")}`}>{title}</a>
-    </li>
     <div class="col">
-        <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`} class="card text-decoration-none text-dark">
+        <a href={`/blog/posts/${path.replace(".md", "").replace(".svx", "")}`} class="card text-decoration-none text-dark">
           <div class="card-body">
             <img src="{image}" class="card-img-top" alt="">
             <h5 class="card-title">{title}</h5>
