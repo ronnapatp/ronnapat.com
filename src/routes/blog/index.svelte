@@ -30,13 +30,13 @@
 
 </script>
 <div class="container">
-<h1 class="fs-1">Ronnapat Blog</h1>
+<h1 class="fs-1" style="margin-top: 1rem;">Ronnapat Blog</h1>
 <div class="row row-cols-1 row-cols-md-2 g-4">
 {#each dateSortedPosts as { path, metadata: { title, tags, date, description, image } }}
   <div class="col">
     <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`} class="card text-decoration-none text-dark">
       <div class="card-body">
-        <!-- <img src="{image}" class="card-img-top" alt=""> -->
+        <img src="{image}" class="card-img-top" alt="">
         <h5 class="card-title">{title}</h5>
         <p class="card-text">{description}</p>
         <small>{new Date(date).toDateString()}</small>
@@ -51,4 +51,9 @@
 </div>
 </div>
 <style>
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
 </style>
