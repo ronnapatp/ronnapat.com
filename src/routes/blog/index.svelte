@@ -29,6 +29,10 @@
   });
 
 </script>
+<svelte:head>
+  <meta property="fb:app_id" content="1210970696063565" />
+
+</svelte:head>
 <div class="container">
 <h1 class="fs-1" style="margin-top: 1rem;">Ronnapat Blog</h1>
 <div class="row row-cols-1 row-cols-md-2 g-4">

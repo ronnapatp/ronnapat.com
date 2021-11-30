@@ -29,6 +29,9 @@
     });
   
   </script>
+  <svelte:head>
+    <meta property="fb:app_id" content="1210970696063565" />
+  </svelte:head>
   <body>
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=1210970696063565&autoLogAppEvents=1" nonce="z9hTrpwJ"></script>
