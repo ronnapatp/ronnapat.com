@@ -32,13 +32,19 @@
     export let author;
   </script>
   
+  <head>
+        <title>{author} | Ronnapat Srivoravilai</title>
+        <meta property="og:url" content="https://ronnapat.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="{author} | Ronnapat Srivoravilai" />
+        <meta property="og:description" content="Personal website of Ronnapat Srivoravilai" />
+        <meta property="og:image" content="https://www.ronnapat.com/logo.png" />
+        <meta property="og:keywords" content="Ronnapat Srivoravilai , Ronnapat , ronnapatp , srivoravilai ">
+  </head>
   <h1 class="container" style="margin-top: 2rem; font-size: 3rem;">{author}</h1>
 <div class="container">
 <div class="row row-cols-1 row-cols-md-2 g-4">
   {#each filteredPosts as { path, metadata: { title, description, date, image  } }}
-  <head>
-      <title></title>
-  </head>
     <div class="col">
         <a href={`/blog/${path.replace(".md", "").replace(".svx", "")}`} class="card text-decoration-none text-dark">
           <div class="card-body">

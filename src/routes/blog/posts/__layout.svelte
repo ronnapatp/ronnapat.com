@@ -31,7 +31,6 @@
   </script>
   <svelte:head>
     <meta property="fb:app_id" content="1210970696063565" />
-    <meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" /><meta property="fb:app_id" content="1210970696063565" />
   </svelte:head>
 <body>
 		<meta property="fb:app_id" content="1210970696063565" />
