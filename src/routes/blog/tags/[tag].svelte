@@ -33,7 +33,6 @@
 </script>
 <div class="container">
 <h1 class="container" style="margin-top: 2rem; font-size: 3rem;">{tag}</h1>
-</div>
 <div class="row row-cols-1 row-cols-md-2 g-4">
   {#each filteredPosts as { path, metadata: { title, description, date, image  } }}
     <div class="col">
@@ -48,3 +47,12 @@
       </div>
   {/each}
 </div>
+</div>
+<style>
+  .card-img-top {
+      width: 100%;
+      height: 15vw;
+      object-fit: cover;
+  }
+  </style>
+  
