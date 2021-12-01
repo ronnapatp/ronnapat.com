@@ -3,4 +3,4 @@
 
 ### About this project
 
-In this project we use sveltekit bootstrap iconair and supabase
+In this project we use sveltekit bootstrap iconair and supabase also a little bit of bootstrap icons
