@@ -1,12 +1,6 @@
 <script>
-    const Twitter = "ronnapatp";
-    const Github = "ronnapatp";
-    const Facebook = "pieronnapatp";
-    const Gmail = "ronnapat.sri@gmail.com";
     const Title = "Contact | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai";
-    const GOOGLE_KEY = import.meta.env.VITE_RECAPTCHA_SITE_KEY;
-    const CHECK_KEY = import.meta.env.VITE_SECONE_RECAPTCHA_SITE_KEY;
 
     import Copy from "copy-to-clipboard"
     import {supabase} from '$lib/db'
@@ -21,17 +15,14 @@
     let Email
     let Message
     let submit = false
-    let question = "3 - 2";
     let x = Math.random().toString(16).substr(2, 100000000000000);
 
     async function getData() {
       const { data, error } = await supabase.from('games').select()
       if (error) throw new Error(error.message)
-      // console.log(data)
       return data
     }
     async function sendData() {
-      // if ( recaptchachecked == true) {
       const { data, error } = await supabase
       .from('games')
       .insert([
@@ -43,37 +34,8 @@
     ])
     window.location.replace(`/contact/send?id=${x}${x}`);
       if (error) throw new Error(error.message)
-      return data
-  //   } else {
-  //   console.log("hello")
-  // }
-    
+      return data    
     }
-  
-    // let recaptchachecked = false; 
-    // function recaptchaCallback() {
-    //     recaptchachecked = true;
-    // }
-
-
-    // import { onMount, onDestroy } from 'svelte';
-
-
-    // onMount(() => {
-    //   window.callback = callback;
-    // })
-
-    // onDestroy(() => {
-    //   window.callback = null;
-    // })
-    // function callback(){
-    //   console.log("text");
-    // }
-
-    
-// window.callback = callback;
-
-    
 </script>
 
 <svelte:head>
@@ -148,13 +110,6 @@
                 <path d="M2 17V7C2 5.89543 2.89543 5 4 5H20C21.1046 5 22 5.89543 22 7V17C22 18.1046 21.1046 19 20 19H4C2.89543 19 2 18.1046 2 17Z" stroke="currentColor" stroke-width="1.5"/>
                 </svg>
             </a>
-            &nbsp;
-            <!-- <a href="https://bit.ly/3ncfZvC" target="_blank">
-                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-newspaper black" viewBox="0 0 16 16">
-                    <path d="M0 2.5A1.5 1.5 0 0 1 1.5 1h11A1.5 1.5 0 0 1 14 2.5v10.528c0 .3-.05.654-.238.972h.738a.5.5 0 0 0 .5-.5v-9a.5.5 0 0 1 1 0v9a1.5 1.5 0 0 1-1.5 1.5H1.497A1.497 1.497 0 0 1 0 13.5v-11zM12 14c.37 0 .654-.211.853-.441.092-.106.147-.279.147-.531V2.5a.5.5 0 0 0-.5-.5h-11a.5.5 0 0 0-.5.5v11c0 .278.223.5.497.5H12z"/>
-                    <path d="M2 3h10v2H2V3zm0 3h4v3H2V6zm0 4h4v1H2v-1zm0 2h4v1H2v-1zm5-6h2v1H7V6zm3 0h2v1h-2V6zM7 8h2v1H7V8zm3 0h2v1h-2V8zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1zm-3 2h2v1H7v-1zm3 0h2v1h-2v-1z"/>
-                  </svg>
-            </a> -->
           </span>
       </div>
       <div class="col-md-10 mx-auto col-lg-5">
@@ -169,7 +124,6 @@
           {/each}
         {:catch error}
           <p>Something went wrong try again or contact me in other ways.</p>
-          <!-- <pre>{error}</pre> -->
         {/await}
         
         <form on:submit|preventDefault={() => submit = true} >
@@ -185,10 +139,6 @@
             <textarea class="form-control" bind:value={Message} placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
             <label for="floatingMessage">Message <b class="text-danger">*</b></label>
           </div>
-          <!-- <div class="g-recaptcha brochure__form__captcha" data-sitekey={CHECK_KEY} data-callback={callback} on:load={callback} ></div> -->
-          <!-- <div class="form-floating mb-3">
-          <div class="g-recaptcha" data-sitekey={CHECK_KEY} data-callback="callback"></div>
-          </div> -->
           <div class="form-floating mb-3"> 
             <input type="checkbox" required>
               You are not robot?
@@ -208,8 +158,6 @@
             <!-- <pre>{error}</pre> -->
           {/await}
         {/if}
-        <!-- <hr class="my-4">
-        <small class="text-muted">Don't support in safari.</small> -->
         </form>
       </div>
     </div>
