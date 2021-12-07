@@ -3,6 +3,7 @@
     const title = "HOME | Ronnapat Srivoravilai"
     
     import Navbar from '$lib/components/en/home/navbar.svelte'
+    import Heroes from '$lib/components/en/home/heroes.svelte';
 </script>
 
 
@@ -24,3 +25,4 @@
 </svelte:head>
 
 <Navbar />
+<Heroes />

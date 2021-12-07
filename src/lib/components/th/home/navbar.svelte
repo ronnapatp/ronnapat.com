@@ -9,7 +9,7 @@
      &nbsp;
      <b class="font-thin">|</b>
      &nbsp;
-     <a href="/th" class="text-2xl">
+     <a href="/" class="text-2xl">
       <i class="bi bi-translate"></i>
       English
      </a>
@@ -24,8 +24,8 @@
      <li><a href="/contact">ติดต่อ</a></li>     
   </ul>
 </nav>
-<hr class="text-gray-300">
-asd
+<br><br><br>
+
 <style>
 *{
   margin: 0;
@@ -34,6 +34,8 @@ asd
   font-family: 'Poppins', sans-serif;
 } 
 nav{
+  border-bottom: 1px solid gray;
+  position: fixed;
   display: flex;
   height: 80px;
   width: 100%;
@@ -42,11 +44,6 @@ nav{
   justify-content: space-between;
   padding: 0 50px 0 100px;
   flex-wrap: wrap;
-}
-nav .logo{
-  color: black;
-  font-size: 35px;
-  font-weight: 600;
 }
 nav ul{
   display: flex;
@@ -89,9 +86,9 @@ input[type="checkbox"]{
     position: fixed;
     top: 80px;
     left: -101%;
-    background-color: rgb(222, 222, 222);
-    opacity: 0.6;
-    height: 100vh;
+    background-color: white;
+    opacity: 0.88;
+    height: 100%;
     width: 100%;
     text-align: center;
     display: block;
@@ -116,18 +113,10 @@ input[type="checkbox"]{
   }
   nav ul li a.active,
   nav ul li a:hover{
-    color: gray;
+    color: black;
   }
 }
 a{
   padding: 8px 15px;
-}
-hr {
-  border:none;
-  height: 50px;
-	margin-top: 0;
-	border-bottom: 1px solid white;
-	box-shadow: 0 20px 10px -20px rgb(126, 126, 126);
-  margin: -50px auto 10px; 
 }
 </style>
