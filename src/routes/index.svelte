@@ -24,5 +24,7 @@
 	<meta name="twitter:domain" content="ronnapat.com">
 </svelte:head>
 
+<div class="w-full">
 <Navbar />
 <Heroes />
+</div>

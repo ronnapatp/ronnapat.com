@@ -1,7 +1,7 @@
 <head>
 </head>
 <nav class="">
-  <div class="text-3xl inline-flex">
+  <div class="text-2xl inline-flex">
      <a href="/" class="inline-flex font-bold">
        <img src="/favicon.ico" alt="" class="w-10 h-10">
        Ronnapat
