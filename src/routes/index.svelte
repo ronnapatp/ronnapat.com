@@ -2,8 +2,7 @@
     const fullName = "Ronnapat Srivoravilai";
     const title = "HOME | Ronnapat Srivoravilai"
     
-    import Hero from '../components/heroes.svelte'
-    import Me from '../components/me.svelte'
+    import Navbar from '$lib/components/en/home/navbar.svelte'
 </script>
 
 
@@ -24,7 +23,4 @@
 	<meta name="twitter:domain" content="ronnapat.com">
 </svelte:head>
 
-<br><br><br><br>
-<Hero />
-<br><div class="container"><hr></div><br>
-<Me />
+<Navbar />

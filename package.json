@@ -15,6 +15,7 @@
     "@sveltejs/kit": "next",
     "@typescript-eslint/eslint-plugin": "^4.31.1",
     "@typescript-eslint/parser": "^4.31.1",
+    "autoprefixer": "^10.4.0",
     "eslint": "^7.32.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
@@ -31,6 +32,8 @@
     "@mapbox/rehype-prism": "^0.6.0",
     "@supabase/supabase-js": "^1.25.2",
     "copy-to-clipboard": "^3.3.1",
-    "mdsvex": "^0.9.8"
+    "mdsvex": "^0.9.8",
+    "postcss": "^7",
+    "tailwindcss": "^2.2.19"
   }
 }
