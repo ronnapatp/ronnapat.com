@@ -1,1 +1,0 @@
-console.log("Welcome to developer tool of ronnapat.com");
