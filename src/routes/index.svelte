@@ -2,8 +2,9 @@
     const fullName = "Ronnapat Srivoravilai";
     const title = "HOME | Ronnapat Srivoravilai"
     
-    import Navbar from '$lib/components/en/home/navbar.svelte'
+    import Navbar from '$lib/components/en/home/navbar.svelte';
     import Heroes from '$lib/components/en/home/heroes.svelte';
+    import Footer from '$lib/components/en/home/footer.svelte';
 </script>
 
 
@@ -28,3 +29,4 @@
 <Navbar />
 <Heroes />
 </div>
+<Footer />

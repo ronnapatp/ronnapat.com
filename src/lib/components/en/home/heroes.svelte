@@ -16,7 +16,7 @@
             </div>
             <br><br><br>
             <center>
-                <a href="#id">
+                <a href="#more">
                     <b class="text-xl">Learn more</b> <br>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down w-10 h-10 mt-1" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
@@ -26,7 +26,7 @@
         </div>
     </div>
 </div>
-<div class="bg-white text-center text-4xl mt-40 mb-40">
+<div class="bg-white text-center text-4xl mt-40 mb-40" id="more">
     <i class="bi bi-emoji-smile"></i>
     <i class="bi bi-emoji-smile"></i>
     <i class="bi bi-emoji-smile"></i>
@@ -59,9 +59,6 @@
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" width="75" height="75" alt="ts"/>
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" width="75" height="75" alt="html" />
                     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" width="75" height="75" alt="css"/>
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="75" height="75" alt="python" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" width="75" height="75" alt="tailwindcss" />
-                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" width="75" height="75" alt="bootstrap" />
                 </center>
             </center>
           </div>
