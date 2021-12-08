@@ -1,5 +1,6 @@
 <script lang="ts">
-    import About from '../components/about.svelte'
+    import Navbar from "$lib/components/en/about/navbar.svelte";
+    import About from "$lib/components/en/about/about.svelte";
 
     const Title = "About | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai"
@@ -22,5 +23,5 @@
 	<meta name="twitter:domain" content="ronnapat.com">
 </svelte:head>
 
-<br><br><br><br>
+<Navbar />
 <About />

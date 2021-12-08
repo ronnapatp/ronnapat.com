@@ -49,19 +49,19 @@
                     <div class="w-full md:w-1/2 flex flex-col">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Name <l class="text-red-600">*</l></label>
-                        <input bind:value={Name} type="text" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
+                        <input bind:value={Name} placeholder="Danny" type="text" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
                     </div>
                     <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Email <l class="text-red-600">*</l></label>
-                        <input bind:value={Email} type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
+                        <input bind:value={Email} placeholder="examaple@ronnapat.com" type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
                     </div>
                 </div>
                 <div>
                     <div class="w-full flex flex-col mt-8">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Message <l class="text-red-600">*</l></label>
-                        <textarea bind:value={Message} type="text" class="h-40 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-black mt-4 bg-white border rounded border-gray-400" required></textarea>
+                        <textarea bind:value={Message} placeholder="Message..." type="text" class="h-40 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-black mt-4 bg-white border rounded border-gray-400" required></textarea>
                     </div>
                 </div>
                 <div class="flex items-center justify-center w-full">
