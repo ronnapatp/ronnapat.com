@@ -4,7 +4,7 @@
     
     import Navbar from '$lib/components/en/home/navbar.svelte';
     import Heroes from '$lib/components/en/home/heroes.svelte';
-    import Footer from '$lib/components/en/home/footer.svelte';
+    import Footer from '$lib/components/en/footer.svelte';
 </script>
 
 
