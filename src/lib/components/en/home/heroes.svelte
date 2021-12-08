@@ -51,7 +51,7 @@
 	<section class="w-full mt-5">
 		<div class="container px-4 mx-auto">
 				<div class="text-center ">
-                    <h1 class="font-bold text-4xl">My skill  <p class="text-sm hover:text-blue-600"><a href="/skill">Look more..</a></p></h1>
+                    <h1 class="font-bold text-4xl">My skill  <p class="text-xl hover:text-blue-600"><a href="/skill">View my all skill..</a></p></h1>
                 </div>
             <center>
                 <center class="inline-flex mt-5">
