@@ -64,8 +64,8 @@
                         <textarea bind:value={Message} placeholder="Message..." type="text" class="h-40 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-black mt-4 bg-white border rounded border-gray-400" required></textarea>
                     </div>
                 </div>
-                <div class="flex items-center justify-center w-full">
-                    <button on:click={() => submit = false} class="mt-9 font-semibold leading-none text-white  py-4 px-10 bg-blue-700 rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                <div class="flex items-center w-full">
+                    <button on:click={() => submit = false} class="mt-9 font-semibold leading-none text-white  py-4 px-10 bg-blue-700 w-full rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
                         Send message
                     </button>
                 </div>

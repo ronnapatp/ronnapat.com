@@ -1,6 +1,7 @@
 <script lang="ts">
     import Navbar from "$lib/components/en/about/navbar.svelte";
     import About from "$lib/components/en/about/about.svelte";
+    import Footer from "$lib/components/en/footer.svelte";
 
     const Title = "About | Ronnapat Srivoravilai";
     const fullName = "Ronnapat Srivoravilai"
@@ -25,3 +26,4 @@
 
 <Navbar />
 <About />
+<Footer />
