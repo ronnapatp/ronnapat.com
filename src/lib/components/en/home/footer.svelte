@@ -5,7 +5,6 @@ import { fullName } from '$lib/name';
 
     let showAlert = false;
     let currentyear =  new Date().getFullYear();
-    const fullname = 'Ronnapat Srivoravilai'
 
     function discordCopy() {
         Copy('ronnapatp#3538')
