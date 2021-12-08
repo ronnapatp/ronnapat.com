@@ -11,7 +11,7 @@ import { fullName } from '$lib/name';
         showAlert = true;
         setTimeout(function(){
             showAlert = false; 
-        }, 7000);
+        }, 2000);
     }
     function closeAlert() {
         showAlert = false
