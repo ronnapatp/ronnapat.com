@@ -37,11 +37,6 @@ import { fullName } from '$lib/name';
                 <i class="bi bi-twitter"></i>
             </button>
           </a>
-          <a href="https://instagram.com/ronnapatsri" target="_blank">
-            <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-                <i class="bi bi-instagram"></i>
-            </button>
-          </a>
             <button on:click={discordCopy} class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
                 <i class="bi bi-discord"></i>
             </button>
