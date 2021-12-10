@@ -1,6 +1,8 @@
 ![](https://ronnapat.com/favicon.ico)
 # Ronnapat Srivoravilai personal website
 
-### About this project
+Version 1.0.0
 
-In this project we use sveltekit bootstrap iconair and supabase also a little bit of bootstrap icons
+## What I use
+
+- Tailwindcss
