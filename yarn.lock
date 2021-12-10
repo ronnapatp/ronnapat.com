@@ -199,7 +199,7 @@
   dependencies:
     "@types/node" "*"
 
-"@types/unist@*", "@types/unist@^2.0.0", "@types/unist@^2.0.2", "@types/unist@^2.0.3":
+"@types/unist@*", "@types/unist@^2.0.0":
   version "2.0.6"
   resolved "https://registry.npmjs.org/@types/unist/-/unist-2.0.6.tgz"
   integrity sha512-PBjIUxZHOuj0R15/xuwJYjFi+KZdNFrehocChv4g5hu6aFroHue8m0lBP0POdK2nKzbw0cgV1mws8+V/JAcEkQ==
@@ -1466,16 +1466,6 @@ magic-string@^0.25.7:
   dependencies:
     sourcemap-codec "^1.4.4"
 
-mdsvex@^0.9.8:
-  version "0.9.8"
-  resolved "https://registry.npmjs.org/mdsvex/-/mdsvex-0.9.8.tgz"
-  integrity sha512-5QvThjRKoKkGH00qdHxLZ5ROd80RgGiJvM2B9opeFreaiGFTLoKKFUgEBCslLrwM24cVGJLmIM3rR83OFDf3tQ==
-  dependencies:
-    "@types/unist" "^2.0.3"
-    prism-svelte "^0.4.7"
-    prismjs "^1.17.1"
-    vfile-message "^2.0.4"
-
 merge2@^1.3.0:
   version "1.4.1"
   resolved "https://registry.npmjs.org/merge2/-/merge2-1.4.1.tgz"
@@ -1786,12 +1776,7 @@ pretty-hrtime@^1.0.3:
   resolved "https://registry.yarnpkg.com/pretty-hrtime/-/pretty-hrtime-1.0.3.tgz#b7e3ea42435a4c9b2759d99e0f201eb195802ee1"
   integrity sha1-t+PqQkNaTJsnWdmeDyAesZWALuE=
 
-prism-svelte@^0.4.7:
-  version "0.4.7"
-  resolved "https://registry.npmjs.org/prism-svelte/-/prism-svelte-0.4.7.tgz"
-  integrity sha512-yABh19CYbM24V7aS7TuPYRNMqthxwbvx6FF/Rw920YbyBWO3tnyPIqRMgHuSVsLmuHkkBS1Akyof463FVdkeDQ==
-
-prismjs@^1.17.1, prismjs@~1.25.0:
+prismjs@~1.25.0:
   version "1.25.0"
   resolved "https://registry.npmjs.org/prismjs/-/prismjs-1.25.0.tgz"
   integrity sha512-WCjJHl1KEWbnkQom1+SzftbtXMKQoezOCYs5rECqMN+jP+apI7ftoflyqigqzopSO3hMhTEb0mFClA8lkolgEg==
@@ -2237,22 +2222,20 @@ typedarray-to-buffer@^3.1.5:
   dependencies:
     is-typedarray "^1.0.0"
 
-typescript@*, typescript@^4.4.3:
+typescript@*:
   version "4.4.4"
   resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.4.tgz"
   integrity sha512-DqGhF5IKoBl8WNf8C1gu8q0xZSInh9j1kJJMqT3a94w1JzVaBU4EXOSMrz9yDqMT0xt3selp83fuFMQ0uzv6qA==
+
+typescript@^4.5.2:
+  version "4.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.5.2.tgz#8ac1fba9f52256fdb06fb89e4122fa6a346c2998"
+  integrity sha512-5BlMof9H1yGt0P8/WF+wPNw6GfctgGjXp5hkblpyT+8rkASSmkUKMXrxR0Xg8ThVCi/JnHQiKXeBaEwCeQwMFw==
 
 unist-util-is@^4.0.0:
   version "4.1.0"
   resolved "https://registry.npmjs.org/unist-util-is/-/unist-util-is-4.1.0.tgz"
   integrity sha512-ZOQSsnce92GrxSqlnEEseX0gi7GH9zTJZ0p9dtu87WRb/37mMPO2Ilx1s/t9vBHrFhbgweUwb+t7cIn5dxPhZg==
-
-unist-util-stringify-position@^2.0.0:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-2.0.3.tgz"
-  integrity sha512-3faScn5I+hy9VleOq/qNbAd6pAx7iH5jYBMS9I1HgQVijz/4mv5Bvw5iw1sC/90CODiKo81G/ps8AJrISn687g==
-  dependencies:
-    "@types/unist" "^2.0.2"
 
 unist-util-visit-parents@^3.0.0:
   version "3.1.1"
@@ -2299,14 +2282,6 @@ v8-compile-cache@^2.0.3:
   version "2.3.0"
   resolved "https://registry.npmjs.org/v8-compile-cache/-/v8-compile-cache-2.3.0.tgz"
   integrity sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==
-
-vfile-message@^2.0.4:
-  version "2.0.4"
-  resolved "https://registry.npmjs.org/vfile-message/-/vfile-message-2.0.4.tgz"
-  integrity sha512-DjssxRGkMvifUOJre00juHoP9DPWuzjxKuMDrhNbk2TdaYYBNMStsNhEOt3idrtI12VQYM/1+iM0KOzXi4pxwQ==
-  dependencies:
-    "@types/unist" "^2.0.0"
-    unist-util-stringify-position "^2.0.0"
 
 vite@^2.6.12:
   version "2.6.13"
