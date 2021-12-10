@@ -30,7 +30,7 @@
   "type": "module",
   "dependencies": {
     "@mapbox/rehype-prism": "^0.6.0",
-    "@supabase/supabase-js": "^1.25.2",
+    "@supabase/supabase-js": "^1.28.5",
     "copy-to-clipboard": "^3.3.1",
     "postcss": "^8.4.4",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
