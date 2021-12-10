@@ -1,6 +1,49 @@
+<script>
+    function Goto() {
+        location.href = "/contact";
+    }
+    let currentDate = new Date();
+    let cDay = currentDate.getDate();
+    let cMonth = currentDate.getMonth() + 1;
+    let cYear = currentDate.getFullYear();
+    let local = (cDay + "/" + cMonth + "/" + cYear);
+    let christmas = false
+    let christmaseve = false
+    let newyear = false
+    if ( local !== "25/12/2021" ){
+        christmas = false
+    } else {
+        christmas = true
+    }
+    if ( local !== "24/12/2021" ){
+        christmaseve = false
+    } else {
+        christmaseve = true
+    }
+    if ( local !== "01/01/2022" ){
+        newyear = false
+    } else {
+        newyear = true
+    }
+</script>
 <div class="w-full bg-center bg-no-repeat bg-cover" style="background-image: url('/heroes.png'); height: 80vh; background-attachment: fixed; background-position: center; background-repeat: no-repeat; background-size: cover;">
     <div class="w-full bg-opacity-50  bg-black flex justify-center items-center" style="height: 80vh;">
         <div class="mx-4 text-center text-white">
+            {#if christmas}
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-green-500 via-red-400 to-red-500 relative inline-block">
+                <span class="relative text-white text-8xl font-bold">Merry Christmas</span>
+            </span>
+            {/if}
+            {#if christmaseve}
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-green-500 via-red-400 to-red-500 relative inline-block">
+                <span class="relative text-white text-8xl font-bold">Merry Chirstmas eve</span>
+            </span>
+            {/if}
+            {#if newyear}
+            <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-green-500 via-red-400 to-red-500 relative inline-block">
+                <span class="relative text-white text-8xl font-bold">Happy New Year</span>
+            </span>
+            {/if}
             <h1 class="font-bold text-6xl mb-4">Ronnapat Srivoravilai</h1>
             <h2 class="font-bold text-3xl mb-12">I create website application and bot</h2>
             <div>
@@ -77,9 +120,3 @@
     </div>
 </div>
 </div>
-
-<script>
-    function Goto() {
-        location.href = "/contact";
-    }
-</script>
