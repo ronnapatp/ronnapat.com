@@ -3,7 +3,7 @@
   import {
     showCookies
   } from '$lib/store'
-
+  import '../app.css'
 
   // function close() {
   //   $showCookies = false
@@ -18,8 +18,3 @@
   <Cookies  />
 {/if} -->
 
-<style>
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-</style>
