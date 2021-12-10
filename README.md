@@ -6,3 +6,6 @@ Version 1.0.0
 ## What I use
 
 - Tailwindcss
+- Bootstrap icon
+- Devicon
+- Supabase
