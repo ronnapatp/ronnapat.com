@@ -1,18 +1,18 @@
 <script>
-import { fullName } from '$lib/name';
-
+    import { fullName , discordUser } from '$lib/name';
     import Copy from 'copy-to-clipboard'
 
     let showAlert = false;
     let currentyear =  new Date().getFullYear();
 
     function discordCopy() {
-        Copy('ronnapatp#3538')
+        Copy(`${discordUser}`)
         showAlert = true;
         setTimeout(function(){
             showAlert = false; 
         }, 2000);
     }
+    
     function closeAlert() {
         showAlert = false
     }
