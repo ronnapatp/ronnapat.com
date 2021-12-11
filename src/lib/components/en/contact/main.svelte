@@ -72,8 +72,13 @@
                     data-error-callback="handleCaptchaError"
                     data-size="invisible"
                 />
+                <div class="mt-3">
+                      <input type="checkbox" class="checked:bg-blue-500" required>
+                      <!-- svelte-ignore a11y-label-has-associated-control -->
+                      <label class=" text-gray-600">Confirm you are not robot? <l class="text-red-600">*</l></label>
+                </div>
                 <div class="flex items-center w-full">
-                    <button on:click={() => submit = false} class="mt-9 font-semibold leading-none text-white  py-4 px-10 bg-blue-700 w-full rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                    <button on:click={() => submit = false} class="mt-3 font-semibold leading-none text-white  py-4 px-10 bg-blue-700 w-full rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
                         Send message
                     </button>
                 </div>
