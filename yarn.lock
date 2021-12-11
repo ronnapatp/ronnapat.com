@@ -587,6 +587,11 @@ d@1, d@^1.0.1:
     es5-ext "^0.10.50"
     type "^1.0.1"
 
+dayjs@^1.8.25:
+  version "1.10.7"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.10.7.tgz#2cf5f91add28116748440866a0a1d26f3a6ce468"
+  integrity sha512-P6twpd70BcPK34K26uJ1KT3wlhpuOAPoMwJzpsIWUxHZ7wpmbdZL/hQqBDfz7hGurYSa5PhzdhDHtt319hL3ig==
+
 debug@^2.2.0:
   version "2.6.9"
   resolved "https://registry.npmjs.org/debug/-/debug-2.6.9.tgz"
@@ -1857,6 +1862,13 @@ svelte-check@^2.2.6:
     source-map "^0.7.3"
     svelte-preprocess "^4.0.0"
     typescript "*"
+
+svelte-countdown@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/svelte-countdown/-/svelte-countdown-1.0.0.tgz#8551e6ee2279211f08b8e8e426c5380394fae598"
+  integrity sha512-RuaRjnWPrH7xuwPQwb9b+Ek4mtv3knMTytEqOY2mha152edwDfejjSL+/HvtCbIyuAXPOndaut46dIoeAlPh4A==
+  dependencies:
+    dayjs "^1.8.25"
 
 svelte-hmr@^0.14.7:
   version "0.14.7"
