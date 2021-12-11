@@ -35,13 +35,13 @@
             {#if contact}
             <p class="text-3xl font-bold leading-7 text-center">Contact me</p>
             {#await getData()}
-            <p></p>
+            <!-- <p></p> -->
           {:then data}
             {#each data as game}
               <!-- <li>{game.title}</li> -->
             {/each}
           {:catch error}
-            <p>Something went wrong try again or contact me in other ways.</p>
+            <!-- <p>Something went wrong try again or contact me in other ways.</p> -->
           {/await}
             <form on:submit|preventDefault={() => submit = true} >
                 <div class="md:flex items-center mt-12">
@@ -72,11 +72,8 @@
           {#await sendData()}
             <!-- <p>Sending...</p> -->
           {:then data}
-            <!-- <br>
-            <small>Thank you for your message!</small> -->
             <!-- <p>Succesfully sent your message. I will contact you back as fast as possible</p> -->
           {:catch error}
-            <!-- <p>Something went wrong try again or contact me in other ways.</p> -->
             <!-- <pre>{error}</pre> -->
           {/await}
         {/if}
