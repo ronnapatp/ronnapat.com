@@ -11,12 +11,12 @@ import Navbar from '$lib/components/th/home/navbar.svelte'
     <meta property="og:image" content="https://ronnapat.com/logo.png" />
     <meta property="og:keywords" content="Ronnapat , ronnapatp , srivoravilai ">
     <meta name="twitter:card" content="summary_large_image">
-	<meta name="twitter:site" content="@ronnapatp">
-	<meta name="twitter:title" content="หน้าหลัก | รณภัทร ศรีวรวิไล">
-	<meta name="twitter:description" content="Personal website of">
-	<meta name="twitter:creator" content="@ronnapatp">
+    <meta name="twitter:site" content="@ronnapatp">
+    <meta name="twitter:title" content="หน้าหลัก | รณภัทร ศรีวรวิไล">
+    <meta name="twitter:description" content="Personal website of">
+    <meta name="twitter:creator" content="@ronnapatp">
     <meta name="twitter:image:src" content="https://ronnapat.com/logo.png">
-	<meta name="twitter:domain" content="ronnapat.com">
+	  <meta name="twitter:domain" content="ronnapat.com">
 </svelte:head>
 
 <Navbar />
