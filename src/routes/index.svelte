@@ -26,7 +26,7 @@
 </svelte:head>
 
 <main class={Darkmode === true ? 'dark' : ''}>
-<div class="w-full">
+<div class="w-full dark:bg-slate-900">
 <Navbar />
 <Heroes />
 </div>
