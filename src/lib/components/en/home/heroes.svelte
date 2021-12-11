@@ -78,15 +78,15 @@
     I am a student in Bangkok,Thailand that like coding
     <p class="text-xl">Learn more about me at about page.</p>
 </div>
-<div class="bg-blue-100">
+<div class="bg-blue-100 dark:bg-slate-600">
 <div class="container mx-auto mt-4 md:mt-0 lg:mt-5 md:space-x-10 md:grid grid-cols-3 justify-center">
     <div class="grid md:justify-center md:items-center sm:float-left">
       <img class="lg:h-80 md:h-64 sm:h-52" src="/cover.jpeg" alt="" />
     </div>
     <div class="mt-2 md:mt-0 lg:justify-end col-span-2 sm:">
-      <h1 class="text-4xl md:mt-5 lg:mt-20 text-gray-800 md:text-left font-bold mb-6">What I Do</h1>
-      <p class="text-xl text-gray-800 md:text-left">I'm a student in bangkok, Thailand and now I'm learning in secondary school and currently studying programming For ex. javascript typescript python HTML CSS.</p>
-      <p class="italic text-gray-500 mt-5">- Ronnapat Srivoravilai</p>
+      <h1 class="text-4xl md:mt-5 lg:mt-20 text-gray-800 md:text-left font-bold mb-6 dark:text-slate-100">What I Do</h1>
+      <p class="text-xl text-gray-800 md:text-left dark:text-white">I'm a student in bangkok, Thailand and now I'm learning in secondary school and currently studying programming For ex. javascript typescript python HTML CSS.</p>
+      <p class="italic text-gray-500 mt-5 dark:text-slate-300">- Ronnapat Srivoravilai</p>
     </div>
   </div>
 </div>
