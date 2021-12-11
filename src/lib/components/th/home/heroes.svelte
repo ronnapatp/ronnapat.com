@@ -31,7 +31,7 @@
         <div class="mx-4 text-center text-white">
             {#if christmas}
             <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-green-500 via-red-400 to-red-500 relative inline-block">
-                <span class="relative text-white text-8xl font-bold">Merry Christmas</span>
+                <span class="relative text-white text-8xl font-bold">สุขสันต์วันคริสต์มาส</span>
             </span>
             {/if}
             {#if christmaseve}
