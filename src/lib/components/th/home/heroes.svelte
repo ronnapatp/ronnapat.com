@@ -44,7 +44,7 @@
                 <span class="relative text-white text-8xl font-bold">สุขสันต์วันปีใหม่</span>
             </span>
             {/if}
-            <h1 class="font-bold text-6xl mb-4">Ronnapat Srivoravilai</h1>
+            <h1 class="font-bold text-6xl mb-4">รณภัทร ศรีวรวิไล</h1>
             <h2 class="font-bold text-3xl mb-12">I create website application and bot</h2>
             <div>
                 <a href="https://blog.ronnapat.com/" target="_blank" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
