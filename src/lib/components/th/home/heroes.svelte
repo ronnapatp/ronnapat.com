@@ -41,7 +41,7 @@
             {/if}
             {#if newyear}
             <span class="before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-gradient-to-r from-green-500 via-red-400 to-red-500 relative inline-block">
-                <span class="relative text-white text-8xl font-bold">Happy New Year</span>
+                <span class="relative text-white text-8xl font-bold">สุขสันต์วันปีใหม่</span>
             </span>
             {/if}
             <h1 class="font-bold text-6xl mb-4">Ronnapat Srivoravilai</h1>
