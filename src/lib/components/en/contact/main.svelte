@@ -21,7 +21,6 @@
         , 'Email': Email 
         , 'Message': Message 
       }
-      
     ])
       contact = false
       done = true
@@ -54,7 +53,7 @@
                     <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Email <l class="text-red-600">*</l></label>
-                        <input bind:value={Email} placeholder="examaple@ronnapat.com" type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
+                        <input bind:value={Email} placeholder="you@ronnapat.com" type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
                     </div>
                 </div>
                 <div>
