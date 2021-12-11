@@ -1,10 +1,11 @@
-<head>
-</head>
+<script>
+  import { Name } from '$lib/name'
+</script>
 <nav class="">
   <div class="text-2xl inline-flex">
      <a href="/" class="inline-flex font-bold">
        <img src="/favicon.ico" alt="" class="w-10 h-10">
-       Ronnapat
+       {Name}
      </a>
      &nbsp;
      <b class="font-thin">|</b>
