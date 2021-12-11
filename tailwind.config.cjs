@@ -1,7 +1,7 @@
-module.exports = {
+const config =  {
   mode: 'jit',
   purge: ['./src/**/*.svelte'],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: 'class',
   theme: {
     extend: {},
   },
@@ -10,3 +10,5 @@ module.exports = {
   },
   plugins: [],
 }
+
+module.exports = config

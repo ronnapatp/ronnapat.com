@@ -4,6 +4,7 @@
     import Navbar from '$lib/components/en/home/navbar.svelte';
     import Heroes from '$lib/components/en/home/heroes.svelte';
     import Footer from '$lib/components/en/footer.svelte';
+    let Darkmode = true
 </script>
 
 
@@ -24,8 +25,10 @@
 	<meta name="twitter:domain" content="ronnapat.com">
 </svelte:head>
 
+<main class={Darkmode === true ? 'dark' : ''}>
 <div class="w-full">
 <Navbar />
 <Heroes />
 </div>
 <Footer />
+</main>

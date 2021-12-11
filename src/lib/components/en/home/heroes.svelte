@@ -69,7 +69,7 @@
         </div>
     </div>
 </div>
-<div class="bg-white text-center text-4xl mt-40 mb-40" id="more">
+<div class="text-center text-4xl mt-40 mb-40 dark:bg-slate-900" id="more">
     <i class="bi bi-emoji-smile"></i>
     <i class="bi bi-emoji-smile"></i>
     <i class="bi bi-emoji-smile"></i>
