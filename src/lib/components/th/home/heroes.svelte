@@ -48,19 +48,19 @@
             <h2 class="font-bold text-3xl mb-12">ผมสร้างแอปพลิเคชันเว็บไซต์และบอท</h2>
             <div>
                 <a href="https://blog.ronnapat.com/" target="_blank" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
-                    Blog
+                    บทความ
                 </a>
                 <a href="/about" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
-                    About
+                    เกี่ยวกับ
                 </a>
                 <a href="/contact" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
-                    Contact
+                    ติดต่อ
                 </a>
             </div>
             <br><br><br>
             <center>
                 <a href="#more">
-                    <b class="text-xl">Learn more</b> <br>
+                    <b class="text-xl">เรียนรู้เพิ่มเติม</b> <br>
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down w-10 h-10 mt-1" viewBox="0 0 16 16">
                         <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
                     </svg>
@@ -75,8 +75,8 @@
     <i class="bi bi-emoji-smile"></i>
     <i class="bi bi-emoji-smile"></i>
     <br>
-    I am a student in Bangkok,Thailand that like coding
-    <p class="text-xl">Learn more about me at about page.</p>
+    ผมเป็นนักเรียนในกรุงเทพประเทศไทยที่ชอบเขียนโค้ด
+    <p class="text-xl">เรียนรู้เพิ่มเติมเกี่ยวกับผมที่หน้าเกี่ยวกับ</p>
 </div>
 <div class="bg-blue-100">
 <div class="container mx-auto mt-4 md:mt-0 lg:mt-5 md:space-x-10 md:grid grid-cols-3 justify-center">
