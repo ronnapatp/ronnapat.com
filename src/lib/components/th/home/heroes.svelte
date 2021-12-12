@@ -84,9 +84,9 @@
       <img class="lg:h-80 md:h-64 sm:h-52" src="/cover.jpeg" alt="" />
     </div>
     <div class="mt-2 md:mt-0 lg:justify-end col-span-2 sm:">
-      <h1 class="text-4xl md:mt-5 lg:mt-20 text-gray-800 md:text-left font-bold mb-6">What I Do</h1>
-      <p class="text-xl text-gray-800 md:text-left">I'm a student in bangkok, Thailand and now I'm learning in secondary school and currently studying programming For ex. javascript typescript python HTML CSS.</p>
-      <p class="italic text-gray-500 mt-5">- Ronnapat Srivoravilai</p>
+      <h1 class="text-4xl md:mt-5 lg:mt-20 text-gray-800 md:text-left font-bold mb-6">ผมทำอะไร</h1>
+      <p class="text-xl text-gray-800 md:text-left">ฉันเป็นนักเรียนที่กรุงเทพฯ ประเทศไทย และตอนนี้ฉันกำลังเรียนในระดับมัธยมและกำลังเรียนเขียนโปรแกรม เช่น Javascript Typescript Python HTML CSS</p>
+      <p class="italic text-gray-500 mt-5">- รณภัทร ศรีวรวิไล</p>
     </div>
   </div>
 </div>
