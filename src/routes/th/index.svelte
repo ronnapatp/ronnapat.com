@@ -1,6 +1,7 @@
 <script>
     import Heroes from '$lib/components/th/home/heroes.svelte';
-import Navbar from '$lib/components/th/home/navbar.svelte'
+    import Navbar from '$lib/components/th/home/navbar.svelte'
+    import Footer from '$lib/components/th/footer.svelte';
 </script>
 <svelte:head>
     <title>หน้าหลัก | รณภัทร ศรีวรวิไล</title>
@@ -21,3 +22,4 @@ import Navbar from '$lib/components/th/home/navbar.svelte'
 
 <Navbar />
 <Heroes />
+<Footer />
