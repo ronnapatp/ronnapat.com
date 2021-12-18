@@ -1843,10 +1843,10 @@ supports-color@^7.1.0:
   dependencies:
     has-flag "^4.0.0"
 
-svelte-check@^2.2.6:
-  version "2.2.7"
-  resolved "https://registry.npmjs.org/svelte-check/-/svelte-check-2.2.7.tgz"
-  integrity sha512-lH8ArmwVC+D314cToZkXBBfj7NlpvgQGP7nXCAMnNHo6hTEcbKcf/cAZgzbnAOTftjIJrmLHp+EDW887VJFSOQ==
+svelte-check@^2.2.11:
+  version "2.2.11"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-2.2.11.tgz#d436fd71dbc15876a1a5575a4924133620ac3f37"
+  integrity sha512-clotPGGZPj3LuS9qP1lk+Wwnsj+js42ehCPmHk+qtyaQh/dU95e0qkpPmtmOMYHN6My5Y75XqeN1QNLj5V5gwA==
   dependencies:
     chalk "^4.0.0"
     chokidar "^3.4.1"
