@@ -30,11 +30,15 @@
     }
 </script>
 <div class="w-full">
-    <div class="bg-gradient-to-b from-blue-600 to-blue-400 h-96"></div>
+    <div class="bg-gradient-to-tr from-green-600 via-red-300 to-red-600 h-96"></div>
     <div class="max-w-5xl mx-auto px-6 sm:px-6 lg:px-8 mb-12">
         <div class="bg-white w-full shadow rounded p-8 sm:p-12 -mt-72 ">
             {#if contact}
-            <p class="text-3xl font-bold leading-7 text-center">Contact me</p>
+            <p class="text-3xl font-bold leading-7 text-center">
+              <i class="bi bi-tree text-green-500"></i>
+              Contact me
+              <i class="bi bi-tree text-red-500"></i>
+            </p>
             {#await getData()}
             <!-- <p></p> -->
           {:then data}
@@ -49,19 +53,19 @@
                     <div class="w-full md:w-1/2 flex flex-col">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Name <l class="text-red-600">*</l></label>
-                        <input bind:value={Name} placeholder="Danny" type="text" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
+                        <input bind:value={Name} placeholder="Danny" type="text" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-green-600 mt-4 bg-white border rounded border-green-500" required/>
                     </div>
                     <div class="w-full md:w-1/2 flex flex-col md:ml-6 md:mt-0 mt-4">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Email <l class="text-red-600">*</l></label>
-                        <input bind:value={Email} placeholder="you@ronnapat.com" type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-black mt-4 bg-white border rounded border-gray-400" required/>
+                        <input bind:value={Email} placeholder="you@ronnapat.com" type="email" class="leading-none text-gray-900 p-3 focus:outline-none focus:border-green-600 mt-4 bg-white border rounded border-green-500" required/>
                     </div>
                 </div>
                 <div>
                     <div class="w-full flex flex-col mt-8">
                         <!-- svelte-ignore a11y-label-has-associated-control -->
                         <label class="font-semibold leading-none text-gray-600">Message <l class="text-red-600">*</l></label>
-                        <textarea bind:value={Message} placeholder="Message..." type="text" class="h-40 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-black mt-4 bg-white border rounded border-gray-400" required></textarea>
+                        <textarea bind:value={Message} placeholder="Message..." type="text" class="h-40 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-green-600 mt-4 bg-white border rounded border-green-500" required></textarea>
                     </div>
                 </div>
                 <div
@@ -78,7 +82,7 @@
                       <label class=" text-gray-600">Confirm you are not robot? <l class="text-red-600">*</l></label>
                 </div>
                 <div class="flex items-center w-full">
-                    <button on:click={() => submit = false} class="mt-3 font-semibold leading-none text-white  py-4 px-10 bg-blue-700 w-full rounded hover:bg-blue-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
+                    <button on:click={() => submit = false} class="mt-3 font-semibold leading-none text-white  py-4 px-10 bg-red-500 w-full rounded hover:bg-red-600 focus:ring-2 focus:ring-offset-2 focus:ring-blue-700 focus:outline-none">
                         Send message
                     </button>
                 </div>
