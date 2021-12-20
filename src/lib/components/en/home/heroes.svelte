@@ -47,13 +47,13 @@
             <h1 class="font-bold text-6xl mb-4">Ronnapat Srivoravilai</h1>
             <h2 class="font-bold text-3xl mb-12">I create website application and bot</h2>
             <div>
-                <a href="https://blog.ronnapat.com/" target="_blank" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
+                <a href="https://blog.ronnapat.com/" target="_blank" class="bg-red-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-red-500 hover:text-green-200 mr-2">
                     Blog
                 </a>
-                <a href="/about" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
+                <a href="/about" class="bg-red-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-red-500 hover:text-green-200 mr-2">
                     About
                 </a>
-                <a href="/contact" class="bg-blue-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-400 hover:text-gray-700 mr-2">
+                <a href="/contact" class="bg-red-400 rounded font-bold text-white text-center px-4 py-3 transition duration-300 ease-in-out hover:bg-red-500 hover:text-green-200 mr-2">
                     Contact
                 </a>
             </div>
@@ -78,7 +78,7 @@
     I am a student in Bangkok,Thailand that like coding
     <p class="text-xl">Learn more about me at about page.</p>
 </div>
-<div class="bg-blue-100 dark:bg-slate-600">
+<div class="bg-green-100 dark:bg-slate-600">
 <div class="container mx-auto mt-4 md:mt-0 lg:mt-5 md:space-x-10 md:grid grid-cols-3 justify-center">
     <div class="grid md:justify-center md:items-center sm:float-left">
       <img class="lg:h-80 md:h-64 sm:h-52" src="/cover.jpeg" alt="" />
@@ -106,7 +106,7 @@
             </center>
           </div>
     </section>
-    <div class="bg-blue-100">
+    <div class="bg-red-100">
 <div class="md:h-36 lg:h-40 h-20 container mx-auto mt-10 mb-10 px-1">
     <div class="float-left md:mt-14 lg:mt-14 mt-5">
         <b class="md:text-4xl lg:text-5xl text-2xl">Have a question</b>

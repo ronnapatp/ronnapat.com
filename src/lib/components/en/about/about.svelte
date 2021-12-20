@@ -11,7 +11,7 @@ import { twitterUser } from "$lib/name";
     >
       <div
         id="sidebar"
-        class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-blue-500 via-blue-300 to-blue-200"
+        class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-green-400 via-red-300 to-red-400"
       >
         <div class="px-2 mb-12">
           <!-- svelte-ignore a11y-img-redundant-alt -->
@@ -106,11 +106,11 @@ import { twitterUser } from "$lib/name";
                 Built with:
               </div>
               <div class="lg:inline-block lg:w-8/12 w-full">
-                <span class="rounded-xl bg-blue-300 px-3">Svelte</span>
-                <span class="rounded-xl bg-blue-300 px-3">Tailwindcss</span>
-                <span class="rounded-xl bg-blue-300 px-3">Bootstrap icon</span>
-                <span class="rounded-xl bg-blue-300 px-3">Supabase</span>
-                <span class="rounded-xl bg-blue-300 px-3">Vercel</span>
+                <span class="rounded-xl bg-red-300 px-3">Svelte</span>
+                <span class="rounded-xl bg-red-300 px-3">Tailwindcss</span>
+                <span class="rounded-xl bg-red-300 px-3">Bootstrap icon</span>
+                <span class="rounded-xl bg-red-300 px-3">Supabase</span>
+                <span class="rounded-xl bg-red-300 px-3">Vercel</span>
               </div>
             </section>
           </div>
