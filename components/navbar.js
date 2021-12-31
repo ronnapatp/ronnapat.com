@@ -66,7 +66,7 @@ export default function Example() {
             <a href="#" className='inline-flex space-x-2'>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://ronnapat.com/favicon.ico"
+                src="/logo-no-bg.png"
                 alt=""
               />
               <span className='text-2xl mt-1 hidden lg:block'>
@@ -166,7 +166,7 @@ export default function Example() {
                 <div className='inline-flex space-x-2'>
                   <img
                     className="h-8 w-auto"
-                    src="https://ronnapat.com/favicon.ico"
+                    src="/logo-no-bg.png"
                     alt="Workflow"
                   />
                   <span className='text-2xl'>
