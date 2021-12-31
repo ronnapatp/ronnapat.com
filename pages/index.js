@@ -4,9 +4,13 @@ import Navbar from '../components/navbar'
 export default function Home() {
   return (<>
     <Navbar />
-    <div className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div className="flex flex-col items-center justify-center min-h-screen">
       <Head title='Home' image='/favicon.ico' />
-
+      <div className="w-full bg-center bg-no-repeat bg-cover bg-[url('https://ronnapat.com/heroes.png')]">
+        <div className='mt-36'>
+          <h1 className='text-4xl text-center'>Ronnapat Srivoravilai</h1>
+        </div>
+      </div>
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
           Welcome to{' '}
