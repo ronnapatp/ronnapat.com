@@ -1,13 +1,15 @@
 /* This example requires Tailwind CSS v2.0+ */
 import { Fragment } from 'react'
-import { Popover, Transition } from '@headlessui/react'
+import { Popover, Transition, Menu } from '@headlessui/react'
 import {
   MenuIcon,
   XIcon,
   HomeIcon,
   NewspaperIcon,
   IdentificationIcon,
-  InformationCircleIcon
+  InformationCircleIcon,
+  ChevronDownIcon,
+  TranslateIcon,
 } from '@heroicons/react/outline'
 
 const pageshover = [
@@ -51,6 +53,10 @@ const pages = [
   },
 ]
 
+function classNames(...classes) {
+  return classes.filter(Boolean).join(' ')
+}
+
 export default function Example() {
   return (
       <>
@@ -62,7 +68,7 @@ export default function Example() {
               <span className="sr-only">Workflow</span>
               <img
                 className="h-8 w-auto sm:h-10"
-                src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                src="https://ronnapat.com/favicon.ico"
                 alt=""
               />
             </a>
@@ -86,15 +92,56 @@ export default function Example() {
             ))}
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
-            <a href="#" className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900">
-              Sign in
-            </a>
-            <a
-              href="#"
-              className="ml-8 whitespace-nowrap inline-flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-700"
+            <Menu as="div" className="relative inline-block text-left">
+            <div>
+              <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+                <TranslateIcon className='h-5 w-5 mr-1' />
+                Languages
+                <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+              </Menu.Button>
+            </div>
+
+            <Transition
+              as={Fragment}
+              enter="transition ease-out duration-100"
+              enterFrom="transform opacity-0 scale-95"
+              enterTo="transform opacity-100 scale-100"
+              leave="transition ease-in duration-75"
+              leaveFrom="transform opacity-100 scale-100"
+              leaveTo="transform opacity-0 scale-95"
             >
-              Sign up
-            </a>
+              <Menu.Items className="origin-top-right absolute right-0 mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
+                <div className="py-1">
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                        English
+                      </a>
+                    )}
+                  </Menu.Item>
+                  <Menu.Item>
+                    {({ active }) => (
+                      <a
+                        href="#"
+                        className={classNames(
+                          active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                          'block px-4 py-2 text-sm'
+                        )}
+                      >
+                        Thai
+                      </a>
+                    )}
+                  </Menu.Item>
+                </div>
+              </Menu.Items>
+            </Transition>
+          </Menu>
           </div>
         </div>
       </div>
@@ -115,7 +162,7 @@ export default function Example() {
                 <div>
                   <img
                     className="h-8 w-auto"
-                    src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                    src="https://ronnapat.com/favicon.ico"
                     alt="Workflow"
                   />
                 </div>
@@ -126,7 +173,7 @@ export default function Example() {
                   </Popover.Button>
                 </div>
               </div>
-              <div className="mt-6">
+              <div className="mt-6 mb-2">
                 <nav className="grid gap-y-8">
                   {pageshover.map((item) => (
                     <a
@@ -139,6 +186,19 @@ export default function Example() {
                     </a>
                   ))}
                 </nav>
+              </div>
+              <div className="py-6 px-5 space-y-6">
+                  <span className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    Select Languages
+                  </span>
+                <div className="grid grid-cols-2 gap-y-4 gap-x-8">
+                  <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    English
+                  </a>
+                  <a href="#" className="text-base font-medium text-gray-900 hover:text-gray-700">
+                    Thai
+                  </a>
+                </div>
               </div>
             </div>
           </div>
