@@ -6,8 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
+    "@formspree/react": "^2.2.4",
     "@headlessui/react": "^1.4.2",
     "@heroicons/react": "^1.0.5",
+    "@tailwindcss/forms": "^0.4.0",
     "next": "latest",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
