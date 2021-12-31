@@ -11,7 +11,7 @@ export default function Header() {
                             <h1 className="text-6xl text-center md:text-left font-medium tracking-wide text-gray-800 dark:text-white md:text-7xl">Ronnapat Srivoravilai</h1>
                             <p className="mt-4 text-gray-100 dark:text-gray-200">I create website bot and much more! You can view my project in my blog</p>
                             <div className="mt-6">
-                                <a href="#" className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-blue-500 rounded-md md:inline hover:bg-blue-400">
+                                <a href="#" className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-sky-500 rounded-md md:inline hover:bg-sky-400">
                                     Learn more
                                 </a>
                             </div>
