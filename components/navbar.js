@@ -90,7 +90,7 @@ export default function Example() {
                 href={item.href}
                 className="text-base font-medium text-gray-500 hover:text-gray-900 inline-flex"
               >
-                <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
                 {item.name}
               </a>
             ))}
@@ -98,7 +98,7 @@ export default function Example() {
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
             <Menu as="div" className="relative inline-block text-left">
             <div>
-              <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-indigo-500">
+              <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-sky-500">
                 <TranslateIcon className='h-5 w-5 mr-1' />
                 Languages
                 <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
@@ -188,7 +188,7 @@ export default function Example() {
                       href={item.href}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
-                      <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                      <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>
                   ))}
