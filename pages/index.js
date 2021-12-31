@@ -1,14 +1,11 @@
-import Head from 'next/head'
+import Head from '../components/meta'
 import Navbar from '../components/navbar'
 
 export default function Home() {
   return (<>
     <Navbar />
     <div className="flex flex-col items-center justify-center min-h-screen py-2">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+      <Head title='Home' image='/favicon.ico' />
 
       <main className="flex flex-col items-center justify-center w-full flex-1 px-20 text-center">
         <h1 className="text-6xl font-bold">
