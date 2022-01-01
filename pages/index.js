@@ -1,4 +1,3 @@
-import Header from '../components/header'
 import Head from '../components/meta'
 import React, { useEffect } from "react";
 import Router from 'next/router'
