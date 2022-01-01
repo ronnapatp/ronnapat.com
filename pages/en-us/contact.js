@@ -1,6 +1,10 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Head from '../../components/meta'
+import Navbar from '../../components/navbar'
+import {
+  langenus
+} from '../../script/main'
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
@@ -25,7 +29,7 @@ function ContactForm() {
                 <h1 className='block md:hidden text-3xl font-semibold'>
                   Contact me
                 </h1>
-                <span className='text-sm mb-5'>
+                <span className='block md:hidden text-sm mb-5'>
                   I will respond in your email as soon as possible
                 </span>
                 <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4 mt-5">
@@ -57,7 +61,8 @@ function App() {
   return (
       <>
       <Head title='Contact' image='/meta.png' />
-            <ContactForm />
+      <Navbar lantoshow={langenus} pathname='en-us' />
+      <ContactForm />
       </>
   );
 }
