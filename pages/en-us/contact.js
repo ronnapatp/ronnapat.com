@@ -58,7 +58,7 @@ function ContactForm() {
 function App() {
   return (
       <>
-      <Head title='Contact' image='/favicon.ico' />
+      <Head title='Contact' image='/meta.png' />
         <div className='text-center mt-20 text-4xl md:text-7xl'>
             Contact me
             <ContactForm />

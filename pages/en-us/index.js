@@ -9,7 +9,7 @@ import {
 export default function Home() {
     return(
         <>
-            <Head title='Home' image='/favicon.ico' />
+            <Head title='Home' image='/meta.png' />
             <Navbar lantoshow={langenus} pathname='en-us' />
             <Header name='Ronnapat Srivoravilai' description='I create website bot and much more! You can view my project in my blog' button='Learn more' bthref='#' />
             <Homeabout title='Who am I ?'>

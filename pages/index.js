@@ -11,7 +11,7 @@ export default function Home() {
   });
  
   return (<>    
-      <Head title='Home' image='/favicon.ico' />
+      <Head title='Home' image='meta.png' />
 
     </>
   )
