@@ -1,6 +1,8 @@
 export default function Header({
     name,
     description,
+    button,
+    bthref,
 }) {
     return(
         <div className="w-full bg-center bg-no-repeat bg-cover bg-[url('https://ronnapat.com/heroes.png')]">
@@ -14,8 +16,8 @@ export default function Header({
                             <h1 className="text-6xl text-center md:text-left font-medium tracking-wide text-gray-800 dark:text-white md:text-7xl">{name}</h1>
                             <p className="mt-4 text-gray-100 dark:text-gray-200">{description}</p>
                             <div className="mt-6">
-                                <a href="#" className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-sky-500 rounded-md md:inline hover:bg-sky-400">
-                                    Learn more
+                                <a href={bthref} className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-sky-500 rounded-md md:inline hover:bg-sky-400">
+                                    {button}
                                 </a>
                             </div>
                         </div>
