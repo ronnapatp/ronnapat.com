@@ -19,7 +19,7 @@ const pageshover = [
   },
   {
     name: 'Blog',
-    href: 'https://blog.ronnapat.com/',
+    href: '/blog',
     icon: NewspaperIcon,
   },
   {
@@ -37,7 +37,7 @@ const pageshover = [
 const pages = [
   {
     name: 'Blog',
-    href: 'https://blog.ronnapat.com/',
+    href: '/blog',
     icon: NewspaperIcon,
   },
   {
