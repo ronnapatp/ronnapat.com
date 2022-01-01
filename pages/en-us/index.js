@@ -5,7 +5,7 @@ import Homeabout from "../../components/home-about";
 import Skill from "../../components/skill";
 import {
     langenus
-} from '../../script/main'
+} from '../../script/languages'
 
 export default function Home() {
     return(

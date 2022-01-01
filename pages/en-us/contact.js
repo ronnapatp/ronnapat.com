@@ -4,7 +4,7 @@ import Head from '../../components/meta'
 import Navbar from '../../components/navbar'
 import {
   langenus
-} from '../../script/main'
+} from '../../script/languages'
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
