@@ -121,7 +121,7 @@ export default function Example() {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels className="mt-2 bg-gray-200 rounded">
+        <Tab.Panels className="mt-2 bg-sky-200 rounded">
           {Object.values(categories).map((items, idx) => (
             <Tab.Panel
               key={idx}
