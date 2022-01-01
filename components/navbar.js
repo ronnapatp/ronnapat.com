@@ -66,7 +66,7 @@ export default function Example({
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
-            <a href="#" className='inline-flex space-x-2'>
+            <a href={`/${pathname}`} className='inline-flex space-x-2'>
               <img
                 className="h-8 w-auto sm:h-10"
                 src="/logo-no-bg.png"
