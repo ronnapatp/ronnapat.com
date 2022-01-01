@@ -10,9 +10,5 @@ export default function Home() {
     }
   });
  
-  return (<>    
-      <Head title='Home' image='meta.png' />
-
-    </>
-  )
+  return (<Head title='Home' image='meta.png' />)
 }
