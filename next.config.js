@@ -1,3 +1,16 @@
 module.exports = {
-    reactStrictMode: true,
+    async redirects() {
+        return [
+          {
+            source: '/en-us/blog',
+            destination: 'https://blog.ronnapat.com',
+            permanent: false,
+          },
+          {
+            source: '/blog',
+            destination: 'https://blog.ronnapat.com',
+            permanent: false,
+          },
+        ]
+      },
 }
