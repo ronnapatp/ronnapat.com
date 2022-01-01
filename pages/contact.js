@@ -1,5 +1,7 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
+import Head from '../components/meta'
+
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
   if (state.succeeded) {
@@ -56,6 +58,7 @@ function ContactForm() {
 function App() {
   return (
       <>
+      <Head title='Contact' image='/favicon.ico' />
         <div className='text-center mt-20 text-4xl md:text-7xl'>
             Contact me
             <ContactForm />
