@@ -90,7 +90,7 @@ export default function Example({
             {pages.map((item) => (
               <a 
                 key={item.name}
-                href={`/${pathname}/${item.href}`}
+                href={`/${pathname}${item.href}`}
                 className="text-base font-medium text-gray-500 hover:text-gray-900 inline-flex"
               >
                 <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
@@ -188,7 +188,7 @@ export default function Example({
                   {pageshover.map((item) => (
                     <a
                       key={item.name}
-                      href={item.href}
+                      href={`/${pathname}${item.href}`}
                       className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
                     >
                       <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
