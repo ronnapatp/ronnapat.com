@@ -3,7 +3,7 @@ import Navbar from '../components/navbar'
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
-import * as gtag from '../lib/gtag'
+import * as gtag from '../script/gtag'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
