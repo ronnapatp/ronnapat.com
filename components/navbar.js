@@ -56,7 +56,10 @@ function classNames(...classes) {
   return classes.filter(Boolean).join(' ')
 }
 
-export default function Example() {
+export default function Example({
+  lantoshow,
+  pathname
+}) {
   return (
       <>
     <Popover className="relative bg-white border-b-2 border-gray-100">
@@ -87,7 +90,7 @@ export default function Example() {
             {pages.map((item) => (
               <a 
                 key={item.name}
-                href={item.href}
+                href={`/${pathname}/${item.href}`}
                 className="text-base font-medium text-gray-500 hover:text-gray-900 inline-flex"
               >
                 <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
@@ -100,7 +103,7 @@ export default function Example() {
             <div>
               <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-sky-500">
                 <TranslateIcon className='h-5 w-5 mr-1' />
-                Languages
+                {lantoshow}
                 <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
               </Menu.Button>
             </div>
@@ -125,7 +128,7 @@ export default function Example() {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        English
+                        🇺🇸 English
                       </a>
                     )}
                   </Menu.Item>
@@ -138,7 +141,7 @@ export default function Example() {
                           'block px-4 py-2 text-sm'
                         )}
                       >
-                        Thai
+                        🇹🇭 ไทย
                       </a>
                     )}
                   </Menu.Item>
@@ -197,7 +200,7 @@ export default function Example() {
                         <Menu.Button className="inline-flex w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
                           <TranslateIcon className='h-5 w-5 mr-2' />
                           <span className='text-center'>
-                            Languages
+                            {lantoshow}
                           </span>
                           <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
                         </Menu.Button>
@@ -223,7 +226,7 @@ export default function Example() {
                                     'block px-4 py-2 text-sm'
                                   )}
                                 >
-                                  English
+                                  🇺🇸 English
                                 </a>
                               )}
                             </Menu.Item>
@@ -236,7 +239,7 @@ export default function Example() {
                                     'block px-4 py-2 text-sm'
                                   )}
                                 >
-                                  Thai
+                                  🇹🇭 ไทย
                                 </a>
                               )}
                             </Menu.Item>

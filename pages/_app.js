@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Navbar from '../components/navbar'
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
@@ -36,7 +35,6 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
       />
-      <Navbar />
       <Component {...pageProps} />
     </>
   )
