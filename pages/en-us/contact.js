@@ -5,6 +5,7 @@ import Navbar from '../../components/navbar'
 import {
   langenus
 } from '../../script/languages'
+import HCaptcha from '@hcaptcha/react-hcaptcha';
 
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
@@ -64,13 +65,17 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
                       Message
                     </p>
-                    <textarea class="rounded-md border-gray-400 w-full" name="message" id="message" placeholder="Hello Ronnapat..." required />
+                    <textarea className="rounded-md border-gray-400 w-full" name="message" id="message" placeholder="Hello Ronnapat..." required />
                     <ValidationError 
                       prefix="Message" 
                       field="message"
                       errors={state.errors}
                       />
                   </div>
+                        {/* <HCaptcha
+                          sitekey="e5d18b26-c6ae-499a-a727-97560cdcccb5"
+                          onVerify={(token,ekey) => handleVerificationSuccess(token, ekey)}
+                        /> */}
                   {/* <div className='mt-5'>
                     <input type='checkbox' className='mr-2 rounded text-sky-400 focus:ring focus:ring-offset-0 focus:ring-sky-200 focus:ring-opacity-50' required />
                     You need to agree with Privacy & Policy first
