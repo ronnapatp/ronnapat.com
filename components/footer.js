@@ -35,7 +35,7 @@ export default function footer(){
                     </form>
                 </div>
                 <div className="text-center text-gray-500 pt-10 sm:pt-12 font-light flex items-center justify-center">
-                    RONNAPAT SRIVORAIVLAI
+                    Ronnapat Srivoravilai © 2020 - {new Date().getFullYear()}
                 </div>
             </div>
         </footer>
