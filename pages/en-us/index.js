@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar'
 import Head from '../../components/meta'
 import Homeabout from "../../components/home-about";
 import Skill from "../../components/skill";
+import Footer from "../../components/footer"
 import {
     langenus
 } from '../../script/languages'
@@ -19,6 +20,7 @@ export default function Home() {
             <center>
                 <Skill />
             </center>
+            <Footer />
         </>
     )
 }
