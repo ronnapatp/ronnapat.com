@@ -21,11 +21,20 @@ function ContactForm() {
                 <h1 className='text-center text-4xl md:text-6xl text-sky-600 mt-5'>
                   Thanks for sending me message!
                 </h1>
-                <div className='mt-10 text-center'>
+                {/* <div className='mt-10 text-center'>
                   <p className='text-xl'>
                     Follow me
                   </p>
-                </div>
+                  <a href='https://facebook.com/pieronnapatp'>
+                    <i class="ri-facebook-circle-fill text-3xl"></i>
+                  </a>
+                  <a href='https://twitter.com/ronnapatp'>
+                    <i class="ri-twitter-fill text-3xl"></i>
+                  </a>
+                  <a href='https://github.com/ronnapatp'>
+                    <i class="ri-github-fill text-3xl"></i>
+                  </a>
+                </div> */}
           </div>
         </>
         )
