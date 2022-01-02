@@ -5,22 +5,22 @@ export default function footer(){
             <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li className="my-2">
                     <a className="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
-                        FAQ
+                        Privacy
                     </a>
                 </li>
                 <li className="my-2">
                     <a className="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
-                        Configuration
+                        Blog
                     </a>
                 </li>
                 <li className="my-2">
                     <a className="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
-                        Github
+                        Repository
                     </a>
                 </li>
                 <li className="my-2">
                     <a className="text-gray-400 hover:text-gray-800 transition-colors duration-200" href="#">
-                        LinkedIn
+                        Share
                     </a>
                 </li>
             </ul>
