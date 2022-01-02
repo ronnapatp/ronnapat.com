@@ -74,7 +74,7 @@ function ContactForm() {
                   </div>
                   <div className='mb-2'>
                     <p className="text-md md:text-xl">
-                      Phone number
+                      Phone number (Optional)
                     </p>
                     <div className="mt-1 relative rounded-md shadow-sm">
                       <div className="absolute w-6 inset-y-0 left-0 flex">
