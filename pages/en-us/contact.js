@@ -42,7 +42,7 @@ function ContactForm() {
   }
   return (
     <>
-          <div className='max-w-md mx-auto my-20 md:my-52'>
+          <div className='max-w-md mx-auto py-2 my-20 md:my-52'>
             <form onSubmit={handleSubmit} >
                 <h1 className='text-center text-4xl md:text-6xl font-semibold'>
                   Contact me
