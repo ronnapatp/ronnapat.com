@@ -304,7 +304,7 @@ function ContactForm() {
                         name="number"
                         id="number"
                         className="h-full block w-full pl-20 border-gray-500 focus:ring-sky-500 focus:border-sky-500 rounded-md"
-                        placeholder=""
+                        placeholder="Phone number (Optional)"
                         minlength="9" maxlength="14"
                       />
                     </div>
