@@ -11,6 +11,11 @@ module.exports = {
             destination: 'https://blog.ronnapat.com',
             permanent: false,
           },
+          {
+            source: '/contact',
+            destination: '/en-us/contact',
+            permanent: false,
+          },
         ]
       },
 }
