@@ -50,7 +50,18 @@ function ContactForm() {
                     I will respond in your email as soon as possible
                   </p>
                 </h1>
-                  <div className='mt-5'>
+                <div className='mt-5'>
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                      Name
+                    </p>
+                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
+                    <ValidationError 
+                      prefix="Name" 
+                      field="Name"
+                      errors={state.errors}
+                      />
+                  </div>
+                  <div>
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
                       Email Address
                     </p>
@@ -80,7 +91,7 @@ function ContactForm() {
                     <input type='checkbox' className='mr-2 rounded text-sky-400 focus:ring focus:ring-offset-0 focus:ring-sky-200 focus:ring-opacity-50' required />
                     You need to agree with Privacy & Policy first
                   </div> */}
-                <button type="submit" class="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
+                <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
         </>
