@@ -3,6 +3,7 @@ import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 import * as gtag from '../script/gtag'
+import 'remixicon/fonts/remixicon.css'
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
