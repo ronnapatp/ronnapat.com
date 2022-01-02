@@ -300,11 +300,12 @@ function ContactForm() {
                         </select>
                       </div>
                       <input
-                        type="number"
+                        type="tel"
                         name="number"
                         id="number"
                         className="h-full block w-full pl-20 border-gray-500 focus:ring-sky-500 focus:border-sky-500 rounded-md"
-                        placeholder="Phone number (Optional)"
+                        placeholder=""
+                        minlength="9" maxlength="14"
                       />
                     </div>
                     <ValidationError 
