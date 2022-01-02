@@ -9,7 +9,26 @@ import {
 function ContactForm() {
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
   if (state.succeeded) {
-      return <p>Thanks for joining!</p>;
+      return (
+        <>
+          <div className='my-20 md:my-52'>
+                <h1 className='text-center text-4xl md:text-6xl font-semibold'>
+                  Contact me
+                  <p className='text-xl md:text-2xl font-normal'>
+                    I will respond in your email as soon as possible
+                  </p>
+                </h1>
+                <h1 className='text-center text-4xl md:text-6xl text-sky-600 mt-5'>
+                  Thanks for sending me message!
+                </h1>
+                <div className='mt-10 text-center'>
+                  <p className='text-xl'>
+                    Follow me
+                  </p>
+                </div>
+          </div>
+        </>
+        )
   }
   return (
     <>
