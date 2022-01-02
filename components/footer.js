@@ -1,5 +1,21 @@
 import { Dialog, Transition } from '@headlessui/react'
 import { Fragment, useState } from 'react'
+import {
+    FacebookShareButton,
+    LineShareButton,
+    TwitterShareButton,
+    TelegramShareButton,
+    RedditShareButton,
+    LinkedinShareButton,
+    EmailShareButton,
+    FacebookIcon,
+    TwitterIcon,
+    LineIcon,
+    TelegramIcon,
+    RedditIcon,
+    LinkedinIcon,
+    EmailIcon,
+} from "react-share";
 
 export default function footer(){
     let [isOpen, setIsOpen] = useState(false)
@@ -84,25 +100,58 @@ export default function footer(){
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-xl  opacity-100 p-6 my-16 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+              <div className="inline-block w-full max-w-md  opacity-100 p-6 my-16 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
                   className="text-lg font-medium leading-6 text-gray-900"
                 >
                   Share my website
                 </Dialog.Title>
-                <div className="mt-2">
-                  <textarea className='w-[100%] resize-none border border-zinc-400 rounded cursor-text' disabled></textarea>
-                  
+                <div className="mt-2 space-x-2">
+                  <span>
+                    <FacebookShareButton
+                    url="https://ronnapat.com/"
+                    quote={`Ronnapat personal website`}
+                    >
+                    <FacebookIcon size={46} />
+                    </FacebookShareButton>
+                </span>
+                <span>
+                    <TwitterShareButton
+                    url="https://ronnapat.com/"
+                    title={`Ronnapat personal website`}
+                    >
+                    <TwitterIcon size={46} />
+                    </TwitterShareButton>
+                </span>
+                <span>
+                    <LineShareButton url="https://ronnapat.com/">
+                    <LineIcon size={46} />
+                    </LineShareButton>
+                </span>
+                <span>
+                    <TelegramShareButton url='https://ronnapat.com/' title={`Ronnapat personal website`}>
+                        <TelegramIcon size={46} />
+                    </TelegramShareButton>
+                </span>
+                <span>
+                    <RedditShareButton url='https://ronnapat.com/' title={`Ronnapat personal website`}>
+                        <RedditIcon size={46} />
+                    </RedditShareButton>
+                </span>
+                <span>
+                    <LinkedinShareButton url='https://ronnapat.com/' title={`Ronnapat personal website`}>
+                        <LinkedinIcon size={46} />
+                    </LinkedinShareButton>
+                </span>
+                <span>
+                    <EmailShareButton url='https://ronnapat.com/' >
+                        <EmailIcon size={46} />
+                    </EmailShareButton>
+                </span>
                 </div>
 
                 <div className="mt-4 space-x-2">
-                <button
-                    type="button"
-                    className="inline-flex left-0 justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
-                  >
-                    Copy
-                  </button>
                   <button
                     type="button"
                     className="inline-flex float-right justify-center px-4 py-2 text-sm font-medium text-red-900 bg-red-100 border border-transparent rounded-md hover:bg-red-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-red-500"
