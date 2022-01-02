@@ -13,48 +13,44 @@ function ContactForm() {
   }
   return (
     <>
-    <div class="h-screen md:flex">
-	        <div class="relative overflow-hidden md:flex w-1/2 bg-gradient-to-tr from-sky-800 to-purple-700 justify-around items-center hidden">
-		        <div>
-              <h1 class="text-white font-bold text-4xl font-sans">Contact me</h1>
-              <p class="text-white mt-1">I will respond in your email as soon as possible</p>
-            </div>
-            <div class="absolute -bottom-32 -left-40 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
-            <div class="absolute -bottom-40 -left-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
-            <div class="absolute -top-40 -right-0 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
-            <div class="absolute -top-20 -right-20 w-80 h-80 border-4 rounded-full border-opacity-30 border-t-8"></div>
-          </div>
-          <div class="flex md:w-1/2 justify-center py-10 items-center bg-white">
-            <form onSubmit={handleSubmit}>
-                <h1 className='block md:hidden text-3xl font-semibold'>
+          <div className='max-w-md mx-auto my-20 md:my-52'>
+            <form onSubmit={handleSubmit} >
+                <h1 className='text-center text-4xl md:text-6xl font-semibold'>
                   Contact me
+                  <p className='text-xl md:text-2xl font-normal'>
+                    I will respond in your email as soon as possible
+                  </p>
                 </h1>
-                <span className='block md:hidden text-sm mb-5'>
-                  I will respond in your email as soon as possible
-                </span>
-                <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4 mt-5">
-                    <input class="pl-2 outline-none border-none focus:ring-white" type="email" name="email" id="email" placeholder="Email Address" />
+                  <div className='mt-5'>
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                      Email Address
+                    </p>
+                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="email" name="email" id="email" placeholder="Email Address" required />
                     <ValidationError 
                       prefix="Email" 
                       field="email"
                       errors={state.errors}
-                    />
-                </div>
-                <div class="flex items-center border-2 py-2 px-3 rounded-2xl mb-4">
-                    <textarea class="pl-2 outline-none border-none focus:ring-white" name="message" id="message" placeholder="Message..." />
+                      />
+                  </div>
+                  <div>
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                      Message
+                    </p>
+                    <textarea class="rounded-md border-gray-400 w-full" name="message" id="message" placeholder="Hello Ronnapat..." required />
                     <ValidationError 
                       prefix="Message" 
                       field="message"
                       errors={state.errors}
-                    />
-                </div>
-                <button type="submit" class="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" disabled={state.submitting}>Login</button>
+                      />
+                  </div>
+                  {/* <div className='mt-5'>
+                    <input type='checkbox' className='mr-2 rounded text-sky-400 focus:ring focus:ring-offset-0 focus:ring-sky-200 focus:ring-opacity-50' required />
+                    You need to agree with Privacy & Policy first
+                  </div> */}
+                <button type="submit" class="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
-    </div>
         </>
-
-    
   );
 }
 function App() {
