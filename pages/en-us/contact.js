@@ -83,7 +83,7 @@ function ContactForm() {
                           name="phone"
                           className="focus:ring-sky-500 w-20 focus:border-sky-500 h-full py-0 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
                         >
-                          	<option data-countryCode="DZ" value="213">Algeria (+213)</option>
+                          <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                           <option data-countryCode="AD" value="376">Andorra (+376)</option>
                           <option data-countryCode="AO" value="244">Angola (+244)</option>
                           <option data-countryCode="AI" value="1264">Anguilla (+1264)</option>
