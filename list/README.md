@@ -11,3 +11,4 @@
 ## Done
 - Add footer
 - Make contact form responsive  
+- Dark mode
