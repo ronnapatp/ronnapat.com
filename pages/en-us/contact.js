@@ -330,14 +330,6 @@ function ContactForm() {
                       errors={state.errors}
                       />
                   </div>
-                        {/* <HCaptcha
-                          sitekey="e5d18b26-c6ae-499a-a727-97560cdcccb5"
-                          onVerify={(token,ekey) => handleVerificationSuccess(token, ekey)}
-                        /> */}
-                  {/* <div className='mt-5'>
-                    <input type='checkbox' className='mr-2 rounded text-sky-400 focus:ring focus:ring-offset-0 focus:ring-sky-200 focus:ring-opacity-50' required />
-                    You need to agree with Privacy & Policy first
-                  </div> */}
                 <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
