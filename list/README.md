@@ -10,4 +10,4 @@
 
 ## Done
 - Add footer
-- Make contact form responsive
+- Make contact form responsive  
