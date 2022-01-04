@@ -65,7 +65,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Email Address
                     </p>
-                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="email" name="email" id="email" placeholder="Email Address" required />
+                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
                     <ValidationError 
                       prefix="Email" 
                       field="email"
@@ -303,7 +303,7 @@ function ContactForm() {
                         type="tel"
                         name="number"
                         id="number"
-                        className="h-full block w-full pl-20 border-gray-500 focus:ring-sky-500 focus:border-sky-500 rounded-md"
+                        className="h-full block w-full pl-20 border-gray-400 focus:ring-sky-500 focus:border-sky-500 rounded-md"
                         placeholder="Phone number (Optional)"
                         minlength="9" maxlength="14"
                       />
@@ -323,7 +323,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Message
                     </p>
-                    <textarea className="rounded-md border-gray-400 w-full" name="message" id="message" placeholder="Hello Ronnapat..." required />
+                    <textarea className="rounded-md border-gray-400 w-full focus:border-sky-500 focus:ring-sky-500" name="message" id="message" placeholder="Hello Ronnapat..." required />
                     <ValidationError 
                       prefix="Message" 
                       field="message"
