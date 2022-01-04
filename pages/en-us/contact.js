@@ -54,7 +54,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Name
                     </p>
-                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
+                    <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
                     <ValidationError 
                       prefix="Name" 
                       field="Name"
@@ -65,7 +65,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Email Address
                     </p>
-                    <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
+                    <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
                     <ValidationError 
                       prefix="Email" 
                       field="email"
@@ -81,7 +81,7 @@ function ContactForm() {
                         <select
                           id="phone"
                           name="phone"
-                          className="focus:ring-sky-500 w-20 focus:border-sky-500 h-full py-0 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md"
+                          className="w-20 h-full py-0 pr-7 border-transparent bg-transparent text-gray-500 sm:text-sm rounded-md focus:border-white focus:ring-gray-300"
                         >
                           <option data-countryCode="DZ" value="213">Algeria (+213)</option>
                           <option data-countryCode="AD" value="376">Andorra (+376)</option>
@@ -303,7 +303,7 @@ function ContactForm() {
                         type="tel"
                         name="number"
                         id="number"
-                        className="h-full block w-full pl-20 border-gray-400 focus:ring-sky-500 focus:border-sky-500 rounded-md"
+                        className="h-full block w-full pl-20 rounded-md shadow-sm border-gray-300 focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
                         placeholder="Phone number (Optional)"
                         minlength="9" maxlength="14"
                       />
@@ -323,7 +323,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Message
                     </p>
-                    <textarea className="rounded-md border-gray-400 w-full focus:border-sky-500 focus:ring-sky-500" name="message" id="message" placeholder="Hello Ronnapat..." required />
+                    <textarea className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50" name="message" id="message" placeholder="Hello Ronnapat..." required />
                     <ValidationError 
                       prefix="Message" 
                       field="message"
@@ -338,7 +338,7 @@ function ContactForm() {
                     <input type='checkbox' className='mr-2 rounded text-sky-400 focus:ring focus:ring-offset-0 focus:ring-sky-200 focus:ring-opacity-50' required />
                     You need to agree with Privacy & Policy first
                   </div> */}
-                <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
+                <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
         </>
