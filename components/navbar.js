@@ -84,7 +84,7 @@ export default function Example({
 console.log(theme)
   return (
       <>
-    <Popover className="relative bg-white border-b-2 border-gray-100">
+    <Popover className="relative bg-white border-b-2 border-gray-100 dark:bg-gray-800 dark:border-gray-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
@@ -94,10 +94,10 @@ console.log(theme)
                 src="/logo-no-bg.png"
                 alt=""
               />
-              <span className='text-2xl mt-1 hidden lg:block'>
+              <span className='text-2xl mt-1 hidden lg:block dark:text-white'>
                 Ronnapat Srivoravilai
               </span>
-              <span className='text-2xl sm:mt-1 block lg:hidden'>
+              <span className='text-2xl sm:mt-1 block lg:hidden dark:text-white'>
                 Ronnapat
               </span>
             </a>
@@ -113,9 +113,9 @@ console.log(theme)
               <a 
                 key={item.name}
                 href={`/${pathname}${item.href}`}
-                className="text-base font-medium text-gray-500 hover:text-gray-900 inline-flex"
+                className="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-sky-400 inline-flex"
               >
-                <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
+                <item.icon className="flex-shrink-0 h-6 w-6 text-sky-500 dark:text-sky-400" aria-hidden="true" />
                 {item.name}
               </a>
             ))}
@@ -124,7 +124,7 @@ console.log(theme)
           <Menu as="div" className="relative inline-block text-left">
               <div>
                 <Menu.Button className="inline-flex justify-center p-2">
-                  <i className={`${themeimage} text-xl`}></i>
+                  <i className={`${themeimage} text-xl dark:text-gray-400 dark:hover:text-gray-200`}></i>
                 </Menu.Button>
               </div>
 
@@ -137,14 +137,14 @@ console.log(theme)
                 leaveFrom="transform opacity-100 scale-100"
                 leaveTo="transform opacity-0 scale-95"
               >
-                <Menu.Items className="origin-top-right absolute right-0 mt-2 w-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                <Menu.Items className="origin-top-right absolute right-0 mt-2 w-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-700">
                   <div className="py-1">
                     <Menu.Item>
                       {({ active }) => (
                         <a
                           onClick={() => setTheme('light')}
                           className={classNames(
-                            active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                            active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
                             'block px-4 py-1 text-md select-none cursor-pointer'
                           )}
                         >
@@ -158,7 +158,7 @@ console.log(theme)
                           <a
                             onClick={() => setTheme('dark')}
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
                               'block px-4 py-1 text-md select-none cursor-pointer'
                             )}
                           >
@@ -172,7 +172,7 @@ console.log(theme)
                           <a
                             onClick={() => setTheme('system')}
                             className={classNames(
-                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
                               'block px-4 py-1 text-md select-none cursor-pointer'
                             )}
                           >
