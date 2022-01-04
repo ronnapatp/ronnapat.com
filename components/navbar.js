@@ -279,43 +279,43 @@ console.log(theme)
                     <a
                       key={item.name}
                       href={`/${pathname}${item.href}`}
-                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50"
+                      className="-m-3 p-3 flex items-center rounded-md hover:bg-gray-50 dark:hover:bg-slate-700"
                     >
-                      <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600" aria-hidden="true" />
-                      <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
+                      <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600 dark:text-sky-500" aria-hidden="true" />
+                      <span className="ml-3 text-base font-medium text-gray-900 dark:text-gray-300">{item.name}</span>
                     </a>
                   ))}
                   <div className='inline-flex'>
-                    <span className='text-xl left-0'>
+                    <span className='text-xl left-0 text-gray-900 dark:text-gray-200'>
                       Theme
                     </span>
-                    <span className='ml-10 space-x-3'>
+                    <span className='ml-10 space-x-2'>
                           <button
                             onClick={() => setTheme('light')}
                             className={themesl}                            
                           >
-                            <i class="ri-sun-line text-md mr-2"></i>
+                            <i class="ri-sun-line text-md mr-1"></i>
                             Light
                           </button>
                           <button
                             onClick={() => setTheme('dark')}
                             className={themesd}                            
                           >
-                            <i class="ri-moon-clear-line text-md mr-2"></i>
+                            <i class="ri-moon-clear-line text-md mr-1"></i>
                             Dark
                           </button>
                           <button
                             onClick={() => setTheme('system')}
                             className={themess}                            
                           >
-                            <i class="ri-computer-line text-md mr-2"></i>
+                            <i class="ri-computer-line text-md mr-1"></i>
                             System
                           </button>
                     </span>
                   </div>
                    <Menu as="div" className="relative inline-block text-left">
                       <div>
-                        <Menu.Button className="inline-flex w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
+                        <Menu.Button className="inline-flex w-full rounded-md border border-gray-300 dark:border-gray-700 shadow-sm px-4 py-2 bg-white dark:bg-slate-700 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-600">
                           <TranslateIcon className='h-5 w-5 mr-2' />
                           <span className='text-center'>
                             {lantoshow}
@@ -333,15 +333,15 @@ console.log(theme)
                         leaveFrom="transform opacity-100 scale-100"
                         leaveTo="transform opacity-0 scale-95"
                       >
-                        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-full rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
+                        <Menu.Items className="origin-top-right absolute right-0 mt-2 w-full rounded-md shadow-lg bg-white dark:bg-slate-600 ring-1 ring-black ring-opacity-5 divide-y divide-gray-100 focus:outline-none">
                           <div className="py-1">
                             <Menu.Item>
                               {({ active }) => (
                                 <a
                                   href={`/en-us${page}`}
                                   className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                    'block px-4 py-2 text-sm'
+                                    active ? 'bg-gray-100 text-gray-900 dark:bg-slate-500 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
+                                    'block px-4 py-1'
                                   )}
                                 >
                                   🇺🇸 English
@@ -353,8 +353,8 @@ console.log(theme)
                                 <a
                                 href={`/th-th${page}`}
                                   className={classNames(
-                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                    'block px-4 py-2 text-sm'
+                                    active ? 'bg-gray-100 text-gray-900 dark:bg-slate-500 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
+                                    'block px-4 py-1'
                                   )}
                                 >
                                   🇹🇭 ไทย
