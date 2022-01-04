@@ -111,7 +111,7 @@ console.log(theme)
               <a 
                 key={item.name}
                 href={`/${pathname}${item.href}`}
-                className="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-sky-400 inline-flex"
+                className="text-base font-medium text-gray-500 hover:text-gray-900 dark:text-gray-200 dark:hover:text-gray-400 inline-flex"
               >
                 <item.icon className="flex-shrink-0 h-6 w-6 text-sky-500 dark:text-sky-400" aria-hidden="true" />
                 {item.name}
