@@ -44,14 +44,14 @@ function ContactForm() {
     <>
           <div className='max-w-md mx-auto py-2 my-20 px-2 md:my-40'>
             <form onSubmit={handleSubmit} >
-                <h1 className='text-center text-4xl font-semibold'>
+                <h1 className='text-center text-4xl font-semibold text-black dark:text-white'>
                   Contact me
-                  <p className='text-xl mt-2 font-normal text-gray-500'>
+                  <p className='text-xl mt-2 font-normal text-gray-500 dark:text-gray-300'>
                     I will respond in your email as soon as possible
                   </p>
                 </h1>
                 <div className='mt-5'>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Name
                     </p>
                     <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
@@ -62,7 +62,7 @@ function ContactForm() {
                       />
                   </div>
                   <div>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Email Address
                     </p>
                     <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
@@ -73,7 +73,7 @@ function ContactForm() {
                       />
                   </div>
                   <div className='mb-2'>
-                    <p className="text-md">
+                    <p className="text-md dark:text-white">
                       Phone number (Optional)
                     </p>
                     <div className="mt-1 relative rounded-md shadow-sm">
@@ -320,7 +320,7 @@ function ContactForm() {
                       />
                   </div>
                   <div>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Message
                     </p>
                     <textarea className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50" name="message" id="message" placeholder="Hello Ronnapat..." required />
@@ -338,11 +338,11 @@ function ContactForm() {
 }
 function App() {
   return (
-      <>
+      <div className='bg-white dark:bg-slate-800'>
       <Head title='Contact' image='/meta.png' />
       <Navbar lantoshow={langenus} pathname='en-us' page='/contact' />
       <ContactForm />
-      </>
+      </div>
   );
 }
 export default App;
