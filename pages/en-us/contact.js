@@ -2,6 +2,7 @@ import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import Head from '../../components/meta'
 import Navbar from '../../components/navbar'
+import Footer from '../../components/footer';
 import {
   langenus
 } from '../../script/languages'
@@ -342,6 +343,7 @@ function App() {
       <Head title='Contact' image='/meta.png' />
       <Navbar lantoshow={langenus} pathname='en-us' page='/contact' />
       <ContactForm />
+      <Footer />
       </div>
   );
 }
