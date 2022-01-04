@@ -16,7 +16,7 @@ export default function Header({
                             <h1 className="text-6xl text-center md:text-left font-medium tracking-wide text-white md:text-7xl">{name}</h1>
                             <p className="mt-4 text-gray-100">{description}</p>
                             <div className="mt-6">
-                                <a href={bthref} className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-sky-500 rounded-md md:inline hover:bg-sky-400">
+                                <a href={bthref} className="block px-3 py-2 font-semibold text-center text-white transition-colors duration-200 transform bg-sky-500 dark:bg-sky-600 rounded-md md:inline hover:bg-sky-400 dark:hover:bg-sky-500">
                                     {button}
                                 </a>
                             </div>
