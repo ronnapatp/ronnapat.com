@@ -88,7 +88,7 @@ export default function Example({
 console.log(theme)
   return (
       <>
-    <Popover className="relative bg-white border-b-2 border-gray-100 dark:bg-gray-800 dark:border-gray-600">
+    <Popover className="relative bg-white border-b-2 border-gray-100 dark:bg-slate-800 dark:border-slate-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
         <div className="flex justify-between items-center py-4 md:justify-start md:space-x-10">
           <div className="flex justify-start lg:w-0 lg:flex-1">
