@@ -71,13 +71,19 @@ export default function Example({
   if (!mounted) return null
 
   let themeimage = 'ri-computer-line'
-
+  let themeactive = 'text-sky-700 dark:text-sky-300 hover:text-sky-500 dark:hover:text-sky-200 text-xl'
+  let themesd = 'text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 text-xl'
+  let themesl = 'text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 text-xl'
+  let themess = 'text-gray-700 dark:text-gray-300 hover:text-gray-500 dark:hover:text-gray-200 text-xl'
   if ( theme == 'dark' ){
     themeimage = 'ri-moon-clear-line'
+    themesd = themeactive
   } else if ( theme == 'light' ){
     themeimage = 'ri-sun-line'
+    themesl = themeactive
   } else {
     themeimage = 'ri-computer-line'
+    themess = themeactive
   }
 console.log(theme)
   return (
@@ -279,6 +285,34 @@ console.log(theme)
                       <span className="ml-3 text-base font-medium text-gray-900">{item.name}</span>
                     </a>
                   ))}
+                  <div className='inline-flex'>
+                    <span className='text-xl left-0'>
+                      Theme
+                    </span>
+                    <span className='ml-10 space-x-3'>
+                          <button
+                            onClick={() => setTheme('light')}
+                            className={themesl}                            
+                          >
+                            <i class="ri-sun-line text-md mr-2"></i>
+                            Light
+                          </button>
+                          <button
+                            onClick={() => setTheme('dark')}
+                            className={themesd}                            
+                          >
+                            <i class="ri-moon-clear-line text-md mr-2"></i>
+                            Dark
+                          </button>
+                          <button
+                            onClick={() => setTheme('system')}
+                            className={themess}                            
+                          >
+                            <i class="ri-computer-line text-md mr-2"></i>
+                            System
+                          </button>
+                    </span>
+                  </div>
                    <Menu as="div" className="relative inline-block text-left">
                       <div>
                         <Menu.Button className="inline-flex w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50">
