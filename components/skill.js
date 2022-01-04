@@ -98,22 +98,23 @@ export default function Example() {
   })
 
   return (
+    <div className='dark:bg-slate-800'>
     <div className="w-full max-w-screen-xl px-2 py-16 sm:px-0">
-    <span className='text-3xl md:text-6xl mb-5 font-semibold'>
+    <span className='text-3xl md:text-6xl mb-5 font-semibold dark:text-white'>
         My skill
     </span>
       <Tab.Group>
-        <Tab.List className="flex p-1 space-x-1 bg-sky-500/20 rounded-xl mt-6">
+        <Tab.List className="flex p-1 space-x-1 bg-sky-500/20 dark:bg-sky-300/20 rounded-xl mt-6">
           {Object.keys(categories).map((category) => (
             <Tab
               key={category}
               className={({ selected }) =>
                 classNames(
-                  'w-full py-2.5 text-sm leading-5 font-medium text-sky-700 rounded-lg',
+                  'w-full py-2.5 text-sm leading-5 font-medium text-sky-700 dark:text-sky-600 rounded-lg',
                   'focus:outline-none ring-white ring-opacity-60',
                   selected
                     ? 'bg-white shadow'
-                    : 'text-sky-900 hover:bg-white/[0.20] hover:text-sky-700'
+                    : 'text-sky-900 hover:bg-white/[0.20] hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-300'
                 )
               }
             >
@@ -121,7 +122,7 @@ export default function Example() {
             </Tab>
           ))}
         </Tab.List>
-        <Tab.Panels className="mt-2 bg-sky-200 rounded">
+        <Tab.Panels className="mt-2 bg-sky-500/20 dark:bg-sky-300/10 rounded">
           {Object.values(categories).map((items, idx) => (
             <Tab.Panel
               key={idx}
@@ -144,6 +145,7 @@ export default function Example() {
           ))}
         </Tab.Panels>
       </Tab.Group>
+    </div>
     </div>
   )
 }
