@@ -7,6 +7,11 @@ module.exports = {
             permanent: false,
           },
           {
+            source: '/th-th/blog',
+            destination: 'https://blog.ronnapat.com',
+            permanent: false,
+          },
+          {
             source: '/blog',
             destination: 'https://blog.ronnapat.com',
             permanent: false,
