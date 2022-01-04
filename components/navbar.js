@@ -1,4 +1,6 @@
 import { Fragment } from 'react'
+import { useEffect, useState } from 'react';
+import { useTheme } from 'next-themes';
 import { Popover, Transition, Menu } from '@headlessui/react'
 import {
   MenuIcon,
@@ -9,7 +11,9 @@ import {
   InformationCircleIcon,
   ChevronDownIcon,
   TranslateIcon,
+  SunIcon
 } from '@heroicons/react/outline'
+import { lightBlue } from 'tailwindcss/colors';
 
 const pageshover = [
   {
@@ -61,6 +65,23 @@ export default function Example({
   pathname,
   page
 }) {
+  const [mounted, setMounted] = useState(false)
+  const { theme , setTheme } = useTheme()
+
+  useEffect(() => setMounted(true), [])
+
+  if (!mounted) return null
+
+  let themeimage = 'ri-computer-line'
+
+  if ( theme == 'dark' ){
+    themeimage = 'ri-moon-clear-line'
+  } else if ( theme == 'light' ){
+    themeimage = 'ri-sun-line'
+  } else {
+    themeimage = 'ri-computer-line'
+  }
+console.log(theme)
   return (
       <>
     <Popover className="relative bg-white border-b-2 border-gray-100">
@@ -100,12 +121,76 @@ export default function Example({
             ))}
           </Popover.Group>
           <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
+          <Menu as="div" className="relative inline-block text-left">
+              <div>
+                <Menu.Button className="inline-flex justify-center p-2">
+                  <i className={`${themeimage} text-xl`}></i>
+                </Menu.Button>
+              </div>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-100"
+                enterFrom="transform opacity-0 scale-95"
+                enterTo="transform opacity-100 scale-100"
+                leave="transition ease-in duration-75"
+                leaveFrom="transform opacity-100 scale-100"
+                leaveTo="transform opacity-0 scale-95"
+              >
+                <Menu.Items className="origin-top-right absolute right-0 mt-2 w-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none">
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a
+                          onClick={() => setTheme('light')}
+                          className={classNames(
+                            active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                            'block px-4 py-1 text-md select-none cursor-pointer'
+                          )}
+                        >
+                          <i class="ri-sun-line text-md mr-2"></i>
+                          Light
+                        </a>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                          <a
+                            onClick={() => setTheme('dark')}
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              'block px-4 py-1 text-md select-none cursor-pointer'
+                            )}
+                          >
+                            <i class="ri-moon-clear-line text-md mr-2"></i>
+                            Dark
+                          </a>
+                        )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                          <a
+                            onClick={() => setTheme('system')}
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                              'block px-4 py-1 text-md select-none cursor-pointer'
+                            )}
+                          >
+                            <i class="ri-computer-line text-md mr-2"></i>
+                            System
+                          </a>
+                        )}
+                    </Menu.Item>
+                  </div>
+                </Menu.Items>
+              </Transition>
+            </Menu>
             <Menu as="div" className="relative inline-block text-left">
             <div>
-              <Menu.Button className="inline-flex justify-center w-full rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-sm font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-100 focus:ring-sky-500">
+              <Menu.Button className="inline-flex justify-center w-full p-2">
                 <TranslateIcon className='h-5 w-5 mr-1' />
-                {lantoshow}
-                <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" />
+                {/* {lantoshow}
+                <ChevronDownIcon className="-mr-1 ml-2 h-5 w-5" aria-hidden="true" /> */}
               </Menu.Button>
             </div>
 
