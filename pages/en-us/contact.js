@@ -42,16 +42,16 @@ function ContactForm() {
   }
   return (
     <>
-          <div className='max-w-md mx-auto py-2 my-20 md:my-40'>
+          <div className='max-w-md mx-auto py-2 my-20 px-2 md:my-40'>
             <form onSubmit={handleSubmit} >
-                <h1 className='text-center text-4xl md:text-6xl font-semibold'>
+                <h1 className='text-center text-4xl font-semibold'>
                   Contact me
-                  <p className='text-xl md:text-2xl font-normal'>
+                  <p className='text-xl mt-2 font-normal text-gray-500'>
                     I will respond in your email as soon as possible
                   </p>
                 </h1>
                 <div className='mt-5'>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Name
                     </p>
                     <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
@@ -62,7 +62,7 @@ function ContactForm() {
                       />
                   </div>
                   <div>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Email Address
                     </p>
                     <input className="rounded-md border-gray-400 focus:border-sky-500 w-full mb-2" type="email" name="email" id="email" placeholder="Email Address" required />
@@ -73,7 +73,7 @@ function ContactForm() {
                       />
                   </div>
                   <div className='mb-2'>
-                    <p className="text-md md:text-xl">
+                    <p className="text-md">
                       Phone number (Optional)
                     </p>
                     <div className="mt-1 relative rounded-md shadow-sm">
@@ -320,7 +320,7 @@ function ContactForm() {
                       />
                   </div>
                   <div>
-                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md md:text-xl">
+                    <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md">
                       Message
                     </p>
                     <textarea className="rounded-md border-gray-400 w-full" name="message" id="message" placeholder="Hello Ronnapat..." required />
