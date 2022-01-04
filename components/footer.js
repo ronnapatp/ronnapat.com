@@ -29,31 +29,31 @@ export default function footer(){
       }
 
     return(
-    <footer className="bg-gray-100 w-full py-8 border-t">
+    <footer className="bg-gray-100 dark:bg-slate-900 w-full py-8 border-t dark:border-none">
         <div className="max-w-screen-xl mx-auto px-4">
             <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
                         Privacy
                     </a>
                 </li>
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
                         Blog
                     </a>
                 </li>
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
                         Repository
                     </a>
                 </li>
                 <li className="my-2">
-                    <button className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200"onClick={openModal}>
+                    <button className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500"onClick={openModal}>
                         Share
                     </button>
                 </li>
             </ul>
-                <div className="text-center text-gray-500 pt-10 sm:pt-12 font-light flex items-center justify-center">
+                <div className="text-center text-gray-500 pt-10 sm:pt-12 font-light flex items-center justify-center dark:text-gray-300">
                     Ronnapat Srivoravilai © 2020 - {new Date().getFullYear()}
                 </div>
             </div>
