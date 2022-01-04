@@ -7,6 +7,8 @@
     font-family: 'Prompt', sans-serif;
 }
 .home-bg-gd{
-    background: rgb(224,242,254);
-    background: linear-gradient(180deg, rgba(224,242,254,1) 0%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 100%); 
+    /* background: rgb(224,242,254);
+    background: linear-gradient(180deg, rgba(224,242,254,1) 0%, rgba(255,255,255,1) 93%, rgba(255,255,255,1) 100%); */
+    @apply bg-gradient-to-b from-sky-200 to-white;
+    @apply dark:bg-gray-700;
 }
