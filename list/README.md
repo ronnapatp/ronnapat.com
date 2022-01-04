@@ -1,6 +1,5 @@
 # TO DO LIST
 
-- Make contact form responsive
 - Translate to Thai
 - Change homepage style
 - Add newsletter subscribe in footer
@@ -11,3 +10,4 @@
 
 ## Done
 - Add footer
+- Make contact form responsive
