@@ -11,9 +11,7 @@ import {
   InformationCircleIcon,
   ChevronDownIcon,
   TranslateIcon,
-  SunIcon
 } from '@heroicons/react/outline'
-import { lightBlue } from 'tailwindcss/colors';
 
 const pageshover = [
   {
