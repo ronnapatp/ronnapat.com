@@ -59,7 +59,7 @@ export default function footer(){
             </div>
             <Transition appear show={isOpen} as={Fragment}>
         <Dialog
-          className="fixed inset-0 z-10 overflow-y-auto bg-opacity-70 bg-gray-400 "
+          className="fixed inset-0 z-10 overflow-y-auto bg-opacity-70 bg-gray-400"
           onClose={closeModal}
         >
           <div className="min-h-screen px-4 text-center">
@@ -90,10 +90,10 @@ export default function footer(){
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md  opacity-100 p-6 my-16 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+              <div className="inline-block w-full max-w-md  opacity-100 p-6 my-16 overflow-hidden text-left align-middle transition-all transform bg-white dark:bg-slate-700 shadow-xl rounded-2xl">
                 <Dialog.Title
                   as="h3"
-                  className="text-lg font-medium leading-6 text-gray-900"
+                  className="text-lg font-medium leading-6 text-gray-900 dark:text-white"
                 >
                   Share my website
                 </Dialog.Title>
