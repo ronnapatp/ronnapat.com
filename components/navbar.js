@@ -58,7 +58,8 @@ function classNames(...classes) {
 
 export default function Example({
   lantoshow,
-  pathname
+  pathname,
+  page
 }) {
   return (
       <>
@@ -122,7 +123,7 @@ export default function Example({
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="/en-us/"
+                        href={`/en-us${page}`}
                         className={classNames(
                           active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                           'block px-4 py-2 text-sm'
@@ -135,7 +136,7 @@ export default function Example({
                   <Menu.Item>
                     {({ active }) => (
                       <a
-                        href="/th-th/"
+                        href={`/th-th${page}`}
                         className={classNames(
                           active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                           'block px-4 py-2 text-sm'
@@ -220,7 +221,7 @@ export default function Example({
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="/en-us/"
+                                  href={`/en-us${page}`}
                                   className={classNames(
                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                     'block px-4 py-2 text-sm'
@@ -233,7 +234,7 @@ export default function Example({
                             <Menu.Item>
                               {({ active }) => (
                                 <a
-                                  href="/th-th/"
+                                href={`/th-th${page}`}
                                   className={classNames(
                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                     'block px-4 py-2 text-sm'

@@ -339,7 +339,7 @@ function ContactForm() {
 function App() {
   return (
       <>
-      <Head title='Contact' image='/meta.png' />
+      <Head title='Contact' image='/meta.png' page='/contact' />
       <Navbar lantoshow={langenus} pathname='en-us' />
       <ContactForm />
       </>
