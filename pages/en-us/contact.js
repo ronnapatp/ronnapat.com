@@ -73,11 +73,11 @@ function ContactForm() {
                       errors={state.errors}
                       />
                   </div>
-                  <div className='mb-2'>
+                  {/*<div className='mb-2'>
                     <p className="text-md dark:text-white">
                       Phone number (Optional)
                     </p>
-                    <div className="mt-1 relative rounded-md shadow-sm">
+                     <div className="mt-1 relative rounded-md shadow-sm">
                       <div className="absolute w-6 inset-y-0 left-0 flex">
                         <select
                           id="phone"
@@ -318,8 +318,8 @@ function ContactForm() {
                       prefix="phone" 
                       field="phone"
                       errors={state.errors}
-                      />
-                  </div>
+                      /> 
+                  </div>*/}
                   <div>
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Message
