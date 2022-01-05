@@ -33,7 +33,7 @@ export default function Example() {
           image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
       }
     ],
-    'Framework': [
+    'Framework + tools': [
         {
             id: 1,
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
@@ -49,37 +49,35 @@ export default function Example() {
         {
             id: 4,
             image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
+        },
+        {
+          id: 5,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
+        },
+        {
+          id: 6,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg',
+        },
+        {
+          id: 7,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' 
+        },
+        {
+          id: 8,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
+        },
+        {
+          id: 9,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg'
+        },
+        {
+          id: 10,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
+        },
+        {
+          id: 11,
+          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
         }
-    ],
-    'Programming tools': [
-      {
-        id: 1,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
-      },
-      {
-        id: 2,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg',
-      },
-      {
-        id: 3,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' 
-      },
-      {
-        id: 4,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
-      },
-      {
-        id: 5,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg'
-      },
-      {
-        id: 6,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-      },
-      {
-        id: 7,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
-      }
     ],
     Other: [
       {
