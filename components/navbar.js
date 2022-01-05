@@ -107,6 +107,70 @@ console.log(theme)
             </a>
           </div>
           <div className="-mr-2 -my-2 md:hidden">
+          <Menu as="div" className="relative inline-block text-left">
+              <div>
+                <Menu.Button className="inline-flex justify-center p-2">
+                  <i className={`${themeimage} text-xl dark:text-gray-400 dark:hover:text-gray-200`}></i>
+                </Menu.Button>
+              </div>
+
+              <Transition
+                as={Fragment}
+                enter="transition ease-out duration-100"
+                enterFrom="transform opacity-0 scale-95"
+                enterTo="transform opacity-100 scale-100"
+                leave="transition ease-in duration-75"
+                leaveFrom="transform opacity-100 scale-100"
+                leaveTo="transform opacity-0 scale-95"
+              >
+                <Menu.Items className="origin-top-right absolute right-0 mt-2 w-auto rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 focus:outline-none dark:bg-gray-700">
+                  <div className="py-1">
+                    <Menu.Item>
+                      {({ active }) => (
+                        <a
+                          onClick={() => setTheme('light')}
+                          className={classNames(
+                            active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
+                            'block px-4 py-1 text-md select-none cursor-pointer'
+                          )}
+                        >
+                          <i class="ri-sun-line text-md mr-2"></i>
+                          Light
+                        </a>
+                      )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                          <a
+                            onClick={() => setTheme('dark')}
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
+                              'block px-4 py-1 text-md select-none cursor-pointer'
+                            )}
+                          >
+                            <i class="ri-moon-clear-line text-md mr-2"></i>
+                            Dark
+                          </a>
+                        )}
+                    </Menu.Item>
+                    <Menu.Item>
+                      {({ active }) => (
+                          <a
+                            onClick={() => setTheme('system')}
+                            className={classNames(
+                              active ? 'bg-gray-100 text-gray-900 dark:bg-gray-600 dark:text-gray-200' : 'text-gray-700 dark:text-gray-200',
+                              'block px-4 py-1 text-md select-none cursor-pointer'
+                            )}
+                          >
+                            <i class="ri-computer-line text-md mr-2"></i>
+                            System
+                          </a>
+                        )}
+                    </Menu.Item>
+                  </div>
+                </Menu.Items>
+              </Transition>
+            </Menu>
             <Popover.Button className="bg-white dark:bg-slate-700 rounded-md p-2 inline-flex items-center justify-center text-gray-400 hover:text-gray-500 hover:bg-gray-100 dark:hover:bg-slate-500 dark:hover:text-gray-200">
               <span className="sr-only">Open menu</span>
               <MenuIcon className="h-6 w-6" aria-hidden="true" />
@@ -285,34 +349,6 @@ console.log(theme)
                       <span className="ml-3 text-base font-medium text-gray-900 dark:text-gray-300">{item.name}</span>
                     </a>
                   ))}
-                  <div className='inline-flex'>
-                    <span className='text-xl left-0 text-gray-900 dark:text-gray-200'>
-                      Theme
-                    </span>
-                    <span className='ml-10 space-x-2'>
-                          <button
-                            onClick={() => setTheme('light')}
-                            className={themesl}                            
-                          >
-                            <i class="ri-sun-line text-md mr-1"></i>
-                            Light
-                          </button>
-                          <button
-                            onClick={() => setTheme('dark')}
-                            className={themesd}                            
-                          >
-                            <i class="ri-moon-clear-line text-md mr-1"></i>
-                            Dark
-                          </button>
-                          <button
-                            onClick={() => setTheme('system')}
-                            className={themess}                            
-                          >
-                            <i class="ri-computer-line text-md mr-1"></i>
-                            System
-                          </button>
-                    </span>
-                  </div>
                    <Menu as="div" className="relative inline-block text-left">
                       <div>
                         <Menu.Button className="inline-flex w-full rounded-md border border-gray-300 dark:border-gray-700 shadow-sm px-4 py-2 bg-white dark:bg-slate-700 text-sm font-medium text-gray-700 dark:text-gray-200 hover:bg-gray-50 dark:hover:bg-slate-600">
