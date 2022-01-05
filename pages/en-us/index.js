@@ -3,6 +3,7 @@ import Navbar from '../../components/navbar'
 import Head from '../../components/meta'
 import Homeabout from "../../components/home-about";
 import Skill from "../../components/skill";
+import Project from '../../components/project'
 import Footer from "../../components/footer"
 import {
     langenus
@@ -20,6 +21,7 @@ export default function Home() {
             <center>
                 <Skill />
             </center>
+            <Project />
             <Footer />
         </>
     )
