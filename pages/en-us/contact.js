@@ -343,7 +343,7 @@ function App() {
       <Head title='Contact' image='/meta.png' />
       <Navbar lantoshow={langenus} pathname='en-us' page='/contact' />
       <ContactForm />
-      <Footer />
+      <Footer paht='en-us' />
       </div>
   );
 }

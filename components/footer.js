@@ -17,7 +17,9 @@ import {
     EmailIcon,
 } from "react-share";
 
-export default function footer(){
+export default function footer({
+  paht
+}){
     let [isOpen, setIsOpen] = useState(false)
 
     function closeModal() {
@@ -28,28 +30,40 @@ export default function footer(){
         setIsOpen(true)
       }
 
+    let privacy = 'Privacy'
+    let blog = 'Blog'
+    let repo = 'Github'
+    let share = 'share'
+
+    if ( paht = 'th-th' ){
+      privacy = 'ความเป็นส่วนตัว'
+      blog = 'บทความ'
+      repo = 'Github'
+      share = 'แชร์'
+    }
+
     return(
     <footer className="bg-gray-100 dark:bg-slate-900 w-full py-8 border-t dark:border-none">
         <div className="max-w-screen-xl mx-auto px-4">
             <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li className="my-2">
                     <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
-                        Privacy
+                        {privacy}
                     </a>
                 </li>
                 <li className="my-2">
                     <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
-                        Blog
+                        {blog}
                     </a>
                 </li>
                 <li className="my-2">
                     <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
-                        Repository
+                        {repo}
                     </a>
                 </li>
                 <li className="my-2">
                     <button className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500"onClick={openModal}>
-                        Share
+                        {share}
                     </button>
                 </li>
             </ul>

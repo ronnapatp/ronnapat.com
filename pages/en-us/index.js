@@ -22,7 +22,7 @@ export default function Home() {
                 <Skill />
             </center>
             <Project />
-            <Footer />
+            <Footer paht='en-us' />
         </>
     )
 }
