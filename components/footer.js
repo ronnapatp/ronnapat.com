@@ -33,7 +33,7 @@ export default function footer({
     let privacy = 'Privacy'
     let blog = 'Blog'
     let repo = 'Github'
-    let share = 'share'
+    let share = 'Share'
       console.log(paht)
     if ( paht == 'th-th' ){
       privacy = 'ความเป็นส่วนตัว'
@@ -44,7 +44,7 @@ export default function footer({
       privacy = 'Privacy'
       blog = 'Blog'
       repo = 'Github'
-      share = 'share'
+      share = 'Share'
     }
 
     return(
