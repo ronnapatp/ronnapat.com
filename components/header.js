@@ -13,10 +13,10 @@ export default function Header({
                     </div>
                     <div className="flex flex-col items-center w-full md:flex-row">
                         <div className="mt-40 mb-40 md:mb-0 md:mt-0 md:order-2">
-                        <div class="p-2">
-                            <div class="inline-flex items-center bg-white leading-none text-sky-600 rounded-full p-2 shadow text-sm">
-                            <span class="inline-flex bg-sky-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Languages</span>
-                            <span class="inline-flex px-2">Thai languages coming soon </span>
+                        <div className="p-2">
+                            <div className="inline-flex items-center bg-white leading-none text-sky-600 rounded-full p-2 shadow text-sm">
+                            <span className="inline-flex bg-sky-600 text-white rounded-full h-6 px-3 justify-center items-center text-">Languages</span>
+                            <span className="inline-flex px-2">Thai languages coming soon </span>
                             </div>
                         </div>
                             <h1 className="text-6xl text-center md:text-left font-medium tracking-wide text-white md:text-7xl">{name}</h1>
