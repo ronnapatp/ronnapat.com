@@ -6,7 +6,7 @@ import {
 
 export default function () {
     return(
-        <div className='bg-slate-800'>
+        <div className='dark:bg-slate-800'>
             <Navbar lantoshow={langenus} pathname='en-us' page='/about' />
             <About />
         </div>
