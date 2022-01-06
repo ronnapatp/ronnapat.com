@@ -34,12 +34,17 @@ export default function footer({
     let blog = 'Blog'
     let repo = 'Github'
     let share = 'share'
-
-    if ( paht = 'th-th' ){
+      console.log(paht)
+    if ( paht == 'th-th' ){
       privacy = 'ความเป็นส่วนตัว'
       blog = 'บทความ'
       repo = 'Github'
       share = 'แชร์'
+    } else {
+      privacy = 'Privacy'
+      blog = 'Blog'
+      repo = 'Github'
+      share = 'share'
     }
 
     return(
@@ -47,17 +52,17 @@ export default function footer({
         <div className="max-w-screen-xl mx-auto px-4">
             <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="?=notfound">
                         {privacy}
                     </a>
                 </li>
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="https://blog.ronnapat.com/" target='_blank'>
                         {blog}
                     </a>
                 </li>
                 <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="#">
+                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="https://github.com/ronnapatp/ronnapat.com" target='_blank'>
                         {repo}
                     </a>
                 </li>
