@@ -5,7 +5,7 @@ export default function Header({
     bthref,
 }) {
     return(
-        <div className="w-full bg-center bg-no-repeat bg-cover bg-[url('https://ronnapatold2.vercel.app/heroes.png')]">
+        <div className="w-full bg-center bg-no-repeat bg-cover bg-[url('https://ronnapat.com/heroes.png')]">
             <div className='bg-opacity-50 bg-black'>
                 <div className="container flex flex-col px-6 lg:px-40 py-4 mx-auto md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
                     <div className="right-0 hidden md:block md:w-[40%] md:mr-20">
@@ -31,5 +31,5 @@ export default function Header({
                 </div>
             </div>
         </div>
-    )
+   )
 }
