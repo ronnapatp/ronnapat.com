@@ -6,8 +6,6 @@ import Footer from '../../components/footer';
 import {
   langenus
 } from '../../script/languages'
-import HCaptcha from '@hcaptcha/react-hcaptcha';
-import Heads from 'next/head'
 import Script from 'next/script'
 
 function ContactForm() {
@@ -331,7 +329,7 @@ function ContactForm() {
                       errors={state.errors}
                       /> 
                   </div>*/}
-                  <div>
+                  <div className='mb-4'>
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Message
                     </p>
@@ -342,8 +340,8 @@ function ContactForm() {
                       errors={state.errors}
                       />
                   </div>
-		      <div className="g-recaptcha" data-sitekey="6LcDDgMeAAAAABTnPxOBNNpe3MQNnaoWIcF8GokR"></div>
-	  <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
+		        <div className="g-recaptcha" data-sitekey="6LcDDgMeAAAAABTnPxOBNNpe3MQNnaoWIcF8GokR"></div>
+	          <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
         </>
@@ -353,9 +351,6 @@ function App() {
   return (
       <div className='bg-white dark:bg-slate-800'>
       <Head title='Contact' image='/meta.png' />
-      <Heads>
-	    <Script src="https://www.google.com/recaptcha/api.js" async defer></Script>
-      </Heads>
       <Navbar lantoshow={langenus} pathname='en-us' page='/contact' />
       <ContactForm />
       <Footer paht='en-us' />
