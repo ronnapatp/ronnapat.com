@@ -10,10 +10,9 @@ export default function () {
                 </p>
                 <hr className="mt-5" />
                 <div className="mt-14" id='what-is-cookies'>
-                    <h2 className="tag inline-flex">
-                        What is cookies?
-                        <a href="#what-is-cookies" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#what-is-cookies' className="tag inline-flex">
+                            What is cookies?
                         </a>
                     </h2>
                     <p className="mt-10">
@@ -30,10 +29,9 @@ export default function () {
                     </p>
                 </div>
                 <div className="mt-14" id='what-data-we-collect'>
-                    <h2 className="tag inline-flex">
-                        What data we collect?
-                        <a href="#what-data-we-collect" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#what-data-we-collect' className="tag inline-flex">
+                            What data we collect?
                         </a>
                     </h2>
                     <p className="mt-10">
@@ -48,10 +46,9 @@ export default function () {
                     </p>
                 </div>
                 <div className="mt-14" id='how-and-why-do-we-use-cookies'>
-                    <h2 className="tag inline-flex">
-                        How and Why do We Use Cookies?
-                        <a href="#how-and-why-do-we-use-cookies" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#how-and-why-do-we-use-cookies' className="tag inline-flex">
+                            How and Why do We Use Cookies?
                         </a>
                     </h2>
                     <p className="mt-10">
@@ -59,10 +56,9 @@ export default function () {
                     </p>
                 </div>
                 <div className="mt-14" id='how-can-i-block-cookie'>
-                    <h2 className="tag inline-flex">
-                        How can I block cookies?
-                        <a href="#how-can-i-block-cookie" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#how-can-i-block-cookie' className="tag inline-flex">
+                            How can I block cookies?
                         </a>
                     </h2>
                     <p className="mt-10">
@@ -70,10 +66,9 @@ export default function () {
                     </p>
                 </div>
                 <div className="mt-14" id='changes-of-cookies-policy'>
-                    <h2 className="tag inline-flex">
-                        Changes of cookies policy?
-                        <a href="#changes-of-cookies-policy" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#changes-of-cookies-policy' className="tag inline-flex">
+                            Changes of cookies policy?
                         </a>
                     </h2>
                     <p className="mt-10">
@@ -81,10 +76,9 @@ export default function () {
                     </p>
                 </div>
                 <div className="mt-14" id='contact-for-more-information'>
-                    <h2 className="tag inline-flex">
-                        Contact for more information
-                        <a href="#contact-for-more-information" className="showtag px-2 bg-gray-200 text-gray-500 rounded-md ml-2">
-                            #
+                    <h2>
+                        <a href='#contact-for-more-information' className="tag inline-flex">
+                            Contact for more information
                         </a>
                     </h2>
                     <p className="mt-10">
