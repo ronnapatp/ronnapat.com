@@ -8,7 +8,7 @@ export default function () {
                     </div>
                     <div className="flex gap-4 items-center flex-shrink-0">
                         <button className="text-sky-600 focus:outline-none hover:underline">Decline</button>
-                        <button onClick={close} className="bg-sky-500 px-5 py-2 text-white rounded-md hover:bg-sky-700 focus:outline-none">Allow Coockies</button>
+                        {/* <button onClick={close} className="bg-sky-500 px-5 py-2 text-white rounded-md hover:bg-sky-700 focus:outline-none">Allow Coockies</button> */}
                     </div>
                 </div>
             </div>
