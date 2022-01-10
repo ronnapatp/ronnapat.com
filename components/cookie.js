@@ -5,6 +5,10 @@ export default function () {
                 <h1>
                     Cookies Policy
                 </h1>
+                <p>
+                    Last update : 10/21/12
+                </p>
+                <hr className="mt-5" />
             </div>
         </div>
     )
