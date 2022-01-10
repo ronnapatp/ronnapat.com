@@ -6,7 +6,7 @@ export default function () {
                     Cookies Policy
                 </h1>
                 <p>
-                    Last update : 10/21/12
+                    Last update : 10/1/22
                 </p>
                 <hr className="mt-5" />
                 <div className="mt-14" id='what-is-cookies'>
