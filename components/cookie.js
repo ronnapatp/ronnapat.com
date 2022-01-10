@@ -1,8 +1,8 @@
 export default function () {
     return(
         <div className="relative container mx-auto bg-white px-4">
-            <div className="max-w-prose mx-auto py-8 prose-h1:md:text-6xl prose-h1:text-4xl prose-h1:font-semibold prose-p:text-gray-600 prose-h2:text-2xl prose-h2:md:text-4xl prose-a:text-gray-600 hover:prose-a:text-sky-500 hover:prose-a:underline">
-                <h1>
+            <div className="max-w-prose mx-auto py-8 prose-h1:font-semibold prose-p:text-gray-600 prose-h2:text-2xl prose-h2:md:text-4xl prose-a:text-gray-600 hover:prose-a:text-sky-500 hover:prose-a:underline">
+                <h1 className="md:text-6xl text-4xl">
                     Cookies Policy
                 </h1>
                 <p>
