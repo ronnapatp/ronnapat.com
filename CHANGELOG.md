@@ -1,3 +1,7 @@
+# V 1.2.2 (Not release)
+
+update : 
+- Add cookies policy
 # V 1.2.1 
 
 Update :
