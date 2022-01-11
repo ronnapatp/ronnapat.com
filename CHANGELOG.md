@@ -2,6 +2,7 @@
 
 update : 
 - Add cookies policy
+- Add my social media to footer
 # V 1.2.1 
 
 Update :
