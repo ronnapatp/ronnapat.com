@@ -72,7 +72,29 @@ export default function footer({
                     </button>
                 </li>
             </ul>
-                <div className="text-center text-gray-500 pt-10 sm:pt-12 font-light flex items-center justify-center dark:text-gray-300">
+                  <div id='follow' className='text-center space-x-2'>
+                    <span>
+                      <a target='_blank' href='https://facebook.com/pieronnapatp'>
+                        <i class="ri-facebook-circle-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a target='_blank' href='https://twitter.com/ronnapatp'>
+                        <i class="ri-twitter-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a target='_blank' href='https://github.com/ronnapatp'>
+                        <i class="ri-github-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
+                      </a>
+                    </span>
+                    <span>
+                      <a target='_blank' href='https://instagram.com/ronnapatsri'>
+                        <i class="ri-instagram-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
+                      </a>
+                    </span>
+                  </div>
+                <div className="text-center text-gray-500 pt-2 sm:pt-5 font-light flex items-center justify-center dark:text-gray-300">
                     Ronnapat Srivoravilai © 2020 - {new Date().getFullYear()}
                 </div>
             </div>
