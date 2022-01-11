@@ -79,7 +79,14 @@ export default function () {
                         </a>
                     </h2>
                     <p className="mt-10">
-                        letmasiasd asotsadof dsfa sdf asd fasdfl;asd faklsd falksdjfalksdf asdf asd fasdl fasd falsd falsdkfalsd falsd flasjd flajs dflas dflasj dflka sdfsd fa sdlkf alsdflaksdfjklasdjfladsfasdlfk asdklfjalskdf asdfasd fa sdf asd fas df asdf asd fa sdf asdf asd fasd fasd fs df sad fa sdf asdf asd fas df asdf asd fa sdf asd fa sdf asdf asd fas df asdf asdf asd fasd f ewr we e wr qwer eqwr wqe xc vz xcv csxz xcb fds gasefr y rstju hj dfg hfv as r2345 23fasd fawe ar 34f dsva fsy df sgdf gse r f gsd ftgwerg dfsg sdf gadfs gsd fg aew r fag sd fasd fas df adsf asd f asd h rwe gacsxv aersgtsdf 
+                        You can use our website with no cookies and no tracking in <a href="https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">Incognito mode</a> or you can delete cookies by
+                        <ul className="list-disc ml-5 mt-2">
+                            <li><a href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform=Desktop" target='_blank'>Chrome</a></li>
+                            <li><a href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target='_blank'>Edge</a></li>
+                            <li><a href="https://support.apple.com/en-us/HT201265" target='_blank'>Safari</a></li>
+                            <li><a href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target='_blank'>Firefox</a></li>
+                            <li><a href="https://www.opera.com/use-cases/clean-browser-and-remove-trackers" target='_blank'>Opera</a></li>
+                        </ul>
                     </p>
                 </div>
                 <div className="mt-14" id='changes-of-cookies-policy'>
