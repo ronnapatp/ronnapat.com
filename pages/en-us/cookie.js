@@ -7,11 +7,11 @@ import {
 } from '../../script/languages'
 export default function () {
     return(
-        <>
+        <div>
             <Head title='Cookies' image='/meta.png' />
             <Navbar lantoshow={langenus} pathname='en-us' page='/cookie' />
             <Cookie />
             <Footer />
-        </>
+        </div>
     )
 }
