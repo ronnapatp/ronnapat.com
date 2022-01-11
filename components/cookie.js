@@ -9,6 +9,13 @@ export default function () {
                     Last update : 10/1/22
                 </p>
                 <hr className="mt-5" />
+                <div className="mt-10">
+                    <b>
+                        Disclamer
+                    </b>
+                    {` : `}
+                    This cookies policy <b>only contain to ronnapat.com website</b> but other website that link from this website is <b>not</b> contain on this cookies policy.
+                </div>
                 <div className="mt-14" id='what-is-cookies'>
                     <h2>
                         <a href='#what-is-cookies' className="tag inline-flex">
