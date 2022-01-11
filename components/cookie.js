@@ -16,6 +16,8 @@ export default function () {
                     </b>
                     {` : `}
                     This cookies policy <b>only contain to ronnapat.com website</b> but other website that link from this website is <b>not</b> contain on this cookies policy.
+                    <br /><br />
+                    You may contact us if you have any additional questions at <a href="mailto:me@ronnapat.com">me@ronnapat.com</a> or <a href="/contact">Contact page</a>.
                 </div>
                 <div className="mt-14" id='what-is-cookies'>
                     <h2>
