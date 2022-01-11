@@ -59,7 +59,17 @@ export default function () {
                         </a>
                     </h2>
                     <p className="mt-10">
-                        letmasiasd asotsadof dsfa sdf asd fasdfl;asd faklsd falksdjfalksdf asdf asd fasdl fasd falsd falsdkfalsd falsd flasjd flajs dflas dflasj dflka sdfsd fa sdlkf alsdflaksdfjklasdjfladsfasdlfk asdklfjalskdf asdfasd fa sdf asd fas df asdf asd fa sdf asdf asd fasd fasd fs df sad fa sdf asdf asd fas df asdf asd fa sdf asd fa sdf asdf asd fas df asdf asdf asd fasd f ewr we e wr qwer eqwr wqe xc vz xcv csxz xcb fds gasefr y rstju hj dfg hfv as r2345 23fasd fawe ar 34f dsva fsy df sgdf gse r f gsd ftgwerg dfsg sdf gadfs gsd fg aew r fag sd fasd fas df adsf asd f asd h rwe gacsxv aersgtsdf 
+                        We use cookies to track what out visiter like or not like so we can develop website that more friendly and easy to use for our visiter
+                        <ul className="mt-3">
+                            <li className="text-xl mb-2">1. Theme cookies</li>
+                            We use this cookie to remember theme that users use latest and next time when users visit the theme still same as last visit
+                        </ul>
+                        <ul className="mt-2">
+                            <li className="text-xl mb-2">2. Google anlytics cookies</li>
+                            View google anlytics terms <a href="https://marketingplatform.google.com/about/analytics/terms/us/" target='_blank'>click here.</a>
+                            <p className="mt-2"></p>
+                            We use this cookie to check time page platform city and country users visit so we can develop website in a correct ways.
+                        </ul>
                     </p>
                 </div>
                 <div className="mt-14" id='how-can-i-block-cookie'>
