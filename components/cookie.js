@@ -92,14 +92,14 @@ export default function () {
                         letmasiasd asotsadof dsfa sdf asd fasdfl;asd faklsd falksdjfalksdf asdf asd fasdl fasd falsd falsdkfalsd falsd flasjd flajs dflas dflasj dflka sdfsd fa sdlkf alsdflaksdfjklasdjfladsfasdlfk asdklfjalskdf asdfasd fa sdf asd fas df asdf asd fa sdf asdf asd fasd fasd fs df sad fa sdf asdf asd fas df asdf asd fa sdf asd fa sdf asdf asd fas df asdf asdf asd fasd f ewr we e wr qwer eqwr wqe xc vz xcv csxz xcb fds gasefr y rstju hj dfg hfv as r2345 23fasd fawe ar 34f dsva fsy df sgdf gse r f gsd ftgwerg dfsg sdf gadfs gsd fg aew r fag sd fasd fas df adsf asd f asd h rwe gacsxv aersgtsdf 
                     </p>
                 </div>
-                <div className="mt-14" id='contact-for-more-information'>
+                <div className="mt-14 mb-10" id='contact-for-more-information'>
                     <h2>
                         <a href='#contact-for-more-information' className="tag inline-flex">
                             Contact for more information
                         </a>
                     </h2>
                     <p className="mt-10">
-                        letmasiasd asotsadof dsfa sdf asd fasdfl;asd faklsd falksdjfalksdf asdf asd fasdl fasd falsd falsdkfalsd falsd flasjd flajs dflas dflasj dflka sdfsd fa sdlkf alsdflaksdfjklasdjfladsfasdlfk asdklfjalskdf asdfasd fa sdf asd fas df asdf asd fa sdf asdf asd fasd fasd fs df sad fa sdf asdf asd fas df asdf asd fa sdf asd fa sdf asdf asd fas df asdf asdf asd fasd f ewr we e wr qwer eqwr wqe xc vz xcv csxz xcb fds gasefr y rstju hj dfg hfv as r2345 23fasd fawe ar 34f dsva fsy df sgdf gse r f gsd ftgwerg dfsg sdf gadfs gsd fg aew r fag sd fasd fas df adsf asd f asd h rwe gacsxv aersgtsdf 
+                        Contact me for more information : <a href="mailto:me@ronnapat.com">me@ronnapat.com</a> or <a href="/contact">Contact page</a>
                     </p>
                 </div>
             </div>
