@@ -64,7 +64,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Name
                     </p>
-                    <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
+                    <input className="rounded-md block shadow-sm border-gray-300 dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="text" name="name" id="name" placeholder="John Dany" required />
                     <ValidationError 
                       prefix="Name" 
                       field="Name"
@@ -75,7 +75,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Email Address
                     </p>
-                    <input className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
+                    <input className="rounded-md block shadow-sm border-gray-300 w-full dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2" type="email" name="email" id="email" placeholder="me@example.com" required />
                     <ValidationError 
                       prefix="Email" 
                       field="email"
@@ -333,7 +333,7 @@ function ContactForm() {
                     <p className="after:content-['*'] after:ml-0.5 after:text-red-500 text-md dark:text-white">
                       Message
                     </p>
-                    <textarea className="rounded-md block shadow-sm border-gray-300 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50" name="message" id="message" placeholder="Hello Ronnapat..." required />
+                    <textarea className="rounded-md block shadow-sm border-gray-300 w-full dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50" name="message" id="message" placeholder="Hello Ronnapat..." required />
                     <ValidationError 
                       prefix="Message" 
                       field="message"
