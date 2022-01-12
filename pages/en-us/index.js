@@ -5,6 +5,7 @@ import Homeabout from "../../components/home-about";
 import Skill from "../../components/skill";
 import Project from '../../components/project'
 import Goblog from '../../components/go-blog'
+import Subscribe from "../../components/subscribe";
 import Footer from "../../components/footer"
 import {
     langenus
@@ -24,6 +25,7 @@ export default function Home() {
             </center>
             <Project />
             <Goblog />
+            <Subscribe />
             <Footer paht='en-us' />
         </>
     )
