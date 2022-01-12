@@ -28,7 +28,7 @@ function ContactForm() {
                     I will respond in your email as soon as possible
                   </p>
                 </h1>
-                <h1 className='text-center text-4xl md:text-6xl text-sky-600 mt-5'>
+                <h1 className='text-center text-4xl md:text-5xl text-sky-600 dark:text-sky-200 mt-5'>
                   Thanks for sending me message!
                 </h1>
                 {/* <div className='mt-10 text-center'>
