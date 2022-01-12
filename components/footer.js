@@ -16,6 +16,7 @@ import {
     LinkedinIcon,
     EmailIcon,
 } from "react-share";
+import about from './about';
 
 export default function footer({
   paht
@@ -29,13 +30,22 @@ export default function footer({
       function openModal() {
         setIsOpen(true)
       }
-
+    let pages = 'Pages'
+    let homepage = 'Home'
+    let blogpage = 'Blog'
+    let aboutpage = 'About'
+    let contactpage = 'Contact'
     let privacy = 'Privacy'
     let blog = 'Blog'
     let repo = 'Github'
     let share = 'Share'
     if ( paht == 'th-th' ){
+      pages = 'หน้าต่างๆ'
+      homepage = 'หน้าหลัก'
+      blogpage = 'บทความ'
+      aboutpage = 'เกี่ยวกับ'
       privacy = 'ความเป็นส่วนตัว'
+      contactpage = 'ติดต่อ'
       blog = 'บทความ'
       repo = 'Github'
       share = 'แชร์'
@@ -47,56 +57,111 @@ export default function footer({
     }
 
     return(
-    <footer className="bg-gray-100 dark:bg-slate-900 w-full py-8 border-t dark:border-none">
-        <div className="max-w-screen-xl mx-auto px-4">
-            <ul className="max-w-screen-md mx-auto text-lg font-light flex flex-wrap justify-between">
-                <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="?=notfound">
-                        {privacy}
-                    </a>
-                </li>
-                <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="https://blog.ronnapat.com/" target='_blank'>
-                        {blog}
-                    </a>
-                </li>
-                <li className="my-2">
-                    <a className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500" href="https://github.com/ronnapatp/ronnapat.com" target='_blank'>
-                        {repo}
-                    </a>
-                </li>
-                <li className="my-2">
-                    <button className="text-sky-500 font-semibold hover:text-sky-800 transition-colors duration-200 dark:text-sky-400 dark:hover:text-sky-500"onClick={openModal}>
-                        {share}
-                    </button>
-                </li>
-            </ul>
-                  <div id='follow' className='text-center space-x-2'>
-                    <span>
-                      <a target='_blank' href='https://facebook.com/pieronnapatp'>
-                        <i class="ri-facebook-circle-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
-                      </a>
-                    </span>
-                    <span>
-                      <a target='_blank' href='https://twitter.com/ronnapatp'>
-                        <i class="ri-twitter-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
-                      </a>
-                    </span>
-                    <span>
-                      <a target='_blank' href='https://github.com/ronnapatp'>
-                        <i class="ri-github-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
-                      </a>
-                    </span>
-                    <span>
-                      <a target='_blank' href='https://instagram.com/ronnapatsri'>
-                        <i class="ri-instagram-fill text-gray-700 dark:text-gray-200 text-xl md:text-2xl"></i>
-                      </a>
-                    </span>
-                  </div>
-                <div className="text-center text-gray-500 pt-2 sm:pt-5 font-light flex items-center justify-center dark:text-gray-300">
-                    Ronnapat Srivoravilai © 2020 - {new Date().getFullYear()}
-                </div>
-            </div>
+      <footer class="bg-gray-200 dark:bg-slate-900 sm:mt-10 pt-10">
+      <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+                  {pages}
+              </div>
+  
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {homepage}
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {blogpage}
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {aboutpage}
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {contactpage}
+              </a>
+          </div>
+  
+          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+                useful link
+              </div>
+  
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Privacy Policy
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Cookie Policy
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Terms of service
+              </a>
+          </div>
+  
+          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+                  Build with
+              </div>
+  
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Next.js
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Tailwindcss
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Heroicons
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Remix icons
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Customizing Spacing
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Configuring Variants
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Plugins
+              </a>
+          </div>
+  
+          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+                  other
+              </div>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {repo}
+              </a>
+              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  {share}
+              </a>
+          </div>
+      </div>
+  
+      <div class="pt-2">
+          <div class="flex pb-5 px-3 m-auto pt-5 
+              border-t border-gray-500 text-gray-700 dark:text-gray-400 text-sm 
+              flex-col md:flex-row max-w-6xl">
+              <div class="mt-2">
+                  © Copyright 1998-year. All Rights Reserved.
+              </div>
+  
+              <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
+                  <a href="#" class="w-6 mx-1">
+                      <i class="uil uil-facebook-f"></i>
+                  </a>
+                  <a href="#" class="w-6 mx-1">
+                      <i class="uil uil-twitter-alt"></i>
+                  </a>
+                  <a href="#" class="w-6 mx-1">
+                      <i class="uil uil-youtube"></i>
+                  </a>
+                  <a href="#" class="w-6 mx-1">
+                      <i class="uil uil-linkedin"></i>
+                  </a>
+                  <a href="#" class="w-6 mx-1">
+                      <i class="uil uil-instagram"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
             <Transition appear show={isOpen} as={Fragment}>
         <Dialog
           className="fixed inset-0 z-10 overflow-y-auto bg-opacity-70 bg-gray-400"
