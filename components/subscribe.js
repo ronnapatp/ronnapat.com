@@ -30,7 +30,7 @@ export default function () {
         );
     }
     return (
-            <div class="w-full bg-white dark:bg-slate-800 px-5 py-16 md:py-24 text-gray-800 dark:text-gray-50 font-light">
+            <div class="w-full bg-white dark:bg-slate-800 px-5 py-16 md:py-24 text-gray-800 dark:text-gray-50 font-light" id='subscribe'>
                 <div class="w-full max-w-6xl mx-auto pb-5">
                     <div class="-mx-3 md:flex items-center">
                         <div class="px-3 md:w-2/3 mb-10 md:mb-0">

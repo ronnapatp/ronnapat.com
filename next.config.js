@@ -26,6 +26,11 @@ module.exports = {
             destination: 'https://blog.ronnapat.com',
             permanent: false,
           },
+          {
+            source: '/subscribe',
+            destination: '/en-us#subscribe',
+            permanent: false,
+          },
         ]
       },
 }
