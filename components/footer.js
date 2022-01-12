@@ -137,21 +137,21 @@ export default function footer({
                   © Copyright 2020 - {new Date().getFullYear()}. All Rights Reserved.
               </div>
   
-              <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                  <a href="#" class="w-6 mx-1">
-                      <i class="uil uil-facebook-f"></i>
+              <div class="md:flex-auto md:flex-row-reverse flex-row flex">
+                  <a href="https://facebook.com/pieronnapatp" target='_blank' class="w-6 mx-1">
+                      <i class="ri-facebook-circle-fill text-xl"></i>
                   </a>
-                  <a href="#" class="w-6 mx-1">
-                      <i class="uil uil-twitter-alt"></i>
+                  <a href="https://twitter.com/ronnapatp" target='_blank' class="w-6 mx-1">
+                      <i class="ri-twitter-fill text-xl"></i>
                   </a>
-                  <a href="#" class="w-6 mx-1">
-                      <i class="uil uil-youtube"></i>
+                  <a href="https://instagram.com/ronnapatsri" target='_blank' class="w-6 mx-1">
+                      <i class="ri-instagram-fill text-xl"></i>
                   </a>
-                  <a href="#" class="w-6 mx-1">
-                      <i class="uil uil-linkedin"></i>
+                  <a href="https://github.com/ronnapatp" target='_blank' class="w-6 mx-1">
+                      <i class="ri-github-fill text-xl"></i>
                   </a>
-                  <a href="#" class="w-6 mx-1">
-                      <i class="uil uil-instagram"></i>
+                  <a href="mailto:me@ronnapat.com" target='_blank' class="w-6 mx-1">
+                      <i class="ri-mail-line text-xl"></i>
                   </a>
               </div>
           </div>
