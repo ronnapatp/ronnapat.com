@@ -153,6 +153,9 @@ export default function footer({
                   <a href="mailto:me@ronnapat.com" target='_blank' class="w-6 mx-1">
                       <i class="ri-mail-line text-xl"></i>
                   </a>
+                  <a href='https://discord.com/users/746664242907971601' target='_blank' class='w-6 mx-1'>
+                      <i class="ri-discord-fill text-xl"></i>
+                  </a>
               </div>
           </div>
       </div>
