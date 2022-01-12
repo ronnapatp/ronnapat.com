@@ -4,6 +4,7 @@ update :
 - Add cookies policy
 - Add my social media to footer
 - Create new footer
+- Add subscribe section
 
 # V 1.2.1 
 
