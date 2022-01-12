@@ -57,104 +57,104 @@ export default function footer({
     }
 
     return(
-      <footer class="bg-gray-200 dark:bg-slate-900">
-      <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left pt-10">
-          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+      <footer className="bg-gray-200 dark:bg-slate-900">
+      <div className="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left pt-10">
+          <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div className="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                   {pages}
               </div>
   
-              <a href={`/${paht}`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {homepage}
               </a>
-              <a href={`/${paht}/blog`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/blog`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {blogpage}
               </a>
-              <a href={`/${paht}/about`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/about`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {aboutpage}
               </a>
-              <a href={`/${paht}/contact`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/contact`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {contactpage}
               </a>
           </div>
   
-          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+          <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div className="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                 useful link
               </div>
   
-              <a href={`/${paht}/privacy`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/privacy`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Privacy Policy
               </a>
-              <a href={`/${paht}/cookie`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/cookie`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Cookie Policy
               </a>
-              <a href={`/${paht}/terms`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/terms`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Terms of service
               </a>
           </div>
   
-          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+          <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div className="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                   Build with
               </div>
   
-              <a href="https://nextjs.org/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://nextjs.org/" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Next.js
               </a>
-              <a href="https://tailwindcss.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://tailwindcss.com/" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Tailwindcss
               </a>
-              <a href="https://heroicons.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://heroicons.com/" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Heroicons
               </a>
-              <a href="https://remixicon.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://remixicon.com/" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Remix icons
               </a>
           </div>
   
-          <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
-              <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
+          <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
+              <div className="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                   other
               </div>
-              <a href="https://github.com/ronnapatp/ronnapat.com" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://github.com/ronnapatp/ronnapat.com" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {repo}
               </a>
-              <button onClick={openModal} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <button onClick={openModal} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {share}
               </button>
-              <a href={`/${paht}#subscribe`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}#subscribe`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                 Subscribe
               </a>
           </div>
       </div>
   
-      <div class="pt-2">
-          <div class="flex pb-5 px-3 m-auto pt-5 
+      <div className="pt-2">
+          <div className="flex pb-5 px-3 m-auto pt-5 
               border-t border-gray-500 text-gray-700 dark:text-gray-400 text-sm 
               flex-col md:flex-row max-w-6xl">
-              <div class="mt-2">
+              <div className="mt-2">
                   © Copyright 2020 - {new Date().getFullYear()}. All Rights Reserved.
               </div>
   
-              <div class="md:flex-auto md:flex-row-reverse flex-row flex">
-                  <a href="https://facebook.com/pieronnapatp" target='_blank' class="w-6 mx-1">
-                      <i class="ri-facebook-circle-fill text-xl"></i>
+              <div className="md:flex-auto md:flex-row-reverse flex-row flex">
+                  <a href="https://facebook.com/pieronnapatp" target='_blank' className="w-6 mx-1">
+                      <i className="ri-facebook-circle-fill text-xl"></i>
                   </a>
-                  <a href="https://twitter.com/ronnapatp" target='_blank' class="w-6 mx-1">
-                      <i class="ri-twitter-fill text-xl"></i>
+                  <a href="https://twitter.com/ronnapatp" target='_blank' className="w-6 mx-1">
+                      <i className="ri-twitter-fill text-xl"></i>
                   </a>
-                  <a href="https://instagram.com/ronnapatsri" target='_blank' class="w-6 mx-1">
-                      <i class="ri-instagram-fill text-xl"></i>
+                  <a href="https://instagram.com/ronnapatsri" target='_blank' className="w-6 mx-1">
+                      <i className="ri-instagram-fill text-xl"></i>
                   </a>
-                  <a href="https://github.com/ronnapatp" target='_blank' class="w-6 mx-1">
-                      <i class="ri-github-fill text-xl"></i>
+                  <a href="https://github.com/ronnapatp" target='_blank' className="w-6 mx-1">
+                      <i className="ri-github-fill text-xl"></i>
                   </a>
-                  <a href="mailto:me@ronnapat.com" target='_blank' class="w-6 mx-1">
-                      <i class="ri-mail-line text-xl"></i>
+                  <a href="mailto:me@ronnapat.com" target='_blank' className="w-6 mx-1">
+                      <i className="ri-mail-line text-xl"></i>
                   </a>
-                  <a href='https://discord.com/users/746664242907971601' target='_blank' class='w-6 mx-1'>
-                      <i class="ri-discord-fill text-xl"></i>
+                  <a href='https://discord.com/users/746664242907971601' target='_blank' className='w-6 mx-1'>
+                      <i className="ri-discord-fill text-xl"></i>
                   </a>
               </div>
           </div>
