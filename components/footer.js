@@ -57,23 +57,23 @@ export default function footer({
     }
 
     return(
-      <footer class="bg-gray-200 dark:bg-slate-900 sm:mt-10 pt-10">
-      <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left">
+      <footer class="bg-gray-200 dark:bg-slate-900">
+      <div class="max-w-6xl m-auto text-gray-800 flex flex-wrap justify-left pt-10">
           <div class="p-5 w-1/2 sm:w-4/12 md:w-3/12">
               <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                   {pages}
               </div>
   
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {homepage}
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/blog`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {blogpage}
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/about`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {aboutpage}
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/contact`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {contactpage}
               </a>
           </div>
@@ -83,13 +83,13 @@ export default function footer({
                 useful link
               </div>
   
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/privacy`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Privacy Policy
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/cookie`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Cookie Policy
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`${paht}/terms`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Terms of service
               </a>
           </div>
@@ -99,26 +99,17 @@ export default function footer({
                   Build with
               </div>
   
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://nextjs.org/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Next.js
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://tailwindcss.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Tailwindcss
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://heroicons.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Heroicons
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://remixicon.com/" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Remix icons
-              </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
-                  Customizing Spacing
-              </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
-                  Configuring Variants
-              </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
-                  Plugins
               </a>
           </div>
   
@@ -126,12 +117,12 @@ export default function footer({
               <div class="text-xs uppercase text-gray-700 dark:text-gray-400 font-medium mb-6">
                   other
               </div>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href="https://github.com/ronnapatp/ronnapat.com" target='_blank' class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {repo}
               </a>
-              <a href="#" class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <button onClick={openModal} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {share}
-              </a>
+              </button>
           </div>
       </div>
   
