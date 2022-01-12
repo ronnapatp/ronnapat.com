@@ -85,7 +85,6 @@ export default function Example({
     themeimage = 'ri-computer-line'
     themess = themeactive
   }
-console.log(theme)
   return (
       <>
     <Popover className="relative bg-white border-b-2 border-gray-100 dark:bg-slate-800 dark:border-slate-600">

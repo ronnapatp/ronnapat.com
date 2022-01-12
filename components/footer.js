@@ -34,7 +34,6 @@ export default function footer({
     let blog = 'Blog'
     let repo = 'Github'
     let share = 'Share'
-      console.log(paht)
     if ( paht == 'th-th' ){
       privacy = 'ความเป็นส่วนตัว'
       blog = 'บทความ'
