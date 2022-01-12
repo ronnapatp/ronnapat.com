@@ -1,8 +1,10 @@
 # V 1.2.2 (Not release)
 
-update : 
+update :
 - Add cookies policy
 - Add my social media to footer
+- Create new footer
+
 # V 1.2.1 
 
 Update :
