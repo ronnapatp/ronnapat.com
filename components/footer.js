@@ -131,7 +131,7 @@ export default function footer({
               border-t border-gray-500 text-gray-700 dark:text-gray-400 text-sm 
               flex-col md:flex-row max-w-6xl">
               <div class="mt-2">
-                  © Copyright 1998-year. All Rights Reserved.
+                  © Copyright 2020 - {new Date().getFullYear()}. All Rights Reserved.
               </div>
   
               <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
