@@ -64,16 +64,16 @@ export default function footer({
                   {pages}
               </div>
   
-              <a href={`${paht}`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {homepage}
               </a>
-              <a href={`${paht}/blog`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/blog`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {blogpage}
               </a>
-              <a href={`${paht}/about`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/about`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {aboutpage}
               </a>
-              <a href={`${paht}/contact`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/contact`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {contactpage}
               </a>
           </div>
@@ -83,13 +83,13 @@ export default function footer({
                 useful link
               </div>
   
-              <a href={`${paht}/privacy`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/privacy`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Privacy Policy
               </a>
-              <a href={`${paht}/cookie`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/cookie`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Cookie Policy
               </a>
-              <a href={`${paht}/terms`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+              <a href={`/${paht}/terms`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Terms of service
               </a>
           </div>
@@ -123,6 +123,9 @@ export default function footer({
               <button onClick={openModal} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {share}
               </button>
+              <a href={`/${paht}#subscribe`} class="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                Subscribe
+              </a>
           </div>
       </div>
   
