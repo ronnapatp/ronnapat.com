@@ -22,8 +22,8 @@ module.exports = {
             permanent: false,
           },
           {
-            source: '/s/ksejewi',
-            destination: 'https://blog.ronnapat.com',
+            source: '/cookie',
+            destination: '/en-us/cookie',
             permanent: false,
           },
         ]

@@ -12,48 +12,34 @@ export default function () {
                     </p>
                     <hr className="mt-5" />
                     <div className="mt-10 dark:text-white">
-                        <b>
-                            Disclamer
-                        </b>
-                        {` : `}
-                        This privacy policy <b>only apply to ronnapat.com website</b> but other website that link from this website is <b>not</b> apply on this cookies policy.
+                    This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in ronnapat.com. This policy is not applicable to any information collected offline or via channels other than this website.
                         <br /><br />
                         You may contact us if you have any additional questions at <a href="mailto:me@ronnapat.com" className="underline">me@ronnapat.com</a> or <a href="/contact" className="underline">Contact page</a>.
+                        <br /><br /><br />
+                        At ronnapat.com, accessible from https://ronnapat.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ronnapat.com and how we use it.
                     </div>
                     <div className="mt-14" id='what-is-cookies'>
                         <h2>
                             <a href='#what-is-cookies' className="tag inline-flex">
-                                What is cookies?
+                                Cookies
                             </a>
                         </h2>
                         <p className="mt-10">
-                            Cookies are text files with small pieces of data — like a username and password — that are used to identify your computer as you use a computer network. Specific cookies known as HTTP cookies are used to identify specific users and improve your web browsing experience.
+                            In this website we use cookie to manage and help user to use our webiste easier. You can view our Cookie Policy by click link down below.
                             <br /><br />
-                            Data stored in a cookie is created by the server upon your connection. This data is labeled with an ID unique to you and your computer.
-                            <br /><br />
-                            When the cookie is exchanged between your computer and the network server, the server reads the ID and knows what information to specifically serve to you.
-                            <br /><br />
-                            From :
-                            <a className="ml-2 underline" href="https://www.kaspersky.com/resource-center/definitions/cookies" target='_blank'>
-                              Kaspersky  
-                            </a>
+                            <a href="/cookie">Cookie policy</a>
                         </p>
                     </div>
                     <div className="mt-14" id='what-data-we-collect'>
                         <h2>
                             <a href='#what-data-we-collect' className="tag inline-flex">
-                                What data we collect?
+                                Google analytics
                             </a>
                         </h2>
                         <p className="mt-10">
-                            We collect the following data :
-                            <ul className="list-decimal ml-5">
-                                <li>Theme</li>
-                                <li>Page you visit</li>
-                                <li>Time you visit each page</li>
-                                <li>Which platform you visit from</li>
-                                <li>Which city and country you visit from</li>
-                            </ul>
+                            In this website we use Google analytics to moniter our website to develop website in the correct way. You can view google analytics privacy policy by click link down below
+                            <br /><br />
+                            <a href="https://policies.google.com/privacy" target='_blank'>Google privacy policy</a>
                         </p>
                     </div>
                     <div className="mt-14" id='how-and-why-do-we-use-cookies'>
