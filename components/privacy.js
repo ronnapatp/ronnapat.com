@@ -18,9 +18,9 @@ export default function () {
                         <br /><br /><br />
                         At ronnapat.com, accessible from https://ronnapat.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by ronnapat.com and how we use it.
                     </div>
-                    <div className="mt-14" id='what-is-cookies'>
+                    <div className="mt-14" id='cookie'>
                         <h2>
-                            <a href='#what-is-cookies' className="tag inline-flex">
+                            <a href='#cookie' className="tag inline-flex">
                                 Cookies
                             </a>
                         </h2>
@@ -30,16 +30,16 @@ export default function () {
                             <a href="/cookie">Cookie policy</a>
                         </p>
                     </div>
-                    <div className="mt-14" id='what-data-we-collect'>
+                    <div className="mt-14" id='google-analytics'>
                         <h2>
-                            <a href='#what-data-we-collect' className="tag inline-flex">
+                            <a href='#google-analytics' className="tag inline-flex">
                                 Google analytics
                             </a>
                         </h2>
                         <p className="mt-10">
-                            In this website we use Google analytics to moniter our website to develop website in the correct way. You can view google analytics privacy policy by click link down below
+                            We use google analytics to track and see what pages you visit ,how many minutes you visit each pages ,which platform you visit from ('Desktop' , 'TABLET' , 'MOBILE') and browser you visit from ,Country you visit from (Ex.Thailand)
                             <br /><br />
-                            <a href="https://policies.google.com/privacy" target='_blank'>Google privacy policy</a>
+                            You can view more about this in cookie policy by click <a href="/cookie">Here</a>
                         </p>
                     </div>
                     <div className="mt-14" id='how-and-why-do-we-use-cookies'>
