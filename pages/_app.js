@@ -39,8 +39,10 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
-        <Component {...pageProps} />
-        <Cookies />
+        <div className=' font-display'>
+          <Component {...pageProps} />
+          <Cookies />
+        </div>
       </ThemeProvider>
   )
 }
