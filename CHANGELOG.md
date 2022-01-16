@@ -5,6 +5,8 @@ update :
 - Add my social media to footer
 - Create new footer
 - Add subscribe section
+- Add privacy policy
+- Update tailwindcss version
 
 # V 1.2.1 
 
