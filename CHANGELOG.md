@@ -7,6 +7,7 @@ update :
 - Add subscribe section
 - Add privacy policy
 - Update tailwindcss version
+- Add terms(Building)
 
 # V 1.2.1 
 
