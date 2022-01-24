@@ -1,4 +1,4 @@
-# V 1.2.2 (Not release)
+# V 1.2.2
 
 update :
 - Add cookies policy
@@ -8,6 +8,8 @@ update :
 - Add privacy policy
 - Update tailwindcss version
 - Add terms(Building)
+
+Full Changelog: [1.2.1...1.2.2](https://github.com/ronnapatp/ronnapat.com/compare/1.2.1...1.2.2)
 
 # V 1.2.1 
 
