@@ -39,7 +39,7 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
-        <div className=' font-display'>
+        <div className='font-display'>
           <Component {...pageProps} />
           <Cookies />
         </div>
