@@ -9,8 +9,8 @@ export default function () {
     return(
         <>
             <div className='bg-white dark:bg-slate-700'>
-                <Head title='Privacy' image='/meta.png' />
-                <Navbar lantoshow={langenus} pathname='en-us' page='/privacy' />
+                <Head title='Donate' image='/meta.png' />
+                <Navbar lantoshow={langenus} pathname='en-us' page='/donate' />
                 <Donate />
                 <Footer paht='en-us' />
             </div>
