@@ -10,7 +10,7 @@ export default function () {
   }, []);
     return(
         <>
-        <ins className="adsbygoogle"
+        <ins className="adsbygoogle block"
             data-ad-client="ca-pub-1196910141338252"
             data-ad-slot="2252611327"
             data-ad-format="auto"
