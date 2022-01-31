@@ -1,8 +1,6 @@
 import Header from "../../components/header";
 import Navbar from '../../components/navbar'
 import Head from '../../components/meta'
-import OtherHead from 'next/head'
-import Script from 'next/script'
 import Homeabout from "../../components/home-about";
 import Project from '../../components/project'
 import Goblog from '../../components/go-blog'
@@ -16,12 +14,6 @@ export default function Home() {
     return(
         <>
             <Head title='Home' image='/meta.png' />
-            <OtherHead>
-            <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
-     crossorigin="anonymous"></Script>
-     <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
-     crossorigin="anonymous"></Script>
-            </OtherHead>
             <Navbar lantoshow={langenus} pathname='en-us' page='/' />
             <Header name='Ronnapat Srivoravilai' description='I create website bot and much more! You can view my project in my blog' button='Learn more' bthref='#about' />
             <Homeabout title='Who am I ?' paht='en-us'>
