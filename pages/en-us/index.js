@@ -2,6 +2,7 @@ import Header from "../../components/header";
 import Navbar from '../../components/navbar'
 import Head from '../../components/meta'
 import Homeabout from "../../components/home-about";
+import Ads from "../../components/ads";
 import Project from '../../components/project'
 import Goblog from '../../components/go-blog'
 import Subscribe from "../../components/subscribe";
@@ -22,6 +23,7 @@ export default function Home() {
             <Project />
             <Goblog />
             <Subscribe />
+            <Ads />
             <Footer paht='en-us' />
         </>
     )
