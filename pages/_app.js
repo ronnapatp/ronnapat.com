@@ -44,16 +44,6 @@ function MyApp({ Component, pageProps }) {
      crossorigin="anonymous"></script>
             <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
      crossorigin="anonymous"></Script>
-     <Head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZBD9XGPLLT"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments)}
-  gtag('js', new Date());
-
-  gtag('config', 'G-ZBD9XGPLLT');
-</script>
-     </Head>
         <div className='font-display'>
           <Component {...pageProps} />
           <Cookies />
