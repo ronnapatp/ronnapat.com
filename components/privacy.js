@@ -79,14 +79,14 @@ export default function () {
                             </ul>
                         </p>
                     </div>
-                    <div className="mt-14" id='changes-of-cookies-policy'>
+                    <div className="mt-14" id='changes-of-privacy-policy'>
                         <h2>
-                            <a href='#changes-of-cookies-policy' className="tag inline-flex">
-                                Changes of cookies policy?
+                            <a href='#changes-of-privacy-policy' className="tag inline-flex">
+                                Changes of privacy policy?
                             </a>
                         </h2>
                         <p className="mt-10">
-                            We may change this cookie policy from time to time, You may get update from us if we update pur cookie policy by <a href="/sub" className="underline">subscribe</a>
+                            We may change this privacy policy from time to time, You may get update from us if we update our privacy policy by <a href="/en-us/#sub" className="underline">subscribe</a>
                         </p>
                     </div>
                     <div className="mt-14 mb-10" id='contact-for-more-information'>
