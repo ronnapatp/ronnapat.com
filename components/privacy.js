@@ -1,5 +1,5 @@
 export default function () {
-    let update = '13/01/2022'
+    let update = '03/02/2022'
     return(
         <div className="bg-white dark:bg-slate-700">
             <div className="container mx-auto px-4">
@@ -40,43 +40,6 @@ export default function () {
                             We use google analytics to track and see what pages you visit ,how many minutes you visit each pages ,which platform you visit from ('Desktop' , 'TABLET' , 'MOBILE') and browser you visit from ,Country you visit from (Ex.Thailand)
                             <br /><br />
                             You can view more about this in cookie policy by click <a href="/cookie">Here</a>
-                        </p>
-                    </div>
-                    <div className="mt-14" id='how-and-why-do-we-use-cookies'>
-                        <h2>
-                            <a href='#how-and-why-do-we-use-cookies' className="tag inline-flex">
-                                How and Why do We Use Cookies?
-                            </a>
-                        </h2>
-                        <p className="mt-10">
-                            We use cookies to track what out visiter like or not like so we can develop website that more friendly and easy to use for our visiter
-                            <ul className="mt-3">
-                                <li className="text-xl mb-2">1. Theme cookies</li>
-                                We use this cookie to remember theme that users use latest and next time when users visit the theme still same as last visit
-                            </ul>
-                            <ul className="mt-2">
-                                <li className="text-xl mb-2">2. Google anlytics cookies</li>
-                                View google anlytics terms <a href="https://marketingplatform.google.com/about/analytics/terms/us/" className="underline" target='_blank'>click here.</a>
-                                <p className="mt-2"></p>
-                                We use this cookie to check time page platform city and country users visit so we can develop website in a correct ways.
-                            </ul>
-                        </p>
-                    </div>
-                    <div className="mt-14" id='how-can-i-block-cookie'>
-                        <h2>
-                            <a href='#how-can-i-block-cookie' className="tag inline-flex">
-                                How can I block cookies?
-                            </a>
-                        </h2>
-                        <p className="mt-10">
-                            You can use our website with no cookies and no tracking in <a className="underline" href="https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">Incognito mode</a> or you can delete cookies by
-                            <ul className="list-disc ml-5 mt-2">
-                                <li><a className="underline" href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform=Desktop" target='_blank'>Chrome</a></li>
-                                <li><a className="underline" href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target='_blank'>Edge</a></li>
-                                <li><a className="underline" href="https://support.apple.com/en-us/HT201265" target='_blank'>Safari</a></li>
-                                <li><a className="underline" href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target='_blank'>Firefox</a></li>
-                                <li><a className="underline" href="https://www.opera.com/use-cases/clean-browser-and-remove-trackers" target='_blank'>Opera</a></li>
-                            </ul>
                         </p>
                     </div>
                     <div className="mt-14" id='changes-of-privacy-policy'>
