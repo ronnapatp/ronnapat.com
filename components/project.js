@@ -24,6 +24,11 @@ export default function () {
                     </div>
                 </div>
             </Container>
+            <div className='text-center pb-10'>
+                <a className="after:content-['_↗'] text-gray-600 dark:text-gray-200" href='https://blog.ronnapat.com/tags/project' target='_blank'>
+                    View all in project blog
+                </a>
+            </div>
         </div>
     )
 }
