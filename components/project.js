@@ -11,9 +11,9 @@ export default function () {
                         My project
                     </div>
                     <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
-                        <a href='#'>
-                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Bottle crush system</h5>
-                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">Bottle crush system help world clean plastic. We have application and website click down below to learn more.</p>
+                        <a href='https://blog.ronnapat.com/blog/my-twitter-bot' target='_blank'>
+                            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">My twitter bot with typescript</h5>
+                            <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">I build my first twitter bot to update my bio using twitter api with typescript</p>
                         </a>
                     </div>
                     <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
