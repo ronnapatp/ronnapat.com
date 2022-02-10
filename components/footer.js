@@ -134,7 +134,7 @@ export default function footer({
               border-t border-gray-500 text-gray-700 dark:text-gray-400 text-sm 
               flex-col md:flex-row max-w-6xl">
               <div className="mt-2">
-                  © Copyright 2020 - {new Date().getFullYear()}. All Rights Reserved.
+                  © Copyright 2020 - {new Date().getFullYear()} | Ronnapat Srivoravilai
               </div>
   
               <div className="md:flex-auto md:flex-row-reverse flex-row flex">
