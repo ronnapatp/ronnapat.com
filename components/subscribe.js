@@ -35,7 +35,7 @@ export default function () {
                     <div className="-mx-3 md:flex items-center">
                         <div className="px-3 md:w-2/3 mb-10 md:mb-0">
                             <h1 className="text-4xl md:text-6xl font-bold mb-5 leading-tight">Get Update <br /> From us</h1>
-                            <h3 className="text-gray-600 dark:text-gray-400 mb-7 leading-tight">Subscribe now and receive the latest updates.</h3>
+                            <h3 className="text-gray-600 dark:text-gray-400 mb-7 leading-tight">Subscribe now and recive the latest updates.</h3>
                             <div>
                                 <span className="inline-block w-40 h-1 rounded-full bg-sky-500 dark:text-sky-300"></span>
                                 <span className="inline-block w-3 h-1 rounded-full bg-sky-500 dark:text-sky-300 ml-1"></span>
