@@ -81,7 +81,7 @@ function ContactForm() {
                   </div>
 		        <div className="g-recaptcha" data-sitekey="6LcDDgMeAAAAABTnPxOBNNpe3MQNnaoWIcF8GokR"></div>
             <div className='mt-2'>
-              <input type='checkbox' className='rounded text-sky-500 focus:border-sky-300 mr-1' />
+              <input type='checkbox' className='rounded text-sky-500 focus:border-sky-300 mr-1' required />
               By click submit you're agree with <a href='/en-us/terms' className='underline hover:text-gray-600 dark:hover:text-gray-300'>Terms</a> and <a href='/en-us/privacy' className='underline hover:text-gray-600 dark:hover:text-gray-300'>Privacy</a>.
             </div>
 	          <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
