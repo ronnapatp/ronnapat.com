@@ -42,6 +42,18 @@ export default function () {
                             You can view more about this in cookie policy by click <a href="/cookie">Here</a>
                         </p>
                     </div>
+                    <div className="mt-14" id='contact-and-subscribe-form'>
+                        <h2>
+                            <a href='#contact-and-subscribe-form' className="tag inline-flex">
+                                Contact and Subscribe form
+                            </a>
+                        </h2>
+                        <p className="mt-10">
+                            Contact and Subscribe form is power by formspree.io and you submit form on contact page your information will be secure formspree.io
+                            <br /><br />
+                            Read formspree privacy <a href="https://formspree.io/legal/privacy-policy" target='_blank'>here</a>
+                        </p>
+                    </div>
                     <div className="mt-14" id='changes-of-privacy-policy'>
                         <h2>
                             <a href='#changes-of-privacy-policy' className="tag inline-flex">
