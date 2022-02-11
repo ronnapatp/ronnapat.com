@@ -31,20 +31,6 @@ function ContactForm() {
                 <h1 className='text-center text-4xl md:text-5xl text-sky-600 dark:text-sky-200 mt-5'>
                   Thanks for sending me message!
                 </h1>
-                {/* <div className='mt-10 text-center'>
-                  <p className='text-xl'>
-                    Follow me
-                  </p>
-                  <a href='https://facebook.com/pieronnapatp'>
-                    <i class="ri-facebook-circle-fill text-3xl"></i>
-                  </a>
-                  <a href='https://twitter.com/ronnapatp'>
-                    <i class="ri-twitter-fill text-3xl"></i>
-                  </a>
-                  <a href='https://github.com/ronnapatp'>
-                    <i class="ri-github-fill text-3xl"></i>
-                  </a>
-                </div> */}
           </div>
         </>
         )
@@ -94,6 +80,10 @@ function ContactForm() {
                       />
                   </div>
 		        <div className="g-recaptcha" data-sitekey="6LcDDgMeAAAAABTnPxOBNNpe3MQNnaoWIcF8GokR"></div>
+            <div className='mt-2'>
+              <input type='checkbox' className='rounded text-sky-500 focus:border-sky-300 mr-1' />
+              By click submit you're agree with <a href='/en-us/terms' className='underline hover:text-gray-600 dark:hover:text-gray-300'>Terms</a> and <a href='/en-us/privacy' className='underline hover:text-gray-600 dark:hover:text-gray-300'>Privacy</a>.
+            </div>
 	          <button type="submit" className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2" disabled={state.submitting}>Submit</button>
             </form>
           </div>
