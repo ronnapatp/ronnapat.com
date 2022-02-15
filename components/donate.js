@@ -6,6 +6,8 @@ export default function () {
             Donate To Ronnapat Srivoravilai
             <Script src="https://donorbox.org/widget.js" paypalExpress="false"></Script>
             <iframe src="https://donorbox.org/embed/donate-to-ronnapat" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%"></iframe>
+            <iframe height="500" width="500" src="http://google.com"></iframe>
+
         </div>
     )
 }
