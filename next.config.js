@@ -26,6 +26,16 @@ module.exports = {
             destination: '/en-us/cookie',
             permanent: false,
           },
+          {
+            source: '/donate',
+            destination: 'https://www.buymeacoffee.com/ronnapatp',
+            permanent: false,
+          },
+          {
+            source: '/en-us/donate',
+            destination: 'https://www.buymeacoffee.com/ronnapatp',
+            permanent: false,
+          },
         ]
       },
 }
