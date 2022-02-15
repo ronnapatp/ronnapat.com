@@ -120,6 +120,9 @@ export default function footer({
               <a href="https://github.com/ronnapatp/ronnapat.com" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {repo}
               </a>
+              <a href="/donate" target='_blank' className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Donate
+              </a>
               <button onClick={openModal} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   {share}
               </button>
