@@ -40,8 +40,11 @@ function MyApp({ Component, pageProps }) {
             `,
           }}
         />
-        <Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
-     crossorigin="anonymous"></Script>
+     <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
+        crossOrigin="anonymous"
+      />
         <div className='font-display'>
           <Component {...pageProps} />
           <Cookies />
