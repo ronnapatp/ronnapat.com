@@ -7,8 +7,8 @@ import {
 export default function faq () {
     return(
         <>
-                        <Head title='Cookies' image='/meta.png' />
-            <Navbar lantoshow={langenus} pathname='en-us' page='/cookie' />
+            <Head title='FAQ' image='/meta.png' />
+            <Navbar lantoshow={langenus} pathname='en-us' page='/faq' />
             
         </>
     )
