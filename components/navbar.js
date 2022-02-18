@@ -306,7 +306,7 @@ export default function Example({ lantoshow, pathname, page }) {
                           </a>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      {/* <Menu.Item>
                         {({ active }) => (
                           <a
                             href={`/th-th${page}`}
@@ -320,7 +320,7 @@ export default function Example({ lantoshow, pathname, page }) {
                             🇹🇭 ไทย
                           </a>
                         )}
-                      </Menu.Item>
+                      </Menu.Item> */}
                     </div>
                   </Menu.Items>
                 </Transition>
@@ -417,7 +417,7 @@ export default function Example({ lantoshow, pathname, page }) {
                                 </a>
                               )}
                             </Menu.Item>
-                            <Menu.Item>
+                            {/* <Menu.Item>
                               {({ active }) => (
                                 <a
                                   href={`/th-th${page}`}
@@ -431,7 +431,7 @@ export default function Example({ lantoshow, pathname, page }) {
                                   🇹🇭 ไทย
                                 </a>
                               )}
-                            </Menu.Item>
+                            </Menu.Item> */}
                           </div>
                         </Menu.Items>
                       </Transition>
