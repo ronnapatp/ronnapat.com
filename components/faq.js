@@ -21,7 +21,7 @@ export default function (){
           <Container>
             <Collapse.Group>
             {faq.map((faq) => (
-              <Collapse id={faq.id} title={<h1 className='text-black dark:text-white text-3xl'>{faq.title}</h1>} >
+              <Collapse key={faq.id} title={<h1 className='text-black dark:text-white text-3xl'>{faq.title}</h1>} >
                 {faq.description}
               </Collapse>
             ))}
