@@ -2,6 +2,7 @@
   "extends": "next/core-web-vitals",
   "ignorePatterns": ["_app.js", "**/pages/*.js"],
   "rules": {
-    "react/display-name" : "off"
+    "react/display-name" : "off",
+    "import/no-anonymous-default-export" : "off" 
   }
 }
