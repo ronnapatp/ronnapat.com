@@ -1,6 +1,7 @@
 # V 1.2.2
 
 update :
+
 - Add cookies policy
 - Add my social media to footer
 - Create new footer
@@ -11,7 +12,7 @@ update :
 
 Full Changelog: [1.2.1...1.2.2](https://github.com/ronnapatp/ronnapat.com/compare/1.2.1...1.2.2)
 
-# V 1.2.1 
+# V 1.2.1
 
 Update :
 
@@ -40,6 +41,7 @@ New
 [ronnapat.com](https://ronnapat.com/)
 
 Full Changelog: [1.1.0...1.2.0](https://github.com/ronnapatp/ronnapat.com/compare/1.1.0...1.2.0)
+
 # V 1.1.0
 
 - Change to Christmas theme

@@ -1,149 +1,166 @@
-import { useState } from 'react'
-import { Tab } from '@headlessui/react'
+import { useState } from "react";
+import { Tab } from "@headlessui/react";
 
 function classNames(...classes) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 export default function Example() {
   let [categories] = useState({
-    'Programming languages': [
+    "Programming languages": [
       {
         id: 1,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
       },
       {
         id: 2,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg',
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
       },
       {
-          id: 3,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'
+        id: 3,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg",
       },
       {
-          id: 4,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg'
+        id: 4,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg",
       },
       {
-          id: 5,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg'
+        id: 5,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg",
       },
       {
-          id: 6,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
-      }
+        id: 6,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg",
+      },
     ],
-    'Framework + tools': [
-        {
-            id: 1,
-            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg'
-        },
-        {
-            id: 2,
-            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg'
-        },
-        {
-            id: 3,
-            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg'
-        },
-        {
-            id: 4,
-            image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'
-        },
-        {
-          id: 5,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg',
-        },
-        {
-          id: 6,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg',
-        },
-        {
-          id: 7,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg' 
-        },
-        {
-          id: 8,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg'
-        },
-        {
-          id: 9,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg'
-        },
-        {
-          id: 10,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg'
-        },
-        {
-          id: 11,
-          image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg'
-        }
+    "Framework + tools": [
+      {
+        id: 1,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+      },
+      {
+        id: 2,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg",
+      },
+      {
+        id: 3,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg",
+      },
+      {
+        id: 4,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg",
+      },
+      {
+        id: 5,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+      },
+      {
+        id: 6,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain-wordmark.svg",
+      },
+      {
+        id: 7,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg",
+      },
+      {
+        id: 8,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+      },
+      {
+        id: 9,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg",
+      },
+      {
+        id: 10,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+      },
+      {
+        id: 11,
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg",
+      },
     ],
     Other: [
       {
         id: 1,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg',
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg",
       },
       {
         id: 2,
-        image: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg",
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-plain.svg",
       },
       {
         id: 3,
-        image: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg'
-      }
+        image:
+          "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apple/apple-original.svg",
+      },
     ],
-  })
+  });
 
   return (
-    <div className='dark:bg-slate-800'>
-    <div className="w-full max-w-screen-xl px-2 py-16 sm:px-0">
-    <span className='text-3xl md:text-6xl mb-5 font-semibold dark:text-white'>
-        My skill
-    </span>
-      <Tab.Group>
-        <Tab.List className="flex p-1 space-x-1 bg-sky-500/20 dark:bg-sky-300/20 rounded-xl mt-6">
-          {Object.keys(categories).map((category) => (
-            <Tab
-              key={category}
-              className={({ selected }) =>
-                classNames(
-                  'w-full py-2.5 text-sm leading-5 font-medium text-sky-700 dark:text-sky-600 rounded-lg',
-                  'focus:outline-none ring-white ring-opacity-60',
-                  selected
-                    ? 'bg-white shadow'
-                    : 'text-sky-900 hover:bg-white/[0.20] hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-300'
-                )
-              }
-            >
-              {category}
-            </Tab>
-          ))}
-        </Tab.List>
-        <Tab.Panels className="mt-2 bg-sky-500/20 dark:bg-sky-300/10 rounded">
-          {Object.values(categories).map((items, idx) => (
-            <Tab.Panel
-              key={idx}
-              className={classNames(
-                'rounded-xl p-3',
-                'focus:outline-none '
-              )}
-            >
-              <ul>
-                {items.map((item) => (
-                  <li
-                    key={item.id}
-                    className="relative p-3 rounded-md hover:bg-coolGray-100 inline-flex"
-                  >
-                    <img src={item.image} className='w-24 h-24' />
-                  </li>
-                ))}
-              </ul>
-            </Tab.Panel>
-          ))}
-        </Tab.Panels>
-      </Tab.Group>
+    <div className="dark:bg-slate-800">
+      <div className="w-full max-w-screen-xl px-2 py-16 sm:px-0">
+        <span className="text-3xl md:text-6xl mb-5 font-semibold dark:text-white">
+          My skill
+        </span>
+        <Tab.Group>
+          <Tab.List className="flex p-1 space-x-1 bg-sky-500/20 dark:bg-sky-300/20 rounded-xl mt-6">
+            {Object.keys(categories).map((category) => (
+              <Tab
+                key={category}
+                className={({ selected }) =>
+                  classNames(
+                    "w-full py-2.5 text-sm leading-5 font-medium text-sky-700 dark:text-sky-600 rounded-lg",
+                    "focus:outline-none ring-white ring-opacity-60",
+                    selected
+                      ? "bg-white shadow"
+                      : "text-sky-900 hover:bg-white/[0.20] hover:text-sky-700 dark:text-sky-600 dark:hover:text-sky-300"
+                  )
+                }
+              >
+                {category}
+              </Tab>
+            ))}
+          </Tab.List>
+          <Tab.Panels className="mt-2 bg-sky-500/20 dark:bg-sky-300/10 rounded">
+            {Object.values(categories).map((items, idx) => (
+              <Tab.Panel
+                key={idx}
+                className={classNames("rounded-xl p-3", "focus:outline-none ")}
+              >
+                <ul>
+                  {items.map((item) => (
+                    <li
+                      key={item.id}
+                      className="relative p-3 rounded-md hover:bg-coolGray-100 inline-flex"
+                    >
+                      <img src={item.image} className="w-24 h-24" />
+                    </li>
+                  ))}
+                </ul>
+              </Tab.Panel>
+            ))}
+          </Tab.Panels>
+        </Tab.Group>
+      </div>
     </div>
-    </div>
-  )
+  );
 }

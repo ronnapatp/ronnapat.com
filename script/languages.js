@@ -1,3 +1,3 @@
-export const langenus = 'English (US)'
-export const langenuk = 'English (GB)'
-export const langthth = 'Thai (ไทย)'
+export const langenus = "English (US)";
+export const langenuk = "English (GB)";
+export const langthth = "Thai (ไทย)";

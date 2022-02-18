@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.tag .showtag{
-    display: none;
+.tag .showtag {
+  display: none;
 }
-.tag:hover .showtag{
-    display: block;
+.tag:hover .showtag {
+  display: block;
 }
