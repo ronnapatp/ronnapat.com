@@ -3,6 +3,8 @@
   "ignorePatterns": ["_app.js", "**/pages/*.js"],
   "rules": {
     "react/display-name" : "off",
-    "import/no-anonymous-default-export" : "off" 
+    "import/no-anonymous-default-export" : "off" ,
+    "@next/next/no-img-element" :"off",
+    "jsx-a11y/alt-text" : "off"
   }
 }
