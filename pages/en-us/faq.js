@@ -1,10 +1,10 @@
-import Navbar from "../../components/navbar"
-import Head from "../../components/meta"
-import Faq from "../../components/faq"
-import Footer from "../../components/footer"
+import Navbar from "@/components/navbar"
+import Head from "@/components/meta"
+import Faq from "@/components/faq"
+import Footer from "@/components/footer"
 import {
     langenus
-} from '../../script/languages'
+} from '@/script/languages'
 export default function faq () {
     return(
         <>
