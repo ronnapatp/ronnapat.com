@@ -92,6 +92,9 @@ export default function footer({
               <a href={`/${paht}/terms`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
                   Terms of service
               </a>
+              <a href={`/${paht}/terms`} className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700">
+                  Frequently Asked Question
+              </a>
           </div>
   
           <div className="p-5 w-1/2 sm:w-4/12 md:w-3/12">
