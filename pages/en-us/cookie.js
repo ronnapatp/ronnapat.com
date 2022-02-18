@@ -1,10 +1,10 @@
-import Head from "../../components/meta"
-import Navbar from "../../components/navbar"
-import Cookie from "../../components/cookie"
-import Footer from "../../components/footer"
+import Head from "@/components/meta"
+import Navbar from "@/components/navbar"
+import Cookie from "@/components/cookie"
+import Footer from "@/components/footer"
 import {
     langenus
-} from '../../script/languages'
+} from '@/script/languages'
 export default function () {
     return(
         <div>
