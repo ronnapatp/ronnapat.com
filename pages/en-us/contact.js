@@ -1,11 +1,11 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import Head from '../../components/meta'
-import Navbar from '../../components/navbar'
-import Footer from '../../components/footer';
+import Head from '@/components/meta'
+import Navbar from '@/components/navbar'
+import Footer from '@/components/footer';
 import {
   langenus
-} from '../../script/languages'
+} from '@/script/languages'
 import Script from 'next/script'
 
 function ContactForm() {
