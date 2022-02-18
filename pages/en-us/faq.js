@@ -11,7 +11,7 @@ export default function faq () {
             <Head title='FAQ' image='/meta.png' />
             <Navbar lantoshow={langenus} pathname='en-us' page='/faq' />
             <Faq />
-            <Footer />
+            <Footer paht='en-us' />
         </>
     )
 }
