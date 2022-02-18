@@ -3,7 +3,7 @@ import { Collapse } from "@nextui-org/react";
 import { useState } from "react";
 
 const faq = [
-  { id: "1", title: "Option 1", description: "Coming soon!" },
+  { id: "1", title: "who am i", description: "Hello my name is Ronnapat Srivoravilai and I am a student in Bangkok,Thailand. Learn more about me at about page!" },
   { id: "2", title: "Option 1", description: "Coming soon!" },
   { id: "3", title: "Option 1", description: "Coming soon!" },
   { id: "4", title: "s", description: "Coming soon!" },
