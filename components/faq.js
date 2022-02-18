@@ -28,7 +28,7 @@ export default function () {
           <Container>
           <input 
           type='text' 
-          placeholder="Search..." 
+          placeholder="Search... " 
           value={search} 
           onChange={(event)=> {setSearch(event.target.value)}}
           className="mt-3 rounded-md block shadow-sm border-gray-300 dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-2"
