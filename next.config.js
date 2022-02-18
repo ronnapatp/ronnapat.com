@@ -36,6 +36,11 @@ module.exports = {
         destination: "https://www.buymeacoffee.com/ronnapatp",
         permanent: false,
       },
+      {
+        source: "/tw-bot",
+        destination: "https://github.com/ronnapatp/twitter-bot",
+        permanent: false,
+      },
     ];
   },
 };
