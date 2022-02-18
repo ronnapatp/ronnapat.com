@@ -9,7 +9,7 @@ import Subscribe from "@/components/subscribe";
 import Footer from "@/components/footer"
 import {
     langenus
-} from '../../script/languages'
+} from '@/script/languages'
 
 export default function Home() {
     return(
