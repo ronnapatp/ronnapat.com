@@ -34,7 +34,7 @@ export default function () {
                             When the cookie is exchanged between your computer and the network server, the server reads the ID and knows what information to specifically serve to you.
                             <br /><br />
                             From :
-                            <a className="ml-2 underline" href="https://www.kaspersky.com/resource-center/definitions/cookies" target='_blank'>
+                            <a className="ml-2 underline" href="https://www.kaspersky.com/resource-center/definitions/cookies" target='_blank' rel="noopener">
                               Kaspersky  
                             </a>
                         </p>
@@ -70,7 +70,7 @@ export default function () {
                             </ul>
                             <ul className="mt-2">
                                 <li className="text-xl mb-2">2. Google anlytics cookies</li>
-                                View google anlytics terms <a href="https://marketingplatform.google.com/about/analytics/terms/us/" className="underline" target='_blank'>click here.</a>
+                                View google anlytics terms <a href="https://marketingplatform.google.com/about/analytics/terms/us/" className="underline" target='_blank' rel="noopener">click here.</a>
                                 <p className="mt-2"></p>
                                 We use this cookie to check time page platform city and country users visit so we can develop website in a correct ways.
                             </ul>
@@ -83,13 +83,13 @@ export default function () {
                             </a>
                         </h2>
                         <p className="mt-10">
-                            You can use our website with no cookies and no tracking in <a className="underline" href="https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop" target="_blank">Incognito mode</a> or you can delete cookies by
+                            You can use our website with no cookies and no tracking in <a className="underline" href="https://support.google.com/chrome/answer/95464?hl=en&co=GENIE.Platform%3DDesktop" target="_blank" rel="noopener">Incognito mode</a> or you can delete cookies by
                             <ul className="list-disc ml-5 mt-2">
-                                <li><a className="underline" href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform=Desktop" target='_blank'>Chrome</a></li>
-                                <li><a className="underline" href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target='_blank'>Edge</a></li>
-                                <li><a className="underline" href="https://support.apple.com/en-us/HT201265" target='_blank'>Safari</a></li>
-                                <li><a className="underline" href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target='_blank'>Firefox</a></li>
-                                <li><a className="underline" href="https://www.opera.com/use-cases/clean-browser-and-remove-trackers" target='_blank'>Opera</a></li>
+                                <li><a className="underline" href="https://support.google.com/chrome/answer/95647?hl=en&co=GENIE.Platform=Desktop" target='_blank' rel="noopener">Chrome</a></li>
+                                <li><a className="underline" href="https://support.microsoft.com/en-us/microsoft-edge/delete-cookies-in-microsoft-edge-63947406-40ac-c3b8-57b9-2a946a29ae09" target='_blank' rel="noopener">Edge</a></li>
+                                <li><a className="underline" href="https://support.apple.com/en-us/HT201265" target='_blank' rel="noopener">Safari</a></li>
+                                <li><a className="underline" href="https://support.mozilla.org/en-US/kb/clear-cookies-and-site-data-firefox" target='_blank' rel="noopener">Firefox</a></li>
+                                <li><a className="underline" href="https://www.opera.com/use-cases/clean-browser-and-remove-trackers" target='_blank' rel="noopener">Opera</a></li>
                             </ul>
                         </p>
                     </div>
