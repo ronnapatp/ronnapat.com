@@ -2,10 +2,10 @@ import '../styles/globals.css'
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
-import * as gtag from '../script/gtag'
+import * as gtag from '@/script/gtag'
 import 'remixicon/fonts/remixicon.css'
 import { ThemeProvider } from 'next-themes'
-import Cookies from '../components/cookies'
+import Cookies from '@/components/cookies'
 import { NextUIProvider } from '@nextui-org/react';
 
 function MyApp({ Component, pageProps }) {

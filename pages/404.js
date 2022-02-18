@@ -1,6 +1,6 @@
-import Navbar from '../components/navbar'
-import Head from '../components/meta'
-import Footer from '../components/footer'
+import Navbar from '@/components/navbar'
+import Head from '@/components/meta'
+import Footer from '@/components/footer'
 export default function Custom404() {
     return (
         <div>
