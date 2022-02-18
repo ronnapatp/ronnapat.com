@@ -40,7 +40,7 @@ export default function () {
 
                     <div className="font-light text-lg px-2 mb-12 dark:text-white">
                     <h2 className="text-xl font-semibold mb-4">On the Web</h2>
-                    <a href="https://github.com/ronnapatp" target="_blank" className="flex items-center my-3 dark:text-gray-200">
+                    <a href="https://github.com/ronnapatp" target="_blank" rel="noopener" className="flex items-center my-3 dark:text-gray-200">
                         <i className="ri-share-box-line mr-2"></i>
                         GitHub
                     </a>
