@@ -17,7 +17,7 @@ export default function () {
   const filtersearch = faq.filter((faq) => {
     return faq.title.includes(search);
   })
-  
+
   return (
     <div className="bg-white dark:bg-slate-700 text-black dark:text-white py-24">
       <h1 className="text-center text-5xl mb-4">
@@ -25,7 +25,15 @@ export default function () {
         <p className="text-xl">
           If you have more question you can contact me at{" "}
           <a href="/contact">Contact page</a>
-          <input type='text' placeholder="text" value={search} onChange={(event)=> {setSearch(event.target.value)}} />
+          <div>
+          <input 
+          type='text' 
+          placeholder="text" 
+          value={search} 
+          onChange={(event)=> {setSearch(event.target.value)}}
+          className="mt-3" 
+          />
+          </div>
         </p>
       </h1>
       <Container>
