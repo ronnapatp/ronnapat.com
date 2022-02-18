@@ -3,7 +3,8 @@
     "baseUrl": ".",
     "paths": {
       "@/components/*": ["components/*"],
-      "@/script/*": ["script/*"]
+      "@/script/*": ["script/*"],
+      "@/public/*": ["public/*"]
     }
   }
 }
