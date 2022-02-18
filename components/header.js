@@ -13,7 +13,7 @@ export default function Header({ name, description, button, bthref }) {
           <div className="flex flex-col items-center w-full md:flex-row">
             <div className="mt-40 mb-40 md:mb-0 md:mt-0 md:order-2">
               {/* <div className="p-2"> */}
-                {/* <div className="inline-flex items-center bg-white leading-none text-sky-600 rounded-full p-2 shadow text-sm">
+              {/* <div className="inline-flex items-center bg-white leading-none text-sky-600 rounded-full p-2 shadow text-sm">
                   <span className="inline-flex bg-sky-600 text-white rounded-full h-6 px-3 justify-center items-center text-">
                     Languages
                   </span>
