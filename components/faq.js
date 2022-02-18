@@ -4,7 +4,9 @@ import { Collapse } from '@nextui-org/react';
 const faq = [
   { id: '1', title: 'Option 1', description: 'Coming soon!'},
   { id: '2', title: 'Option 1', description: 'Coming soon!'},
-  { id: '3', title: 'Option 1', description: 'Coming soon!'}
+  { id: '3', title: 'Option 1', description: 'Coming soon!'},
+  { id: '4', title: 'Option 1', description: 'Coming soon!'},
+  { id: '5', title: 'Option 1', description: 'Coming soon!'},
 ]
 
 export default function (){
