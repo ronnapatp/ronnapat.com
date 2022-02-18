@@ -7,6 +7,7 @@ const faq = [
   { id: "3", title: "Option 1", description: "Coming soon!" },
   { id: "4", title: "Option 1", description: "Coming soon!" },
   { id: "5", title: "Option 1", description: "Coming soon!" },
+  { id: "6", title: "Option 1", description: "Coming soon!" },
 ];
 
 export default function () {
