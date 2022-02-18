@@ -4,11 +4,11 @@ import { useState } from "react";
 
 const faq = [
   { id: "1", title: "who am i", description: "Hello my name is Ronnapat Srivoravilai and I am a student in Bangkok,Thailand. Learn more about me at about page!" },
-  { id: "2", title: "Option 1", description: "Coming soon!" },
-  { id: "3", title: "Option 1", description: "Coming soon!" },
+  { id: "2", title: "Option 2", description: "Coming soon!" },
+  { id: "3", title: "Option 3", description: "Coming soon!" },
   { id: "4", title: "s", description: "Coming soon!" },
-  { id: "5", title: "Option 1", description: "Coming soon!" },
-  { id: "6", title: "Option 1", description: "Coming soon!" },
+  { id: "5", title: "Option 4", description: "Coming soon!" },
+  { id: "6", title: "Option 5", description: "Coming soon!" },
 ];
 
 export default function () {
