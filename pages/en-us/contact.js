@@ -107,21 +107,21 @@ function ContactForm() {
               className="rounded text-sky-500 focus:border-sky-300 mr-1"
               required
             />
-              By click submit you're agree with{" "}
-              <a
-                href="/en-us/terms"
-                className="underline hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                Terms
-              </a>{" "}
-              and{" "}
-              <a
-                href="/en-us/privacy"
-                className="underline hover:text-gray-600 dark:hover:text-gray-300"
-              >
-                Privacy
-              </a>
-              .
+            By click submit you're agree with{" "}
+            <a
+              href="/en-us/terms"
+              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              Terms
+            </a>{" "}
+            and{" "}
+            <a
+              href="/en-us/privacy"
+              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+            >
+              Privacy
+            </a>
+            .
           </div>
           <button
             type="submit"
