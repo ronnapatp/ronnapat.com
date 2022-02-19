@@ -108,22 +108,22 @@ function ContactForm() {
               required
             />
             <div className="text-black dark:text-black">
-            By click submit you're agree with{" "}
-            <a
-              href="/en-us/terms"
-              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+              By click submit you're agree with{" "}
+              <a
+                href="/en-us/terms"
+                className="underline hover:text-gray-600 dark:hover:text-gray-300"
               >
-              Terms
-            </a>{" "}
-            and{" "}
-            <a
-              href="/en-us/privacy"
-              className="underline hover:text-gray-600 dark:hover:text-gray-300"
+                Terms
+              </a>{" "}
+              and{" "}
+              <a
+                href="/en-us/privacy"
+                className="underline hover:text-gray-600 dark:hover:text-gray-300"
               >
-              Privacy
-            </a>
-            .
-              </div>
+                Privacy
+              </a>
+              .
+            </div>
           </div>
           <button
             type="submit"
