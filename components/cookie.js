@@ -68,7 +68,7 @@ export default function () {
             </h2>
             <p className="mt-10">
               We collect the following data :
-              <ul className="list-decimal ml-5">
+              <ul className="list-decimal ml-5 text-gray-700 dark:text-gray-200">
                 <li>Theme</li>
                 <li>Page you visit</li>
                 <li>Time you visit each page</li>
@@ -86,7 +86,7 @@ export default function () {
                 How and Why do We Use Cookies?
               </a>
             </h2>
-            <p className="mt-10">
+            <p className="mt-10 text-gray-700 dark:text-gray-200">
               We use cookies to track what out visiter like or not like so we
               can develop website that more friendly and easy to use for our
               visiter
