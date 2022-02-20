@@ -10,7 +10,7 @@ export default function () {
           </div>
           <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
             <a
-              href="https://blog.ronnapat.com/blog/my-twitter-bot"
+              href="https://ronnapat.com/b/tw-bot"
               target="_blank"
               rel="noopener"
             >
@@ -25,7 +25,7 @@ export default function () {
           </div>
           <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
             <a
-              href="https://blog.ronnapat.com/blog/my-website"
+              href="https://ronnapat.com/b/my-web"
               target="_blank"
               rel="noopener"
             >
