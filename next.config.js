@@ -41,6 +41,16 @@ module.exports = {
         destination: "https://github.com/ronnapatp/twitter-bot",
         permanent: false,
       },
+      {
+        source: "/b/tw-bot",
+        destination: "https://blog.ronnapat.com/blog/my-twitter-bot",
+        permanent: false,
+      },
+      {
+        source: "/b/my-web",
+        destination: "https://blog.ronnapat.com/blog/my-website",
+        permanent: false,
+      },
     ];
   },
 };
