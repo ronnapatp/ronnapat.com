@@ -1,4 +1,3 @@
-import { ArrowRightIcon } from "@heroicons/react/outline";
 import Container from "./container";
 export default function () {
   return (
