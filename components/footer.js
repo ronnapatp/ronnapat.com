@@ -16,7 +16,6 @@ import {
   LinkedinIcon,
   EmailIcon,
 } from "react-share";
-import about from "./about";
 
 export default function footer({ paht }) {
   let [isOpen, setIsOpen] = useState(false);
