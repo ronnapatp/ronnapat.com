@@ -3,6 +3,7 @@ import Navbar from "@/components/navbar";
 import Head from "@/components/meta";
 import Homeabout from "@/components/home-about";
 import Ads from "@/components/ads";
+import Skill from "@/components/skill-home"
 import Project from "@/components/project";
 import Goblog from "@/components/go-blog";
 import Subscribe from "@/components/subscribe";
@@ -31,6 +32,7 @@ export default function Home() {
         </a>
         )
       </Homeabout>
+      <Skill paht="en-us" />
       <Project />
       <Goblog />
       <Subscribe />
