@@ -6,7 +6,6 @@ import * as gtag from "@/script/gtag";
 import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
 import Cookies from "@/components/cookies";
-import { NextUIProvider } from "@nextui-org/react";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -22,7 +21,6 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <ThemeProvider attribute="class">
-      <NextUIProvider>
         <Script
           strategy="afterInteractive"
           src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
@@ -62,7 +60,6 @@ function MyApp({ Component, pageProps }) {
           data-x_margin="18"
           data-y_margin="18"
         ></script>
-      </NextUIProvider>
     </ThemeProvider>
   );
 }
