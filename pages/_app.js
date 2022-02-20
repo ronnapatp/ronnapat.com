@@ -21,15 +21,15 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <ThemeProvider attribute="class">
-        <Script
-          strategy="afterInteractive"
-          src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
-        />
-        <Script
-          id="gtag-init"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
+      <Script
+        strategy="afterInteractive"
+        src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
+      />
+      <Script
+        id="gtag-init"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
@@ -37,29 +37,29 @@ function MyApp({ Component, pageProps }) {
                 page_path: window.location.pathname,
               });
             `,
-          }}
-        />
-        <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
-          crossOrigin="anonymous"
-        />
-        <div className="font-display">
-          <Component {...pageProps} />
-          <Cookies />
-        </div>
-        <script
-          data-name="BMC-Widget"
-          data-cfasync="false"
-          src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
-          data-id="ronnapatp"
-          data-description="Support me on Buy me a coffee!"
-          data-message="Donate to ronnapatp"
-          data-color="#5F7FFF"
-          data-position="Right"
-          data-x_margin="18"
-          data-y_margin="18"
-        ></script>
+        }}
+      />
+      <script
+        async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
+        crossOrigin="anonymous"
+      />
+      <div className="font-display">
+        <Component {...pageProps} />
+        <Cookies />
+      </div>
+      <script
+        data-name="BMC-Widget"
+        data-cfasync="false"
+        src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+        data-id="ronnapatp"
+        data-description="Support me on Buy me a coffee!"
+        data-message="Donate to ronnapatp"
+        data-color="#5F7FFF"
+        data-position="Right"
+        data-x_margin="18"
+        data-y_margin="18"
+      ></script>
     </ThemeProvider>
   );
 }
