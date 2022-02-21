@@ -71,9 +71,9 @@ const resources = [
   },
 ]
 const legal = [
-  { id: 1, name: 'Boost your conversion rate', href: '#' },
-  { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
-  { id: 3, name: 'Improve your customer experience', href: '#' },
+  { id: 1, name: 'Privacy Policy', href: '/privacy' },
+  { id: 2, name: 'Terms Of Service', href: '/terms' },
+  { id: 3, name: 'Cookie Policy', href: '/cookie'}
 ]
 
 
@@ -254,24 +254,18 @@ export default function Example({ lantoshow, pathname, page }) {
                             </a>
                           ))}
                         </div>
-                        <div className="px-5 py-5 bg-gray-50 sm:px-8 sm:py-8">
+                        <div className="px-5 py-5 bg-gray-50 dark:bg-slate-700 sm:px-8 sm:py-8">
                           <div>
-                            <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">Recent Posts</h3>
+                            <h3 className="text-sm tracking-wide font-medium text-gray-500 dark:text-white uppercase">Legal</h3>
                             <ul role="list" className="mt-4 space-y-4">
                               {legal.map((legal) => (
                                 <li key={legal.id} className="text-base truncate">
-                                  <a href={legal.href} className="font-medium text-gray-900 hover:text-gray-700">
+                                  <a href={legal.href} className="font-medium text-gray-900 hover:text-gray-700 dark:text-gray-300 dark:hover:text-white">
                                     {legal.name}
                                   </a>
                                 </li>
                               ))}
                             </ul>
-                          </div>
-                          <div className="mt-5 text-sm">
-                            <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
-                              {' '}
-                              View all posts <span aria-hidden="true">&rarr;</span>
-                            </a>
                           </div>
                         </div>
                       </div>
