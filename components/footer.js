@@ -16,13 +16,7 @@ import {
   LinkedinIcon,
   EmailIcon,
 } from "react-share";
-import {
-  facebook,
-  twitter,
-  github,
-  mail,
-  discord,
-} from "@/script/social"
+import { facebook, twitter, github, mail, discord } from "@/script/social";
 
 export default function footer({ paht }) {
   let [isOpen, setIsOpen] = useState(false);
@@ -226,18 +220,10 @@ export default function footer({ paht }) {
             >
               <i className="ri-github-fill text-xl"></i>
             </a>
-            <a
-              href={`mailto:${mail}`}
-              target="_blank"
-              className="w-6 mx-1"
-            >
+            <a href={`mailto:${mail}`} target="_blank" className="w-6 mx-1">
               <i className="ri-mail-line text-xl"></i>
             </a>
-            <a
-              href={discord}
-              target="_blank"
-              className="w-6 mx-1"
-            >
+            <a href={discord} target="_blank" className="w-6 mx-1">
               <i className="ri-discord-fill text-xl"></i>
             </a>
           </div>
