@@ -25,7 +25,7 @@ export default function () {
 
   return (
     <div className="bg-white dark:bg-slate-700 text-black dark:text-white py-24">
-      <h1 className="text-center text-5xl mb-4">
+      <h1 className="text-center text-5xl mb-4 mt-5">
         Ronnapat Srivoravilai FAQ
         <p className="text-xl">
           If you have more question you can contact me at{" "}
@@ -58,6 +58,9 @@ export default function () {
             </Collapse>
           ))}
         </Collapse.Group>
+        <h1 className="text-center text-xl mt-20 mb-20">
+          If you don't found FAQ that you want to know please contact me at <a href="/contact" className="underline">Contact page</a> 
+        </h1>
       </Container>
     </div>
   );
