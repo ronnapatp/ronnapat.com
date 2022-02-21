@@ -1,5 +1,5 @@
 export default function () {
-  let update = "11/02/2022";
+  let update = "21/02/2022";
   return (
     <div className="bg-white dark:bg-slate-700">
       <div className="container mx-auto px-4">
