@@ -11,7 +11,7 @@ import {
   InformationCircleIcon,
   ChevronDownIcon,
   TranslateIcon,
-  DotsVerticalIcon,
+  CashIcon,
   SupportIcon,
   BookmarkAltIcon,
   CalendarIcon,
@@ -58,10 +58,10 @@ const pages = [
 
 const resources = [
   {
-    name: 'Help Center',
-    description: 'Get all of your questions answered in our forums or contact support.',
-    href: '#',
-    icon: SupportIcon,
+    name: 'Donation',
+    description: 'Support Ronnapat Srivoravilai',
+    href: '/donate',
+    icon: CashIcon,
   },
   {
     name: 'Guides',
@@ -245,13 +245,13 @@ export default function Example({ lantoshow, pathname, page }) {
                     leaveTo="opacity-0 translate-y-1"
                   >
                     <Popover.Panel className="absolute z-10 left-1/2 transform -translate-x-1/2 mt-3 px-2 w-screen max-w-md sm:px-0">
-                      <div className="rounded-lg shadow-lg ring-1 ring-black ring-opacity-5 overflow-hidden">
-                        <div className="relative grid gap-6 bg-white px-5 py-6 sm:gap-8 sm:p-8">
+                      <div className="rounded-lg shadow-lg ring-2 ring-black dark:ring-slate-700 ring-opacity-5 overflow-hidden">
+                        <div className="relative grid gap-6 bg-gray-50 dark:bg-slate-800 px-5 py-6 sm:gap-8 sm:p-8">
                           {resources.map((item) => (
                             <a
                               key={item.name}
                               href={item.href}
-                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-gray-50"
+                              className="-m-3 p-3 flex items-start rounded-lg hover:bg-white dark:hover:bg-slate-700"
                             >
                               <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
                               <div className="ml-4">
