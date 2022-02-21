@@ -1,8 +1,10 @@
+import Container from "./container"
+
 export default function () {
   let update = "11/01/2022";
   return (
     <div className="bg-white dark:bg-slate-700">
-      <div className="container mx-auto px-4">
+      <Container>
         <div className="max-w-prose mx-auto py-8 prose-h1:font-semibold dark:prose-h1:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h2:text-2xl prose-h2:md:text-4xl dark:prose-a:text-gray-100 prose-a:text-gray-600  hover:prose-a:text-sky-500 dark:hover:prose-a:text-sky-300 hover:prose-a:underline">
           <h1 className="md:text-6xl text-4xl">Cookies Policy</h1>
           <p>Last update : {update}</p>
@@ -221,7 +223,7 @@ export default function () {
             Last update : {update}
           </h3>
         </div>
-      </div>
+      </Container>
     </div>
   );
 }
