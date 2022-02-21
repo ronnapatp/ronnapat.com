@@ -51,6 +51,26 @@ module.exports = {
         destination: "https://blog.ronnapat.com/blog/my-website",
         permanent: false,
       },
+      {
+        source: "/s/github",
+        destination: "https://github.com/ronnapatp",
+        permanent: false,
+      },
+      {
+        source: "/s/twitter",
+        destination: "https://twitter.com/ronnapatp",
+        permanent: false,
+      },
+      {
+        source: "/s/facebook",
+        destination: "https://facebook.com/pieronnapatp",
+        permanent: false,
+      },
+      {
+        source: "/s/mail",
+        destination: "mailto:me@ronnapat.com",
+        permanent: false,
+      },
     ];
   },
 };
