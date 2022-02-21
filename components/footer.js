@@ -16,6 +16,13 @@ import {
   LinkedinIcon,
   EmailIcon,
 } from "react-share";
+import {
+  facebook,
+  twitter,
+  github,
+  mail,
+  discord,
+} from "@/script/social"
 
 export default function footer({ paht }) {
   let [isOpen, setIsOpen] = useState(false);
@@ -199,42 +206,35 @@ export default function footer({ paht }) {
 
           <div className="md:flex-auto md:flex-row-reverse flex-row flex">
             <a
-              href="https://facebook.com/pieronnapatp"
+              href={`https://facebook.com/${facebook}`}
               target="_blank"
               className="w-6 mx-1"
             >
               <i className="ri-facebook-circle-fill text-xl"></i>
             </a>
             <a
-              href="https://twitter.com/ronnapatp"
+              href={`https://twitter.com/${twitter}`}
               target="_blank"
               className="w-6 mx-1"
             >
               <i className="ri-twitter-fill text-xl"></i>
             </a>
             <a
-              href="https://instagram.com/ronnapatsri"
-              target="_blank"
-              className="w-6 mx-1"
-            >
-              <i className="ri-instagram-fill text-xl"></i>
-            </a>
-            <a
-              href="https://github.com/ronnapatp"
+              href={`https://github.com/${github}`}
               target="_blank"
               className="w-6 mx-1"
             >
               <i className="ri-github-fill text-xl"></i>
             </a>
             <a
-              href="mailto:me@ronnapat.com"
+              href={`mailto:${mail}`}
               target="_blank"
               className="w-6 mx-1"
             >
               <i className="ri-mail-line text-xl"></i>
             </a>
             <a
-              href="https://discord.com/users/746664242907971601"
+              href={discord}
               target="_blank"
               className="w-6 mx-1"
             >
