@@ -8,6 +8,9 @@ export default function () {
           <p>Last update : {update}</p>
           <hr className="mt-5" />
           <div className="mt-10 dark:text-white">
+            Ronnapat.com ("ronnapat.com""we" or "us") is doing our best to protect your privacy. This Privacy Policy document contains types of information that is collected and recorded by ronnapat.com and how we use it. 
+            <br />
+            <br />
             This Privacy Policy applies only to our online activities and is
             valid for visitors to our website with regards to the information
             that they shared and/or collect in ronnapat.com. This policy is not
@@ -24,13 +27,6 @@ export default function () {
               Contact page
             </a>
             .
-            <br />
-            <br />
-            <br />
-            At ronnapat.com, accessible from https://ronnapat.com/, one of our
-            main priorities is the privacy of our visitors. This Privacy Policy
-            document contains types of information that is collected and
-            recorded by ronnapat.com and how we use it.
           </div>
           <div className="mt-14" id="cookie">
             <h2>
