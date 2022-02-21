@@ -12,7 +12,7 @@ import {
   ChevronDownIcon,
   TranslateIcon,
   CashIcon,
-  SupportIcon,
+  LinkIcon,
   BookmarkAltIcon,
   CalendarIcon,
   ShieldCheckIcon,
@@ -64,20 +64,13 @@ const resources = [
     icon: CashIcon,
   },
   {
-    name: 'Guides',
-    description: 'Learn how to maximize our platform to get the most out of it.',
-    href: '#',
-    icon: BookmarkAltIcon,
+    name: 'Social',
+    description: 'Follow me on social media',
+    href: '/social',
+    icon: LinkIcon,
   },
-  {
-    name: 'Events',
-    description: 'See what meet-ups and other events we might be planning near you.',
-    href: '#',
-    icon: CalendarIcon,
-  },
-  { name: 'Security', description: 'Understand how we take your privacy seriously.', href: '#', icon: ShieldCheckIcon },
 ]
-const recentPosts = [
+const legal = [
   { id: 1, name: 'Boost your conversion rate', href: '#' },
   { id: 2, name: 'How to use search engine optimization to drive traffic to your site', href: '#' },
   { id: 3, name: 'Improve your customer experience', href: '#' },
@@ -253,10 +246,10 @@ export default function Example({ lantoshow, pathname, page }) {
                               href={item.href}
                               className="-m-3 p-3 flex items-start rounded-lg hover:bg-white dark:hover:bg-slate-700"
                             >
-                              <item.icon className="flex-shrink-0 h-6 w-6 text-indigo-600" aria-hidden="true" />
+                              <item.icon className="flex-shrink-0 h-6 w-6 text-sky-600 dark:text-sky-400" aria-hidden="true" />
                               <div className="ml-4">
-                                <p className="text-base font-medium text-gray-900">{item.name}</p>
-                                <p className="mt-1 text-sm text-gray-500">{item.description}</p>
+                                <p className="text-base font-medium text-gray-900 dark:text-gray-200">{item.name}</p>
+                                <p className="mt-1 text-sm text-gray-500 dark:text-gray-400">{item.description}</p>
                               </div>
                             </a>
                           ))}
@@ -265,10 +258,10 @@ export default function Example({ lantoshow, pathname, page }) {
                           <div>
                             <h3 className="text-sm tracking-wide font-medium text-gray-500 uppercase">Recent Posts</h3>
                             <ul role="list" className="mt-4 space-y-4">
-                              {recentPosts.map((post) => (
-                                <li key={post.id} className="text-base truncate">
-                                  <a href={post.href} className="font-medium text-gray-900 hover:text-gray-700">
-                                    {post.name}
+                              {legal.map((legal) => (
+                                <li key={legal.id} className="text-base truncate">
+                                  <a href={legal.href} className="font-medium text-gray-900 hover:text-gray-700">
+                                    {legal.name}
                                   </a>
                                 </li>
                               ))}
