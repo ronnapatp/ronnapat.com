@@ -13,9 +13,8 @@ export default function () {
             My project
           </div>
           {project.map((project) => (
-          <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
+          <div key={project.id} className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
             <a
-              key={project.id}
               href={project.href}
               target="_blank"
               rel="noopener"
