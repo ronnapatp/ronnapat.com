@@ -12,19 +12,21 @@ export default function () {
             My project
           </div>
           <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
+          {project.map((project) => (
             <a
-              href="https://ronnapat.com/b/tw-bot"
+              key={project.id}
+              href={project.href}
               target="_blank"
               rel="noopener"
             >
               <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                My twitter bot with typescript
+                {project.title}
               </h5>
               <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                I build my first twitter bot to update my bio using twitter api
-                with typescript
+                {project.description}
               </p>
             </a>
+          ))}
           </div>
           <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
             <a
