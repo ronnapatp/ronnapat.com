@@ -16,7 +16,14 @@ import {
   LinkedinIcon,
   EmailIcon,
 } from "react-share";
-import { facebook, twitter, github, mail, discord, link } from "@/script/social";
+import {
+  facebook,
+  twitter,
+  github,
+  mail,
+  discord,
+  link,
+} from "@/script/social";
 
 export default function footer({ paht }) {
   let [isOpen, setIsOpen] = useState(false);

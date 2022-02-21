@@ -1,4 +1,4 @@
-import Container from "./container"
+import Container from "./container";
 
 export default function () {
   let update = "11/01/2022";

@@ -8,7 +8,10 @@ export default function () {
           <p>Last update : {update}</p>
           <hr className="mt-5" />
           <div className="mt-10 dark:text-white">
-            Ronnapat.com ("ronnapat.com""we" or "us") is doing our best to protect your privacy. This Privacy Policy document contains types of information that is collected and recorded by ronnapat.com and how we use it. 
+            Ronnapat.com ("ronnapat.com""we" or "us") is doing our best to
+            protect your privacy. This Privacy Policy document contains types of
+            information that is collected and recorded by ronnapat.com and how
+            we use it.
             <br />
             <br />
             This Privacy Policy applies only to our online activities and is

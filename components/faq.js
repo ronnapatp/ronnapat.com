@@ -59,7 +59,10 @@ export default function () {
           ))}
         </Collapse.Group>
         <h1 className="text-center text-xl mt-20 mb-20">
-          If you don't found FAQ that you want to know please contact me at <a href="/contact" className="underline">Contact page</a> 
+          If you don't found FAQ that you want to know please contact me at{" "}
+          <a href="/contact" className="underline">
+            Contact page
+          </a>
         </h1>
       </Container>
     </div>
