@@ -28,11 +28,16 @@ module.exports = {
       },
       {
         source: "/donate",
-        destination: "https://www.buymeacoffee.com/ronnapatp",
+        destination: "/en-us/donate",
         permanent: false,
       },
       {
-        source: "/en-us/donate",
+        source: "/d/patreon",
+        destination: "https://www.patreon.com/ronnapatp",
+        permanent: false,
+      },
+      {
+        source: "/d/buymeacoffee",
         destination: "https://www.buymeacoffee.com/ronnapatp",
         permanent: false,
       },
