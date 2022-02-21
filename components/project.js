@@ -12,8 +12,8 @@ export default function () {
           <div className="text-4xl md:text-6xl text-slate-800 dark:text-gray-200 font-semibold mb-4">
             My project
           </div>
-          <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
           {project.map((project) => (
+          <div className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100">
             <a
               key={project.id}
               href={project.href}
@@ -27,8 +27,8 @@ export default function () {
                 {project.description}
               </p>
             </a>
-          ))}
           </div>
+          ))}
         </div>
       </Container>
       <div className="text-center pb-10">
