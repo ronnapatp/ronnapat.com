@@ -2,7 +2,8 @@ import Container from "./container";
 export default function () {
 
   const project = [
-    { id: 1, title: 'My twitter bot with typescript', description: 'I build my first twitter bot to update my bio using twitter api with typescript', href: 'https://ronnapat.com/b/tw-bot'}
+    { id: 1, title: 'My twitter bot with typescript', description: 'I build my first twitter bot to update my bio using twitter api with typescript', href: 'https://ronnapat.com/b/tw-bot'},
+    { id: 2, title: 'My website ronnapat.com', description: 'Since last year I create 2 version of my website and in this year I create version 1.2.0', href: 'https://ronnapat.com/b/my-web'}
   ]
   return (
     <div className="bg-gray-50 dark:bg-slate-800">
