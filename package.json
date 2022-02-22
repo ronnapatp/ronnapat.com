@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@formspree/react": "^2.2.4",
+    "@google-pay/button-react": "^3.0.0",
     "@hcaptcha/react-hcaptcha": "^1.1.0",
     "@headlessui/react": "^1.5.0",
     "@heroicons/react": "^1.0.5",

@@ -76,6 +76,13 @@
   dependencies:
     "@formspree/core" "^2.6.1"
 
+"@google-pay/button-react@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@google-pay/button-react/-/button-react-3.0.0.tgz#141d89d76a5279ab4a2cc214b1b4f34bae873fc1"
+  integrity sha512-GFRlPrr4rK4iZz1EqsdSDG/gP/UjUAGg+fU3Ar7OacquhCkn2Npr5Bqh7Zyxztx3WzsSYDWA2VPaXIr/JQq0BQ==
+  dependencies:
+    "@types/googlepay" "^0.6.3"
+
 "@hcaptcha/react-hcaptcha@^1.1.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@hcaptcha/react-hcaptcha/-/react-hcaptcha-1.1.0.tgz#ca770c9fc1f456e3c6b057bedf01a94693b2ec96"
@@ -315,6 +322,11 @@
     lodash.castarray "^4.4.0"
     lodash.isplainobject "^4.0.6"
     lodash.merge "^4.6.2"
+
+"@types/googlepay@^0.6.3":
+  version "0.6.4"
+  resolved "https://registry.yarnpkg.com/@types/googlepay/-/googlepay-0.6.4.tgz#e0b06ae1f12496c4fa43e52d35e76411dbbee135"
+  integrity sha512-PTt/UCllzl8z5HmhymPpSj6uENZvVKZvCBYdDVmbBVJnLStitxtWrterAOQZkKGlqVdzxNXYeif5hOAMNMS5mw==
 
 "@types/json5@^0.0.29":
   version "0.0.29"
