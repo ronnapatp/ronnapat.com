@@ -17,21 +17,21 @@ function ContactForm() {
   }
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
   const [mail, setMail] = useState("");
+  // if (state.succeeded) {
+  // }
   if (state.succeeded) {
     fetch("/api/mail", {
       body: JSON.stringify({
         email: mail,
-        fullname: "Ronnap",
-        subject: "hello",
-        message: "bitch",
+        fullname: "",
+        subject: "",
+        message: "",
       }),
       headers: {
         "Content-Type": "application/json",
       },
       method: "POST",
     });
-  }
-  if (state.succeeded) {
     return (
       <>
         <div className="my-20 md:my-52">
