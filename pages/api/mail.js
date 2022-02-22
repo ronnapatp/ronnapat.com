@@ -9,38 +9,20 @@ async function sendEmail(req, res) {
     await sendgrid.send({
       to: req.body.email, // Your email where you'll receive emails
       from: "noreply@ronnapat.me", // your website email address here
-      subject: `[github.coms]`,
+      subject: `[ Ronnapat Contact ] - We receive your contact form`,
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html lang="en">
       <head>
         <meta charset="utf-8">
-
-        <title>The HTML5 Herald</title>
-        <meta name="description" content="The HTML5 Herald">
-        <meta name="author" content="SitePoint">
-      <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
-
+        <title>Ronnapat Srivoravilai Contact</title>
+          <meta http-equiv="Content-Type" content="text/html charset=UTF-8" />
         <link rel="stylesheet" href="css/styles.css?v=1.0">
-
       </head>
-
       <body>
         <div class="img-container" style="display: flex;justify-content: center;align-items: center;border-radius: 5px;overflow: hidden; font-family: 'helvetica', 'ui-sans';">
               </div>
-              <div class="container" style="margin-left: 20px;margin-right: 20px;">
-              <br>
-              </div>
-              <img src="https://manuarora.in/logo.png" class="logo-image" style="height: 50px;width: 50px;border-radius: 5px;overflow: hidden;">
-              <p class="footer" style="font-size: 16px;padding-bottom: 20px;border-bottom: 1px solid #D1D5DB;">Regards<br>Manu Arora<br>Software Developer<br>+91 9587738861</p>
-              <div class="footer-links" style="display: flex;justify-content: center;align-items: center;">
-                <a href="https://manuarora.in/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Website</a>
-                <a href="https://manuarora.in/blog/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Blog</a>
-                <a href="https://github.com/manuarora700/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">GitHub</a>
-                <a href="https://instagram.com/maninthere/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Instagram</a>
-                <a href="https://linkedin.com/in/manuarora28/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">LinkedIn</a>
-                <a href="https://twitter.com/mannupaaji/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Twitter</a>
-
-              </div>
+              <p><h2>Thanks for contacting Ronnapat Srivoravilai!</h2> <br /> we just receive you contact form and we will contact you back soon but if it pass 3 days and you didn't get any email back please contact again your form may lost </p>
+              <p class="footer" style="font-size: 16px;padding-bottom: 20px;border-bottom: 1px solid #D1D5DB;">Regards,<br>Ronnapat Srivoravilai<br>Visit website : <a href="https://ronnapat.com" target="_blank">ronnapat.com</a><br>Support : <a href="mailto:support@ronnapat.me">support@ronnapat.me</a><br><br><small style="color: #808388;">This is auto mail from ronnapat.com please don't reply this email</small></p>
               </div>
       </body>
       </html>`,
