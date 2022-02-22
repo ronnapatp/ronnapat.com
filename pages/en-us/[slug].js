@@ -1,6 +1,5 @@
 import Container from '@/components/container'
 import { MDXRemote } from 'next-mdx-remote';
-import Head from 'next/head';
 const CustomLink = [`
 <Link as={as} href={href}>
 <a {...otherProps} />
@@ -9,8 +8,10 @@ import {
   getPostBySlug,
   postFilePaths,
 } from '@/script/mdx-utils';
-i
-
+import Head from "@/components/meta";
+import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
+import { langenus } from "@/script/languages";
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
 // to handle import statements. Instead, you must include components in scope
@@ -30,6 +31,8 @@ export default function PostPage({
 }) {
   return (
     <div className='bg-white dark:bg-slate-700 w-full'>
+        <Head title={frontMatter.headtitle} image="/meta.png" />
+        <Navbar lantoshow={langenus} pathname="en-us" page={`/${frontMatter.headtitle}`} />
       <Container>
         {/* <header>
           <h1 className="text-3xl md:text-5xl dark:text-white text-center mb-12">
@@ -37,12 +40,15 @@ export default function PostPage({
           </h1>
         </header> */}
         <main className='max-w-prose mx-auto py-8 prose-h1:font-semibold dark:prose-h1:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h2:text-2xl prose-h2:md:text-4xl dark:prose-a:text-gray-100 prose-a:text-gray-600  hover:prose-a:text-sky-500 dark:hover:prose-a:text-sky-300 hover:prose-a:underline'>
-          <h1>
-          {frontMatter.title}
-            </h1>
-          <MDXRemote {...source} components={components} />
+        <h1 className="md:text-6xl text-4xl">{frontMatter.title}</h1>
+          <p>Last update : {frontMatter.update}</p>
+          <hr className="mt-5" />
+          <div className="mt-10 dark:text-white">
+            <MDXRemote {...source} components={components} />
+          </div>
         </main>
       </Container>
+      <Footer paht="en-us" />
     </div>
   );
 }
