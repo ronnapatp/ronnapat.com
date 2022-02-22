@@ -1,4 +1,4 @@
-import React from "react";
+import { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import Head from "@/components/meta";
 import Navbar from "@/components/navbar";
@@ -7,15 +7,30 @@ import { langenus } from "@/script/languages";
 import Script from "next/script";
 
 function ContactForm() {
-  if (typeof window !== "undefined") {
-    window.onload = function () {
-      var el = document.getElementById("g-recaptcha-response");
-      if (el) {
-        el.setAttribute("required", "required");
-      }
-    };
-  }
+  // if (typeof window !== "undefined") {
+  //   window.onload = function () {
+  //     var el = document.getElementById("g-recaptcha-response");
+  //     if (el) {
+  //       el.setAttribute("required", "required");
+  //     }
+  //   };
+  // }
   const [state, handleSubmit] = useForm(process.env.NEXT_PUBLIC_MY_FORM);
+  const [ mail, setMail] = useState('')
+  if (state.succeeded){
+       fetch("/api/mail", {
+         body: JSON.stringify({
+           email: mail,
+           fullname: 'Ronnap',
+           subject: 'hello',
+           message: "bitch",
+         }),
+         headers: {
+           "Content-Type": "application/json",
+         },
+         method: "POST",
+       });
+     }
   if (state.succeeded) {
     return (
       <>
@@ -72,6 +87,9 @@ function ContactForm() {
               name="email"
               id="email"
               placeholder="me@example.com"
+              onChange={(e) => {
+                            setMail(e.target.value);
+                          }}
               required
             />
             <ValidationError
@@ -97,10 +115,10 @@ function ContactForm() {
               errors={state.errors}
             />
           </div>
-          <div
+          {/* <div
             className="g-recaptcha"
             data-sitekey="6LcDDgMeAAAAABTnPxOBNNpe3MQNnaoWIcF8GokR"
-          ></div>
+          ></div> */}
           <div className="mt-2 text-black dark:text-white">
             <input
               type="checkbox"
@@ -127,6 +145,7 @@ function ContactForm() {
             type="submit"
             className="block w-full bg-sky-500 hover:bg-sky-400 mt-4 py-2 rounded-2xl focus:border-sky-300 focus:ring focus:ring-sky-200 text-white font-semibold mb-2"
             disabled={state.submitting}
+            // onClick={res}
           >
             Submit
           </button>
