@@ -87,6 +87,16 @@ module.exports = {
         destination: "mailto:me@ronnapat.com",
         permanent: false,
       },
+      {
+        source: "/terms",
+        destination: "/en-us/terms",
+        permanent: false,
+      },
+      {
+        source: "/privacy",
+        destination: "/en-us/privacy",
+        permanent: false,
+      },
     ];
   },
 };
