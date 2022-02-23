@@ -44,6 +44,12 @@ export default function PostPage({ source, frontMatter, globalData }) {
           <hr className="mt-5" />
           <div className="mt-10 dark:text-white">
             <MDXRemote {...source} components={components} />
+            <span>
+              Have issue with this page? 
+              <a href={`https://github.com/ronnapatp/ronnapat.com/blob/main/page/${frontMatter.file}.mdx`}>
+                Fix it on github.
+              </a>
+            </span>
           </div>
         </main>
       </Container>
