@@ -7,16 +7,20 @@ module.exports = {
       process: false,
       buffer: false,
     };
+    config.module.rules.push({
+      test: /\.md$/,
+      use: "raw-loader",
+    });
 
     return config;
   },
   async redirects() {
     return [
-      {
-        source: "/en-us/blog",
-        destination: "https://blog.ronnapat.com",
-        permanent: false,
-      },
+      // {
+      //   source: "/en-us/blog",
+      //   destination: "https://blog.ronnapat.com",
+      //   permanent: false,
+      // },
       {
         source: "/th-th/blog",
         destination: "https://blog.ronnapat.com",
