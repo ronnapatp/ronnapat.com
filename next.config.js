@@ -102,6 +102,11 @@ module.exports = {
         destination: "https://discord.com/api/oauth2/authorize?client_id=910769096197562387&permissions=8&scope=bot",
         permanent: false,
       },
+      {
+        source: "/social",
+        destination: "/en-us/social",
+        permanent: false,
+      },
     ];
   },
 };
