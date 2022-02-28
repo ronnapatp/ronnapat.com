@@ -5,12 +5,14 @@ import path from 'path'
 import { postFilePaths, POSTS_PATH } from '@/script/mdxUtils'
 import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
+import Container from '@/components/container'
 
 export default function Index({ posts }) {
   return (
     <div>
         <Navbar />
         <div className="bg-white dark:bg-slate-700">
+            <Container>
       <ul>
         {posts.map((post) => (
             <li key={post.filePath}>
@@ -23,6 +25,7 @@ export default function Index({ posts }) {
           </li>
         ))}
       </ul>
+        </Container>
         </div>
       <Footer />
     </div>
