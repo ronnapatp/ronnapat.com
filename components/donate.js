@@ -16,7 +16,7 @@ export default function () {
         <span>On Patreon</span>
         <a href="https://ronnapat.com/d/patreon" target="_blank">
           <center>
-            <img src="/Patreon.png" className="w-48 items-center" />
+            <img src="/patreon.png" className="w-48 items-center" />
           </center>
         </a>
       </div>
