@@ -13,21 +13,32 @@ export default function Index({ posts }) {
         <Navbar />
         <div className="bg-white dark:bg-slate-700">
             <Container>
-      <ul>
+                <h1 className="text-center text-5xl p-10 font-semibold">
+                    Blog
+                </h1>
+      <ul className='p-10'>
         {posts.map((post) => (
+                      <li key={post.filePath}>
+
           <div
-          key={post.filePath}
           className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100"
         >
-          <a as={`/posts/${post.filePath.replace(/\.mdx?$/, '')}`} href={`/posts/[slug]`} >
-            <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+             <Link
+              as={`/en-us/blog/posts/${post.filePath.replace(/\.mdx?$/, '')}`}
+              href={`/en-us/blog/posts/[slug]`}
+            >
+              <a>
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
             {post.data.title}
             </h5>
             <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
             {post.data.description}
             </p>
-          </a>
+              </a>
+            </Link>
         </div>
+           
+        </li>
         ))}
       </ul>
         </Container>
