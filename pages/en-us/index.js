@@ -12,7 +12,7 @@ import { langenus } from "@/script/languages";
 export default function Home() {
   return (
     <>
-      <Head title="Home" image="/meta.png" />
+      <Head title="Home"   />
       <Navbar lantoshow={langenus} pathname="en-us" page="/" />
       <Header
         name="Ronnapat Srivoravilai"

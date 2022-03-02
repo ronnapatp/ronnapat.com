@@ -8,7 +8,7 @@ import { langthth } from "../../script/languages";
 export default function Home() {
   return (
     <>
-      <Head title="หน้าหลัก" image="/meta.png" />
+      <Head title="หน้าหลัก"   />
       <Navbar lantoshow={langthth} pathname="th-th" />
       <Header
         name="Ronnapat Srivoravilai"

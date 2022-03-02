@@ -156,7 +156,7 @@ function ContactForm() {
 function App() {
   return (
     <div className="bg-white dark:bg-slate-800">
-      <Head title="Contact" image="/meta.png" />
+      <Head title="Contact"   />
       <Navbar lantoshow={langenus} pathname="en-us" page="/contact" />
       <ContactForm />
       <Footer paht="en-us" />

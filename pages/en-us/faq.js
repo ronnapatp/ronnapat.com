@@ -6,7 +6,7 @@ import { langenus } from "@/script/languages";
 export default function faq() {
   return (
     <>
-      <Head title="FAQ" image="/meta.png" />
+      <Head title="FAQ"   />
       <Navbar lantoshow={langenus} pathname="en-us" page="/faq" />
       <Faq />
       <Footer paht="en-us" />

@@ -6,7 +6,7 @@ import { langenus } from "@/script/languages";
 export default function () {
   return (
     <div>
-      <Head title="Cookies" image="/meta.png" />
+      <Head title="Cookies"   />
       <Navbar lantoshow={langenus} pathname="en-us" page="/cookie" />
       <Cookie />
       <Footer />
