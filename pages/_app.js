@@ -57,12 +57,6 @@ function MyApp({ Component, pageProps }) {
       <div className="font-display">
         <Component {...pageProps} />
         <Cookies />
-        <script
-  type="text/javascript"
-  src="https://app.termly.io/embed.min.js"
-  data-auto-block="on"
-  data-website-uuid="ba1a2ae5-7948-420c-b28c-9e9d675ef95e"
-  ></script>
         {/* <a id="ukraine"></a> */}
       </div>
     </ThemeProvider>
