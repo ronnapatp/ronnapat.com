@@ -8,3 +8,14 @@
 .tag:hover .showtag {
   display: block;
 }
+
+/* #ukraine{
+background: linear-gradient(-180deg,#005bbb 50%,#ffd500 0);
+    bottom: 10px;
+    height: 42px;
+    left: -40px;
+    position: fixed;
+    transform: rotate(45deg);
+    width: 150px;
+    z-index: 999;
+} */

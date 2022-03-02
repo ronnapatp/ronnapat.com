@@ -57,6 +57,7 @@ function MyApp({ Component, pageProps }) {
       <div className="font-display">
         <Component {...pageProps} />
         <Cookies />
+        {/* <a id="ukraine"></a> */}
       </div>
     </ThemeProvider>
   );
