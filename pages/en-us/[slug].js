@@ -31,7 +31,7 @@ export default function PostPage({ source, frontMatter }) {
   return (
     <div className="bg-white dark:bg-slate-700">
       <Navbar />
-      { draft ? <Draft /> :
+      { draft ? <Draft name={frontMatter.headtitle} /> :
       <Container>
         <Head title={frontMatter.headtitle} />
         <main className="max-w-prose mx-auto py-8 prose-h1:font-semibold dark:prose-h1:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h2:text-2xl prose-h2:md:text-4xl dark:prose-a:text-gray-100 prose-a:text-gray-600  hover:prose-a:text-sky-500 dark:hover:prose-a:text-sky-300 hover:prose-a:underline prose-h3:text-xl prose-h3:md:text-2xl prose-h2:mb-5 prose-li:list-decimal prose-li:ml-5">

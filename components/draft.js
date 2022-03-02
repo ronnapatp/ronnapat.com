@@ -1,6 +1,10 @@
-export default function () {
+import Head from "@/components/meta"
+
+export default function (props) {
+    const { name } = props
     return(
         <div className="text-center w-full h-screen flex flex-col justify-center items-center">
+            <Head title={`${name} coming soon!`} />
             <h1 className="text-3xl md:text-4xl mb-2">
                 This page is coming soon!
             </h1>
