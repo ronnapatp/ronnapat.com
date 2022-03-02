@@ -36,7 +36,7 @@ export default function PostPage({ source, frontMatter }) {
           <div className="mt-10 dark:text-white">
             <MDXRemote {...source} components={components} />
           </div>
-          <div className="mt-5">
+          <div className="mt-8">
             Have issue with this page?
             {` `}
             <a
