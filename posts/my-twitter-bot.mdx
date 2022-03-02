@@ -1,9 +1,9 @@
 ---
-title: 'I build my twitter bot to update my bio using twitter api'
-date: '2022-02-08'
-tags: ['project', 'bot', 'code', 'english']
+title: "I build my twitter bot to update my bio using twitter api"
+date: "2022-02-08"
+tags: ["project", "bot", "code", "english"]
 draft: false
-summary: 'I build my first twitter bot to update my bio using twitter api with typescript'
+summary: "I build my first twitter bot to update my bio using twitter api with typescript"
 ---
 
 I just got permission in to [twitter api](https://developer.twitter.com/) and I have an idea to make a countdown in my twitter profile so I create my twitter bot to update my profile from [ErikCH/Bot-Twitter-Github](https://github.com/ErikCH/Bot-Twitter-Github).
@@ -28,10 +28,10 @@ To update profile
 ```typescript
 const params = {
   url: website,
-}
+};
 
-await client.post('account/update_profile', params)
-console.log('🎉 Success! Updated Twitter bio/location and website')
+await client.post("account/update_profile", params);
+console.log("🎉 Success! Updated Twitter bio/location and website");
 ```
 
 To install twitter dependencies

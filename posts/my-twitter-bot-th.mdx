@@ -1,13 +1,12 @@
 ---
-title: 'ผมสร้างบอท Twitter เพื่ออัปเดต profile โดยใช้ twitter api'
-date: '2022-02-10'
-tags: ['project', 'bot', 'code', 'thai']
+title: "ผมสร้างบอท Twitter เพื่ออัปเดต profile โดยใช้ twitter api"
+date: "2022-02-10"
+tags: ["project", "bot", "code", "thai"]
 draft: false
-summary: 'ผมสร้างบอท Twitter ตัวแรกเพื่ออัปเดต profile โดยใช้ twitter api กับ typescript'
+summary: "ผมสร้างบอท Twitter ตัวแรกเพื่ออัปเดต profile โดยใช้ twitter api กับ typescript"
 ---
 
 ผมเพิ่งได้รับ access [twitter api](https://developer.twitter.com/) และผมมีความคิดที่จะนับถอยหลังในโปรไฟล์ Twitter ของผม ดังนั้นผมจึงสร้างบอท Twitter เพื่ออัปเดตโปรไฟล์ของผมจาก [ErikCH/Bot-Twitter-Github](https://github.com/ErikCH/Bot-Twitter-Github)
-
 
 ติดตามบน Twitter : [@ronnapatp](https://twitter.com/ronnapatp)
 
@@ -27,10 +26,10 @@ summary: 'ผมสร้างบอท Twitter ตัวแรกเพื่�
 ```typescript
 const params = {
   url: website,
-}
+};
 
-await client.post('account/update_profile', params)
-console.log('🎉 Success! Updated Twitter bio/location and website')
+await client.post("account/update_profile", params);
+console.log("🎉 Success! Updated Twitter bio/location and website");
 ```
 
 ในการติดตั้ง twitter dependencies

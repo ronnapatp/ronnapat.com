@@ -1,4 +1,3 @@
-
 export default function () {
   return (
     <div className="dark:bg-slate-700 w-full h-screen flex flex-col justify-center items-center">
