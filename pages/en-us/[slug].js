@@ -45,7 +45,7 @@ export default function PostPage({ source, frontMatter }) {
             Have issue with this page?
             {` `}
             <a
-              href={`https://github.com/ronnapatp/ronnapat.com/blob/main/page/en/${frontMatter.file}.mdx`}
+              href={frontMatter.github}
               className="underline"
               target="_blank"
             >
