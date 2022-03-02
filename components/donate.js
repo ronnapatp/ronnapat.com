@@ -1,4 +1,3 @@
-import GooglePayButton from "@google-pay/button-react";
 
 export default function () {
   return (
@@ -20,51 +19,6 @@ export default function () {
           </center>
         </a>
       </div>
-      {/* <div>
-        <div className='mt-5 text-center'>
-        <span>On Google Pay</span>
-        <br />
-      <GooglePayButton
-        environment="TEST"
-        paymentRequest={{
-          apiVersion: 2,
-          apiVersionMinor: 0,
-          allowedPaymentMethods: [
-            {
-              type: 'CARD',
-              parameters: {
-                allowedAuthMethods: ['PAN_ONLY', 'CRYPTOGRAM_3DS'],
-                allowedCardNetworks: ['MASTERCARD', 'VISA'],
-              },
-              tokenizationSpecification: {
-                type: 'PAYMENT_GATEWAY',
-                parameters: {
-                  gateway: 'allpayments',
-                  gatewayMerchantId: '',
-                },
-              },
-            },
-          ],
-          merchantInfo: {
-            merchantId: '',
-            merchantName: '',
-          },
-          transactionInfo: {
-            totalPriceStatus: 'FINAL',
-            totalPriceLabel: 'Total',
-            totalPrice: '50.00',
-            currencyCode: 'THB',
-            countryCode: 'TH',
-          },
-        }}
-        buttonColor="black"
-        buttonType="donate"
-        onLoadPaymentData={paymentRequest => {
-          console.log('load payment data', paymentRequest);
-        }}
-        />
-        </div>
-      </div> */}
     </div>
   );
 }
