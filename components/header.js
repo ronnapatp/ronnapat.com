@@ -23,7 +23,7 @@ export default function Header({ name, description, button, bthref }) {
                 </div>
               </div> */}
               <h1 className="text-5xl text-center md:text-left font-medium tracking-wide text-white md:text-6xl">
-                {name} <a href="https://twitter.com/ukraine" target="_blank">🇺🇦</a>
+                {name}
               </h1>
               <p className="mt-4 text-gray-100">{description}</p>
               <div className="mt-6">

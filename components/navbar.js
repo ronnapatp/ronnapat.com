@@ -117,10 +117,10 @@ export default function Example({ lantoshow, pathname, page }) {
                   alt=""
                 />
                 <span className="text-2xl mt-1 hidden lg:block dark:text-white">
-                  Ronnapat Srivoravilai <a href="https://twitter.com/ukraine" target="_blank">🇺🇦</a>
+                  Ronnapat Srivoravilai 
                 </span>
                 <span className="text-2xl sm:mt-1 block lg:hidden dark:text-white">
-                  Ronnapat <a href="https://twitter.com/ukraine" target="_blank">🇺🇦</a>
+                  Ronnapat 
                 </span>
               </a>
             </div>
