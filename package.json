@@ -10,7 +10,7 @@
   "dependencies": {
     "@formspree/react": "^2.2.4",
     "@headlessui/react": "^1.5.0",
-    "@heroicons/react": "^1.0.5",
+    "@heroicons/react": "^1.0.6",
     "@nextui-org/react": "^1.0.2-beta.4",
     "@sendgrid/mail": "^7.4.4",
     "@tailwindcss/forms": "^0.4.0",
