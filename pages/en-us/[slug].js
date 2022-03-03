@@ -11,6 +11,7 @@ import Footer from "@/components/footer";
 import Container from "@/components/container";
 import Head from "@/components/meta";
 import Draft from "@/components/draft";
+import { langenus } from "@/script/languages";
 
 // Custom components/renderers to pass to MDX.
 // Since the MDX files aren't loaded by webpack, they have no knowledge of how
@@ -30,7 +31,7 @@ export default function PostPage({ source, frontMatter }) {
   const draft = frontMatter.draft
   return (
     <div className="bg-white dark:bg-slate-700">
-      <Navbar />
+      <Navbar lantoshow={langenus} pathname="en-us" page={`/${frontMatter.file}`} />
       { draft ? <Draft name={frontMatter.headtitle} /> :
       <Container>
         <Head title={frontMatter.headtitle} />
