@@ -54,11 +54,9 @@ function MyApp({ Component, pageProps }) {
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
         crossOrigin="anonymous"
       ></Script>
-      <div className="font-display">
         <Component {...pageProps} />
         <Cookies />
         <a href="https://war.ukraine.ua/" target="_blank" id="ukraine"></a>
-      </div>
     </ThemeProvider>
   );
 }
