@@ -67,7 +67,7 @@ export default function PostPage({ source, frontMatter }) {
           opacity: 0.6;
         }
       `}</style>
-      <Footer />
+      <Footer paht='en-us' />
     </div>
   );
 }
