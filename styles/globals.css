@@ -9,13 +9,12 @@
   display: block;
 }
 
-/* #ukraine{
-background: linear-gradient(-180deg,#005bbb 50%,#ffd500 0);
+#ukraine{
     bottom: 10px;
     height: 42px;
-    left: -40px;
+    right: -40px;
     position: fixed;
-    transform: rotate(45deg);
     width: 150px;
-    z-index: 999;
-} */
+    transform: rotate(140deg);
+    background: linear-gradient(-180deg,#ffd500 50%,#005bbb 0);
+} 
