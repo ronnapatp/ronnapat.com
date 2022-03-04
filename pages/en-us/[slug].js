@@ -35,18 +35,18 @@ export default function PostPage({ source, frontMatter }) {
       { draft ? <Draft name={frontMatter.headtitle} /> :
       <div>
         <Head title={frontMatter.headtitle} />
-        <main className="mt-8 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300">
+        <main className="mt-8 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h3:text-black dark:prose-h3:text-white">
           <h1 className="md:text-6xl text-4xl dark:text-white">{frontMatter.title}</h1>
           <hr className="" />
           <div className="mt-10 dark:text-white">
             <MDXRemote {...source} components={components} />
           </div>
-          <div className="mt-8">
+          <div className="py-8 text-black dark:text-white">
             Have issue with this page?
             {` `}
             <a
               href={frontMatter.github}
-              className="underline"
+              className="underline text-black hover:text-sky-400 dark:text-white dark:hover:text-sky-300"
               target="_blank"
             >
               Fix it on github
