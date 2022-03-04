@@ -4,13 +4,8 @@ export default function CustomLink({ as, href, ...otherProps }) {
   return (
     <>
       <Link as={as} href={href}>
-        <a {...otherProps} />
+        <a {...otherProps} className="text-black hover:text-sky-400 dark:text-white dark:hover:text-sky-300" />
       </Link>
-      <style jsx>{`
-        a {
-          color: tomato;
-        }
-      `}</style>
     </>
   );
 }
