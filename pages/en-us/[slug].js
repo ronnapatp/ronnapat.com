@@ -35,7 +35,7 @@ export default function PostPage({ source, frontMatter }) {
       { draft ? <Draft name={frontMatter.headtitle} /> :
       <div>
         <Head title={frontMatter.headtitle} />
-        <main className="mt-8 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h3:text-black dark:prose-h3:text-white">
+        <main className="mt-8 p-2 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h3:text-black dark:prose-h3:text-white">
           <h1 className="md:text-6xl text-4xl dark:text-white">{frontMatter.title}</h1>
           <hr className="" />
           <div className="mt-10 dark:text-white dark:prose-invert">
