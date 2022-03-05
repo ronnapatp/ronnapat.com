@@ -9,9 +9,12 @@ export default function () {
     <div className="bg-white dark:bg-slate-700"> 
       <Navbar lantoshow={langenus} pathname="en-us" page="/ukraine" />
       <Head title="#StandWithUkraine" />
-    <Container>
-        <h1 className="text-center text-5xl mt-10 font-semibold">#StandWithUkraine 🇺🇦</h1>
-    </Container>
+    <div className="bg-[#005bbb] py-32 text-center text-xl md:text-7xl font-bold text-[#ffd500]">
+      #StandWithUkraine
+    </div>
+    <div className="bg-[#ffd500] py-32 text-center text-xl md:text-7xl font-bold text-[#005bbb]">
+      #StopWar
+    </div>
       <Footer paht="en-us" />
     </div>
   );
