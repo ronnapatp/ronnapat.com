@@ -24,3 +24,7 @@
     transform: rotate(140deg);
     background: linear-gradient(-180deg,#ffd500 50%,#005bbb 0);
 } 
+
+.prose-layout {
+  @apply prose prose-slate prose-h1:text-black dark:prose-h1:text-white prose-h2:text-black dark:prose-h2:text-white prose-h3:text-black dark:prose-h3:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300;
+}
