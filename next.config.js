@@ -125,7 +125,8 @@ module.exports = withMDX({
       },
       {
         source: "/edit/terms",
-        destination: "https://github.com/ronnapatp/ronnapat.com/edit/main/pages/en-us/terms/index.mdx",
+        destination:
+          "https://github.com/ronnapatp/ronnapat.com/edit/main/pages/en-us/terms/index.mdx",
         permanent: false,
       },
     ];
