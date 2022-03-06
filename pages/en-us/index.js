@@ -1,12 +1,12 @@
 import Header from "@/components/header";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import Head from "@/components/meta";
 import Homeabout from "@/components/home-about";
 import Ads from "@/components/ads";
 import Project from "@/components/project";
 import Goblog from "@/components/go-blog";
 import Subscribe from "@/components/subscribe";
-import Footer from "@/components/footer";
+import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
 
 export default function Home() {

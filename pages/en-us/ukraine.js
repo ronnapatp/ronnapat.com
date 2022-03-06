@@ -1,7 +1,7 @@
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import Head from "@/components/meta";
-import Footer from "@/components/footer";
-import Container from "@/components/container"
+import Footer from "@/components/footer/footer";
+import Container from "@/components/layout/container"
 import { langenus } from "@/script/languages";
 
 export default function () {

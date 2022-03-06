@@ -1,7 +1,7 @@
 import Head from "@/components/meta";
-import Navbar from "@/components/navbar";
+import Navbar from "@/components/navbar/navbar";
 import About from "@/components/about";
-import Footer from "@/components/footer";
+import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
 import Hello from "@/components/index.mdx"
 

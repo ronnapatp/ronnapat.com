@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import Head from "@/components/meta";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
 import Script from "next/script";
 

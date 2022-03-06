@@ -3,9 +3,9 @@ import matter from "gray-matter";
 import Link from "next/link";
 import path from "path";
 import { postFilePaths, POSTS_PATH } from "@/script/mdxUtils";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-import Container from "@/components/container";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import Container from "@/components/layout/container";
 
 export default function Index({ posts }) {
   return (

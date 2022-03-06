@@ -1,5 +1,5 @@
 import Header from "../../components/header";
-import Navbar from "../../components/navbar";
+import Navbar from "../../components/navbar/navbar";
 import Head from "../../components/meta";
 import Homeabout from "../../components/home-about";
 import Skill from "../../components/skill";

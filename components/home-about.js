@@ -1,4 +1,4 @@
-import Container from "./container";
+import Container from "./layout/container";
 export default function Homeabout({ title, children, paht }) {
   return (
     <>

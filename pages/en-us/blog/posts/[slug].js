@@ -7,9 +7,9 @@ import Head from "next/head";
 import path from "path";
 import CustomLink from "@/components/customlink";
 import { postFilePaths, POSTS_PATH } from "@/script/mdxUtils";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
-import Container from "@/components/container";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import Container from "@/components/layout/container";
 import Draft from "@/components/draft";
 
 // Custom components/renderers to pass to MDX.
