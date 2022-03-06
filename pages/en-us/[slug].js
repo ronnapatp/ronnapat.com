@@ -4,13 +4,13 @@ import { MDXRemote } from "next-mdx-remote";
 import { serialize } from "next-mdx-remote/serialize";
 import dynamic from "next/dynamic";
 import path from "path";
-import CustomLink from "@/components/customlink";
+import CustomLink from "@/components/markdown/customlink";
 import { postFilePaths, POSTS_PATH } from "@/script/legal";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import Container from "@/components/layout/container";
 import Head from "@/components/global/meta";
-import Draft from "@/components/draft";
+import Draft from "@/components/markdown/draft";
 import { langenus } from "@/script/languages";
 
 // Custom components/renderers to pass to MDX.
@@ -22,7 +22,7 @@ const components = {
   // It also works with dynamically-imported components, which is especially
   // useful for conditionally loading components for certain routes.
   // See the notes in README.md for more details.
-  TestComponent: dynamic(() => import("../../components/testcom")),
+  TestComponent: dynamic(() => import("../../components/markdown/testcom")),
   Head,
 };
 
