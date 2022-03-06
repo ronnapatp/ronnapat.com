@@ -1,7 +1,7 @@
 import Header from "../../components/home/header";
 import Navbar from "../../components/navbar/navbar";
 import Head from "../../components/global/meta";
-import Homeabout from "../../components/home-about";
+import Homeabout from "../../components/home/home-about";
 import Skill from "../../components/skill";
 import { langthth } from "../../script/languages";
 
