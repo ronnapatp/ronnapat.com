@@ -1,6 +1,6 @@
 import Header from "@/components/home/header";
 import Navbar from "@/components/navbar/navbar";
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import Homeabout from "@/components/home/home-about";
 import Ads from "@/components/about/ads";
 import Project from "@/components/home/project";

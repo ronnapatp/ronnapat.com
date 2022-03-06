@@ -1,4 +1,4 @@
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import React, { useEffect } from "react";
 import Router from "next/router";
 export default function Home() {

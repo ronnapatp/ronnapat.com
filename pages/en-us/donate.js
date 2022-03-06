@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar/navbar";
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import Donate from "@/components/donate/donate";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";

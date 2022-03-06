@@ -1,4 +1,4 @@
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import Navbar from "@/components/navbar/navbar";
 import About from "@/components/about/about";
 import Footer from "@/components/footer/footer";

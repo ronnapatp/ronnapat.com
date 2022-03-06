@@ -9,7 +9,7 @@ import { postFilePaths, POSTS_PATH } from "@/script/legal";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import Container from "@/components/layout/container";
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import Draft from "@/components/draft";
 import { langenus } from "@/script/languages";
 

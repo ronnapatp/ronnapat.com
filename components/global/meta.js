@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Name } from "../script/meta";
+import { Name } from "../../script/meta";
 
 export default function Meta({ title, image }) {
   return (

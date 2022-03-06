@@ -1,5 +1,5 @@
 import Navbar from "@/components/navbar/navbar";
-import Head from "@/components/meta";
+import Head from "@/components/global/meta";
 import Footer from "@/components/footer/footer";
 export default function Custom404() {
   return (
