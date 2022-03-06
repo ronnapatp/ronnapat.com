@@ -3,9 +3,9 @@ import Navbar from "@/components/navbar/navbar";
 import Head from "@/components/meta";
 import Homeabout from "@/components/home/home-about";
 import Ads from "@/components/about/ads";
-import Project from "@/components/project";
-import Goblog from "@/components/go-blog";
-import Subscribe from "@/components/subscribe";
+import Project from "@/components/home/project";
+import Goblog from "@/components/home/go-blog";
+import Subscribe from "@/components/home/subscribe";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
 
