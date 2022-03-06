@@ -8,7 +8,7 @@ export default function () {
   return (
     <>
       <Navbar lantoshow={langenus} pathname="en-us" page="/social" />
-      <Head title="Social"   />
+      <Head title="Social" />
       <Social />
       <Footer paht="en-us" />
     </>

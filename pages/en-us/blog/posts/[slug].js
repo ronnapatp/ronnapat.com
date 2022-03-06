@@ -26,22 +26,24 @@ const components = {
 };
 
 export default function PostPage({ source, frontMatter }) {
-  const draft = frontMatter.draft
+  const draft = frontMatter.draft;
   return (
     <div className="bg-white dark:bg-slate-700">
       <Navbar />
-      { draft ? <Draft name={frontMatter.title} /> :
-      <Container>
-        <main className="prose text-black dark:text-gray-200 prose-h1:font-semibold dark:prose-h1:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h2:text-2xl prose-h2:dark:text-white prose-h2:md:text-4xl dark:prose-a:text-gray-100 prose-a:text-gray-600  hover:prose-a:text-sky-500 dark:hover:prose-a:text-sky-300 hover:prose-a:underline">
-          <div className="post-header">
-            <h1 className="text-5xl font-semibold mt-10">
-              {frontMatter.title}
-            </h1>
-          </div>
-          <MDXRemote {...source} components={components} />
-        </main>
-      </Container>
-    }
+      {draft ? (
+        <Draft name={frontMatter.title} />
+      ) : (
+        <Container>
+          <main className="prose text-black dark:text-gray-200 prose-h1:font-semibold dark:prose-h1:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h2:text-2xl prose-h2:dark:text-white prose-h2:md:text-4xl dark:prose-a:text-gray-100 prose-a:text-gray-600  hover:prose-a:text-sky-500 dark:hover:prose-a:text-sky-300 hover:prose-a:underline">
+            <div className="post-header">
+              <h1 className="text-5xl font-semibold mt-10">
+                {frontMatter.title}
+              </h1>
+            </div>
+            <MDXRemote {...source} components={components} />
+          </main>
+        </Container>
+      )}
       <style jsx>{`
         .post-header h1 {
           margin-bottom: 0;

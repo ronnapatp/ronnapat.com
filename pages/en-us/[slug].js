@@ -27,35 +27,42 @@ const components = {
 };
 
 export default function PostPage({ source, frontMatter }) {
-
-  const draft = frontMatter.draft
+  const draft = frontMatter.draft;
   return (
     <div className="bg-white dark:bg-slate-700">
-      <Navbar lantoshow={langenus} pathname="en-us" page={`/${frontMatter.file}`} />
-      { draft ? <Draft name={frontMatter.headtitle} /> :
-      <div>
-        <Head title={frontMatter.headtitle} />
-        <main className="mt-8 p-2 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h3:text-black dark:prose-h3:text-white">
-          <h1 className="md:text-6xl text-4xl dark:text-white">{frontMatter.title}</h1>
-          <hr className="" />
-          <div className="mt-10 dark:text-white dark:prose-invert">
-            <MDXRemote {...source} components={components} />
-          </div>
-          <div className="py-8 text-black dark:text-white">
-            Have issue with this page?
-            {` `}
-            <a
-              href={frontMatter.github}
-              className="underline text-black hover:text-sky-400 dark:text-white dark:hover:text-sky-300"
-              target="_blank"
-            >
-              Fix it on github
-            </a>
-            .
-          </div>
-        </main>
-      </div>
-      }
+      <Navbar
+        lantoshow={langenus}
+        pathname="en-us"
+        page={`/${frontMatter.file}`}
+      />
+      {draft ? (
+        <Draft name={frontMatter.headtitle} />
+      ) : (
+        <div>
+          <Head title={frontMatter.headtitle} />
+          <main className="mt-8 p-2 prose prose-slate mx-auto lg:prose-lg prose-p:text-gray-600 dark:prose-p:text-gray-300 prose-h3:text-black dark:prose-h3:text-white">
+            <h1 className="md:text-6xl text-4xl dark:text-white">
+              {frontMatter.title}
+            </h1>
+            <hr className="" />
+            <div className="mt-10 dark:text-white dark:prose-invert">
+              <MDXRemote {...source} components={components} />
+            </div>
+            <div className="py-8 text-black dark:text-white">
+              Have issue with this page?
+              {` `}
+              <a
+                href={frontMatter.github}
+                className="underline text-black hover:text-sky-400 dark:text-white dark:hover:text-sky-300"
+                target="_blank"
+              >
+                Fix it on github
+              </a>
+              .
+            </div>
+          </main>
+        </div>
+      )}
       <style jsx>{`
         .post-header h1 {
           margin-bottom: 0;
@@ -67,7 +74,7 @@ export default function PostPage({ source, frontMatter }) {
           opacity: 0.6;
         }
       `}</style>
-      <Footer paht='en-us' />
+      <Footer paht="en-us" />
     </div>
   );
 }

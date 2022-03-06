@@ -9,21 +9,21 @@
   display: block;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
-#ukraine{
-    bottom: 10px;
-    height: 42px;
-    right: -40px;
-    position: fixed;
-    width: 150px;
-    transform: rotate(140deg);
-    background: linear-gradient(-180deg,#ffd500 50%,#005bbb 0);
-} 
+#ukraine {
+  bottom: 10px;
+  height: 42px;
+  right: -40px;
+  position: fixed;
+  width: 150px;
+  transform: rotate(140deg);
+  background: linear-gradient(-180deg, #ffd500 50%, #005bbb 0);
+}
 
 .prose-layout {
   @apply prose prose-gray dark:prose-invert;
