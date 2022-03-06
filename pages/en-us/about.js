@@ -1,6 +1,6 @@
 import Head from "@/components/meta";
 import Navbar from "@/components/navbar/navbar";
-import About from "@/components/about";
+import About from "@/components/about/about";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
 
