@@ -26,5 +26,5 @@
 } 
 
 .prose-layout {
-  @apply prose prose-slate prose-h1:text-black dark:prose-h1:text-white prose-h2:text-black dark:prose-h2:text-white prose-h3:text-black dark:prose-h3:text-white prose-p:text-gray-600 dark:prose-p:text-gray-300;
+  @apply prose prose-gray dark:prose-invert;
 }
