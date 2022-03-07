@@ -15,6 +15,9 @@ export default function () {
               <DownloadIcon className="w-6 h-6" />
           </a>
         </p>
+        <div className="px-3">
+          <textarea className="text-gray-700 resize-none rounded-md cursor-text	w-full select-all" disabled>https://file.ronnapat.me/logo-with-bg.zip</textarea>
+        </div>
       </div>
       <div class="block max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img src="/favicon.ico" className="mx-auto" />
@@ -27,6 +30,9 @@ export default function () {
               <DownloadIcon className="w-6 h-6" />
           </a>
         </p>
+        <div className="px-3">
+          <textarea className="text-gray-700 resize-none rounded-md cursor-text	w-full select-all" disabled>https://file.ronnapat.me/</textarea>
+        </div>
       </div>
     </div>
   );
