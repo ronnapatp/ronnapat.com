@@ -1,11 +1,14 @@
----
-headtitle: "Privacy"
-title: "Privacy Policy"
-file: "privacy"
-update: "21/02/2022"
-draft: false
-github: "https://github.com/ronnapatp/ronnapat.com/edit/main/page/en/privacy.mdx"
----
+import { UpdatePrivacy } from "../../../data/legal/privacy";
+import Layout from "@/components/layout/mdx";
+import Head from "@/components/global/meta";
+import Navbar from "@/components/navbar/navbar";
+import Footer from "@/components/footer/footer";
+import { langenus } from "@/script/languages";
+
+<Head title="Terms" />
+<Navbar lantoshow={langenus} pathname="en-us" page="/terms" />
+<Layout>
+<br />
 
 # Privacy Policy
 
@@ -67,4 +70,8 @@ update from us if we update our privacy policy by [subscribe](/sub)
 
 Contact me for more information : [support@ronnapat.me](mailto:support@ronnapat.me) or [Contact page](/contact)
 
-### Last update : {update}
+### Last update : {UpdatePrivacy}
+
+<br />
+</Layout>
+<Footer paht="en-us" />
