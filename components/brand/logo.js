@@ -1,15 +1,18 @@
+import {
+  DownloadIcon
+} from "@heroicons/react/outline"
 export default function () {
   return (
     <div className="inline-flex space-x-5">
-      <div class="block p-4 max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div class="block max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
         <img src="/favicon.ico" className="mx-auto" />
-        <h1 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-          Favicon logo (.ico)
-        </h1>
-        <p class="font-normal text-gray-700 dark:text-gray-400">
-          Download as :{" "}
-          <a href="/favicon.ico" download>
-            ICO
+        <h2 class="mb-2 px-3 font-bold tracking-tight text-gray-900 dark:text-white">
+          Logo with background
+        </h2>
+        <p class="font-normal text-gray-700 dark:text-gray-200 text-center bg-gray-200 dark:bg-slate-600  ">
+          <a href="/logo-with-bg.zip" download className="inline-flex">
+              Download
+              <DownloadIcon className="w-6 h-6" />
           </a>
         </p>
       </div>
