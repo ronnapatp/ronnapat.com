@@ -166,11 +166,11 @@ export default function footer({ paht }) {
             other
           </div>
           <a
-            href="https://github.com/ronnapatp/ronnapat.com"
+            href="/en-us/brand"
             target="_blank"
             className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700"
           >
-            {repo}
+            Brand
           </a>
           <a
             href="/donate"
