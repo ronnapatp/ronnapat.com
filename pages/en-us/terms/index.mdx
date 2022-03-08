@@ -1,5 +1,6 @@
 import { UpdateTerms } from "../../../data/legal/terms";
 import Layout from "@/components/layout/mdx";
+import Header from "@/components/layout/header-2";
 import Head from "@/components/global/meta";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
@@ -7,12 +8,9 @@ import { langenus } from "@/script/languages";
 
 <Head title="Terms" />
 <Navbar lantoshow={langenus} pathname="en-us" page="/terms" />
+<Header head="legal" title="Terms Of Service" description={null} />
 <Layout>
-<br />
 
-# Terms Of Service
-
----
 
 We recommended you read terms of service and [privacy policy](/en-us/privacy) carefully before you visit our website
 
