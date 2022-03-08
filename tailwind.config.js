@@ -5,10 +5,6 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
-    fontFamily: {
-      display: ["Inter", "system-ui", "sans-serif"],
-      body: ["Inter", "system-ui", "sans-serif"],
-    },
     extend: {
       typography: (theme) => ({
         DEFAULT: {
