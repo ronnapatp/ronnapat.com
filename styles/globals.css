@@ -26,5 +26,6 @@
 }
 
 .prose-layout {
-  @apply prose prose-gray dark:prose-invert;
+  @apply py-12 px-4 prose prose-slate dark:prose-invert mx-auto;
+  @apply prose-a:text-black dark:prose-a:text-white prose-a:no-underline prose-a:font-semibold hover:prose-a:text-sky-500 hover:dark:prose-a:text-sky-300 hover:prose-a:underline;
 }
