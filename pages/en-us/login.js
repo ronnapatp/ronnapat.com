@@ -7,32 +7,35 @@ import {
     signInWithEmailAndPassword,
     GoogleAuthProvider,
     GithubAuthProvider,
-    signInWithPopup
+    signInWithPopup,
+    TwitterAuthProvider,
+    sendSignInLinkToEmail
 } from 'firebase/auth'
 import { useState } from 'react';
 export default function Register() {
     const auth = getAuth();
     const googleProvider = new GoogleAuthProvider();
     const githubProvider = new GithubAuthProvider();
+    const twitter = new TwitterAuthProvider();
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const signUp = () => {
-        signInWithEmailAndPassword(auth, email, password)
-            .then((response) => {
-                console.log(response.user)
-                sessionStorage.setItem('Token', response.user.accessToken);
-            })
-            .catch(err => {
-                alert('Cannot Log in')
-            })
-    }
+    // const signUp = () => {
+    //     signInWithEmailAndPassword(auth, email, password)
+    //         .then((response) => {
+    //             console.log(response.user)
+    //             sessionStorage.setItem('Token', response.user.accessToken);
+    //         })
+    //         .catch(err => {
+    //             alert('Cannot Log in')
+    //         })
+    // }
 
     const signUpWithGoogle = () => {
         signInWithPopup(auth, googleProvider)
             .then((response) => {
                 sessionStorage.setItem('Token', response.user.accessToken)
-                console.log(response.user)
+                console.log(response.user.email)
             })
     }
     const signUpWithGithub = () => {
@@ -41,6 +44,32 @@ export default function Register() {
                 sessionStorage.setItem('Token', response.user.accessToken)
                 console.log(response.user)
             })
+    }
+
+    const signUpWithTwitter = () => {
+        signInWithPopup(auth, twitter)
+            .then((response) => {
+                sessionStorage.setItem('Token', response.user.accessToken)
+                console.log(response.user)
+            })
+    }
+    const actionCodeSettings = {
+        // URL you want to redirect back to. The domain (www.example.com) for this
+        // URL must be in the authorized domains list in the Firebase Console.
+        url: 'http://locahost:3000',
+        // This must be true.
+        handleCodeInApp: true,
+      };
+    const emaillink = () => {
+        sendSignInLinkToEmail(auth, email, actionCodeSettings)
+            .then((response) => {
+                sessionStorage.setItem('Token', response.user.accessToken);
+                localStorage.setItem('emailForSignIn', email);
+            })
+            .catch((err) => {
+                console.log(err)
+                // ...
+            });
     }
 
     useEffect(() => {
@@ -79,7 +108,7 @@ export default function Register() {
 
                 <button
                     className={styles.button}
-                    onClick={signUp}
+                    onClick={emaillink}
                 >Sign In</button>
                 <hr />
                 <button
@@ -91,6 +120,11 @@ export default function Register() {
                 <hr />
                 <button
                     onClick={signUpWithGithub}
+                    className={styles.googleAlt}>
+                    Sign Up with Github
+                </button>
+                <button
+                    onClick={signUpWithTwitter}
                     className={styles.googleAlt}>
                     Sign Up with Github
                 </button>
