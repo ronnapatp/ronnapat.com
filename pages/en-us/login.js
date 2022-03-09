@@ -65,6 +65,7 @@ export default function Register() {
             .then((response) => {
                 sessionStorage.setItem('Token', response.user.accessToken);
                 localStorage.setItem('emailForSignIn', email);
+                console.log(response.user)
             })
             .catch((err) => {
                 console.log(err)
