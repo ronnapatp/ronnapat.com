@@ -1,6 +1,7 @@
 import { UpdatePrivacy } from "../../../data/legal/privacy";
 import Layout from "@/components/layout/mdx";
 import Head from "@/components/global/meta";
+import Header from "@/components/layout/header-2";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
@@ -8,6 +9,7 @@ import Share from "@/components/layout/share";
 
 <Head title="Privacy" />
 <Navbar lantoshow={langenus} pathname="en-us" page="/privacy" />
+<Header head="legal" title="Privacy Policy" description={`Last update : ${UpdatePrivacy }`} />
 <Layout>
 <br />
 
