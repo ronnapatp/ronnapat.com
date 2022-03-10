@@ -7,7 +7,15 @@ const withMDX = require("@next/mdx")({
     // providerImportSource: "@mdx-js/react",
   },
 });
+const {
+  PHASE_DEVELOPMENT_SERVER,
+  PHASE_PRODUCTION_BUILD,
+} = require('next/constants')
 module.exports = withMDX({
+  env: {
+    NEXTAUTH_URL: 'http://localhost:3000/',
+    NEXTAUTH_URL_INTERNAL: 'http://10.240.8.16'
+  },
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
   webpack5: true,

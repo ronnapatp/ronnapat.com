@@ -6,9 +6,10 @@ import * as gtag from "@/script/gtag";
 import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
 import Cookies from "@/components/global/cookies";
-import { SessionProvider } from "next-auth/react";
+import { SessionProvider } from "next-auth/react"
 
-function MyApp({ Component, pageProps }) {
+function MyApp({   Component,
+  pageProps: { session, ...pageProps }, }) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -22,7 +23,6 @@ function MyApp({ Component, pageProps }) {
 
   return (
     <ThemeProvider attribute="class">
-      <SessionProvider session={pageProps.session}>
       <Script
         strategy="afterInteractive"
         src={`https://www.googletagmanager.com/gtag/js?id=${gtag.GA_TRACKING_ID}`}
@@ -41,10 +41,11 @@ function MyApp({ Component, pageProps }) {
           `,
         }}
         />
+            <SessionProvider session={session}>
       <Component {...pageProps} />
+      </SessionProvider>
       <Cookies />
       <a href="https://war.ukraine.ua/" target="_blank" id="ukraine"></a>
-        </SessionProvider>
     </ThemeProvider>
   );
 }
