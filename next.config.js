@@ -14,7 +14,7 @@ const {
 module.exports = withMDX({
   env: {
     NEXTAUTH_URL: 'https://ronnapat.com/',
-    NEXTAUTH_URL_INTERNAL: 'http://10.240.8.16'
+    NEXTAUTH_URL_INTERNAL: 'https://ronnapat.com/'
   },
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
