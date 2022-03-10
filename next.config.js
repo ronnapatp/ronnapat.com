@@ -13,7 +13,7 @@ const {
 } = require('next/constants')
 module.exports = withMDX({
   env: {
-    NEXTAUTH_URL: 'http://ronnapat.com/',
+    NEXTAUTH_URL: 'https://ronnapat.com/',
     NEXTAUTH_URL_INTERNAL: 'http://10.240.8.16'
   },
   // Append the default value with md extensions
