@@ -11,7 +11,6 @@ export default NextAuth({
     TwitterProvider({
       clientId: process.env.NEXT_PUBLIC_TWITTER_ID,
       clientSecret: process.env.NEXT_PUBLIC_TWITTER_SECRET,
-      version: "2.0",
     }),
   ]
 })
