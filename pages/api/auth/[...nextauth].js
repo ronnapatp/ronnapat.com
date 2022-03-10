@@ -12,5 +12,5 @@ export default NextAuth({
       clientId: process.env.TWITTER_ID,
       clientSecret: process.env.TWITTER_SECRET,
     }),
-  ] 
+  ]
 })
