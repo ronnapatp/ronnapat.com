@@ -14,7 +14,7 @@ const {
 module.exports = withMDX({
   env: {
     NEXTAUTH_URL: 'http://ronnapat.com/',
-    NEXTAUTH_URL_INTERNAL: 'http://76.76.21.21'
+    NEXTAUTH_URL_INTERNAL: 'sqlite://localhost/:memory:'
   },
   // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
