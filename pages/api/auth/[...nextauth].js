@@ -1,7 +1,6 @@
 import NextAuth from "next-auth";
 import GithubProvider from "next-auth/providers/github"
 import TwitterProvider from "next-auth/providers/twitter"
-import EmailProvider from "next-auth/providers/email"
 
 export default NextAuth({
   providers: [
@@ -13,14 +12,5 @@ export default NextAuth({
       clientId: process.env.NEXT_PUBLIC_TWITTER_ID,
       clientSecret: process.env.NEXT_PUBLIC_TWITTER_SECRET,
     }),
-    EmailProvider({
-      server: process.env.NEXT_PUBLIC_EMAIL_SERVER,
-      from: process.env.NEXT_PUBLIC_EMAIL_FROM
-    }),
   ],
-  database: {
-    type: "sqlite",
-    database: ":memory:",
-    synchronize: true,
-  },
 })
