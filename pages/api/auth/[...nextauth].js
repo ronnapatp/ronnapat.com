@@ -18,9 +18,9 @@ export default NextAuth({
       from: process.env.NEXT_PUBLIC_EMAIL_FROM
     }),
   ],
-  // database: {
-  //   type: "sqlite",
-  //   database: ":memory:",
-  //   synchronize: true,
-  // },
+  database: {
+    type: "sqlite",
+    database: ":memory:",
+    synchronize: true,
+  },
 })
