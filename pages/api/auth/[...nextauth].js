@@ -14,8 +14,8 @@ export default NextAuth({
       clientSecret: process.env.NEXT_PUBLIC_TWITTER_SECRET,
     }),
     EmailProvider({
-      server: process.env.EMAIL_SERVER,
-      from: process.env.EMAIL_FROM,
+      server: process.env.NEXT_PUBLIC_EMAIL_SERVER,
+      from: process.env.NEXT_PUBLIC_EMAIL_FROM
     }),
   ],
   // database: {
