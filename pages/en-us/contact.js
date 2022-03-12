@@ -20,18 +20,18 @@ function ContactForm() {
   // if (state.succeeded) {
   // }
   if (state.succeeded) {
-    // fetch("/api/mail", {
-    //   body: JSON.stringify({
-    //     email: mail,
-    //     fullname: "",
-    //     subject: "",
-    //     message: "",
-    //   }),
-    //   headers: {
-    //     "Content-Type": "application/json",
-    //   },
-    //   method: "POST",
-    // });
+    fetch("/api/mail", {
+      body: JSON.stringify({
+        email: mail,
+        fullname: "",
+        subject: "",
+        message: "",
+      }),
+      headers: {
+        "Content-Type": "application/json",
+      },
+      method: "POST",
+    });
     return (
       <>
         <div className="my-20 md:my-52">
