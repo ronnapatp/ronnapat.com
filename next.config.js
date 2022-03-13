@@ -127,12 +127,6 @@ module.exports = withMDX({
         destination: "/en-us/social",
         permanent: false,
       },
-      {
-        source: "/edit/terms",
-        destination:
-          "https://github.com/ronnapatp/ronnapat.com/edit/main/pages/en-us/terms/index.mdx",
-        permanent: false,
-      },
     ];
   },
 });
