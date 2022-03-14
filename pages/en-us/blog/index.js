@@ -1,12 +1,15 @@
 import Navbar from "@/components/navbar/navbar"
+import Head from "@/components/global/meta"
 import Blog from "./blog.json";
 import Container from "@/components/layout/container"
 import Footer from "@/components/footer/footer"
+import { langenus } from "@/script/languages";
 
 export default function () {
     return(
         <div className="bg-white dark:bg-slate-700">
-            <Navbar />
+            <Head title="Blog" />
+            <Navbar lantoshow={langenus} pathname="en-us" page="/blog"  />
             <h1 className="text-center text-3xl md:text-5xl p-10">Ronnapat Blog</h1>
             <Container>
             {Blog.map(blog => (
@@ -28,7 +31,7 @@ export default function () {
                 </div>
             ))}   
             </Container>
-            <Footer />
+            <Footer paht="en-us" />
         </div>
     )
 } 
