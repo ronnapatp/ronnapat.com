@@ -10,7 +10,7 @@ export default function () {
             <h1 className="text-center text-3xl md:text-5xl p-10">Ronnapat Blog</h1>
             <Container>
             {Blog.map(blog => (
-                <div id={blog.id} className="border-t border-black dark:border-white p-6">
+                <div key={blog.id} className="border-t border-black dark:border-white p-6">
                     <h1 className="text-3xl text-black dark:text-white uppercase">
                         <p className="text-sm text-gray-600 dark:text-gray-400">
                             {blog.date}
