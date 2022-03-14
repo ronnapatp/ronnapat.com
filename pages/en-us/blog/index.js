@@ -15,14 +15,14 @@ export default function () {
                         <p className="text-sm text-gray-600 dark:text-gray-400">
                             {blog.date}
                         </p>
-                        <a href={blog.href}>
+                        <a href={`/en-us/blog/posts/${blog.href}`}>
                             {blog.title}
                         </a>
                     </h1>
                     <p className="py-4 text-gray-600 dark:text-gray-300 text-xl">
                         {blog.description}
                     </p>
-                    <a className="text-sky-500 dark:text-sky-300" href={blog.href}>
+                    <a className="text-sky-500 dark:text-sky-300" href={`/en-us/blog/posts/${blog.href}`}>
                         Read more →
                     </a>
                 </div>
