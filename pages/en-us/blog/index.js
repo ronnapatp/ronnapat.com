@@ -11,18 +11,18 @@ export default function () {
             <Container>
             {Blog.map(blog => (
                 <div id={blog.id} className="border-t border-black dark:border-white p-6">
-                    <h1 className="text-4xl text-black dark:text-white uppercase">
+                    <h1 className="text-3xl text-black dark:text-white uppercase">
                         <p className="text-sm text-gray-600 dark:text-gray-400">
-                            12/12/12
+                            {blog.date}
                         </p>
-                        <a href="#">
+                        <a href={blog.href}>
                             {blog.title}
                         </a>
                     </h1>
                     <p className="py-4 text-gray-600 dark:text-gray-300 text-xl">
                         {blog.description}
                     </p>
-                    <a className="text-sky-500 dark:text-sky-300" href="#">
+                    <a className="text-sky-500 dark:text-sky-300" href={blog.href}>
                         Read more →
                     </a>
                 </div>
