@@ -1,24 +1,22 @@
 import Link from "next/link";
 
-export default function () {
+export default function ({ href, title }) {
   return (
     <div>
-      <div className="max-w-2xl select-none py-5 text-2xl">
+      <div className="py-5 text-xl">
         Share : &nbsp;
-        <Link href="sd">
+        <Link href={`https://www.facebook.com/sharer/sharer.php?u=https://ronnapat.com/en-us/blog/posts/${href}`}>
           <a target="_blank">
             <div className="bg-[#1877f2] px-2 py-2 rounded-md text-2xl inline-flex text-white">
               <i className="bi bi-facebook"></i>
-              <span className="hidden md:block">&nbsp; Facebook</span>
             </div>
           </a>
         </Link>
         &nbsp;
-        <Link href="sd">
+        <Link href={`https://twitter.com/intent/tweet?url=https://ronnapat.com/en-us/blog/posts/${href}%20via%20@ronnapatp&text=${title}`}>
           <a target="_blank">
             <div className="bg-[#1DA1F2] px-2 py-2 rounded-md text-2xl inline-flex text-white">
               <i className="bi bi-twitter"></i>
-              <span className="hidden md:block">&nbsp; Twitter</span>
             </div>
           </a>
         </Link>
