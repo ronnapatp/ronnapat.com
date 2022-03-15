@@ -4,7 +4,7 @@ import Footer from "@/components/footer/footer";
 import Share from "./share"
 import { langenus } from "@/script/languages";
 import Container from "./container";
-export default function ({ children, title, page, date, author, image }) {
+export default function ({ children, title, page, date, author, image, github }) {
   return (
     <div className="bg-white dark:bg-slate-700">
         <Navbar lantoshow={langenus} pathname="en-us" page={`/blog/posts/${page}`} />
@@ -20,6 +20,9 @@ export default function ({ children, title, page, date, author, image }) {
         <div className="prose-layout">
             {children}
             <Share href={page} title={title} />
+            <p>
+                Have an issue? <a href={github} target="_blank">Fix it on Github.</a>
+            </p>
         </div>
       </Container>
       <Footer path="en-us" />
