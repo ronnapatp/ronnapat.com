@@ -11,6 +11,9 @@ export default function ({ children, title, page }) {
         <Head title={title} />
       <Container>
         <div className="prose-layout">
+            <h1 className="text-center uppercase">
+                {title}
+            </h1>
             {children}
             <Share href={page} title={title} />
         </div>
