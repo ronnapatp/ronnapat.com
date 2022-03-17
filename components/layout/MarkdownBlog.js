@@ -12,7 +12,7 @@ export default function ({ children, title, page, date, author, image, github })
       <Container>
             <h1 className="text-center uppercase text-2xl md:text-4xl font-semibold mt-10">
           <span className="text-center text-sm md:text-xl font-normal">
-              {date} - <a href="#">@{author}</a> 
+              {date} - <a href="/social">@{author}</a> 
               <br />
           </span>
                 {title}
