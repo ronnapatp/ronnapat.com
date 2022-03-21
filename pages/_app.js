@@ -43,6 +43,8 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
       <SessionProvider session={session}>
         <Component {...pageProps} />
       </SessionProvider>
+    {/* <script type="text/javascript" src="https://cookiecdn.com/cwc.js"></script>
+    <script id="cookieWow" type="text/javascript" src="https://cookiecdn.com/configs/kQwesTXCWNG5w3fSvft8PspL" data-cwcid="kQwesTXCWNG5w3fSvft8PspL"></script> */}
       <Cookies />
       <a href="https://war.ukraine.ua/" target="_blank" id="ukraine"></a>
     </ThemeProvider>
