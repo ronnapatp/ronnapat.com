@@ -167,14 +167,12 @@ export default function footer({ paht }) {
           </div>
           <a
             href="/en-us/brand"
-            target="_blank"
             className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700"
           >
             Brand
           </a>
           <a
             href="/donate"
-            target="_blank"
             className="my-3 block text-gray-500 hover:text-gray-600 dark:text-gray-300 dark:hover:text-gray-100 text-sm font-medium duration-700"
           >
             Donate
