@@ -1,18 +1,34 @@
 import Navbar from "@/components/navbar/navbar";
 import Head from "@/components/global/meta";
-import Blog from "./blog.json";
+import { Blog } from "./blog";
 import Container from "@/components/layout/container";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
+import { useState } from "react"
 
 export default function () {
+  const [search, setSearch] = useState("");
+
+  const filtersearch = Blog.filter((Blog) => {
+    return Blog.title.includes(search);
+  });
+
   return (
     <div className="bg-white dark:bg-slate-700">
       <Head title="Blog" />
       <Navbar lantoshow={langenus} pathname="en-us" page="/blog" />
       <h1 className="text-center text-3xl md:text-5xl p-10">Ronnapat Blog</h1>
       <Container>
-        {Blog.map((blog) => (
+      <input
+              type="text"
+              placeholder="Search... "
+              value={search}
+              onChange={(event) => {
+                setSearch(event.target.value);
+              }}
+              className="mt-3 rounded-md uppercase block shadow-sm border-gray-300 dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-10"
+            />
+        {filtersearch.map((blog) => (
           <div
             key={blog.id}
             className="border-t border-black dark:border-white p-6"
