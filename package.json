@@ -16,7 +16,7 @@
     "@nextui-org/react": "^1.0.2-beta.4",
     "@sendgrid/mail": "^7.6.2",
     "@tailwindcss/forms": "^0.4.0",
-    "firebase": "^9.6.9",
+    "firebase": "^9.6.10",
     "fs": "^0.0.1-security",
     "gray-matter": "^4.0.3",
     "next": "^12.1.0",
