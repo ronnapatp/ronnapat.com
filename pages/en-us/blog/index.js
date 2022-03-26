@@ -1,6 +1,6 @@
 import Navbar from "@/components/navbar/navbar";
 import Head from "@/components/global/meta";
-import { Blog } from "./blog";
+import { Blog } from "../../../data/blog/index";
 import Container from "@/components/layout/container";
 import Footer from "@/components/footer/footer";
 import { langenus } from "@/script/languages";
