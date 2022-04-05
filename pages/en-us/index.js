@@ -34,7 +34,7 @@ export default function Home() {
       <Project />
       <Goblog />
       <Subscribe />
-      {/* <Ads /> */}
+      <Ads />
       <Footer paht="en-us" />
     </>
   );

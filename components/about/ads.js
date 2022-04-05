@@ -1,3 +1,4 @@
+import Head from "next/head";
 import { useEffect } from "react";
 export default function () {
   useEffect(() => {
@@ -10,13 +11,17 @@ export default function () {
   }, []);
   return (
     <>
-      <ins
-        className="adsbygoogle block"
-        data-ad-client="ca-pub-1196910141338252"
-        data-ad-slot="2252611327"
-        data-ad-format="auto"
-        data-full-width-responsive="true"
-      ></ins>
+    <Head>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
+     crossorigin="anonymous"></script>
+    </Head>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1196910141338252"
+     data-ad-slot="1866211868"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
     </>
   );
 }
+
