@@ -127,6 +127,11 @@ module.exports = withMDX({
         destination: "/en-us/social",
         permanent: false,
       },
+      {
+        source: "/twitch",
+        destination: "https://twich.tv/ronnapatp",
+        permanent: false,
+      },
     ];
   },
 });
