@@ -132,11 +132,6 @@ module.exports = withMDX({
         destination: "https://twich.tv/ronnapatp",
         permanent: false,
       },
-      {
-        source: "https://github.ronnapat.com/",
-        destination: "https://github.com/ronnapatp",
-        permanent: false,
-      },
     ];
   },
 });
