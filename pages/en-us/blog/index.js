@@ -28,6 +28,17 @@ export default function () {
               }}
               className="mt-3 rounded-md uppercase block shadow-sm border-gray-300 dark:bg-slate-600 dark:text-white dark:border-sky-400 dark:placeholder-gray-400 w-full focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50 mb-10"
             />
+            <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
+     crossorigin="anonymous"></script>
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-1196910141338252"
+     data-ad-slot="4659788367"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
         {filtersearch.map((blog) => (
           <div
             key={blog.id}
