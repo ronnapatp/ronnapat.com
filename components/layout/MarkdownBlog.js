@@ -2,6 +2,7 @@ import Head from "@/components/global/meta";
 import Navbar from "@/components/navbar/navbar";
 import Footer from "@/components/footer/footer";
 import Share from "./share";
+import Ads from "../about/blogads"
 import { langenus } from "@/script/languages";
 import Container from "./container";
 export default function ({
@@ -31,6 +32,7 @@ export default function ({
         </h1>
         <div className="prose-layout">
           {children}
+          <Ads />
           <Share href={page} title={title} />
           <p>
             Have an issue?{" "}
