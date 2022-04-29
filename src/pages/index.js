@@ -1,8 +1,10 @@
 import Layout from "src/components/layout/layout";
 import Project from "src/components/homes/project";
+import Meta from "@/components/global/meta";
 export default function Home() {
   return (
     <Layout>
+      <Meta title="Home" />
       <h1 className="text-5xl">
         Hello, I'm Ronnapat
         <div class="inline-block transition hover:rotate-45 ease-in-out duration-300">

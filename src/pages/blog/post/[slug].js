@@ -2,6 +2,7 @@ import Layout from "@/components/layout/layout";
 import fs from "fs";
 import matter from "gray-matter";
 import md from "markdown-it";
+import Meta from "@/components/global/meta";
 
 export async function getStaticPaths() {
   const files = fs.readdirSync("posts");
@@ -32,6 +33,7 @@ export async function getStaticProps({ params: { slug } }) {
 export default function PostPage({ frontmatter, content }) {
   return (
         <Layout>
+            <Meta title={frontmatter.title} />
     <div className="prose-layout">
       <h1>{frontmatter.title}</h1>
       <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />

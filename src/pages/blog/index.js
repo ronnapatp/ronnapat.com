@@ -2,6 +2,7 @@ import fs from "fs";
 import matter from "gray-matter";
 import Link from "next/link";
 import Layout from "src/components/layout/layout";
+import Meta from "@/components/global/meta";
 
 export async function getStaticProps() {
   const files = fs.readdirSync("posts");
@@ -25,6 +26,7 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <Layout>
+      <Meta title="Blog" />
       <h1 className="text-5xl font-bold">
         Blog
       </h1>
