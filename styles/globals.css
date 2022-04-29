@@ -16,7 +16,7 @@
 }
 
 a {
-  @apply text-black dark:text-white hover:underline;
+  @apply text-black dark:text-white;
 }
 
 #ukraine {

@@ -44,7 +44,7 @@ function MyApp({ Component, pageProps }) {
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
         crossorigin="anonymous"
       ></script>
-        <Component {...pageProps} />
+      <Component {...pageProps} />
       <script
         type="text/javascript"
         src="https://cookiecdn.com/cwc.js"

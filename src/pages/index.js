@@ -10,7 +10,7 @@ export default function Home() {
         </div>
       </h1>
       <div className="mt-10 dark:text-gray-300">
-        I'm a student and developer in {" "}
+        I'm a student and developer in{" "}
         <a href="https://x.ronnapat.me/fDgN9h" target="_blank">
           Bangkok, Thailand 🇹🇭
         </a>
@@ -22,7 +22,8 @@ export default function Home() {
         about me at about page
       </div>
       <Project />
-      <script src="https://giscus.app/client.js"
+      <script
+        src="https://giscus.app/client.js"
         data-repo="ronnapatp/ronnapat.com"
         data-repo-id="R_kgDOGOMxZg"
         data-category="Q&A"
@@ -34,8 +35,8 @@ export default function Home() {
         data-theme="preferred_color_scheme"
         data-lang="en"
         crossorigin="anonymous"
-        async>
-</script>
+        async
+      ></script>
     </Layout>
   );
 }
