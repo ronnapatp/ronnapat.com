@@ -1,9 +1,9 @@
-import Navbar from "@/components/navbar/navbar";
-import Head from "@/components/global/meta";
-import { Blog } from "../../../data/blog/index";
-import Container from "@/components/layout/container";
-import Footer from "@/components/footer/footer";
-import { langenus } from "@/script/languages";
+import Navbar from "src/components/navbar/navbar";
+import Head from "src/components/global/meta";
+import { Blog } from "../../../../data/blog/index";
+import Container from "src/components/layout/container";
+import Footer from "src/components/footer/footer";
+import { langenus } from "src/script/languages";
 import { useState } from "react"
 
 export default function () {

@@ -1,4 +1,4 @@
-import Head from "@/components/global/meta";
+import Head from "src/components/global/meta";
 
 export default function (props) {
   const { name } = props;

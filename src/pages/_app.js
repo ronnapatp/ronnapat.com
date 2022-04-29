@@ -1,11 +1,11 @@
-import "../styles/globals.css";
+import "../../styles/globals.css";
 import { useEffect } from "react";
 import Script from "next/script";
 import { useRouter } from "next/router";
-import * as gtag from "@/script/gtag";
+import * as gtag from "src/script/gtag";
 import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
-import Cookies from "@/components/global/cookies";
+import Cookies from "src/components/global/cookies";
 import { SessionProvider } from "next-auth/react";
 
 function MyApp({ Component, pageProps: { session, ...pageProps } }) {

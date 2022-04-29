@@ -1,13 +1,13 @@
-import Header from "@/components/home/header";
-import Navbar from "@/components/navbar/navbar";
-import Head from "@/components/global/meta";
-import Homeabout from "@/components/home/home-about";
-import Ads from "@/components/about/ads";
-import Project from "@/components/home/project";
-import Goblog from "@/components/home/go-blog";
-import Subscribe from "@/components/home/subscribe";
-import Footer from "@/components/footer/footer";
-import { langenus } from "@/script/languages";
+import Header from "src/components/home/header";
+import Navbar from "src/components/navbar/navbar";
+import Head from "src/components/global/meta";
+import Homeabout from "src/components/home/home-about";
+import Ads from "src/components/about/ads";
+import Project from "src/components/home/project";
+import Goblog from "src/components/home/go-blog";
+import Subscribe from "src/components/home/subscribe";
+import Footer from "src/components/footer/footer";
+import { langenus } from "src/script/languages";
 
 export default function Home() {
   return (

@@ -23,7 +23,7 @@ import {
   mail,
   discord,
   link,
-} from "@/script/social";
+} from "src/script/social";
 
 export default function footer({ paht }) {
   let [isOpen, setIsOpen] = useState(false);
