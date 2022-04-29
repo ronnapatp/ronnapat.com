@@ -6,9 +6,8 @@ import * as gtag from "src/script/gtag";
 import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
 import Cookies from "src/components/global/cookies";
-import { SessionProvider } from "next-auth/react";
 
-function MyApp({ Component, pageProps: { session, ...pageProps } }) {
+function MyApp({ Component }) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -45,9 +44,7 @@ function MyApp({ Component, pageProps: { session, ...pageProps } }) {
         src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1196910141338252"
         crossorigin="anonymous"
       ></script>
-      <SessionProvider session={session}>
         <Component {...pageProps} />
-      </SessionProvider>
       <script
         type="text/javascript"
         src="https://cookiecdn.com/cwc.js"
