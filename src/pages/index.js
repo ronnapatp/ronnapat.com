@@ -9,8 +9,8 @@ export default function Home() {
           👋🏻
         </div>
       </h1>
-      <div className="mt-10 dark:ktext-gray-300">
-        I'm a student and developer in{" "}
+      <div className="mt-10 dark:text-gray-300">
+        I'm a student and developer in {" "}
         <a href="https://x.ronnapat.me/fDgN9h" target="_blank">
           Bangkok, Thailand 🇹🇭
         </a>
