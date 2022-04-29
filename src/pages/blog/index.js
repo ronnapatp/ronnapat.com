@@ -37,9 +37,9 @@ export default function Home({ posts }) {
           key={slug}
           className="border border-gray-200 rounded-md shadow-lg overflow-hidden flex flex-col p-5"
         >
-            <span>
-              {frontmatter.date} - {frontmatter.minutesread} min read
-            </span>
+          <span>
+            {frontmatter.date} - {frontmatter.minutesread} min read
+          </span>
           <Link href={`/blog/post/${slug}`}>
             <a>
               <h1 className="text-3xl">{frontmatter.title}</h1>

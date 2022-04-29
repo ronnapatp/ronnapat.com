@@ -38,7 +38,11 @@ function ContactForm() {
         focus:border-sky-300 focus:ring focus:ring-sky-200 focus:ring-opacity-50"
       />
       <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" className="w-full bg-sky-500 dark:bg-sky-400 dark:text-black rounded-md mt-5" disabled={state.submitting}>
+      <button
+        type="submit"
+        className="w-full bg-sky-500 dark:bg-sky-400 dark:text-black rounded-md mt-5"
+        disabled={state.submitting}
+      >
         Submit
       </button>
     </form>

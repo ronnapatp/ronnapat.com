@@ -36,8 +36,8 @@ export default function PostPage({ frontmatter, content }) {
       <Meta title={frontmatter.title} />
       <div className="prose-layout">
         <span>
-              {frontmatter.date} - {frontmatter.minutesread} min read
-            </span>
+          {frontmatter.date} - {frontmatter.minutesread} min read
+        </span>
         <h1>{frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
         <script
