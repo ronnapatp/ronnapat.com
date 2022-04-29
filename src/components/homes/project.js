@@ -17,9 +17,8 @@ export default function () {
     },
   ];
   return (
-    <div className="bg-gray-50 dark:bg-slate-800">
-      <Container>
-        <div className="py-10">
+    <div className="">
+        <div className="py-20">
           <div className="text-4xl md:text-6xl text-slate-800 dark:text-gray-200 font-semibold mb-4">
             My project
           </div>
@@ -39,17 +38,6 @@ export default function () {
             </div>
           ))}
         </div>
-      </Container>
-      <div className="text-center pb-10">
-        <a
-          className="after:content-['_↗'] text-gray-600 dark:text-gray-200"
-          href="https://blog.ronnapat.com/tags/project"
-          target="_blank"
-          rel="noopener"
-        >
-          View all in project blog
-        </a>
-      </div>
     </div>
   );
 }
