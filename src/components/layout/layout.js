@@ -4,13 +4,13 @@ import Footer from "../footer/footer";
 export default function ({ children }) {
   return (
     <>
-    <Navbar />
-          <div className="bg-white dark:bg-slate-700 text-black dark:text-white">
-      <Container>
+      <Navbar />
+      <div className="bg-white dark:bg-slate-700 text-black dark:text-white">
+        <Container>
           {children}
           <Footer />
-      </Container>
-          </div>
+        </Container>
+      </div>
     </>
   );
 }

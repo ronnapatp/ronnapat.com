@@ -18,26 +18,26 @@ export default function () {
   ];
   return (
     <div className="">
-        <div className="py-20">
-          <div className="text-4xl md:text-6xl text-slate-800 dark:text-gray-200 font-semibold mb-4">
-            My project
-          </div>
-          {project.map((project) => (
-            <div
-              key={project.id}
-              className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100"
-            >
-              <a href={project.href} target="_blank" rel="noopener">
-                <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
-                  {project.title}
-                </h5>
-                <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
-                  {project.description}
-                </p>
-              </a>
-            </div>
-          ))}
+      <div className="py-20">
+        <div className="text-4xl md:text-6xl text-slate-800 dark:text-gray-200 font-semibold mb-4">
+          My project
         </div>
+        {project.map((project) => (
+          <div
+            key={project.id}
+            className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100"
+          >
+            <a href={project.href} target="_blank" rel="noopener">
+              <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+                {project.title}
+              </h5>
+              <p className="mb-3 font-normal text-gray-700 dark:text-gray-400">
+                {project.description}
+              </p>
+            </a>
+          </div>
+        ))}
+      </div>
     </div>
   );
 }
