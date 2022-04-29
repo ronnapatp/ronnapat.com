@@ -1,6 +1,7 @@
 import Layout from "src/components/layout/layout";
 import Project from "src/components/homes/project";
 import Meta from "@/components/global/meta";
+import Subscribe from "@/components/global/subscribe"
 export default function Home() {
   return (
     <Layout>
@@ -24,6 +25,7 @@ export default function Home() {
         about me at about page
       </div>
       <Project />
+      <Subscribe />
     </Layout>
   );
 }
