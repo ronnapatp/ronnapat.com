@@ -7,7 +7,7 @@ import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
 import Cookies from "src/components/global/cookies";
 
-function MyApp({ Component }) {
+function MyApp({ Component, pageProps }) {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
