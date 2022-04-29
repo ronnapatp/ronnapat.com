@@ -1,5 +1,5 @@
 import Head from "src/components/global/meta";
-import Navbar from "src/components/navbar/navbar";
+import Navbar from "src/components/navbar";
 import Footer from "src/components/footer/footer";
 import Share from "./share";
 import Ads from "../about/blogads"

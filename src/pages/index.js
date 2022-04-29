@@ -1,13 +1,12 @@
-import Head from "src/components/global/meta";
-import React, { useEffect } from "react";
-import Router from "next/router";
+import Container from 'src/components/layout/container'
 export default function Home() {
-  useEffect(() => {
-    const { pathname } = Router;
-    if (pathname == "/") {
-      Router.push("/en-us");
-    }
-  });
 
-  return <Head title="Home" image="meta.png" />;
+  return (
+    <div className="dark:bg-white dark:text-black">
+      <Container>
+
+sd
+      </Container>
+    </div>
+  );
 }
