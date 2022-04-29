@@ -1,7 +1,7 @@
 import Layout from "src/components/layout/layout";
 import Project from "src/components/homes/project";
 import Meta from "@/components/global/meta";
-import Subscribe from "@/components/global/subscribe"
+import Subscribe from "@/components/global/subscribe";
 export default function Home() {
   return (
     <Layout>

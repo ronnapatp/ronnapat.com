@@ -42,11 +42,6 @@ module.exports = withMDX({
         permanent: false,
       },
       {
-        source: "/contact",
-        destination: "/en-us/contact",
-        permanent: false,
-      },
-      {
         source: "/cookie",
         destination: "/en-us/cookie",
         permanent: false,

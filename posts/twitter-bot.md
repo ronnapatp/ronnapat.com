@@ -44,4 +44,3 @@ npm install twitter
 Github repo : [ronnapatp/twitter-bot](https://github.com/ronnapatp/twitter-bot)
 
 If you read until here you also can donate to me at [ronnapat.com/donate](https://ronnapat.com/en-us/donate)
-
