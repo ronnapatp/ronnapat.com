@@ -2,7 +2,8 @@
 title: "My twitter bot"
 description: "I build my twitter bot to update my bio using twitter api"
 metaDesc: "I build my twitter bot to update my bio using twitter api"
-date: "2022-04-24"
+date: "29 Apr 2022"
+minutesread: 2
 tags:
   - twitter
 ---
