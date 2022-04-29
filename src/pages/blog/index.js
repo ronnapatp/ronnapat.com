@@ -25,6 +25,12 @@ export async function getStaticProps() {
 export default function Home({ posts }) {
   return (
     <Layout>
+      <h1 className="text-5xl font-bold">
+        Blog
+      </h1>
+      <p className="mt-3 mb-10">
+        I usually write blog about my project and code sometimes I write about knowledge or topic to remind my self.
+      </p>
       {posts?.map(({ slug, frontmatter }) => (
         <div
           key={slug}

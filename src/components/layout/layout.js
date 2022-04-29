@@ -5,7 +5,7 @@ export default function ({ children }) {
   return (
     <>
       <Navbar />
-      <div className="bg-white dark:bg-slate-700 text-black dark:text-white">
+      <div className="bg-white dark:bg-slate-700 text-black dark:text-white h-screen">
         <Container>
           {children}
           <Footer />
