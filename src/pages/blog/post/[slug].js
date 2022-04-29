@@ -43,9 +43,9 @@ export default function PostPage({ frontmatter, content }) {
         <script
           src="https://giscus.app/client.js"
           data-repo="ronnapatp/ronnapat.com"
-          data-repo-id="R_kgDOGOMxZg"
+          data-repo-id={process.env.NEXT_PUBLIC_GITCUS_REPO_ID}
           data-category="Q&A"
-          data-category-id="DIC_kwDOGOMxZs4CO13q"
+          data-category-id={process.env.NEXT_PUBLIC_GITCUS_CATEGORY_ID}
           data-mapping="url"
           data-reactions-enabled="1"
           data-emit-metadata="0"
