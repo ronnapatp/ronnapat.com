@@ -57,7 +57,6 @@ function MyApp({ Component, pageProps }) {
         data-cwcid="kQwesTXCWNG5w3fSvft8PspL"
       ></script>
       {/* <Cookies /> */}
-      <a href="https://war.ukraine.ua/" target="_blank" id="ukraine"></a>
     </ThemeProvider>
   );
 }

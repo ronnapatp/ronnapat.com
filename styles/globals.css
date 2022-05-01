@@ -19,16 +19,6 @@ a {
   @apply text-black dark:text-white;
 }
 
-#ukraine {
-  bottom: 10px;
-  height: 42px;
-  right: -40px;
-  position: fixed;
-  width: 150px;
-  transform: rotate(140deg);
-  background: linear-gradient(-180deg, #ffd500 50%, #005bbb 0);
-}
-
 .prose-layout {
   @apply px-4 prose prose-slate dark:prose-invert mx-auto;
   @apply prose-a:text-black dark:prose-a:text-white prose-a:no-underline prose-a:font-semibold hover:prose-a:text-sky-500 hover:dark:prose-a:text-sky-300 hover:prose-a:underline;
