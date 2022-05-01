@@ -7,7 +7,7 @@ export default function Home() {
     <Layout>
       <Meta title="Home" />
       <small>
-        I'm support UKRAINE 🇺🇦
+        I'm support <a href="https://ukraine.ua/" target="_blank" className="text-[#0057B7] dark:text-[#0057B7] bg-[#FFDD00]">UKRAINE</a> 🇺🇦 Слава Україні
       </small>
       <h1 className="text-5xl">
         Hello, I'm Ronnapat
