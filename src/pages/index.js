@@ -11,7 +11,7 @@ export default function Home() {
         <a
           href="https://ukraine.ua/"
           target="_blank"
-          className="text-[#0057B7] dark:text-[#0057B7] bg-[#FFDD00]"
+          className="text-[#0057B7] dark:text-[#0057B7] bg-[#FFDD00] font-bold"
         >
           UKRAINE
         </a>{" "}
