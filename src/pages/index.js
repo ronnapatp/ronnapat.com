@@ -32,7 +32,7 @@ export default function Home() {
         relax!
       </div>
       <div className="mt-10 dark:text-gray-300">
-        I'm loving javascript and typescript I also learning python. View all
+        I love javascript and typescript I also learning python. View all
         about me at about page
       </div>
       <Project />
