@@ -11,11 +11,11 @@ export default function Home() {
         <a
           href="https://ukraine.ua/"
           target="_blank"
-          className="text-[#0057B7] dark:text-[#0057B7] bg-[#FFDD00] font-bold"
+          className="text-[#0057B7] dark:text-[#0057B7] bg-[#FFDD00] font-bold px-1"
         >
           UKRAINE
         </a>{" "}
-        🇺🇦 Слава Україні
+        🇺🇦 Слава Україні | <a href="https://u24.gov.ua/" target="_blank">Donate now {'->'}</a>
       </span>
       <h1 className="text-5xl">
         Hello, I'm Ronnapat
