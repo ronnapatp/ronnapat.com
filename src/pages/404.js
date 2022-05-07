@@ -1,6 +1,7 @@
 import Navbar from "src/components/navbar";
 import Head from "src/components/global/meta";
 import Footer from "src/components/footer/footer";
+import Container from "src/components/layout/container"
 export default function Custom404() {
   return (
     <div>
@@ -11,7 +12,11 @@ export default function Custom404() {
           404 - Page Not Found
         </h1>
       </div>
-      <Footer paht="en-us" />
+      <div className="bg-white dark:bg-slate-700">
+        <Container>
+          <Footer paht="en-us" />
+        </Container>
+      </div>
     </div>
   );
 }
