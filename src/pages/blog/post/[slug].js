@@ -61,7 +61,11 @@ export default function PostPage({ frontmatter, content }) {
             ></script>
           </div>
           <div className="text-center justify-center items-center object-center py-5">
-            <a href={`https://twitter.com/intent/tweet?text=${frontmatter.description}&url=https://ronnapat.com/blog/post/${frontmatter.slugname}`} target="_blank" className="ri-twitter-fill border rounded-full p-1 bg-[#1DA1F2] border-[#1DA1F2] text-xl"></a>
+            <a
+              href={`https://twitter.com/intent/tweet?text=${frontmatter.description}&url=https://ronnapat.com/blog/post/${frontmatter.slugname}`}
+              target="_blank"
+              className="ri-twitter-fill border rounded-full p-1 bg-[#1DA1F2] border-[#1DA1F2] text-xl"
+            ></a>
           </div>
         </>
       )}

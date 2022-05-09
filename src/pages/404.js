@@ -1,7 +1,7 @@
 import Navbar from "src/components/navbar";
 import Head from "src/components/global/meta";
 import Footer from "src/components/footer/footer";
-import Container from "src/components/layout/container"
+import Container from "src/components/layout/container";
 export default function Custom404() {
   return (
     <div>

@@ -33,27 +33,28 @@ export default function Home({ posts }) {
         knowledge or topic to remind my self.
       </p>
       {posts?.map(({ slug, frontmatter }) => (
-        <div>
-        {frontmatter.draft ?
-        <></>
-        :
-        <div className="py-2">
-        <div
-        key={slug}
-        className="border border-gray-200 rounded-md shadow-lg overflow-hidden flex flex-col p-5"
-        >
-        <span>
-          {frontmatter.date} - {frontmatter.minutesread} min read
-        </span>
-        <Link href={`/blog/post/${slug}`}>
-          <a>
-            <h1 className="text-3xl">{frontmatter.title}</h1>
-            <p>{frontmatter.description}</p>
-          </a>
-        </Link>
-          </div>
-      </div>}
-      </div>
+        <div key={slug}>
+          {frontmatter.draft ? (
+            <></>
+          ) : (
+            <div className="py-2">
+              <div
+                key={slug}
+                className="border border-gray-200 rounded-md shadow-lg overflow-hidden flex flex-col p-5"
+              >
+                <span>
+                  {frontmatter.date} - {frontmatter.minutesread} min read
+                </span>
+                <Link href={`/blog/post/${slug}`}>
+                  <a>
+                    <h1 className="text-3xl">{frontmatter.title}</h1>
+                    <p>{frontmatter.description}</p>
+                  </a>
+                </Link>
+              </div>
+            </div>
+          )}
+        </div>
       ))}
     </Layout>
   );

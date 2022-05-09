@@ -15,7 +15,10 @@ export default function Home() {
         >
           UKRAINE
         </a>{" "}
-        🇺🇦 Слава Україні | <a href="https://u24.gov.ua/" target="_blank">Donate now {'->'}</a>
+        🇺🇦 Слава Україні |{" "}
+        <a href="https://u24.gov.ua/" target="_blank">
+          Donate now {"->"}
+        </a>
       </span>
       <h1 className="text-5xl">
         Hello, I'm Ronnapat
@@ -32,8 +35,8 @@ export default function Home() {
         relax!
       </div>
       <div className="mt-10 dark:text-gray-300">
-        I love javascript and typescript I also learning python. View all
-        about me at about page
+        I love javascript and typescript I also learning python. View all about
+        me at about page
       </div>
       <Project />
       <Subscribe />
