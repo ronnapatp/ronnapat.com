@@ -30,7 +30,7 @@
     "react-share": "^4.4.0",
     "react-syntax-highlighter": "^15.5.0",
     "remixicon": "^2.5.0",
-    "webpack": "^5.70.0"
+    "webpack": "^5.72.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.2",
