@@ -1,11 +1,11 @@
 ---
-title: "My twitter bot"
+title: "มาสร้างบอทสำหรับ Twitter กัน!"
 slugname: "twitter-bot"
 description: "I build my twitter bot to update my bio using twitter api"
 metaDesc: "I build my twitter bot to update my bio using twitter api"
 date: "29 Apr 2022"
 minutesread: 2
-draft: false
+draft: true
 tags:
   - twitter
 ---

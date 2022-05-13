@@ -21,7 +21,7 @@ export default function ({ children }) {
           </div>
         </div>
       <Navbar />
-      <div className="bg-white dark:bg-slate-700 text-black dark:text-white h-[100%]">
+      <div className="bg-white dark:bg-slate-700 text-black dark:text-white min-h-screen">
         <Container>
           {children}
           <Footer />
