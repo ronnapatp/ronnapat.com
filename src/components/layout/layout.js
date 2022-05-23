@@ -4,11 +4,6 @@ import Footer from "../footer/footer";
 export default function ({ children }) {
   return (
     <>
-        <div className="bg-gray-200 dark:bg-slate-900 py-3">
-          <div className="text-center">
-            Today is BANGKOK election day GO VOTE NOW
-          </div>
-        </div>
         <div className="bg-gray-200 dark:bg-slate-800 py-3">
           <div className="text-center">
             I'm support{" "}
