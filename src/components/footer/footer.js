@@ -13,18 +13,18 @@ export default function footer({ paht }) {
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
           <li></li>
           <li>
-            <a href="/privacy" class="mr-4 hover:underline md:mr-6">
+            <a href="https://garden.ronnapat.me/" class="mr-4 hover:underline md:mr-6" target="_blank">
+              Digital Garden
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">
+              Resume
+            </a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:mr-6 ">
               Privacy
-            </a>
-          </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">
-              Terms
-            </a>
-          </li>
-          <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">
-              Cookies
             </a>
           </li>
         </ul>
