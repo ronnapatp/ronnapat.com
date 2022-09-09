@@ -4,7 +4,7 @@ import Footer from "../footer/footer";
 export default function ({ children }) {
   return (
     <>
-        <div className="bg-gray-200 dark:bg-slate-800 py-3">
+        {/* <div className="bg-gray-200 dark:bg-slate-800 py-3">
           <div className="text-center">
             I'm support{" "}
             <a
@@ -17,6 +17,13 @@ export default function ({ children }) {
             🇺🇦 Слава Україні | {" "}
             <a href="https://u24.gov.ua/" target="_blank">
               Donate now {"->"}
+            </a>
+          </div>
+        </div> */}
+        <div className="bg-black py-3">
+          <div className="text-center text-xl">
+            <a href="https://www.royal.uk/announcement-death-queen" target="_blank">
+              Majesty Queen Elizabeth II 1926-2022 🇬🇧 RIP
             </a>
           </div>
         </div>
