@@ -13,16 +13,14 @@ export default function Home() {
         </div>
       </h1>
       <div className="mt-10 dark:text-gray-300">
-        I'm a student and developer in{" "}
-        <a href="https://x.ronnapat.me/fDgN9h" target="_blank">
-          Bangkok, Thailand 🇹🇭
+        I'm a student and developer in {" "}
+        <a href="https://en.wikipedia.org/wiki/Bangkok" target="_blank" className="text-black dark:text-white hover:underline" >
+          Bangkok, Thailand
         </a>
-        . I like to developement software because developement is make me feel
-        relax!
+        . I create and developing a lot of software!
       </div>
       <div className="mt-10 dark:text-gray-300">
-        I love javascript and typescript I also learning python. View all about
-        me at about page
+        I like developing software and Math. It's a very long time since I started learning how to code and develop software, I start to learn code by myself on my computer online. Math is my main goal in middle school period! At the first time when I learn math, I don't like it at all but when I can solve math quiz I start to have fun with it since then I really like math especially when I able to solve the math problem.
       </div>
       <Project />
       <Subscribe />
