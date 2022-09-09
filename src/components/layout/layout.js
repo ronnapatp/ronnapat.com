@@ -21,7 +21,7 @@ export default function ({ children }) {
           </div>
         </div> */}
         <div className="bg-black py-3">
-          <div className="text-center text-xl">
+          <div className="text-center text-xl text-white">
             <a href="https://www.royal.uk/announcement-death-queen" target="_blank">
               Majesty Queen Elizabeth II 1926-2022 🇬🇧 RIP
             </a>
