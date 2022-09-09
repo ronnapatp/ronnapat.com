@@ -1,4 +1,3 @@
-import Container from "../layout/container";
 export default function () {
   const project = [
     {
@@ -19,8 +18,8 @@ export default function () {
   return (
     <div className="">
       <div className="py-20">
-        <div className="text-4xl md:text-6xl text-slate-800 dark:text-gray-200 font-semibold mb-4">
-          My project
+        <div className="text-3xl md:text-4xl text-slate-800 dark:text-gray-200 mb-4">
+          Blog & Project
         </div>
         {project.map((project) => (
           <div
