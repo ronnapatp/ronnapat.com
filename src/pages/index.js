@@ -31,6 +31,21 @@ export default function Home() {
         when I can solve math quiz I start to have fun with it since then I
         really like math especially when I able to solve the math problem.
       </div>
+      <div className="mt-10 dark:text-white">
+        Here's some resource for you:
+        <br />
+        <a href="/about">
+          - About me
+        </a>
+        <br />
+        <a href="/contact">
+          - Contact me
+        </a>
+        <br />
+        <a href="/blog">
+          - My blog (Digital garden)
+        </a>
+      </div>
       {/* <Project /> */}
     </Layout>
   );
