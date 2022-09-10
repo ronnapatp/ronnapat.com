@@ -22,7 +22,7 @@ export default function ({ children }) {
         </div> */}
         <div className="bg-black py-3">
           <div className="text-center text-xl text-white">
-            <a href="/queen-elizabeth" target="_blank">
+            <a href="/queen-elizabeth">
               Majesty Queen Elizabeth II 1926-2022 🇬🇧 RIP
             </a>
           </div>
