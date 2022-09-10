@@ -21,7 +21,8 @@ export default function () {
         <div className="text-3xl md:text-4xl text-slate-800 dark:text-gray-200 mb-4">
           Blog & Project
         </div>
-        {project.map((project) => (
+        Blog & Project not found
+        {/* {project.map((project) => (
           <div
             key={project.id}
             className="p-6 max-w-screen mt-3 bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 mb-2 md:mb-0 hover:scale-105 duration-100"
@@ -35,7 +36,7 @@ export default function () {
               </p>
             </a>
           </div>
-        ))}
+        ))} */}
       </div>
     </div>
   );

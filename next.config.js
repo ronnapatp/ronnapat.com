@@ -8,27 +8,7 @@ const withMDX = require("@next/mdx")({
   },
 });
 module.exports = withMDX({
-  env: {
-    NEXTAUTH_URL: "https://ronnapat.com/",
-    NEXTAUTH_URL_INTERNAL: "https://ronnapat.com/",
-  },
-  // Append the default value with md extensions
   pageExtensions: ["ts", "tsx", "js", "jsx", "md", "mdx"],
-  webpack5: true,
-  webpack: (config) => {
-    config.resolve.fallback = {
-      fs: false,
-      path: false,
-      process: false,
-      buffer: false,
-    };
-    config.module.rules.push({
-      test: /\.md$/,
-      use: "raw-loader",
-    });
-
-    return config;
-  },
   async redirects() {
     return [
       // {
@@ -42,8 +22,8 @@ module.exports = withMDX({
         permanent: false,
       },
       {
-        source: "/cookie",
-        destination: "/en-us/cookie",
+        source: "/blog",
+        destination: "https://garden.ronnapat.me",
         permanent: false,
       },
       {

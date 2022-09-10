@@ -5,7 +5,6 @@ import { useRouter } from "next/router";
 import * as gtag from "src/script/gtag";
 import "remixicon/fonts/remixicon.css";
 import { ThemeProvider } from "next-themes";
-import "@/script/prims";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
