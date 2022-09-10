@@ -4,7 +4,7 @@ import Footer from "../footer/footer";
 export default function ({ children }) {
   return (
     <>
-        {/* <div className="bg-gray-200 dark:bg-slate-800 py-3">
+      {/* <div className="bg-gray-200 dark:bg-slate-800 py-3">
           <div className="text-center">
             I'm support{" "}
             <a
@@ -20,13 +20,13 @@ export default function ({ children }) {
             </a>
           </div>
         </div> */}
-        <div className="bg-black py-3">
-          <div className="text-center text-xl text-white">
-            <a href="/queen-elizabeth">
-              Majesty Queen Elizabeth II 1926-2022 🇬🇧 RIP
-            </a>
-          </div>
+      <div className="bg-black py-3">
+        <div className="text-center text-xl text-white">
+          <a href="/queen-elizabeth">
+            Majesty Queen Elizabeth II 1926-2022 🇬🇧 RIP
+          </a>
         </div>
+      </div>
       <Navbar />
       <div className="bg-white dark:bg-slate-700 text-black dark:text-white min-h-screen">
         <Container>

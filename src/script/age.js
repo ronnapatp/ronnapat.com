@@ -1,1 +1,1 @@
-export const age = new Date().getFullYear() - 2009
+export const age = new Date().getFullYear() - 2009;
