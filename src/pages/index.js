@@ -21,18 +21,18 @@ export default function Home() {
         >
           Bangkok, Thailand
         </a>
-        . I create and developing a lot of software!
+        . I create and develop a lot of software!
       </div>
       <div className="mt-10 dark:text-gray-300">
         I like developing software and Math. It's a very long time since I
-        started learning how to code and develop software, I start to learn code
-        by myself on my computer online. Math is my main goal in middle school
+        started learning how to code and develop software, I started to learn code
+        by myself on my computer online. Math is my main goal in the middle school
         period! At the first time when I learn math, I don't like it at all but
-        when I can solve math quiz I start to have fun with it since then I
-        really like math especially when I able to solve the math problem.
+        when I can solve math a quiz I start to have fun with it since then I
+        really like math especially when I was able to solve the math problem.
       </div>
       <div className="mt-10 dark:text-white">
-        Here's some resource for you:
+        Here's some resources for you:
         <br />
         <a href="/about">
           - About me
