@@ -6,7 +6,11 @@ export default function Home() {
   return (
     <Layout>
       <Meta title="Home" />
-      <h1 className="text-5xl">
+      {/* Merry Christmas banner */}
+      <div className="bg-red-500 text-white text-center p-3 rounded">
+        <h1 className="text-2xl font-bold">Merry Christmas!</h1>
+      </div>
+      <h1 className="text-5xl mt-2">
         Hello, I'm Ronnapat
         <div class="inline-block transition hover:rotate-45 ease-in-out duration-300">
           👋🏻
