@@ -8,7 +8,7 @@ export default function Home() {
       <Meta title="Home" />
       {/* Merry Christmas banner */}
       <div className="bg-red-500 text-white text-center p-3 rounded">
-        <h1 className="text-2xl font-bold">Merry Christmas!</h1>
+        <h1 className="text-2xl font-bold uppercase">happy new year 2023 🎉</h1>
       </div>
       <h1 className="text-5xl mt-2">
         Hello, I'm Ronnapat
