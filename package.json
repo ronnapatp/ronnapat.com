@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@formspree/react": "^2.4.1",
-    "@headlessui/react": "^1.7.4",
+    "@headlessui/react": "^1.7.12",
     "@heroicons/react": "^1.0.6",
     "@mdx-js/loader": "^2.1.5",
     "@next/mdx": "^12.3.1",
