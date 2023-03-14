@@ -29,7 +29,7 @@
     "react-syntax-highlighter": "^15.5.0",
     "reactjs-popup": "^2.0.5",
     "remixicon": "^2.5.0",
-    "webpack": "^5.75.0"
+    "webpack": "^5.76.1"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.8",
