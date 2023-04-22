@@ -6,28 +6,25 @@ export default function footer({ paht }) {
           <a href="https://github.com/ronnapatp">
             <i class="ri-github-fill text-xl"></i>
           </a>
-          <a href="https://twitter.com/ronnapatp">
-            <i class="ri-twitter-fill text-xl"></i>
-          </a>
         </div>
         <ul class="flex flex-wrap items-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
           <li></li>
           <li>
             <a
-              href="https://garden.ronnapat.me/"
+              href="https://blog.ronnapat.me/"
               class="mr-4 hover:underline md:mr-6"
               target="_blank"
             >
-              Digital Garden
+              Blog
             </a>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">
-              Resume
+            <a href="#" class="mr-4 hover:underline md:mr-6">
+              Photos
             </a>
           </li>
           <li>
-            <a href="#" class="mr-4 hover:underline md:mr-6 ">
+            <a href="#" class="mr-4 hover:underline md:mr-6">
               Privacy
             </a>
           </li>

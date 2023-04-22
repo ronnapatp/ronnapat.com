@@ -23,7 +23,7 @@ module.exports = withMDX({
       },
       {
         source: "/blog",
-        destination: "https://garden.ronnapat.me",
+        destination: "https://blog.ronnapat.com",
         permanent: false,
       },
       {
