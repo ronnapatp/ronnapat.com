@@ -78,11 +78,19 @@
   dependencies:
     tslib "2.4.0"
 
-"@formspree/react@^2.4.1":
-  version "2.4.1"
-  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.4.1.tgz#c6ee262f63443006fc43902fd08ec1a43bfb51c3"
-  integrity sha512-ZP3oZ7HIMf6KK2sbz4H5XLNXjXBJotI9nveSiTX68Uc1eGzWjBKQqp2qAFlOSjmvgoYMkjJ7NtVD14s49ZrBow==
+"@formspree/core@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/@formspree/core/-/core-3.0.0.tgz#ea316305aab74ec0790eeb234b0445915d0caa44"
+  integrity sha512-bDvM8c+AtIZOmgZq+Buk3DEmspEJU7kdpUrQTWZdyEjM4KRgNPYTd+LWVMchNX4q73F+DaY1mBG0hO0ioB6MjQ==
   dependencies:
+    "@stripe/stripe-js" "^1.35.0"
+
+"@formspree/react@^2.5.0":
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/@formspree/react/-/react-2.5.0.tgz#b66eb8a1e4757e69274ed252221663ecedc8d21f"
+  integrity sha512-R2UyaKXAEaaV5lRnE7fUw1xr+Cp+TEzfIyT1r2iH4/hUdcg2od35kU33LOOZo4CPEk2KEuF2RPblnJWSPOvBCw==
+  dependencies:
+    "@formspree/core" "^3.0.0"
     "@stripe/react-stripe-js" "^1.7.1"
     "@stripe/stripe-js" "^1.35.0"
 
