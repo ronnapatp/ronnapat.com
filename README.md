@@ -1,12 +1,3 @@
 # My Personal Website
 
-### Using nextjs with tailwindcss
-
-More plugin
-
-- Formspree
-- remixicon
-- Tailwindcss Typography
-- Tailwindcss Form
-- Heroicons
-- Headlessui
+This is my personal website, which I use to post and update achievements that I earned from doing various activities.
