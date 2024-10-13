@@ -1,45 +1,26 @@
 {
+  "name": "myweb",
+  "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint && prettier --write .",
-    "update": "prettier --write ."
+    "lint": "next lint"
   },
   "dependencies": {
-    "@formspree/react": "^2.4.1",
-    "@headlessui/react": "^1.7.14",
-    "@heroicons/react": "^1.0.6",
-    "@mdx-js/loader": "^2.3.0",
-    "@next/mdx": "^12.3.1",
-    "@nextui-org/react": "^1.0.2-beta.4",
-    "@sendgrid/mail": "^7.6.2",
-    "@tailwindcss/forms": "^0.4.0",
-    "markdown-it": "^13.0.0",
-    "next": "^12.3.1",
-    "next-mdx-remote": "^4.4.1",
-    "next-themes": "^0.0.15",
-    "nodemailer": "^6.8.0",
-    "raw-loader": "^4.0.2",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-markdown": "^8.0.7",
-    "react-share": "^4.4.1",
-    "react-syntax-highlighter": "^15.5.0",
-    "reactjs-popup": "^2.0.5",
-    "remixicon": "^2.5.0",
-    "webpack": "^5.79.0"
+    "react": "^18",
+    "react-dom": "^18",
+    "next": "14.2.15"
   },
   "devDependencies": {
-    "@tailwindcss/typography": "^0.5.9",
-    "autoprefixer": "^10.4.13",
-    "eslint": "8.9.0",
-    "eslint-config-next": "12.3.1",
-    "eslint-config-prettier": "^8.8.0",
-    "postcss": "^8.4.21",
-    "prettier": "2.5.1",
-    "tailwindcss": "^3.2.4"
+    "typescript": "^5",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15"
   }
 }
-
